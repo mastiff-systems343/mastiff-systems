@@ -12,19 +12,15 @@
 en: &DEFAULT_EN
   nav:
     - title: "Services"
-      section: services
-    - title: "Portfolio"
       section: portfolio
-    - title: "About"
-      section: about
-    - title: "Timeline"
-      section: timeline
-    - title: "Team"
+    - title: "About Us"
       section: team
-    - title: "Contact"
-      section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+    - title: "Help desk"
+      url: https://mastiffsystems.zendesk.com/hc/en-us/requests/new
+    - title: "Blog"
+      section: about
+    - title: "(402) 803-1122"
+      url: https://justcall.io/call-now/edc2b7ba
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -34,25 +30,3 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-# Spanish
-# -------
-es: &DEFAULT_ES
-  nav:
-    - title: "Servicios"
-      section: servicios
-    - title: "Portafolio"
-      section: portafolio
-    - title: "Sobre Nosotros"
-      section: nosotros
-    - title: "Cronología"
-      section: cronologia
-    - title: "Equipo"
-      section: equipo
-    - title: "Contáctenos"
-      section: contacto
-    - title: "Fuente de la plantilla"
-      url: https://github.com/raviriley/agency-jekyll-theme/
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES

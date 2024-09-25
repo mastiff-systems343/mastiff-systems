@@ -6,32 +6,51 @@ title: Privacy Policy
 	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
 </div>
 
-This Privacy Policy describes how your personal information is collected, used, and shared when you visit {{ site.title }} (the “Site”).
+At Mastiff, we take your privacy extremely seriously. It's not just a policy—it's a core part of our business ethos and services. This privacy policy outlines our practices concerning the collection, use, and protection of your personal information.We avoid entire social media platforms as a company over privacy issues.
 
-**PERSONAL INFORMATION WE COLLECT**
+**Information Collection**
+<p>We collect only the minimum information necessary to provide our IT services:
 
-{% if site.analytics.google %}
+<ul>
+<li>Contact information (name, email, phone number) for communication purposes</li>
+<li>Technical information related to your IT systems, solely for the purpose of providing our services</li>
+</ul>
 
-Automatically Collected (Google Analytics):
+We do not engage in mass marketing or data mining practices.</p>
 
-When you visit the Site, we automatically receive information about your device from your browser, such as your IP address. As you browse the Site, we also collect information about how you interact with the Site. We refer to this automatically-collected information as “Device Information”.
+**Use of Information**
+<p>The information we collect is used exclusively for:
 
-We collect Device Information using cookies. “Cookies” are data files that are placed on your device. For more information about cookies and how to disable them, visit http://www.allaboutcookies.org.
+<ul>
+<li>Providing and improving our IT services</li>
+<li>Communicating with you about your services</li>
+<li>Ensuring the security and functionality of your IT systems</li>
+</ul></p>
 
-We do this using Google Analytics: <https://www.google.com/intl/en/policies/privacy/>.
+**Data Protection**
+<p>We implement stringent security measures to protect your data:
 
-You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaoptout>.
+<ul>
+<li>End-to-end encryption for all data transmissions</li>
+<li>Regular security audits and updates</li>
+<li>Strict access controls for our staff</li>
+</ul></p>
 
-{% else %}
+**Data Sharing**
+<p>We do not sell, trade, or otherwise transfer your personal information to outside parties. Your data is shared only with your explicit consent or when required by law.</p>
 
-We do not collect any data about you or use any cookies.
+**Your Rights**
+<p>You have the right to:
 
-{% endif %}
+<ul>
+<li>Access your personal data</li>
+<li>Request correction of your data</li>
+<li>Request deletion of your data</li>
+<li>Opt-out of any future contacts from us</li>
+</ul></p>
 
-**CHANGES**
+**Changes to This Policy**
+<p>We may update this policy occasionally. We will notify you of any changes by posting the new policy on this page.</p>
 
-We may update this privacy policy from time to time for personal, operational, legal, or regulatory reasons.
-
-**CONTACT US**
-
-For more information about our privacy practices or if you have questions, please contact us by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+**Contact Us**
+<p>If you have any questions about this privacy policy, please contact us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>

@@ -1,18 +1,13 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/02-full.jpg
-alt: Keep Exploring
+title: Medical IT Services
+subtitle: 
+image: 
+alt: 
 
 caption:
-  title: Explore
-  subtitle: Graphic Design
-  thumbnail: assets/img/portfolio/02-thumbnail.jpg
+  title: Medical IT Services
+  subtitle: 
+  thumbnail: assets/img/portfolio/2.png
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
-
-{:.list-inline}
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
+Empower your healthcare practice with our specialized Medical IT Services. We offer tailored solutions designed to enhance the efficiency, security, and reliability of your medical IT infrastructure. From electronic health records (EHR) management and compliance with HIPAA regulations to seamless integration of dental and medical software like Eaglesoft, Dentrix, and Open Dental, we ensure your systems run smoothly and securely. Our services also include cloud solutions, data backup, and disaster recovery to protect critical patient information. Trust us to keep your practice running at its best, so you can focus on patient care.
 
