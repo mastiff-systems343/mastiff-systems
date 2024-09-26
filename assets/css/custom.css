@@ -200,6 +200,7 @@ header.masthead .intro-text .intro-heading {
     padding-top: 300px;
     padding-bottom: 200px;
   }
+
   header.masthead .intro-text .intro-lead-in {
     font-size: 36px;
     font-style: italic;
@@ -208,6 +209,7 @@ header.masthead .intro-text .intro-heading {
     text-align: left;
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
+
   header.masthead .intro-text .intro-heading {
     font-size: 16px;
     line-height: 1.2px;
@@ -218,6 +220,7 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+@media (min-width: 768px) {
 .featured-post {
   display: -ms-flexbox;
   align-items: center;
@@ -243,6 +246,7 @@ header.masthead .intro-text .intro-heading {
   font-size: 14px;
   font-weight: bold;
   font-style: italic;
+}
 }
 
 .blog-section {
