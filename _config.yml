@@ -22,7 +22,7 @@ email      : support@mastiffsystems.com #this is also the email contact forms wi
 description: "Mastiff Systems is a small IT services company in Lincoln, Nebraska."
 author     : Your Name
 logo       :     #optional, defaults to site title
-  path: assets\img\clients\logo w name.png
+  path: assets\img\clients\logoname.png
   height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
@@ -45,3 +45,5 @@ markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
+
+permalink: /blog/:title/
