@@ -723,4 +723,31 @@ section#contact :-ms-input-placeholder {
       grid-template-columns: repeat(3, 1fr); /* 3 columns for very large screens */
   }
 }
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.pagination a {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: rgba(188, 114, 89, 0.5);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.pagination a:hover {
+  background-color: #617a8c;
+}
+
+.pagination .prev {
+  float: left;
+}
+
+.pagination .next {
+  float: right;
+}
 /*# sourceMappingURL=agency.css.map */

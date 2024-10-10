@@ -14,16 +14,17 @@
 #theme: jekyll-agency
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "http://mastiffsystems.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/mastiff-systems" # the subpath of your site, e.g. /blog
 
 title      : Mastiff Systems
-email      : support@mastiffsystems.com #this is also the email contact forms will go to
+email      : lai@mastiffsystems.com #this is also the email contact forms will go to
 description: "Mastiff Systems is a small IT services company in Lincoln, Nebraska."
 author     : Your Name
-logo       :     #optional, defaults to site title
+logo:
   path: assets\img\clients\logoname.png
-  height: 60 #height in px, defaults to 52px
+  height: 60px #height in px, defaults to 52px
+  width: 120px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
@@ -41,9 +42,26 @@ markdown: kramdown
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-# formspree_form_path: "f/a_form_id"
+formspree_form_path: "f/mlderqre"
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-paginate
 
-permalink: /blog/:year/:month/:day/:title
+paginate: 6 # Number of posts per page
+paginate_path: "/blog/page:num/" # URL structure for paginated pages
+
+permalink: /:categories/:title/
+
+collections:
+  category:
+    output: true
+  portfolio:
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"

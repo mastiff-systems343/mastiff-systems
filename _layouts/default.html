@@ -1,53 +1,50 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
-    <link href="assets/css/custom.css" rel="stylesheet" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link href="{{ site.baseurl }}/assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+  <link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
-    <header>
-        {% include nav.html %}
-    </header>
+  <header>
+      {% include nav.html %}
+  </header>
 
-  <div class="container" >
-    <main class="page-section">
-        {{ content }}
-    </main>
+  <div class="container">
+      <main class="page-section">
+          {{ content }}
+      </main>
   </div>
 
-    <footer class="footer" id="footer" style="background-color: white">
-        <div class="container">
-          
+  <footer class="footer" id="footer" style="background-color: white">
+      <div class="container">
           <div class="row align-items-center">
-            <div class="col-md-4">
-              <span class="copyright"
-                >Copyright &copy; Mastiff Systems 2024</span
-              >
-            </div>
-      
-          <div>
-            <img src="assets/img/clients/logoname1.png" 
-            width=""
-            height="60" 
-            <a href="index.html"></a>
+
+              <!-- Left section -->
+              <div class="col-md-4">
+                  <span class="copyright">Copyright &copy; Mastiff Systems 2024</span>
+              </div>
+
+              <!-- Center logo section -->
+              <div class="col-md-4">
+                  <a href="{{ site.baseurl }}/index.html">
+                      <img src="{{ site.baseurl }}/assets/img/clients/logoname1.png" height="60" alt="Mastiff Systems Logo"/>
+                  </a>
+              </div>
+
+              <!-- Right legal section -->
+              <div class="col-md-4">
+                  <ul class="list-inline quicklinks">
+                      <li class="list-inline-item">
+                          <a href="{{ site.baseurl }}/legal.html">Privacy Policy</a>
+                      </li>
+                  </ul>
+              </div>
+
           </div>
-      
-            <!-- Legal -->
-            <div class="col-md-4">
-              <ul class="list-inline quicklinks">
-                <li class="list-inline-item">
-                  <a href="legal"
-                    >Privacy Policy</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          
-        </div>
-      </footer>
+      </div>
+  </footer>
 </body>
 </html>
