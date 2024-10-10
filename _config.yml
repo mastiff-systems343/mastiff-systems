@@ -46,4 +46,4 @@ markdown: kramdown
 plugins:
   - jekyll-remote-theme
 
-permalink: /blog/:title/
+permalink: /blog/:year/:month/:day/:title
