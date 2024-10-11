@@ -2,7 +2,7 @@
 layout: post
 title: "On Linux, VMware and Broadcom."
 date: 2024-04-10
-categories: [technology]
+categories: [vmware, linux, proxmox, opensource]
 author: Chris
 author_avatar: /assets/img/team/Chris-avatar.png
 image: /assets/img/blog/4-on-linux.png
