@@ -1,13 +1,59 @@
 ---
 layout: default
 ---
+<div class="blog-index">
+  <h1 class="page-heading">{{ page.title }}</h1>
 
-<h1>{{ page.title }}</h1>
+  <div class="post-list">
+    {% for post in site.categories[page.category] %}
+    <article class="post-preview">
+      <div class="post-image">
+        {% if post.image %}
+          <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+        {% endif %}
+      </div>
+      <h2 class="post-title">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <div class="post-meta">
+        {% if post.author %}
+          <span class="post-author">by {{ post.author }}</span>
+        {% endif %}
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+      </div>
+      <div class="post-excerpt">
+        {{ post.excerpt | strip_html | truncatewords: 50 }}
+      </div>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+    {% endfor %}
+  </div>
 
-{% for post in site.categories[page.category] %}
-  <article>
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-    {{ post.excerpt }}
-  </article>
-{% endfor %}
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}">
+        <img src="{{ site.baseurl }}/assets/img/icons/prev.png" alt="Previous" height="16" />Prev</a>
+    {% else %}
+      <span><img src="{{ site.baseurl }}/assets/img/icons/prev.png" alt="Previous" height="16" /> Prev</span>
+    {% endif %}
+  
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <em>{{ page }}</em>
+      {% elsif page == 1 %}
+        <a href="{{ site.baseurl }}/blog/">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.baseurl }}{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+  
+    {% if paginator.next_page %}
+      <a href="{{ site.baseurl }}{{ paginator.next_page_path }}">
+        Next <img src="{{ site.baseurl }}/assets/img/icons/next.png" alt="Previous" height="16" /></a>
+    {% else %}
+      <span>Next <img src="{{ site.baseurl }}/assets/img/icons/next.png" alt="Previous" height="16" /></span>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>

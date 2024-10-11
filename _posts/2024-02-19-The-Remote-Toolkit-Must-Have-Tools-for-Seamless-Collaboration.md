@@ -2,7 +2,7 @@
 layout: post
 title: "The Remote Toolkit: Must-Have Tools for Seamless Collaboration"
 date: 2024-02-19
-categories: [blog, update]
+categories: [organization]
 author: Lai
 author_avatar: /assets/img/team/Lai-avatar.png
 image: /assets/img/blog/3-remote-toolkit.png

@@ -2,7 +2,7 @@
 layout: post
 title: "How to find your computer name."
 date: 2023-09-15
-categories: [blog, update]
+categories: [technology]
 author: Chris
 author_avatar: /assets/img/team/Chris-avatar.png
 image: /assets/img/blog/1-computer-name.png
