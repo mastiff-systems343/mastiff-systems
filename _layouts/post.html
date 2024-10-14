@@ -11,7 +11,7 @@ layout: default
           {% if page.author_avatar %}
             <img src="{{ page.author_avatar | relative_url }}" alt="{{ page.author }} avatar" class="author-avatar">
           {% endif %}
-          <span class="author-name">{{ page.author }}</span>
+          <a href="{{ site.baseurl }}/authors/{{ page.author | slugize }}" class="author-name">{{ page.author }}</a>
         </div>
         <span class="post-date">{{ page.date | date_to_string }}</span>
       </div>
@@ -33,23 +33,24 @@ layout: default
       {% endfor %}
     </div>
   
-  <div class="post-pagination">
-    <ul class="pagination-post">
-      {% if page.previous %}
-        <li class="page-item">
-          <a class="page-link" href="{{{{ site.baseurl }}/page.previous.url }}" aria-label="Previous">
-            <img src="{{ site.baseurl }}/assets/img/icons/prev.png" alt="Previous" height="16" /> {{ page.previous.title }}
-          </a>
-        </li>
-      {% endif %}
-  
-      {% if page.next %}
-        <li class="page-item">
-          <a class="page-link" href="{{{{ site.baseurl }}/page.next.url }}" aria-label="Next">
-            <img src="{{ site.baseurl }}/assets/img/icons/next.png" alt="Previous" height="16" /> {{ page.next.title }} 
-          </a>
-        </li>
-      {% endif %}
-    </ul>
+    <div class="post-pagination">
+      <ul class="pagination-post">
+        {% if page.previous %}
+          <li class="page-item">
+            <a href="{{ site.baseurl }}{{ page.previous.url }}" aria-label="Previous">
+              <img src="{{ site.baseurl }}/assets/img/icons/prev.png" alt="Previous" height="16" /> {{ page.previous.title }}
+            </a>
+          </li>
+        {% endif %}
+    
+        {% if page.next %}
+          <li class="page-item">
+            <a href="{{ site.baseurl }}{{ page.next.url }}" aria-label="Next">
+              {{ page.next.title }} <img src="{{ site.baseurl }}/assets/img/icons/next.png" alt="Next" height="16" />
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
   </article>
 </div>

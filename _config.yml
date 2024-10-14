@@ -65,3 +65,14 @@ defaults:
       type: category
     values:
       layout: "category"
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "author"
+    values:
+      layout: "author"

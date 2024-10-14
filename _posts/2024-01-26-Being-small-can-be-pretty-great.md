@@ -23,12 +23,10 @@ It is customary in Japanese businesses to do a 1-year, 5-year, 10-year, and 100-
 
 Once the business is making the money that everyone needs to have the lifestyle they want, why artificially pump it full of hormones? Why go into debt just for the sake of growth? As long as you are not saddled with debt (Mastiff has never taken on debt ever), you are growing the financial assets and everyone is making great wages then improve yourself first. Improve the business and then the growth will come. We chose to stay small on purpose for these reasons. We like calling our shots. We like not having the headaches of being a large company. We like being able to turn on a dime and follow new technology where it leads. We like spending extra time with clients when we can. If we only focused on growth then metrics like ticket close time and turnaround time become more important than connecting, understanding, and real collaboration. It doesn’t seem worth it from here.
 
-Chris
+<strong><em>References:</em></strong>
 
-References:
+Apple. (2023, October 10). Apple reports fourth-quarter results. Apple Newsroom. <a style="color #bc7259" href="https://www.apple.com/newsroom/2022/10/apple-reports-fourth-quarter-results/" target="_blank"> https://www.apple.com/newsroom/2022/10/apple-reports-fourth-quarter-results/
 
-Apple. (2023, October 10). Apple reports fourth-quarter results. Apple Newsroom. https://www.apple.com/newsroom/2022/10/apple-reports-fourth-quarter-results/
-
-Apple. (2023b, December 13). Apple reports fourth-quarter results. Apple Newsroom. https://apple.com/newsroom/2023/11/apple-reports-fourth-quarter-results/
+Apple. (2023b, December 13). Apple reports fourth-quarter results. Apple Newsroom. <a class="post-links" href="https://apple.com/newsroom/2023/11/apple-reports-fourth-quarter-results/" target="_blank"> https://apple.com/newsroom/2023/11/apple-reports-fourth-quarter-results/
 
 Americans for Tax Fairness  [ATF]. (2015). Walmart’s Wage Hike to $10/Hour Still Requires Large Taxpayer Subsidies. THE WALMART TAX SUBSIDY, 1.

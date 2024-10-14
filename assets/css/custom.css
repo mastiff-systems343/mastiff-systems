@@ -1,4 +1,5 @@
 body {
+  cursor: url('/assets/img/cursors/21.png'), auto;
   background-color: #d4cec2;
   overflow-x: hidden;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -553,6 +554,17 @@ section#contact :-ms-input-placeholder {
 
 .author-name {
   font-weight: bold;
+  color: #423941;
+}
+
+.author-name a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.author-name a:hover {
+  color: #617a8c;
+  text-decoration: none;
 }
 
 .post-body {
@@ -603,21 +615,28 @@ section#contact :-ms-input-placeholder {
   gap: 2rem;
 }
 
+.post-list1 ul {
+  list-style-type: disc; /* Default bullet style */
+  padding-left: 20px; /* Indentation for nested lists */
+}
+
+.post-list1 ul li {
+  list-style-type: circle; /* Different bullet style for the nested list */
+  padding-left: 20px;
+}
+
 .post-preview {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
-  border: 1px solid #ddd;
   padding: 1.5rem;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .post-preview:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 12px rgba(97, 122, 140, 0.5);
 }
 
 .post-preview:last-child {
@@ -707,6 +726,20 @@ section#contact :-ms-input-placeholder {
   text-decoration: underline;
 }
 
+.post.links {
+  color: red;
+}
+
+.post.links a {
+  color: red;
+  text-decoration: none;
+}
+
+.post.links a:hover {
+  color: #bc7259;
+  text-decoration: none;
+}
+
 /* Responsive adjustments */
 @media (max-width: 1024px) {
   .post-list {
@@ -763,21 +796,28 @@ section#contact :-ms-input-placeholder {
 }
 
 .page-item {
-  display: inline-block;
-  margin: 0 10px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.post-pagination {
+  margin-top: 1.5rem;
+  row-gap: 280px;
 }
 
 .pagination-post a {
   width: 180px; /* Fixed width */
+  height: 100px;
   color: #bc7259;
   text-decoration: none;
-  border-radius: 5px;
-  white-space: normal; 
   word-wrap: break-word;
-  justify-content: center
+  justify-content: center;
+  gap: 200px;
 }
 
 .pagination-post a:hover {
   color: #617a8c;
 }
+
+
 /*# sourceMappingURL=agency.css.map */
