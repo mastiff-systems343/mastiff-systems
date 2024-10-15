@@ -15,10 +15,10 @@ en: &DEFAULT_EN
       section: portfolio
     - title: "About Us"
       section: team
-    - title: "Help desk"
-      url: https://mastiffsystems.zendesk.com/hc/en-us/requests/new
+    - title: "Get Help"
+      url: /get-help/
     - title: "Blog"
-      section: about
+      link: blog/index.html
     - title: "(402) 803-1122"
       url: https://justcall.io/call-now/edc2b7ba
 en-US:

@@ -76,3 +76,5 @@ defaults:
       type: "author"
     values:
       layout: "author"
+
+permalink: get-help
