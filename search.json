@@ -1,12 +1,28 @@
 ---
-layout: null
+layout: page
+title: How to find your computer name.
 ---
-[
-  {% for post in site.posts %}
+{
+  "posts": [
+    {% for post in site.posts %}
     {
-      "title"    : "{{ post.title | escape }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "content"  : {{ post.content | strip_html | strip_newlines | jsonify }}
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-]
+      "title": {{ post.title | jsonify }},
+      "content": {{ post.content | strip_html | strip_newlines | jsonify }},
+      "url": {{ site.baseurl | append: post.url | jsonify }},
+      "date": {{ post.date | date: "%B %-d, %Y" | jsonify }},
+      "excerpt": {{ post.excerpt | strip_html | strip_newlines | truncatewords: 50 | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "pages": [
+    {% for page in site.pages %}
+    {% if page.title and page.searchable != false %}
+    {
+      "title": {{ page.title | jsonify }},
+      "content": {{ page.content | strip_html | strip_newlines | jsonify }},
+      "url": {{ site.baseurl | append: page.url | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endif %}
+    {% endfor %}
+  ]
+}

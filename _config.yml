@@ -18,11 +18,11 @@ url    : "http://mastiffsystems.com" # the base hostname & protocol for your sit
 baseurl: "/mastiff-systems" # the subpath of your site, e.g. /blog
 
 title      : Mastiff Systems
-email      : lai@mastiffsystems.com #this is also the email contact forms will go to
+email      : support@mastiffsystems.com #this is also the email contact forms will go to
 description: "Mastiff Systems is a small IT services company in Lincoln, Nebraska."
-author     : Your Name
+author     : Mastiff Systems
 logo:
-  path: assets\img\clients\logoname.png
+  path: assets\img\clients\logo.png
   height: 60px #height in px, defaults to 52px
   width: 120px
 
@@ -76,5 +76,3 @@ defaults:
       type: "author"
     values:
       layout: "author"
-
-permalink: get-help

@@ -16,7 +16,7 @@ en: &DEFAULT_EN
     - title: "About Us"
       section: team
     - title: "Get Help"
-      url: /get-help/
+      url: get-help.html
     - title: "Blog"
       link: blog/index.html
     - title: "(402) 803-1122"

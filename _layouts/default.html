@@ -18,33 +18,19 @@
       </main>
   </div>
 
-  <footer class="footer" id="footer" style="background-color: white">
-      <div class="container">
-          <div class="row align-items-center">
-
-              <!-- Left section -->
-              <div class="col-md-4">
-                  <span class="copyright">Copyright &copy; Mastiff Systems 2024</span>
-              </div>
-
-              <!-- Center logo section -->
-              <div class="col-md-4">
-                  <a href="{{ site.baseurl }}/index.html">
-                      <img src="{{ site.baseurl }}/assets/img/clients/logoname1.png" height="60" alt="Mastiff Systems Logo"/>
-                  </a>
-              </div>
-
-              <!-- Right legal section -->
-              <div class="col-md-4">
-                  <ul class="list-inline quicklinks">
-                      <li class="list-inline-item">
-                          <a href="{{ site.baseurl }}/legal.html">Privacy Policy</a>
-                      </li>
-                  </ul>
-              </div>
-
-          </div>
-      </div>
+  <footer>
+     {% include footer.html %}
   </footer>
 </body>
 </html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var t = performance.timing;
+      var loadTime = (t.loadEventEnd - t.responseEnd) / 1000;
+      document.getElementById('render-time').innerText = loadTime.toFixed(2) + ' seconds';
+    });
+  </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/search.js"></script>

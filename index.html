@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +10,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Mastiff Systems is a small IT services company in Lincoln, Nebraska.">
-  <meta name="author" content="Your Name">
+  <meta name="author" content="Mastiff Systems">
   <link rel="canonical" href="http://localhost:4000/mastiff-systems/">
 
   <title>Mastiff Systems</title>
@@ -37,72 +40,70 @@
   
 </head>
 
-
   <body id="page-top">
-
-        <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-	  <a class="navbar-brand js-scroll-trigger" href="#page-top"><img height="60" src="assets\img\clients\logo.png"/></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-        
-        
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Services</a></li>
-        
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">About Us</a></li>
-        
-          <li class="nav-item"><a class="nav-link" href="/get-help.html">Get help</a></li>
-        
-          <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}blog/index.html">Blog</a></li>
-        
-          <li class="nav-item"><a class="nav-link" href="https://justcall.io/call-now/edc2b7ba">(402) 803-1122</a></li>
-          
-          <div class="search-container">
-            <input type="text" id="search-input" placeholder="Search...">
-            <button id="search-button">
-              <img src="{{ site.baseurl }}/assets/img/icons/search.png" alt="Search" height="16">
-            </button>
-          </div>
-        
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- End Navigation -->
   
   <!-- Header -->
   
   <header class="masthead">
     <div class="container">
-      <div class="intro-text"><div class="intro-lead-in"><p> Mastiff Systems: Where IT is intentionally tailored.</p>
-</div><div class="intro-heading"><p>  We believe that small business is the heart of America and it is vital to the growth and safety of our community. Our goal is to help your business be profitable and use technology as a tool rather than a burden.
-  
- <br> 
- <br>
- Technology should work for you and not get in your way. Therefore we work with whatever technology is right for your business, that may be a server onsite, managed support, or cloud services. It’s what’s best for you and there is no one size fits all solution.
-  
-  <br> 
-  <br>
-  We will be your partner and not a particular technology. We will cheer you on as you grow while removing technology as an obstacle or frustration. We won’t make you feel stupid if you have questions. Give us a call or contact us if you would like us to be part of your team.</p>
-</div><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Let’s work together!</a></div>
+      <div class="intro-text">
+        <div class="intro-lead-in">
+          <p>Mastiff Systems: Where IT is intentionally tailored.</p>
+        </div>
+        <div class="intro-heading">
+          <p>We believe that small business is the heart of America and it is vital to the growth and safety of our community. Our goal is to help your business be profitable and use technology as a tool rather than a burden.</p>
+          <p>Technology should work for you and not get in your way. Therefore we work with whatever technology is right for your business, that may be a server onsite, managed support, or cloud services. It's what's best for you and there is no one size fits all solution.</p>
+          <p>We will be your partner and not a particular technology. We will cheer you on as you grow while removing technology as an obstacle or frustration. We won't make you feel stupid if you have questions. Give us a call or contact us if you would like us to be part of your team.</p>
+        </div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Let's work together!</a>
+      </div>
     </div>
   </header>
   
   <!-- End Header -->
 
-<!-- About -->
+<!-- Latest Blog -->
 
 <section class="page-section">
-  <h2 class="container text-uppercase">Featured Post</h2>
-  <div class="container featured-post">
+  <div class="container">
+  <h2 class="section-heading text-uppercase">Latest Blog Posts</h2>
+  <div class="container post-list">
+    {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+    {% for post in sorted_posts limit:3 %}
+      <article class="post-preview">
+        <div class="post-image">
+          {% if post.image %}
+            <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+          {% endif %}
+        </div>
+        <h2 class="post-title">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        <div class="post-meta">
+          {% if post.author %}
+            <span class="post-author">by {{ post.author }}</span>
+          {% endif %}
+          <span class="post-date">{{ post.date | date_to_string }}</span>
+        </div>
+        <div class="post-excerpt">
+          {{ post.excerpt | strip_html | truncatewords: 50 }}
+        </div>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </article>
+    {% endfor %}
+  </div>
+  <br>
+  <br>
+  <!-- End Latest Blog-->
+
+<!-- Featured -->
+
+  <div class="container">
+    <div class="container featured-post">
         <div class="featured-img">
         <img src="assets/img/portfolio/vmwareprox.jpg" width="400" height="400" /></div>
         <div class="featured-title">
+        <h4 class="featured-title">Featured</h4>
         <h3>Break Free from VMware: Seamless Migration to Proxmox</h3> <p class="featured-text">Are you tired of escalating costs and restrictive licensing with VMware? Ready to break free from the insanity of Broadcom? We love VMware but their owners have ruined our trust in the product. So It's time to take back control of your virtualization environment. Our expert VMware to Proxmox migration service offers a path to freedom, flexibility, and significant cost savings.</p>
         <div><a class="btn btn-primary btn-xl js-scroll-trigger" href="blog.html">Check Out Our Latest Posts</a></div></div></div></div>
     </div></div>
@@ -111,7 +112,7 @@
   </div>
 </section>
 
-<!-- End About -->
+<!-- End Featured -->
 
 <!-- Portfolio Grid -->
 
@@ -1145,42 +1146,6 @@ Contact us for a free consultation and discover how we can help you break free f
 
 <!-- End Contact -->
 
-	  <!-- Footer -->
-<footer class="footer" id="footer" style="background-color: white">
-  <div class="container">
-    
-    <div class="row align-items-center">
-      <div class="col-md-4">
-        <span class="copyright"
-          >Copyright &copy; Mastiff Systems 2024</span
-        >
-      </div>
-
-    <div>
-      <img src="assets/img/clients/logoname1.png" 
-      width=""
-      height="60" 
-      <a href="index.html"></a>
-    </div>
-
-      <!-- Legal -->
-      <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-          <li class="list-inline-item">
-            <a href="legal"
-              >Privacy Policy</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-  </div>
-</footer>
-
-<!-- End Footer -->
-
-
 	  <!-- Bootstrap core JavaScript -->
 	  <script src="assets/js/jquery.min.js"></script>
 	  <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -1195,5 +1160,86 @@ Contact us for a free consultation and discover how we can help you break free f
 	  <!-- Custom scripts for this template -->
 	  <script src="assets/js/agency.min.js"></script>
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var t = performance.timing;
+        var loadTime = (t.loadEventEnd - t.responseEnd) / 1000;
+        document.getElementById('render-time').innerText = loadTime.toFixed(2) + ' seconds';
+      });
+    </script>
+
+// Add this in your HTML before closing body tag
+// <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+
+document.addEventListener('DOMContentLoaded', function() {
+  let searchData = [];
+  let idx;
+
+  // Initialize lunr and load search data
+  fetch('/search.json')
+    .then(response => response.json())
+    .then(data => {
+      searchData = [...data.posts, ...data.pages];
+      idx = lunr(function() {
+        this.ref('url');
+        this.field('title');
+        this.field('content');
+        this.field('excerpt');
+
+        searchData.forEach(function(doc) {
+          this.add(doc);
+        }, this);
+      });
+    });
+
+  // Search function
+  function performSearch(query) {
+    if (!idx) return;
+    
+    const results = idx.search(query);
+    const searchResults = document.getElementById('search-results');
+    searchResults.innerHTML = '';
+    
+    if (results.length === 0) {
+      searchResults.innerHTML = '<p>No results found.</p>';
+      searchResults.classList.add('active');
+      return;
+    }
+
+    results.forEach(result => {
+      const item = searchData.find(item => item.url === result.ref);
+      const resultItem = document.createElement('div');
+      resultItem.className = 'search-result-item';
+      resultItem.innerHTML = `
+        <a href="${item.url}" class="search-result-title">${item.title}</a>
+        <p>${item.excerpt || ''}</p>
+        ${item.date ? `<small>${item.date}</small>` : ''}
+      `;
+      searchResults.appendChild(resultItem);
+    });
+
+    searchResults.classList.add('active');
+  }
+
+  // Event listeners
+  const searchInput = document.getElementById('search-input');
+  const searchButton = document.getElementById('search-button');
+
+  searchButton.addEventListener('click', function() {
+    const query = searchInput.value.trim();
+    if (query) {
+      performSearch(query);
+    }
+  });
+
+  searchInput.addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+      const query = searchInput.value.trim();
+      if (query) {
+        performSearch(query);
+      }
+    }
+  });
+});
   </body>
 </html>
