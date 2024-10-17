@@ -9,10 +9,5 @@ caption:
   subtitle: 
   thumbnail: assets/img/portfolio/10.png
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
-
-{:.list-inline}
-- Date: October 2019
-- Client: Window
-- Category: Photography
+We provide expert database design, implementation, and management services across major database platforms: Microsoft SQL Server, MySQL, and MariaDB. Our comprehensive services ensure optimal performance, security, and reliability for your business-critical data systems.
 

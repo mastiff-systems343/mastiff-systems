@@ -757,6 +757,18 @@ section#contact :-ms-input-placeholder {
   border-radius: 5px;
 }
 
+.post-image-1 {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+
+.post-image-1 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 3px;
+}
+
 .post-categories {
   margin-top: 1.5rem;
 }

@@ -9,10 +9,4 @@ caption:
   subtitle: 
   thumbnail: assets/img/portfolio/8.png
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
-
-{:.list-inline}
-- Date: October 2019
-- Client: Window
-- Category: Photography
-
+We provide comprehensive technical support and maintenance services for the two leading dental practice management software solutions: Patterson's Eaglesoft and Henry Schein's Dentrix. Our specialized support ensures your dental practice maintains optimal operational efficiency and data security.

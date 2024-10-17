@@ -1,28 +1,78 @@
 ---
-layout: page
-title: How to find your computer name.
+layout: null
 ---
-{
-  "posts": [
-    {% for post in site.posts %}
+[
+  {% comment %}Include all posts{% endcomment %}
+  {% for post in site.posts %}
     {
-      "title": {{ post.title | jsonify }},
+      "title": "{{ post.title | escape }}",
       "content": {{ post.content | strip_html | strip_newlines | jsonify }},
-      "url": {{ site.baseurl | append: post.url | jsonify }},
-      "date": {{ post.date | date: "%B %-d, %Y" | jsonify }},
-      "excerpt": {{ post.excerpt | strip_html | strip_newlines | truncatewords: 50 | jsonify }}
+      "url": "{{ site.baseurl }}{{ post.url }}",
+      "date": "{{ post.date | date: '%B %-d, %Y' }}",
+      "type": "post",
+      "categories": {{ post.categories | jsonify }},
+      "tags": {{ post.tags | jsonify }}
     }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ],
-  "pages": [
-    {% for page in site.pages %}
-    {% if page.title and page.searchable != false %}
-    {
-      "title": {{ page.title | jsonify }},
+  {% endfor %}
+
+  {% comment %}Include all pages{% endcomment %}
+  {% assign pages = site.pages | where_exp: "page", "page.title != nil" %}
+  {% for page in pages %}
+    {% unless page.url contains '.json' or page.url contains '.xml' or page.url contains 'assets' or page.search_exclude %}
+    ,{
+      "title": "{{ page.title | escape }}",
       "content": {{ page.content | strip_html | strip_newlines | jsonify }},
-      "url": {{ site.baseurl | append: page.url | jsonify }}
-    }{% unless forloop.last %},{% endunless %}
+      "url": "{{ site.baseurl }}{{ page.url }}",
+      "type": "page"
+      {% if page.date %},
+      "date": "{{ page.date | date: '%B %-d, %Y' }}"
+      {% endif %}
+      {% if page.categories %},
+      "categories": {{ page.categories | jsonify }}
+      {% endif %}
+      {% if page.tags %},
+      "tags": {{ page.tags | jsonify }}
+      {% endif %}
+    }
+    {% endunless %}
+  {% endfor %}
+
+  {% comment %}Include all collections except posts{% endcomment %}
+  {% for collection in site.collections %}
+    {% unless collection.label == "posts" %}
+      {% for item in collection.docs %}
+        ,{
+          "title": "{{ item.title | escape }}",
+          "content": {{ item.content | strip_html | strip_newlines | jsonify }},
+          "url": "{{ site.baseurl }}{{ item.url }}",
+          "type": "{{ collection.label }}",
+          {% if item.date %}
+          "date": "{{ item.date | date: '%B %-d, %Y' }}",
+          {% endif %}
+          {% if item.categories %}
+          "categories": {{ item.categories | jsonify }},
+          {% endif %}
+          {% if item.tags %}
+          "tags": {{ item.tags | jsonify }},
+          {% endif %}
+          "collection": "{{ collection.label }}"
+        }
+      {% endfor %}
+    {% endunless %}
+  {% endfor %}
+
+  {% comment %}Include data files{% endcomment %}
+  {% for data_item in site.data %}
+    {% assign data_name = data_item[0] %}
+    {% assign data = data_item[1] %}
+    {% if data.title %}
+    ,{
+      "title": "{{ data.title | escape }}",
+      "content": {{ data | jsonify | strip_html | strip_newlines | jsonify }},
+      "url": "{{ site.baseurl }}/data/{{ data_name }}",
+      "type": "data",
+      "data_type": "{{ data_name }}"
+    }
     {% endif %}
-    {% endfor %}
-  ]
-}
+  {% endfor %}
+]

@@ -56,5 +56,3 @@ SHORT BIO.
     </button>
   </div>
   {% endif %}
-</div>
-  
