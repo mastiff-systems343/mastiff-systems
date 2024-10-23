@@ -31,7 +31,7 @@ h6 {
 }
 
 .page-section {
-  padding: 100px 2px;
+  padding: 25px 2px;
 }
 
 .page-section h2.section-heading {
@@ -191,7 +191,7 @@ header.masthead {
   width: 100vw; /* Full viewport width */
   margin-left: calc(-50vw + 50%); /* Compensate for container margins */
   margin-right: calc(-50vw + 50%); /* Compensate for container margins */
-  height: 60vh;
+  height: 70vh;
   min-height: 600px;
 }
 
@@ -254,6 +254,20 @@ header.masthead .intro-text .intro-heading {
 /* Fix potential overflow issues */
 body {
   overflow-x: hidden;
+}
+
+.dark-links {
+  color: #151119;
+}
+
+.dark-links a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.dark-links a:hover {
+  color: #617a8c;
+  text-decoration: none;
 }
 
 .featured-post {

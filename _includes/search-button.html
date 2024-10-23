@@ -1,9 +1,9 @@
 <div class="nav-search">
   <button id="search-toggle" class="search-toggle" aria-label="Toggle search">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <img src="{{ site.baseurl }}/assets/img/icons/search.png" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="11" cy="11" r="8"></circle>
           <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-      </svg>
+      </>
       <span class="sr-only">Search</span>
   </button>
   
@@ -47,9 +47,7 @@
   right: 0;
   top: 100%;
   width: 300px;
-  background: white;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   padding: 12px;
   margin-top: 8px;
   z-index: 1000;
@@ -70,15 +68,15 @@
 
 #nav-search-input:focus {
   outline: none;
-  border-color: #3498db;
+  border-color: #617a8c;
 }
 
 .search-go {
-  background: #3498db;
+  background: #617a8c;
   border: none;
   padding: 8px 12px;
   border-radius: 6px;
-  color: white;
+  color: #f3c8a3;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -86,7 +84,7 @@
 }
 
 .search-go:hover {
-  background: #2980b9;
+  background: #617a8c;
 }
 
 .quick-results {

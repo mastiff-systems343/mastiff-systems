@@ -6,10 +6,22 @@ title: Get Help
   <div class="row">
     <div class="col-lg-6">
       <h2 class="section-heading text-left">Contact Us.</h2>
-      <h3 class="section-subheading">
+      <p class="section-subheading">
         support@mastiffsystems.com<br>
         (402) 803-1122
-      </h3>
+      </p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p><strong><em>How-to</em></strong></p>
+      <a href="{{ site.baseurl }}/how-to.md" class="dark-links">How to find your computer name.</a><br>
+      <a href="{{ site.baseurl }}/dwservice.md" class="dark-links">How to setup dwservice.</a>
     </div>
     <div class="col-lg-6">
       <form id="contactForm" action="https://formspree.io/f/mwpkkwzw" novalidate="novalidate" method="POST">
