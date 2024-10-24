@@ -19,10 +19,10 @@ title: Get Help
       <br>
       <br>
       <br>
-      <p><strong><em>How-to</em></strong></p>
-      <a href="{{ site.baseurl }}/how-to.md" class="dark-links">How to find your computer name.</a><br>
-      <a href="{{ site.baseurl }}/dwservice.md" class="dark-links">How to setup dwservice.</a>
-    </div>
+<p><strong><em>How-to</em></strong></p>
+<a href="{{ site.baseurl }}/how-to/" class="dark-links">How to find your computer name.</a><br>
+<a href="{{ site.baseurl }}/dwservice/" class="dark-links">How to setup dwservice.</a>
+</div>
     <div class="col-lg-6">
       <form id="contactForm" action="https://formspree.io/f/mwpkkwzw" novalidate="novalidate" method="POST">
             <div class="form-group">
