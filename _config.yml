@@ -76,3 +76,7 @@ defaults:
       type: "author"
     values:
       layout: "author"
+
+navigation:
+  - title: Search
+    url: /search/
