@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,29 +11,31 @@
 </head>
 
 <body id="page-top">
-  <header>
-      {% include nav.html %}
-  </header>
+  {% include nav.html %}
 
   <div class="container">
-      <main class="page-section">
-          {{ content }}
-      </main>
+    <main class="page-section">
+      {{ content }}
+    </main>
   </div>
 
   <footer>
-     {% include footer.html %}
+    {% include footer.html %}
   </footer>
-</body>
-</html>
 
-<script>
+  <script>
     document.addEventListener("DOMContentLoaded", function() {
       var t = performance.timing;
       var loadTime = (t.loadEventEnd - t.responseEnd) / 1000;
-      document.getElementById('render-time').innerText = loadTime.toFixed(2) + ' seconds';
+      // Ensure the element exists before setting text
+      var renderTimeElem = document.getElementById('render-time');
+      if (renderTimeElem) {
+        renderTimeElem.innerText = loadTime.toFixed(2) + ' seconds';
+      }
     });
   </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/search.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/search.js"></script>
+</body>
+</html>
