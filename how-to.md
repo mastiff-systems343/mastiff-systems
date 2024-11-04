@@ -21,7 +21,7 @@ Your computer has a unique name that helps distinguish it on a network, making i
     </li>
 </ul>
 
-<iframe title="Find computer name in control panel" width="560" height="315" src="https://peertube-gftks-u25423.vm.elestio.app/videos/embed/497003fb-de71-4210-810d-dcfc9d6c93fa" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+<iframe title="Find computer name in control panel" width="860" height="515" src="https://peertube-gftks-u25423.vm.elestio.app/videos/embed/497003fb-de71-4210-810d-dcfc9d6c93fa" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
 
 <br>
 <br>
@@ -36,7 +36,7 @@ Your computer has a unique name that helps distinguish it on a network, making i
     </li>
 </ul>
 
-<iframe title="How to find computer name from command line" width="560" height="315" src="https://peertube-gftks-u25423.vm.elestio.app/videos/embed/acbf3cd5-7c63-4689-b791-4e74ce014709" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+<iframe title="How to find computer name from command line" width="860" height="515" src="https://peertube-gftks-u25423.vm.elestio.app/videos/embed/acbf3cd5-7c63-4689-b791-4e74ce014709" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
 
 <br>
 <br>
