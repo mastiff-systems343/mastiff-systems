@@ -2,7 +2,7 @@
 layout: page
 title: How to find your computer name.
 ---
-
+<br>
 <h1>How to find your computer name.</h1>
 
 Your computer has a unique name that helps distinguish it on a network, making it easier to identify and manage. Whether you need this information for troubleshooting, connecting to shared resources, or just satisfying your curiosity, finding your computer's name is a straightforward process. We'll guide you through the steps to discover your computer's name on various operating systems.
@@ -21,7 +21,7 @@ Your computer has a unique name that helps distinguish it on a network, making i
     </li>
 </ul>
 
-<iframe src="https://www.loom.com/share/a69fe65b3fa44a30a27eb625616c677e?sid=9a463a70-7c77-4e01-80a3-55aaf084f757" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="width:100%; height:400px;"></iframe>
+<iframe title="Find computer name in control panel" width="560" height="315" src="https://peertube-gftks-u25423.vm.elestio.app/videos/embed/497003fb-de71-4210-810d-dcfc9d6c93fa" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
 
 <br>
 <br>
@@ -36,7 +36,7 @@ Your computer has a unique name that helps distinguish it on a network, making i
     </li>
 </ul>
 
-<iframe src="https://www.loom.com/share/528cfcf06aea4726b0ef3bbd163da4a8?sid=a92c5cc4-e080-45ba-9598-db05305d900b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="width:100%; height:400px;"></iframe>
+<iframe title="How to find computer name from command line" width="560" height="315" src="https://peertube-gftks-u25423.vm.elestio.app/videos/embed/acbf3cd5-7c63-4689-b791-4e74ce014709" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
 
 <br>
 <br>
