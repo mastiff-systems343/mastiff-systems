@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using shortcuts to remember to request payment"
+title: "Using Apple shortcuts to remember to request payment"
 date: 2024-11-01
 categories: [apple, shortcuts, apple shortcuts]
 author: Chris
