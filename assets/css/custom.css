@@ -252,7 +252,7 @@ header.masthead {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
-  height: 70vh;
+  height: 100vh;
   min-height: 400px;
 }
 
