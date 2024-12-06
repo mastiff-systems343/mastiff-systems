@@ -31,9 +31,6 @@ locale: "en-US" # See available languages in _data/sitetext.yml
 analytics:
   google: #Google Analytics tracking code here
 
-collections:
-  portfolio:
-
 assets:
   css:
     - custom.css
@@ -44,39 +41,40 @@ markdown: kramdown
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
 formspree_form_path: "f/mlderqre"
 
-plugins:
-  - jekyll-remote-theme
-  - jekyll-paginate
-
 paginate: 6 # Number of posts per page
 paginate_path: "/blog/page:num/" # URL structure for paginated pages
 
 permalink: /:categories/:title/
 
+
+navigation:
+  - title: Search
+    url: /search/
+
+plugins:
+  - jekyll-admin
+  - jekyll-remote-theme
+  - jekyll-paginate
+
 collections:
-  category:
-    output: true
   portfolio:
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: category
-    values:
-      layout: "category"
-
-collections:
   authors:
+    output: true
+  category:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "author"
+      type: authors
     values:
       layout: "author"
+  - scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
 
-navigation:
-  - title: Search
-    url: /search/
+
+
+

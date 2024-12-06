@@ -13,3 +13,7 @@ end
 # Uncomment the following line if developing on Windows: 
 # Performance-booster for watching directories on Windows
  gem "wdm", ">= 0.1.0" if Gem.win_platform?
+
+gem 'rack', '2.2.7'
+gem 'jekyll-admin'
+gem 'sass-embedded', '< 1.54'
