@@ -28,6 +28,8 @@ logo:
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
+version: 2.4
+
 analytics:
   google: #Google Analytics tracking code here
 
