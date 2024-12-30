@@ -15,14 +15,14 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 url    : "http://mastiffsystems.com" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/mastiff-systems" # the subpath of your site, e.g. /blog
 
 title      : Mastiff Systems
 email      : support@mastiffsystems.com #this is also the email contact forms will go to
 description: "Mastiff Systems is a small IT services company in Lincoln, Nebraska."
 author     : Mastiff Systems
 logo:
-  path: assets\img\clients\logo.png
+  path: assets/img/clients/logo.png
   height: 60px #height in px, defaults to 52px
   width: 120px
 
