@@ -721,6 +721,10 @@ section#contact :-ms-input-placeholder {
   margin-bottom: 1.5rem;
 }
 
+.post-body a {
+  color: #bc7259;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .post-content article {
