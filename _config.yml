@@ -15,7 +15,7 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 url    : "http://mastiffsystems.com" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/mastiff-systems" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Mastiff Systems
 email      : support@mastiffsystems.com #this is also the email contact forms will go to
