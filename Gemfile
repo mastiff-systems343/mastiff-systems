@@ -17,3 +17,8 @@ end
 gem 'rack', '2.2.7'
 gem 'jekyll-admin'
 gem 'sass-embedded', '< 1.54'
+
+source "https://rubygems.org"
+gem "jekyll"
+gem "csv"
+gem "bigdecimal"
