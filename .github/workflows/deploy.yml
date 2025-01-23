@@ -21,7 +21,7 @@ jobs:
     - name: Deploy code
       run: |
         ssh user@your-server-ip << 'EOF'
-          cd /path/to/your/project
+          cd /var/www/mastiff-systems
           git pull origin main
           ./deploy.sh  # Adjust to your deployment script if needed
         EOF
