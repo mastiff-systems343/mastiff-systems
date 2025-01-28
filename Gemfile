@@ -1,4 +1,6 @@
 #after any changes to the Gemfile, execute bundle update!
+ruby "3.1.6"
+
 source "https://rubygems.org"
 
 gem "jekyll-remote-theme"
