@@ -1,5 +1,5 @@
 #after any changes to the Gemfile, execute bundle update!
-ruby "3.1.6"
+ruby "3.0.4"
 source "https://rubygems.org"
 
 gem "jekyll-remote-theme"
@@ -25,3 +25,6 @@ gem "csv"
 gem "bigdecimal"
 
 gem "google-protobuf", "~> 3.24.0" 
+gem 'rails', '6.1.7.3'
+gem 'pg', '>= 1.3.0', '< 1.5.0'
+
