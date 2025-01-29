@@ -1,30 +1,67 @@
-#after any changes to the Gemfile, execute bundle update!
-ruby "3.0.4"
 source "https://rubygems.org"
 
-gem "jekyll-remote-theme"
+ruby "3.0.4"
 
-gem "jekyll-paginate"
+# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
+gem "rails", "~> 7.1.5", ">= 7.1.5.1"
 
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
-  # gem "github-pages" # https://github.com/github/pages-gem
+# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
+gem "sprockets-rails"
+
+# Use sqlite3 as the database for Active Record
+gem "sqlite3", ">= 1.4"
+
+# Use the Puma web server [https://github.com/puma/puma]
+gem "puma", ">= 5.0"
+
+# Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
+gem "importmap-rails"
+
+# Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
+gem "turbo-rails"
+
+# Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
+gem "stimulus-rails"
+
+# Build JSON APIs with ease [https://github.com/rails/jbuilder]
+gem "jbuilder"
+
+# Use Redis adapter to run Action Cable in production
+# gem "redis", ">= 4.0.1"
+
+# Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
+# gem "kredis"
+
+# Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
+# gem "bcrypt", "~> 3.1.7"
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
+
+# Reduces boot times through caching; required in config/boot.rb
+gem "bootsnap", require: false
+
+# Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
+# gem "image_processing", "~> 1.2"
+
+group :development, :test do
+  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+  gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
 end
 
-# Uncomment the following line if developing on Windows: 
-# Performance-booster for watching directories on Windows
- gem "wdm", ">= 0.1.0" if Gem.win_platform?
- gem 'wdm', '>= 0.1.0', platforms: [:mswin, :mingw, :x64_mingw]
+group :development do
+  # Use console on exceptions pages [https://github.com/rails/web-console]
+  gem "web-console"
 
-gem 'rack', '2.2.7'
-gem 'jekyll-admin'
-gem 'sass-embedded', '< 1.54'
+  # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
+  # gem "rack-mini-profiler"
 
-gem "jekyll"
-gem "csv"
-gem "bigdecimal"
+  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
+  # gem "spring"
+end
 
-gem "google-protobuf", "~> 3.24.0" 
-gem 'rails', '6.1.7.3'
-gem 'pg', '>= 1.3.0', '< 1.5.0'
-
+group :test do
+  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
+  gem "capybara"
+  gem "selenium-webdriver"
+end
