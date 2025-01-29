@@ -1,6 +1,5 @@
 #after any changes to the Gemfile, execute bundle update!
 ruby "3.1.6"
-
 source "https://rubygems.org"
 
 gem "jekyll-remote-theme"
@@ -15,6 +14,7 @@ end
 # Uncomment the following line if developing on Windows: 
 # Performance-booster for watching directories on Windows
  gem "wdm", ">= 0.1.0" if Gem.win_platform?
+ gem 'wdm', '>= 0.1.0', platforms: [:mswin, :mingw, :x64_mingw]
 
 gem 'rack', '2.2.7'
 gem 'jekyll-admin'
