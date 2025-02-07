@@ -11,3 +11,4 @@ gem 'webrick'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem for Windows platforms
 gem "tzinfo-data", platforms: %i[mswin mswin64 mingw x64_mingw jruby]
+gem 'bootsnap', require: false
