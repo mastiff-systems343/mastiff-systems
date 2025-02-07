@@ -9,6 +9,5 @@ gem 'jekyll-remote-theme'
 gem 'jekyll-paginate'
 gem 'webrick'
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem for Windows platforms
-gem "tzinfo-data", platforms: %i[mswin mswin64 mingw x64_mingw jruby]
-gem 'bootsnap', '>= 1.4.0', require: false
+# Windows compatibility
+gem 'tzinfo-data', platforms: %i[mswin mswin64 mingw x64_mingw jruby]
