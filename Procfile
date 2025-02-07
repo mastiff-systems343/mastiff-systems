@@ -1,2 +1,1 @@
-web: bundle exec jekyll serve --host 0.0.0.0 --port $PORT
-web: ./deploy.sh
+web: bundle exec rackup --host 0.0.0.0 --port $PORT
