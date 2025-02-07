@@ -113,7 +113,6 @@ DEPENDENCIES
   jekyll-admin
   jekyll-paginate
   jekyll-remote-theme
-  tzinfo
   tzinfo-data
   webrick
 
