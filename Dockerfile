@@ -1,13 +1,18 @@
-FROM registry.docker.com/library/ruby:3.2.6
+FROM ruby:3.2.6-slim
 
 WORKDIR /app
 
+# Install required packages
 RUN apt-get update && apt-get install -y build-essential libvips curl && \
     rm -rf /var/lib/apt/lists/*
 
+# Copy the app files and install gems
 COPY . .
+RUN bundle install
 
-RUN bundle install --jobs 4 --retry 3
+# Build the site with Jekyll
+RUN bundle exec jekyll build
 
-EXPOSE 9292  # Default Rack port
-CMD ["bundle", "exec", "rackup", "--host", "0.0.0.0", "--port", "9292"]
+# Serve the site dynamically
+EXPOSE 4000
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--port", "4000"]
