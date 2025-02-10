@@ -5,7 +5,7 @@ date: 2024-05-21
 categories: [technology]
 author: Norris
 author_avatar: assets/img/team/Norris-avatar.png
-image: assets/img/blog/5-data-insurance.png
+image: /assets/img/blog/5-data-insurance.png
 excerpt:
 ---
 

@@ -5,7 +5,7 @@ date: 2024-09-11
 categories: [organization]
 author: Lai
 author_avatar: assets/img/team/Lai-avatar.png
-image: assets/img/blog/6-notion.png
+image: /assets/img/blog/6-notion.png
 excerpt:
 ---
 

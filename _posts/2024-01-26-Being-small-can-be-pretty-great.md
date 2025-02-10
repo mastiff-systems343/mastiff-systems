@@ -5,7 +5,7 @@ date: 2024-01-26
 categories: [blog, update]
 author: Chris
 author_avatar: assets/img/team/Chris-avatar.png
-image: assets/img/blog/2-being-small.png
+image: /assets/img/blog/2-being-small.png
 excerpt:
 ---
 
