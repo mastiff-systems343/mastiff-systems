@@ -222,7 +222,7 @@ header.masthead {
   text-align: center;
   color: white;
   background-image: url("../img/header-small.jpg");
-  background-color: rgba(66, 57, 65, 1);
+  background-color: rgba(66, 57, 65, 0.85); /* Adjusted opacity for better readability */
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -230,40 +230,117 @@ header.masthead {
   background-size: cover;
   position: relative;
   width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
   height: 75vh;
-  min-height: 400px;
+  min-height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
 }
 
+/* ✅ Limits container width for better readability */
 header.masthead .container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 15px;
-  height: 100%;
+  max-width: 1100px;
+  width: 100%;
+  text-align: left;
 }
 
+/* ✅ Adjusts intro text for readability */
 header.masthead .intro-text {
-  padding: 150px 50px;
-  max-width: 100%;
+  max-width: 800px; /* Prevents text from stretching too wide */
+  margin: 0 auto;
+  padding: 50px 20px;
 }
 
+/* ✅ Title */
 header.masthead .intro-text .intro-lead-in {
-  font-size: 24px;
+  font-size: clamp(20px, 2.5vw, 28px);
   font-style: italic;
-  line-height: 22px;
-  margin-bottom: 25px;
-  text-align: left;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 20px;
 }
 
+/* ✅ Subheading */
 header.masthead .intro-text .intro-heading {
-  font-size: 16px;
+  font-size: clamp(16px, 1.8vw, 20px);
   font-weight: 300;
-  line-height: 50px;
-  margin-bottom: 25px;
-  text-align: left;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* ✅ Button Styling */
+header.masthead .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* 📌 Responsive Adjustments for Laptops & iPads */
+@media (max-width: 1024px) { /* iPad Pro 12.9-inch */
+  header.masthead {
+    height: 65vh;
+    min-height: 500px;
+  }
+
+  header.masthead .container {
+    max-width: 900px;
+  }
+
+  header.masthead .intro-text {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 834px) { /* iPad Pro 11-inch */
+  header.masthead {
+    height: 50vh;
+    min-height: 480px;
+  }
+
+  header.masthead .container {
+    text-align: center;
+  }
+
+  header.masthead .intro-text {
+    max-width: 90%;
+    text-align: center;
+  }
+
+  header.masthead .intro-text .intro-lead-in,
+  header.masthead .intro-text .intro-heading {
+    text-align: center;
+  }
+}
+
+@media (max-width: 820px) { /* Standard iPad (810px - 820px) */
+  header.masthead {
+    height: 58vh;
+    min-height: 450px;
+  }
+
+  header.masthead .intro-text {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 768px) { /* iPad Mini & Small Tablets */
+  header.masthead {
+    height: auto;
+    padding: 50px 0;
+  }
+
+  header.masthead .intro-text {
+    padding: 40px 15px;
+  }
+
+  header.masthead .btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
 }
 
 @media (max-width: 586px) {
@@ -303,6 +380,22 @@ header.masthead .intro-text .intro-heading {
   header.masthead .btn-xl {
     font-size: 12px;
     padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) { /* Smallest Tablets & Phones */
+  header.masthead {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  header.masthead .intro-text {
+    padding: 30px 10px;
+  }
+
+  header.masthead .btn {
+    font-size: 1rem;
+    padding: 8px 18px;
   }
 }
 
