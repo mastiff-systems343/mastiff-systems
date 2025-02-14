@@ -1050,6 +1050,52 @@ section#contact :-ms-input-placeholder {
 .pagination-post a:hover {
   color: #617a8c;
 }
-
-
 /*# sourceMappingURL=agency.css.map */
+
+/* Scroll for Author posts */
+.post-carousel-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.post-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 10px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.post-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.post-preview {
+  min-width: 300px;
+  max-width: 300px;
+  flex-shrink: 0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.prev-btn {
+  margin-right: 10px;
+}
+
+.next-btn {
+  margin-left: 10px;
+}
+/* End scroll for Author posts */

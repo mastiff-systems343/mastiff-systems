@@ -686,16 +686,43 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div>
 <h3>Posts by Fitz</h3>
-  <div class="post-list">
+
+
+
+
+
+<div class="post-carousel-container">
   
-  
-  
-  
-  
-  
+
+  <div class="post-carousel" id="postCarousel">
+    
   </div>
 
   
+</div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const carousel = document.getElementById("postCarousel");
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+
+  if (!carousel || !prevBtn || !nextBtn) return;
+
+  const postWidth = document.querySelector(".post-preview").offsetWidth;
+  const gap = 20; // Space between posts
+  let scrollAmount = postWidth * 3 + gap * 3; // Scroll three posts at a time
+
+  nextBtn.addEventListener("click", function() {
+    carousel.scrollBy({ left: scrollAmount, behavior: "smooth" });
+  });
+
+  prevBtn.addEventListener("click", function() {
+    carousel.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+  });
+});
+</script>
 
     </main>
   </div>
@@ -724,7 +751,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <div class="col-md-4 text-right">
         <p>
           Total Size of Site: 
-          19.24 MB
+          19.25 MB
         </p>
         <p id="footer-render-time">Render Time: Loading...</p>
       </div>
