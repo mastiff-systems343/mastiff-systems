@@ -17,14 +17,17 @@ title: Get Help
       <br>
       <br>
       <br>
-      <br>
-      <br>
-      <br>
 <p><strong><em>How-to</em></strong></p>
-<a href="{{ site.baseurl }}/how-to/" class="dark-links">How to find your computer name.</a><br>
-<a href="{{ site.baseurl }}/dwservice/" class="dark-links">How to setup dwservice.</a>
+<a href="{{ site.baseurl }}/get-help pages/how-to/" class="dark-links">How to find your computer name</a><br>
+<a href="{{ site.baseurl }}/get-help pages/dwservice/" class="dark-links">How to setup dwservice</a>
+      <br>
+      <br>
+      <br>
+<p><strong><em>Tools</em></strong></p>
+<a href="{{ site.baseurl }}/get-help pages/send/" class="dark-links">Send an encrypted file</a><br>
 </div>
     <div class="col-lg-6">
+    <br>
       <form id="contactForm" action="https://formspree.io/f/mwpkkwzw" novalidate="novalidate" method="POST">
             <div class="form-group">
               <input name="name" class="form-control" id="name" type="text" placeholder="Name*" required="required" data-validation-required-message="Please enter your name.">

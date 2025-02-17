@@ -1,4 +1,5 @@
-I"I<div class="container">
+I"ù<p><br /></p>
+<div class="container">
   <div class="row">
     <div class="col-lg-6">
       <h2 class="section-heading text-left">Contact Us.</h2>
@@ -12,14 +13,17 @@
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
 <p><strong><em>How-to</em></strong></p>
-<a href="/how-to/" class="dark-links">How to find your computer name.</a><br />
-<a href="/dwservice/" class="dark-links">How to setup dwservice.</a>
+<a href="/get-help pages/how-to/" class="dark-links">How to find your computer name</a><br />
+<a href="/get-help pages/dwservice/" class="dark-links">How to setup dwservice</a>
+      <br />
+      <br />
+      <br />
+<p><strong><em>Tools</em></strong></p>
+<a href="/get-help pages/send/" class="dark-links">Send an encrypted file</a><br />
 </div>
     <div class="col-lg-6">
+    <br />
       <form id="contactForm" action="https://formspree.io/f/mwpkkwzw" novalidate="novalidate" method="POST">
             <div class="form-group">
               <input name="name" class="form-control" id="name" type="text" placeholder="Name*" required="required" data-validation-required-message="Please enter your name." />
