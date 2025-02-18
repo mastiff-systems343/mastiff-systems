@@ -1,0 +1,27 @@
+---
+layout: default
+title: Tools
+---
+<div class="tools-index">
+  <h1 class="page-heading">Tools</h1>
+
+  <div class="tool-list">
+    {% for tool in site.tool %}
+    <article class="tool-preview">
+      <div class="tool-image">
+        {% if tool.image %}
+          <img src="{{ site.baseurl }}{{ tool.image }}" alt="{{ tool.title }}">
+        {% endif %}
+      </div>
+      <h2 class="tool-title">
+        <a href="{{ site.baseurl }}{{ tool.url }}">{{ tool.title }}</a>
+      </h2>
+      <div class="tool-excerpt">
+        {{ tool.excerpt | strip_html | truncatewords: 50 }}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>
+
+
