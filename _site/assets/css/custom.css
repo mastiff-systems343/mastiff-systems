@@ -1072,6 +1072,48 @@ section#contact :-ms-input-placeholder {
   margin-bottom: 1rem;
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .tools-index {
+      padding: 1rem;
+  }
+
+  .tool-title {
+      font-size: 1.5rem;
+  }
+}
+
+.tool-list {
+  grid-template-columns: 1fr; /* Single column for small screens */
+}
+
+.tool-image {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+
+.tool-image img {
+  width: 350px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .tool-list {
+      grid-template-columns: repeat(2, 1fr); /* Maintain 2 columns for medium-sized screens */
+  }
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+  .tool-list {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns for very large screens */
+  }
+}
+/* End of tools index */
+
 .pagination {
   text-align: center;
   margin-top: 20px;
