@@ -18,11 +18,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-          fetch-depth: 0
+  with:
+    submodules: recursive
+    fetch-depth: 0
+
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
