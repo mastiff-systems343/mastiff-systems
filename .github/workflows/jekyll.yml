@@ -51,6 +51,13 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+          with:
+          submodules: false
+          fetch-depth: 0
+
+
   deploy:
     environment:
       name: github-pages
