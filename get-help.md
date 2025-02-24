@@ -26,7 +26,10 @@ title: Get Help
 </div>
     <div class="col-lg-6">
     <br>
-      <form id="contactForm" action="https://formspree.io/f/mwpkkwzw" novalidate="novalidate" method="POST">
+<form
+  action="https://formspree.io/f/xzzdlzja"
+  method="POST"
+>
             <div class="form-group">
               <input name="name" class="form-control" id="name" type="text" placeholder="Name*" required="required" data-validation-required-message="Please enter your name.">
               <p class="help-block text-danger"></p>
