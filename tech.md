@@ -43,6 +43,7 @@ title: Mastiff Technical Reference
       <a href="https://drive.google.com/file/d/1badR8zW6avJ1wHzkkGTVuxryTlxrts9G/view" target="_blank" class="read-more">Download Windows Server 2012 ISO</a>
       <a href="https://drive.google.com/file/d/1A6_heQB8mWVDyvLDslM8l5IXidPr4Yhy/view" target="_blank" class="read-more">Download Windows Server 2019 ISO</a>
       <a href="https://drive.google.com/file/d/1TeqhlwffuAZjXBlUvntfPsrthyPoW_-0/view" target="_blank" class="read-more">Download Windows Server 2022 ISO</a>
+      <a href="https://opal-python.pikapod.net/public/32caa0878501" target="_blank" class="read-more">Download Windows Server 2025 ISO</a>
       <a href="https://drive.google.com/file/d/1JBDRyoL8jPZqAXnNWkqrBqDK5Kq2o3Yj/view" target="_blank" class="read-more">Download Windows 7</a>
     </article>
 
