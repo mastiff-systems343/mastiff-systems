@@ -48,7 +48,7 @@ paginate: 6 # Number of posts per page
 paginate_path: "/blog/page:num/" # URL structure for paginated pages
 
 permalink: /:categories/:title/
-permalink: /tools/:title/
+
 
 
 navigation:
@@ -66,8 +66,9 @@ collections:
     output: true
   category:
     output: true
-  tool:
+  tools:
     output: true
+    permalink: /tools/:title/
     
 
 defaults:

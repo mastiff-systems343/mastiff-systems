@@ -6,18 +6,18 @@ title: Tools
   <h1 class="page-heading">Tools</h1>
 
   <div class="tool-list">
-    {% for tool in site.tool %}
-    <article class="tool-preview">
-      <div class="tool-image">
+    {% for tool in site.tools %}
+    <article class="tools-preview">
+      <div class="tools-image">
         {% if tool.image %}
-          <img src="{{ site.baseurl }}{{ tool.image }}" alt="{{ tool.title }}">
+          <img src="{{ site.baseurl }}{{ tools.image }}" alt="{{ tools.title }}">
         {% endif %}
       </div>
       <h2 class="tool-title">
-        <a href="{{ site.baseurl }}{{ tool.url }}">{{ tool.title }}</a>
+        <a href="{{ site.baseurl }}{{ tools.url }}">{{ tools.title }}</a>
       </h2>
-      <div class="tool-excerpt">
-        {{ tool.excerpt | strip_html | truncatewords: 50 }}
+      <div class="tools-excerpt">
+        {{ tools.excerpt | strip_html | truncatewords: 50 }}
       </div>
     </article>
     {% endfor %}
