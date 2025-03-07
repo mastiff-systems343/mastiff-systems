@@ -106,6 +106,7 @@ DEPENDENCIES
   jekyll-admin
   jekyll-paginate
   jekyll-remote-theme
+  jekyll-sass-converter (~> 2.2)
   rack (~> 2.2)
   tzinfo-data
   webrick

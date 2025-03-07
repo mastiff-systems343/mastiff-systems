@@ -9,6 +9,7 @@ gem 'jekyll-remote-theme'
 gem 'jekyll-paginate'
 gem 'webrick'
 gem 'rack', '~> 2.2'
+gem "jekyll-sass-converter", "~> 2.2"
 
 
 # Windows compatibility
