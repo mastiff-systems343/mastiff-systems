@@ -5,23 +5,19 @@ title: Tools
 <div class="tools-index">
   <h1 class="page-heading">Tools</h1>
 
-  <div class="tool-list">
-    {% for tool in site.tools %}
-    <article class="tools-preview">
-      <div class="tools-image">
-        {% if tool.image %}
-          <img src="{{ site.baseurl }}{{ tools.image }}" alt="{{ tools.title }}">
-        {% endif %}
-      </div>
-      <h2 class="tool-title">
-        <a href="{{ site.baseurl }}{{ tools.url }}">{{ tools.title }}</a>
-      </h2>
-      <div class="tools-excerpt">
-        {{ tools.excerpt | strip_html | truncatewords: 50 }}
-      </div>
-    </article>
-    {% endfor %}
+  <div class="post-list">
+    <a href="{{ site.baseurl }}/tools/send/" class="post-preview-link">
+      <article class="post-preview">
+        <div class="post-image">
+          <img src="{{ site.baseurl }}/assets/img/tools/send.png" alt="Send Logo">
+        </div>
+        <h2 class="post-title">Send</h2>
+        <div class="post-excerpt">
+          Encrypt and send files with a link that automatically expires to ensure your important documents don’t stay online forever.
+        </div>
+      </article>
+    </a>
   </div>
-</div>
-
-
+  
+  
+  

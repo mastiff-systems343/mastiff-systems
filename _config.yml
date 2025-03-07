@@ -66,9 +66,6 @@ collections:
     output: true
   category:
     output: true
-  tools:
-    output: true
-    permalink: /tools/:title/
     
 
 defaults:

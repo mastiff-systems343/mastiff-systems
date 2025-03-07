@@ -875,6 +875,12 @@ section#contact :-ms-input-placeholder {
   border-bottom: none;
 }
 
+.post-preview-link:hover {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .post-title {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
