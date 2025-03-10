@@ -145,7 +145,7 @@ img::-moz-selection {
 }
 
 ul.navbar-nav {
-  gap: 1rem;
+  gap: 2rem;
   align-items: center;
 }
 

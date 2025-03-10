@@ -288,15 +288,6 @@ document.addEventListener('DOMContentLoaded', function() {
       
           
           {
-              title: "Blog",
-              url: "/blog/",
-              content: "  Latest Posts      {% for post in paginator.posts %}                  {% if post.image %}                  {% endif %}                    {{ post.title }}                    {% if post.author %}          by {{ post.author }}        {% endif %}        {{ post.date | date_to_string }}                    {{ post.excerpt | strip_html | truncatewords: 50 }}            Read More        {% endfor %}    {% if paginator.total_pages > 1 %}      {% if paginator.previous_page %}              Prev    {% else %}       Prev    {% endif %}      {% for page in (1..paginator.total_pages) %}      {% if page == paginator.page %}        {{ page }}      {% elsif page == 1 %}        {{ page }}      {% else %}        {{ page }}      {% endif %}    {% endfor %}      {% if paginator.next_page %}              Next     {% else %}      Next     {% endif %}    {% endif %}",
-              type: "Page"
-          },
-          
-      
-          
-          {
               title: "Tools",
               url: "/tools/",
               content: "  Tools                                              Send                  Encrypt and send files with a link that automatically expires to ensure your important documents don’t stay online forever.                          ",
@@ -304,6 +295,15 @@ document.addEventListener('DOMContentLoaded', function() {
           },
           
       
+          
+      
+          
+          {
+              title: "Blog",
+              url: "/blog/",
+              content: "  Latest Posts      {% for post in paginator.posts %}                  {% if post.image %}                  {% endif %}                    {{ post.title }}                    {% if post.author %}          by {{ post.author }}        {% endif %}        {{ post.date | date_to_string }}                    {{ post.excerpt | strip_html | truncatewords: 50 }}            Read More        {% endfor %}    {% if paginator.total_pages > 1 %}      {% if paginator.previous_page %}              Prev    {% else %}       Prev    {% endif %}      {% for page in (1..paginator.total_pages) %}      {% if page == paginator.page %}        {{ page }}      {% elsif page == 1 %}        {{ page }}      {% else %}        {{ page }}      {% endif %}    {% endfor %}      {% if paginator.next_page %}              Next     {% else %}      Next     {% endif %}    {% endif %}",
+              type: "Page"
+          },
           
       
           
@@ -374,6 +374,15 @@ document.addEventListener('DOMContentLoaded', function() {
               title: "Mastiff Technical Reference",
               url: "/tech/",
               content: "                              Vmware             Virtualization and cloud computing technologies                        ESXi Free Key: N560H-060E4-H88P9-0L08P-39UJ4                SXI Free 6 key: 540A5-0UH92-18M80-0K1U6-8DEMJ             Download 7.0U3n      Download 8.0      Download 8.0u1 ISO                                Windows Server              Running server applications and managing network infrastructure            Download Windows Server 2012 ISO      Download Windows Server 2019 ISO      Download Windows Server 2022 ISO      Download Windows Server 2025 ISO      Download Windows 7                                NetTime              Time synchronization on computer networks            Download                                Advanced IP Scanner            Reliable and free network scanner to analyze LAN            Download                                Starwind Converter              Cloning and transforming VMs from one format to another            Download                                ReflectDLBT              Backup and recovery software for home PCs.            Download                                Rufus              Format and create bootable USB flash drives or Live USBs            Download                                Profile Wizard              Workstation domain migration tool to transfer current user profile to a new domain, Azure AD, or local user account, preserving all your data and settings            Download                                Comet              A flexible backup platform, giving you total control over your backup environment and storage destinations            Download                                Site24x7 Installers              KEY: us_e6921abb637d97d95f9a4f7c09b8a15f            Download    ",
+              type: "Page"
+          },
+          
+      
+          
+          {
+              title: "Version Control",
+              url: "/version/",
+              content: "",
               type: "Page"
           },
           
@@ -749,14 +758,14 @@ document.addEventListener('DOMContentLoaded', function() {
         <a href="https://network.creativecommons.org/">
           <img src="/assets/img/icons/cc.png" alt="Creative Commons Logo" height="31"/>
         </a>
-        <p>Version: 2.0</p>
+        <p><a href="/version/" class="author-name">2.0</a></p>
       </div>
 
       <!-- Total Size of Site and Render Time -->
       <div class="col-md-4 text-right">
         <p>
           Total Size of Site: 
-          19.74 MB
+          19.85 MB
         </p>
         <p id="footer-render-time">Render Time: Loading...</p>
       </div>
@@ -777,7 +786,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   </script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
-  <script src="/assets/js/search.js"></script>
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
