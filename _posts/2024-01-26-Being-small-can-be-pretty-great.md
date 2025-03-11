@@ -6,7 +6,7 @@ categories: [blog, update]
 author: Chris
 author_avatar: assets/img/team/Chris-avatar.png
 image: /assets/img/blog/2-being-small.png
-excerpt:
+excerpt: Growth is often pursued at any cost, but at Mastiff, we focus on delivering real value for clients and growing organically for long-term success.
 ---
 
 Maybe it is a human trait, but we are obsessed with growth. We always seem to want to be moving to the next thing. Is it just how we are wired? For the next dopamine fix? Now, do not get me wrong, growth certainly is positive but is it the end all be all? We go to endless lengths just to show growth in a single quarter. If there isn’t constant growth, then shareholders get restless, and CEOs lose their jobs. But sometimes, the whole thing seems downright silly.

@@ -6,7 +6,7 @@ categories:
 author: Chris
 author_avatar: /assets/img/team/Chris-avatar.png
 image: /assets/img/blog/10-commodore.png
-excerpt:
+excerpt: Commodore, known for the Commodore 64 and Amiga, changed home computing but went bankrupt in 1994. Their legacy lives on through emulators like CCS64 and C64.
 ---
 Of all the computer manufactures, Commodore has probably made the most significant impact on the industry and many gamers have never heard of them. Commodore Business Machines was founded in Toronto, Canada in 1962.
 

@@ -7,7 +7,7 @@ categories: [apple, IOS]
 author: Chris
 author_avatar: /assets/img/team/Chris-avatar.png
 image: /assets/img/blog/9-cables.png
-excerpt:
+excerpt: Apple's cables are pricey, but their quality, speed, and reliability make them worth it. As Steve Jobs said, "Apple doesn’t know how to make junk."
 ---
 
 Check out the full report [USB-C head-to-head comparison](https://www.lumafield.com/article/usb-c-cable-charger-head-to-head-comparison-apple-thunderbolt-amazon-basics)

@@ -6,7 +6,7 @@ categories: [vmware, linux, proxmox, opensource]
 author: Chris
 author_avatar: assets/img/team/Chris-avatar.png
 image: /assets/img/blog/4-on-linux.png
-excerpt:
+excerpt: I’ve loved VMware since my teenage years, but with its recent shift to subscription-based pricing, Mastiff is moving away from it. We're embracing open-source solutions, as they better serve small businesses and avoid the growing subscription trap. 
 ---
 
 I fell in love with the idea of Linux when I was 15 or 16 years old. I would read magazines about the Linux operating system and the power of open source, which fascinated me. The idea of a free (free as in freedom and free as in free lunch) operating system that anyone could modify for their own specific needs seemed like a gift from the community to the world. Simply incredible. I wanted to run Linux as my primary operating system, but I was also an aspiring musician and had gone on my first real tour when I was 16. I was working as an assistant engineer in a few recording studios, learning the science of audio engineering in the evenings when I wasn't in class or on the road playing shows, and I had music software I needed to run, none of which worked on Linux.

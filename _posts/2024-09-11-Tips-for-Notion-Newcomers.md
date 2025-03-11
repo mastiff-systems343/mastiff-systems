@@ -6,7 +6,7 @@ categories: [organization]
 author: Lai
 author_avatar: assets/img/team/Lai-avatar.png
 image: /assets/img/blog/6-notion.png
-excerpt:
+excerpt: Start organizing with Notion!
 ---
 
 Notion is one of the tools that Mastiff uses to organize our documents and information. It serves as our centralized hub for information, collaboration, and knowledge-sharing. We’ve built our wiki, library, and various work dashboards in Notion. It’s incredibly flexible—think of it like a blank canvas where you can create whatever you need. But I know all that freedom can feel a bit overwhelming at first. So, let me walk you through some basics to help you get started!

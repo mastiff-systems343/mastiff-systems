@@ -28,15 +28,15 @@ layout: default
         {% assign categories = page.categories %}
       {% endif %}
       {% for category in categories %}
-      <a href="{{site.baseurl}}/categories/{{category|slugize}}">{{category}}</a>
-      {% unless forloop.last %}&nbsp;{% endunless %}
+        <a href="{{site.baseurl}}/categories/{{category|slugize}}">{{category}}</a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </div>
-  
+    
     <div class="post-pagination">
       <ul class="pagination-post">
         {% if page.previous %}
-          <li class="page-item">
+          <li class="page-item prev">
             <a href="{{ site.baseurl }}{{ page.previous.url }}" aria-label="Previous">
               <img src="{{ site.baseurl }}/assets/img/icons/prev.png" alt="Previous" height="16" /> {{ page.previous.title }}
             </a>
@@ -44,13 +44,13 @@ layout: default
         {% endif %}
     
         {% if page.next %}
-          <li class="page-item">
+          <li class="page-item next">
             <a href="{{ site.baseurl }}{{ page.next.url }}" aria-label="Next">
               {{ page.next.title }} <img src="{{ site.baseurl }}/assets/img/icons/next.png" alt="Next" height="16" />
             </a>
           </li>
         {% endif %}
       </ul>
-    </div>
+    </div>    
   </article>
 </div>

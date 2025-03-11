@@ -1,6 +1,7 @@
 ---
 layout: page
 title: How to install dwservice in your computer.
+excerpt: To install DWService, follow these steps to set up the agent and accept our invitation for remote access.
 ---
 
 <h1>How to install dwservice in your computer.</h1>

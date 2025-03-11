@@ -6,7 +6,7 @@ categories: [technology]
 author: Norris
 author_avatar: assets/img/team/Norris-avatar.png
 image: /assets/img/blog/5-data-insurance.png
-excerpt:
+excerpt: Data insurance covers costs if your data is stolen or compromised, offering peace of mind and business protection, but it comes with costs and limits.
 ---
 
 For starters, What is Data Insurance?

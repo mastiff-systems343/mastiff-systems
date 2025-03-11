@@ -1146,54 +1146,110 @@ section#contact :-ms-input-placeholder {
 
 /* Pagination */
 .pagination {
-  text-align: center;
-  margin-top: 20px;
-  justify-content: center;
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center the pagination */
+  gap: 10px; /* Adds spacing between elements */
+  padding: 20px;
+}
+
+.pagination a, 
+.pagination em {
+  display: inline-block;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.pagination em {
+  background: #c9a38d; /* Background for active page */
 }
 
 .pagination a {
-  padding: 10px 20px;
-  margin: 0 5px;
-  background-color: rgba(188, 114, 89, 0.5);
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
+  color: #333;
+  background: #e4c3b1;
 }
 
 .pagination a:hover {
-  background-color: #617a8c;
+  background: #d1a48b;
 }
 
-.pagination .prev {
-  float: left;
-}
-
+.pagination .prev,
 .pagination .next {
-  float: right;
+  background: none !important;
+  border: none !important;
+  padding: 0; /* Remove any padding that might be affecting alignment */
 }
 
-.page-item {
-  display: inline-flex;
-  justify-content: space-between;
+/* Remove background from arrow images */
+.pagination .prev img,
+.pagination .next img {
+  vertical-align: middle; /* Aligns the icons with text */
+  margin-right: 5px;
+  background: none !important; /* Ensure no background */
+  border: none !important;
 }
 
 .post-pagination {
   margin-top: 1.5rem;
-  row-gap: 280px;
+  display: flex;
+  justify-content: space-between; /* Ensures space between "Previous" on the left and "Next" on the right */
+  width: 100%;
 }
 
-.pagination-post a {
-  width: 180px; /* Fixed width */
-  height: 100px;
-  color: #bc7259;
-  text-decoration: none;
-  word-wrap: break-word;
-  justify-content: center;
-  gap: 200px;
+.pagination-post {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  justify-content: space-between; /* Distributes space between "Previous" and "Next" */
 }
 
-.pagination-post a:hover {
+.pagination-post .page-item {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for the "Previous" button */
+.pagination-post .prev a {
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  color: #423941;
+  text-align: left;
+}
+
+.pagination-post .prev a:hover {
+  background-color: #d1c8b9; /* Darker background on hover */
   color: #617a8c;
+}
+
+/* Styling for the "Next" button */
+.pagination-post .next a {
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  color: #423941;
+  text-align: right;
+}
+
+.pagination-post .next a:hover {
+  background-color: #d1c8b9; /* Darker background on hover */
+  color: #617a8c;
+}
+
+/* Push the "Previous" button to the far left */
+.pagination-post .prev {
+  margin-right: auto; 
+}
+
+/* Push the "Next" button to the far right */
+.pagination-post .next {
+  margin-left: auto; 
 }
 
 

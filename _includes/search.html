@@ -53,7 +53,6 @@
 .search-result-item .result-type {
   font-size: 0.8em;
   color: #666;
-  text-transform: uppercase;
   margin-bottom: 2px;
 }
 
@@ -63,7 +62,7 @@
 }
 
 .search-result-item .result-excerpt {
-  font-size: 0.9em;
+  font-size: 0.7em;
   color: #666;
   margin-top: 3px;
 }
@@ -74,115 +73,168 @@
       padding: 0 15px;
   }
 }
+
+  /* Global CSS to ensure no text is capitalized */
+  .no-capitalize {
+    text-transform: none !important;
+  }
+
+  mark {
+    background-color: yellow; /* Highlight the search term */
+  }
 </style>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const searchInput = document.getElementById('searchInput');
-  const searchResults = document.getElementById('searchResults');
-  
-  // Get all content data
-  const searchableContent = [
-      // Add posts
-      {% for post in site.posts %}
-          {
-              title: "{{ post.title | escape }}",
-              url: "{{ site.baseurl }}{{ post.url }}",
-              content: {{ post.content | strip_html | strip_newlines | jsonify }},
-              type: "Post",
-              date: "{{ post.date | date: '%B %d, %Y' }}"
-          },
-      {% endfor %}
-      
-      // Add pages
-      {% for page in site.pages %}
-          {% if page.title and page.title != "" and page.layout != "null" %}
-          {
-              title: "{{ page.title | escape }}",
-              url: "{{ site.baseurl }}{{ page.url }}",
-              content: {{ page.content | strip_html | strip_newlines | jsonify }},
-              type: "Page"
-          },
-          {% endif %}
-      {% endfor %}
-      
-      // Add any custom collections
-      {% for collection in site.collections %}
-          {% for item in collection.docs %}
-              {
-                  title: "{{ item.title | escape }}",
-                  url: "{{ site.baseurl }}{{ item.url }}",
-                  content: {{ item.content | strip_html | strip_newlines | jsonify }},
-                  type: "{{ collection.label | capitalize }}"
-              },
-          {% endfor %}
-      {% endfor %}
-  ];
+    document.addEventListener('DOMContentLoaded', function() {
+        const searchInput = document.getElementById('searchInput');
+        const searchResults = document.getElementById('searchResults');
+        
+        // Get all content data
+        const searchableContent = [
+            // Add posts
+            {% for post in site.posts %}
+                {
+                    title: "{{ post.title | escape }}",
+                    url: "{{ site.baseurl }}{{ post.url }}",
+                    content: {{ post.excerpt | strip_html | strip_newlines | jsonify }},
+                    type: "Post"
+                },
+            {% endfor %}
+            
+            // Add pages
+            {% for page in site.pages %}
+                {% if page.title and page.title != "" and page.layout != "null" %}
+                {
+                    title: "{{ page.title | escape }}",
+                    url: "{{ site.baseurl }}{{ page.url }}",
+                    content: {{ page.excerpt | strip_html | strip_newlines | jsonify }},
+                    type: "Page"
+                },
+                {% endif %}
+            {% endfor %}
 
-  searchInput.addEventListener('input', function() {
-      const searchTerm = this.value.toLowerCase();
-      
-      if (searchTerm.length < 2) {
-          searchResults.style.display = 'none';
-          return;
-      }
+            // Add collections 
+            {% for collection in site.collections %}
+                {% if collection.label != 'posts' %}
+                    {% for item in collection.items %}
+                    {
+                        title: "{{ item.title | escape }}",
+                        url: "{{ site.baseurl }}{{ item.url }}",
+                        content: {{ item.excerpt | strip_html | strip_newlines | jsonify }},
+                        type: "{{ collection.label | escape }}",
+                        categories: {{ item.categories | jsonify }},
+                        author: "{{ item.author | escape }}"
+                    },
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
 
-      const filteredContent = searchableContent.filter(item => {
-          const titleMatch = item.title.toLowerCase().includes(searchTerm);
-          const contentMatch = item.content.toLowerCase().includes(searchTerm);
-          return titleMatch || contentMatch;
-      }).slice(0, 10); // Limit to 10 results for better performance
+            // Include _portfolio collection explicitly
+            {% if site._portfolio %}
+                {% for item in site._portfolio %}
+                    {
+                        title: "{{ item.title | escape }}",
+                        url: "{{ site.baseurl }}{{ item.url }}",
+                        content: {{ item.excerpt | strip_html | strip_newlines | jsonify }},
+                        type: "Services"
+                    },
+                {% endfor %}
+            {% endif %}
+        ];
 
-      displayResults(filteredContent, searchTerm);
-  });
+        searchInput.addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase();
+            
+            if (searchTerm.length < 2) {
+                searchResults.style.display = 'none';
+                return;
+            }
+        
+            const filteredContent = searchableContent.filter(item => {
+                const titleMatch = item.title.toLowerCase().includes(searchTerm);
+                const contentMatch = item.content.toLowerCase().includes(searchTerm);
+                return titleMatch || contentMatch;
+            }).slice(0, 10); // Limit to 10 results for better performance
+        
+            displayResults(filteredContent, searchTerm);
+        });
+        
+        function displayResults(results, searchTerm) {
+            if (results.length === 0) {
+                searchResults.style.display = 'none';
+                return;
+            }
+        
+            searchResults.innerHTML = results
+                .map(item => {
+                    // Get a relevant excerpt containing the search term
+                    let excerpt = '';
+                    if (item.content) {
+                        const position = item.content.toLowerCase().indexOf(searchTerm);
+                        if (position !== -1) {
+                            const start = Math.max(0, position - 50);
+                            const end = Math.min(item.content.length, position + 100);
+                            excerpt = '...' + item.content.substring(start, end) + '...';
+                        }
+                    }
 
-  function displayResults(results, searchTerm) {
-      if (results.length === 0) {
-          searchResults.style.display = 'none';
-          return;
-      }
+                    // Highlight the search term in the excerpt
+                    if (excerpt) {
+                        const regex = new RegExp('(' + searchTerm + ')', 'gi');
+                        excerpt = excerpt.replace(regex, '<mark>$1</mark>');
+                    }
 
-      searchResults.innerHTML = results
-          .map(item => {
-              // Get a relevant excerpt containing the search term
-              let excerpt = '';
-              if (item.content) {
-                  const position = item.content.toLowerCase().indexOf(searchTerm);
-                  if (position !== -1) {
-                      const start = Math.max(0, position - 50);
-                      const end = Math.min(item.content.length, position + 100);
-                      excerpt = '...' + item.content.substring(start, end) + '...';
-                  }
-              }
-
-              return `
-                  <div class="search-result-item">
-                      <a href="${item.url}">
-                          <div class="result-type">${item.type}</div>
-                          <div class="result-title">${item.title}</div>
-                          ${item.date ? `<small>${item.date}</small>` : ''}
-                          ${excerpt ? `<div class="result-excerpt">${excerpt}</div>` : ''}
-                      </a>
-                  </div>
-              `;
-          })
-          .join('');
-
-      searchResults.style.display = 'block';
+                    // Safeguard for missing categories and authors
+                    const categories = item.categories && item.categories.length > 0 ? `<div class="result-categories no-capitalize">${item.categories.join(', ')}</div>` : '';
+                    const author = item.author ? `<div class="result-author no-capitalize">Author: ${item.author}</div>` : '';
+                    const date = item.date ? `<small>${item.date}</small>` : '';
+                    
+                    return `
+                        <div class="search-result-item">
+                            <a href="${item.url}">
+                                <div class="result-type no-capitalize">${item.type}</div>
+                                <div class="result-title no-capitalize">${item.title}</div>
+                                ${date}
+                                ${categories}
+                                ${author}
+                                ${excerpt ? `<div class="result-excerpt no-capitalize">${excerpt}</div>` : ''}
+                            </a>
+                        </div>
+                    `;
+                })
+                .join('');
+        
+            searchResults.style.display = 'block';
+        }
+        
+        // Close search results when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.search-container')) {
+                searchResults.style.display = 'none';
+            }
+        });
+        
+        // Prevent the form from submitting if inside a form
+        searchInput.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+            }
+        });
+    });
+</script>
+    
+<style>
+  /* Global CSS to ensure no text is capitalized */
+  .no-capitalize {
+    text-transform: none !important;
   }
 
-  // Close search results when clicking outside
-  document.addEventListener('click', function(event) {
-      if (!event.target.closest('.search-container')) {
-          searchResults.style.display = 'none';
-      }
-  });
+  mark {
+    background-color: yellow; /* Highlight the search term */
+  }
+</style>
 
-  // Prevent the form from submitting if inside a form
-  searchInput.addEventListener('keydown', function(event) {
-      if (event.key === 'Enter') {
-          event.preventDefault();
-      }
-  });
-});
-</script>
+    
+
+
+    

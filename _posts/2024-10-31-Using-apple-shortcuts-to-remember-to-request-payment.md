@@ -6,7 +6,7 @@ categories: [apple, shortcuts, apple shortcuts]
 author: Chris
 author_avatar: /assets/img/team/Chris-avatar.png
 image: /assets/img/blog/7-shortcuts.png
-excerpt:
+excerpt: Using applshortcut to automatically request payments via Apple Pay and set a recurring reminder. 
 ---
 
 I have two of my kids on my car insurance since it’s cheaper for them, so they pay

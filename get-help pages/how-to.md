@@ -1,8 +1,8 @@
 ---
 layout: page
 title: How to find your computer name.
+excerpt: Your computer's unique name helps identify it on a network. Here's how to find it on different operating systems.
 ---
-<br>
 <h1>How to find your computer name.</h1>
 
 Your computer has a unique name that helps distinguish it on a network, making it easier to identify and manage. Whether you need this information for troubleshooting, connecting to shared resources, or just satisfying your curiosity, finding your computer's name is a straightforward process. We'll guide you through the steps to discover your computer's name on various operating systems.

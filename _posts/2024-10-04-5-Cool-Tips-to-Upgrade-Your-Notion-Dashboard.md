@@ -6,7 +6,7 @@ categories: [organization]
 author: Lai
 author_avatar: assets/img/team/Lai-avatar.png
 image: /assets/img/blog/6-notion.png
-excerpt:
+excerpt: Try these to boost your Notion efficiency!
 ---
 
 You’ve made a simple Notion dashboard and are now looking to take it to the next level? Here are a few cool tips to make your dashboard work for you instead of you working on them.
