@@ -21,8 +21,8 @@ title: Get Help
       <br>
       <br>
 <p><strong><em>How-to</em></strong></p>
-<a href="{{ site.baseurl }}/get-help/How-to-find-your-computer-name/" class="dark-links">How to find your computer name</a><br>
-<a href="{{ site.baseurl }}/get-help/How-to-install-dwservice-in-your-computer/" class="dark-links">How to setup dwservice</a>
+<a href="{{ site.baseurl }}/get-help/how-to/" class="dark-links">How to find your computer name</a><br>
+<a href="{{ site.baseurl }}/get-help/dwservice/" class="dark-links">How to setup dwservice</a>
 </div>
     <div class="col-lg-6">
     <br>
