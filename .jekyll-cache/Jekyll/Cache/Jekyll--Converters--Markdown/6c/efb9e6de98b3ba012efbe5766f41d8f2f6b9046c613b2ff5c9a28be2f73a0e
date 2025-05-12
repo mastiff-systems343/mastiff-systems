@@ -1,0 +1,136 @@
+I"�<p>Our web development services create custom, responsive, and user-friendly websites tailored to your business needs. From front-end design to back-end functionality, we build secure, scalable solutions that enhance user experience and drive business growth.</p>
+
+<p><a href="/website/">Check out the websites we’ve made</a></p>
+
+<form action="https://formspree.io/f/mgvknayk" method="POST">
+  <div class="row">
+    <div class="col-lg-12">
+
+      <!-- Web Content Ready -->
+      <div class="form-group">
+        <label for="web_content_ready">Do you have your web content ready?</label>
+        <select name="web_content_ready" id="web_content_ready" class="form-control" required="">
+          <option value="Yes">Yes, take it from my existing website</option>
+          <option value="No">Yes, it's in documents ready to go</option>
+          <option value="Partially">Nope, but I will be writing it</option>
+          <option value="Partially">Nope, and I need help with it</option>
+        </select>
+      </div>
+
+      <!-- Products and Services -->
+      <div class="form-group">
+        <label for="products_services">What are your products and services?</label>
+        <textarea name="products_services" id="products_services" class="form-control"></textarea>
+      </div>
+
+      <!-- Ideal Customers -->
+      <div class="form-group">
+        <label for="ideal_customers">Who are your ideal customers?</label>
+        <textarea name="ideal_customers" id="ideal_customers" class="form-control"></textarea>
+      </div>
+
+      <!-- Visitor Goal -->
+      <div class="form-group">
+        <label for="visitors_goal">Why are they visiting your website? What’s their #1 goal?</label>
+        <textarea name="visitors_goal" id="visitors_goal" class="form-control"></textarea>
+      </div>
+
+      <!-- Sale or Lifetime Value -->
+      <div class="form-group">
+        <label for="sale_value">What’s your average sale value OR customer lifetime value?</label>
+        <textarea name="sale_value" id="sale_value" class="form-control"></textarea>
+      </div>
+
+      <!-- Reference Websites -->
+      <div class="form-group">
+        <label for="reference_websites">List 3 websites you like (with dot points for likes/dislikes)</label>
+        <textarea name="reference_websites" id="reference_websites" class="form-control"></textarea>
+      </div>
+
+      <!-- Pages List -->
+      <div class="form-group">
+        <label for="pages_list">List out the pages you want on your website</label>
+        <textarea name="pages_list" id="pages_list" class="form-control"></textarea>
+      </div>
+
+      <!-- Extra Features -->
+      <div class="form-group">
+        <label for="extra_features">Would you like to add other features on your website?</label>
+        <textarea name="extra_features" id="extra_features" class="form-control"></textarea>
+      </div>
+
+      <!-- Design Concerns -->
+      <div class="form-group">
+        <label for="design_concerns">Do you have any concerns or worries design-wise?</label>
+        <textarea name="design_concerns" id="design_concerns" class="form-control"></textarea>
+      </div>
+
+      <!-- Success Criteria -->
+      <div class="form-group">
+        <label for="success_criteria">To call your website a success, what would need to happen?</label>
+        <textarea name="success_criteria" id="success_criteria" class="form-control"></textarea>
+      </div>
+
+      <!-- Budget -->
+      <div class="form-group">
+        <label for="budget">What is your budget?</label>
+        <select name="budget" id="budget" class="form-control" required="">
+          <option value="">Select</option>
+          <option value="Below $1,000">Below $1,000</option>
+          <option value="$1,000 – $2,500">$1,000 – $2,500</option>
+          <option value="$2,500 – $5,000">$2,500 – $5,000</option>
+          <option value="Above $5,000">Above $5,000</option>
+        </select>
+      </div>
+
+<!-- Timeframe -->
+<div class="form-group">
+  <label for="launch_date">What is your timeframe for the project?</label>
+  <select name="launch_date" id="launch_date" class="form-control" required="" onchange="toggleLaunchDateInput(this.value)">
+    <option value="">Select</option>
+    <option value="Exact Date">I have an exact launch date (enter below)</option>
+    <option value="&lt;2 weeks">As quick as possible (&lt;2 weeks)</option>
+    <option value="2–4 weeks">Soon (2–4 weeks)</option>
+    <option value="4–8 weeks">No Rush (4–8 weeks)</option>
+    <option value="8+ weeks">I don't mind waiting / future project (8+ weeks)</option>
+  </select>
+</div>
+
+<!-- Exact Launch Date Input (hidden by default) -->
+<div class="form-group" id="exactLaunchDateGroup" style="display:none;">
+  <label for="exact_launch_date">Please enter your exact launch date:</label>
+  <input type="date" name="exact_launch_date" id="exact_launch_date" class="form-control" />
+</div>
+
+<script>
+  function toggleLaunchDateInput(value) {
+    const exactDateGroup = document.getElementById('exactLaunchDateGroup');
+    if (value === "Exact Date") {
+      exactDateGroup.style.display = 'block';
+    } else {
+      exactDateGroup.style.display = 'none';
+    }
+  }
+</script>
+
+      <!-- Message -->
+      <div class="form-group">
+        <label for="message">Other notes or questions?</label>
+        <textarea name="message" id="message" class="form-control"></textarea>
+      </div>
+
+      <!-- Submit -->
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary btn-xl text-uppercase">Send</button>
+      </div>
+
+      <!-- Hidden Fields -->
+      <input type="hidden" name="_subject" value="Website Inquiry Form Submission" />
+      <input type="text" name="_gotcha" style="display:none" />
+      <input type="hidden" name="_next" value="#" />
+
+    </div>
+  </div>
+</form>
+
+:ET
