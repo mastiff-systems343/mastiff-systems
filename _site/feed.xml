@@ -5,8 +5,8 @@
         <description>Mastiff Systems is a small IT services company in Lincoln, Nebraska.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 14 May 2025 20:32:54 -0500</pubDate>
-        <lastBuildDate>Wed, 14 May 2025 20:32:54 -0500</lastBuildDate>
+        <pubDate>Wed, 14 May 2025 21:47:35 -0500</pubDate>
+        <lastBuildDate>Wed, 14 May 2025 21:47:35 -0500</lastBuildDate>
         <generator>Jekyll v4.2.2</generator>
         
             <item>
@@ -34,6 +34,61 @@
                 <pubDate>Wed, 07 May 2025 00:00:00 -0500</pubDate>
                 <link>http://localhost:4000/blog/Experimenting-with-all-paid-internet-services-and-enshittification/</link>
                 <guid isPermaLink="true">http://localhost:4000/blog/Experimenting-with-all-paid-internet-services-and-enshittification/</guid>
+                
+            </item>
+        
+            <item>
+                <title>How setup power monitoring virtual machine</title>
+                <description>&lt;p&gt;Monitoring power consumption is essential for making smarter decisions, reducing costs, and promoting sustainability—whether you’re managing a data center, a smart home, or a renewable energy project. A power monitoring virtual machine (VM) simplifies this process by offering a centralized platform to collect, analyze, and visualize energy data.&lt;/p&gt;
+
+&lt;p&gt;In this blog, we’ll walk you through setting up a power monitoring VM, covering essential tools, software, and configurations to streamline your energy management. Let’s get started and optimize your setup!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Virtual Machine Host
+  You’ll need either VMware ESXi or Proxmox Virtual Environment installed on your server.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;UPS (Uninterruptible Power Supply)
+  Your UPS should have either a USB or Ethernet port for communication.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/assets/img/blog/monitoring-vm/1-UPS.png&quot; alt=&quot;UPS&quot; width=&quot;100&quot; /&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Virtual Machine Image
+  Typically downloadable from the manufacturer’s website, usually in .VMDK format.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;System Overview&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/assets/img/blog/monitoring-vm/2-overview.png&quot; alt=&quot;System Overview&quot; width=&quot;500&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In this example setup:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;We have a physical server connected to the UPS using both power and data via USB.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A hypervisor (ESXi or Proxmox) is already installed.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We’ll use the manufacturer’s utility image to deploy the power monitoring VM.&lt;/p&gt;
+
+    &lt;p&gt;⚠️ Note: The monitoring system used in this guide supports VMware ESXi only.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <pubDate>Fri, 04 Apr 2025 00:00:00 -0500</pubDate>
+                <link>http://localhost:4000/blog/How-setup-power-monitoring-virtual-machine/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/How-setup-power-monitoring-virtual-machine/</guid>
                 
             </item>
         
@@ -345,48 +400,6 @@ I haven’t forgotten to ask them since.&lt;/p&gt;
                 <pubDate>Wed, 10 Apr 2024 00:00:00 -0500</pubDate>
                 <link>http://localhost:4000/blog/On-Linux-VMware-and-Broadcom/</link>
                 <guid isPermaLink="true">http://localhost:4000/blog/On-Linux-VMware-and-Broadcom/</guid>
-                
-            </item>
-        
-            <item>
-                <title>The Remote Toolkit: Must-Have Tools for Seamless Collaboration</title>
-                <description>&lt;p&gt;As a small company with a hybrid work environment that strives to provide in-depth support to fellow small businesses, working collaboratively in an organized manner is important to promptly and accurately attend to clients’ needs. Remote work, though presenting its challenges, can be greatly facilitated with the right tools. Of course, tools should be tailored to your business type and organizational needs, but we found some tools that may help you transition from a traditional workspace to having an efficient virtual work hub. Here are some tools that have proven beneficial for Mastiff in running its operations smoothly:&lt;/p&gt;
-
-&lt;p&gt;Notion&lt;/p&gt;
-
-&lt;p&gt;Notion is a versatile productivity tool known for note-taking but offers much more. With a tailored fit space for your business, it can serve as a centralized hub for your team’s collaborative efforts, allowing you to manage databases, tasks, and customize templates for various workflows.&lt;/p&gt;
-
-&lt;p&gt;What I like about this, aside from its versatility, is that we can incorporate our creativity into organizing the company with style. Something I hope they can improve is their mobile app functionality. It is quite functional, but I mostly just use it for viewing information from pages because it does not match the richness of the desktop version, especially for complex tasks.&lt;/p&gt;
-
-&lt;p&gt;Basecamp&lt;/p&gt;
-
-&lt;p&gt;Basecamp is web-based project management software that organizes multiple projects by providing designated spaces for each one. Its features include assigning to-do lists, group and one-on-one chats, and setting up people working on the project - whether employees, outside collaborators, or clients.&lt;/p&gt;
-
-&lt;p&gt;One thing that gives me peace of mind is having a place for everything and everything is in its place. With Basecamp’s feature of allowing us to create specific spaces for a certain project, we can organize files, people who are working on it, and everyone can see the project’s progress. I just hope it can be integrated with more online tools without having to use a third-party app.&lt;/p&gt;
-
-&lt;p&gt;Helpwise&lt;/p&gt;
-
-&lt;p&gt;Helpwise is a comprehensive CRM platform with customizable plans based on your intended usage. It’s excellent for logging customer interactions, tracking sales, and executing effective marketing across different platforms.&lt;/p&gt;
-
-&lt;p&gt;Miscommunication can be a challenge in a remote work environment, so we try as much as we can to be on the same page, especially in client interactions. HubSpot has a feature that allows us to log every email, call, text, and even communication-related task on every contact we have saved.&lt;/p&gt;
-
-&lt;p&gt;Connecteam&lt;/p&gt;
-
-&lt;p&gt;Connecteam is a mobile workforce management platform with a clean interface. It’s great for an employee directory and engagement, featuring a time clock for schedule management, customizable forms for evaluations and feedback, and an updates feed for schedule-related announcements.&lt;/p&gt;
-
-&lt;p&gt;This tool is small business-friendly. With their free plan, you can access a great deal of access to their features good for 10 members. It may be overwhelming at first, but they provide short demos for every feature.&lt;/p&gt;
-
-&lt;p&gt;Keeper&lt;/p&gt;
-
-&lt;p&gt;Keeper is a password manager designed to securely store and manage information. It includes a tool for generating strong, unique passwords to reduce the risk of cyber threats, along with two-factor authentication (2FA) for an extra layer of protection.&lt;/p&gt;
-
-&lt;p&gt;Everyone has at least once struggled to remember their passwords, and I did too. I work mainly on keeping the company organized and deal with a lot of information; having a secure place to put sensitive information is one less thing to worry about.&lt;/p&gt;
-
-&lt;p&gt;Great news! All of these have their own mobile applications, allowing you to access them at your fingertips and work on the go. It is important to know your organization’s needs before searching for tools so they will fit your intended usage, but these are some of the tools that have contributed to Mastiff Systems’ progress in its mission to be organized from within, allowing us to provide seamless service that establishes and maintains successful client relationships.&lt;/p&gt;
-</description>
-                <pubDate>Mon, 19 Feb 2024 00:00:00 -0600</pubDate>
-                <link>http://localhost:4000/blog/The-Remote-Toolkit-Must-Have-Tools-for-Seamless-Collaboration/</link>
-                <guid isPermaLink="true">http://localhost:4000/blog/The-Remote-Toolkit-Must-Have-Tools-for-Seamless-Collaboration/</guid>
                 
             </item>
         

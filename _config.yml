@@ -30,7 +30,7 @@ logo:
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
-version: 2.0
+version: v1.0.0
 
 analytics:
   google: #Google Analytics tracking code here
