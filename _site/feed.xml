@@ -5,8 +5,8 @@
         <description>Mastiff Systems is a small IT services company in Lincoln, Nebraska.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 14 May 2025 21:47:35 -0500</pubDate>
-        <lastBuildDate>Wed, 14 May 2025 21:47:35 -0500</lastBuildDate>
+        <pubDate>Thu, 15 May 2025 12:56:36 -0500</pubDate>
+        <lastBuildDate>Thu, 15 May 2025 12:56:36 -0500</lastBuildDate>
         <generator>Jekyll v4.2.2</generator>
         
             <item>
@@ -67,7 +67,7 @@
 &lt;p&gt;&lt;strong&gt;System Overview&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/assets/img/blog/monitoring-vm/2-overview.png&quot; alt=&quot;System Overview&quot; width=&quot;500&quot; /&gt;
+  &lt;img src=&quot;/assets/img/blog/monitoring-vm/2-overview.png&quot; alt=&quot;System Overview&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;In this example setup:&lt;/p&gt;
@@ -85,6 +85,153 @@
     &lt;p&gt;⚠️ Note: The monitoring system used in this guide supports VMware ESXi only.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Step-by-Step Setup Guide&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/assets/img/blog/monitoring-vm/3-esxi.png&quot; alt=&quot;ESXI&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Verify UPS Detection via SSH&lt;/strong&gt;&lt;br /&gt;
+    - Login to your VMware host through SSH.&lt;br /&gt;
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/4-ssh.png&quot; alt=&quot;We logged in as root&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    &lt;strong&gt;At the prompt, type &lt;code&gt;lsusb&lt;/code&gt;&lt;/strong&gt;. This command will list all USB devices connected to your physical server.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/5-lsusb.png&quot; alt=&quot;Success, VMware is able to detect the UPS&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    &lt;strong&gt;Download the VMDK image from the manufacturer’s website&lt;/strong&gt;&lt;br /&gt;
+    For this example, the UPS manufacturer is Cyber Power Systems.&lt;br /&gt;
+    - If your UPS is connected via USB, download the first option.&lt;br /&gt;
+    - If your UPS is connected via the network, download the second (remote) option.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/6-power-panel.png&quot; alt=&quot;Power Panel&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;After downloading&lt;br /&gt;Unzip the file to extract the necessary image files.&lt;/li&gt;
+
+  &lt;li&gt;
+    Login to the VMware web GUI and create a virtual machine.&lt;br /&gt;
+    Select &lt;em&gt;Deploy a virtual machine from an OVF or OVA file&lt;/em&gt;, then click &lt;strong&gt;Next&lt;/strong&gt;.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/7-Virtual-machine.png&quot; alt=&quot;Select Creation Type&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    Enter the name of the virtual machine (e.g., &lt;strong&gt;MonitorVM&lt;/strong&gt;).&lt;br /&gt;
+    - Drag and drop the &lt;code&gt;.ovf&lt;/code&gt; and &lt;code&gt;.vmdk&lt;/code&gt; files into the box.&lt;br /&gt;
+    - Click &lt;strong&gt;Next&lt;/strong&gt; once they are loaded.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-2.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    Choose the storage location.&lt;br /&gt;
+    For this example, we only have one option. Click &lt;strong&gt;Next&lt;/strong&gt;.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-3.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    Select Thin Provisioning.&lt;br /&gt;
+    - Untick &lt;strong&gt;Power on automatically&lt;/strong&gt;.&lt;br /&gt;
+    - Click &lt;strong&gt;Next&lt;/strong&gt;.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-4.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    Review the configuration and click &lt;strong&gt;Finish&lt;/strong&gt;.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-5.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    Wait for the virtual machine to finish creating.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/9-creation.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    Configure the power monitoring VM.&lt;br /&gt;
+    - Add a USB device to the VM.&lt;br /&gt;
+    - Choose your UPS from the list.&lt;br /&gt;
+    - Click &lt;strong&gt;Save&lt;/strong&gt;.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/10-configure.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/11-usb.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/12-save.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    Turn on the virtual machine.&lt;br /&gt;
+    Take note of the IP address automatically assigned by ESXi.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/13-IP.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    Access the web GUI.&lt;br /&gt;
+    Open a browser and enter the IP address with the correct port (e.g., &lt;code&gt;http://10.11.0.124:3052&lt;/code&gt;).&lt;br /&gt;
+    Refer to the manufacturer’s manual to determine the correct port.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/14-web-gui.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/14-web-gui-2.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    Change the default password (mandatory).&lt;br /&gt;
+    After clicking &lt;strong&gt;Save&lt;/strong&gt;, you will be logged out and must log in again with your new password.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/15-save.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/16-complete-info.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    After logging in, you&apos;ll see complete UPS information on the left-hand side.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/16-complete-info.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    Configure shutdown settings.&lt;br /&gt;
+    Navigate to &lt;strong&gt;Settings &amp;gt; Shutdown Events&lt;/strong&gt;.&lt;br /&gt;
+    - Verify connectivity to your ESXi server.&lt;br /&gt;
+    - Set your preferred shutdown duration and delay.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/18-shutdown-delays.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    Click &lt;strong&gt;Apply&lt;/strong&gt; to save your shutdown configurations.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/19-apply.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 </description>
                 <pubDate>Fri, 04 Apr 2025 00:00:00 -0500</pubDate>
                 <link>http://localhost:4000/blog/How-setup-power-monitoring-virtual-machine/</link>
