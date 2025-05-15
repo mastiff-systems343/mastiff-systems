@@ -1,6 +1,6 @@
-I"À<p>Our web development services create custom, responsive, and user-friendly websites tailored to your business needs. From front-end design to back-end functionality, we build secure, scalable solutions that enhance user experience and drive business growth.</p>
+I"õ<p>Our web development services create custom, responsive, and user-friendly websites tailored to your business needs. From front-end design to back-end functionality, we build secure, scalable solutions that enhance user experience and drive business growth.</p>
 
-<p><a href="/website/">Check out the websites weâ€™ve made</a></p>
+<p><a href="/website-portfolio/">Check out the websites weâ€™ve made</a></p>
 
 <form action="https://formspree.io/f/mgvknayk" method="POST">
   <div class="row">
@@ -10,6 +10,7 @@
       <div class="form-group">
         <label for="web_content_ready">Do you have your web content ready?</label>
         <select name="web_content_ready" id="web_content_ready" class="form-control" required="">
+          <option value="">Select</option>
           <option value="Yes">Yes, take it from my existing website</option>
           <option value="No">Yes, it's in documents ready to go</option>
           <option value="Partially">Nope, but I will be writing it</option>

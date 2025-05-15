@@ -1,0 +1,61 @@
+---
+layout: default
+title: Website portfolio
+---
+<div class="websites-index">
+  <div class="stack-container">
+    <div class="image-grid">
+      <div class="card" style="background-image: url('{{ site.baseurl }}/assets/img/websites/mark/mark.jpg');"></div>
+      <div class="card" style="background-image: url('{{ site.baseurl }}/assets/img/websites/mark/mark-2.jpg');"></div>
+      <div class="card" style="background-image: url('{{ site.baseurl }}/assets/img/websites/mark/mark-3.jpg');"></div>
+    </div>
+    <div class="stack-info">
+<h3 class="stack-title">
+  <a href="https://mastiff-systems343.github.io/mark-scheidies-library/" target="_blank">Mark Scheidies Library</a>
+</h3>
+      <p class="stack-description">
+        A digital collection of books, articles, and archival materials curated over the years.
+      </p>
+    </div>
+  </div>
+
+  <!-- Repeat .stack-container as needed -->
+</div>
+
+<!-- Only one lightbox modal outside -->
+<div id="lightbox-modal" class="lightbox hidden">
+  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" src="" alt="Enlarged preview">
+  <span class="lightbox-prev" onclick="navigateLightbox(-1)">&#10094;</span>
+  <span class="lightbox-next" onclick="navigateLightbox(1)">&#10095;</span>
+</div>
+
+<script>
+  const images = document.querySelectorAll('.card');
+  const lightbox = document.getElementById('lightbox-modal');
+  const lightboxImg = document.getElementById('lightbox-img');
+
+  let currentIndex = 0;
+  const imgSources = [];
+
+  images.forEach((img, i) => {
+    const bg = img.style.backgroundImage;
+    const src = bg.slice(5, -2); // Remove url("...") wrapping
+    imgSources.push(src);
+
+    img.addEventListener('click', () => {
+      currentIndex = i;
+      lightboxImg.src = imgSources[i];
+      lightbox.classList.remove('hidden');
+    });
+  });
+
+  function closeLightbox() {
+    lightbox.classList.add('hidden');
+  }
+
+  function navigateLightbox(direction) {
+    currentIndex = (currentIndex + direction + imgSources.length) % imgSources.length;
+    lightboxImg.src = imgSources[currentIndex];
+  }
+</script>

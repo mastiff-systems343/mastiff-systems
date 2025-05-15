@@ -1300,3 +1300,127 @@ section#contact :-ms-input-placeholder {
 .next-btn {
   margin-left: 10px;
 }
+
+/* Website Portfolio */
+.websites-index {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.stack-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  color: #1a1a1a;
+}
+
+.image-grid {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-grid .card {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  border: 2px solid #f3c8a3;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: absolute;
+}
+
+.image-grid .card:nth-child(2) {
+  transform: rotate(5deg);
+  top: -5px;
+  left: -5px;
+  z-index: 2;
+}
+.image-grid .card:nth-child(3) {
+  transform: rotate(-5deg);
+  top: -10px;
+  left: -10px;
+  z-index: 1;
+}
+.image-grid .card:nth-child(1) {
+  z-index: 3;
+}
+
+.stack-info {
+  text-align: left;
+  margin-top: 16px;
+  color: #151119;
+}
+
+.stack-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.stack-description {
+  font-size: 0.95rem;
+}
+
+/* Lightbox Modal */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  flex-direction: column;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.lightbox.hidden {
+  display: none;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.lightbox-prev,
+.lightbox-next {
+  position: absolute;
+  top: 50%;
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  padding: 0 1rem;
+  transform: translateY(-50%);
+}
+
+.lightbox-prev {
+  left: 0;
+}
+.lightbox-next {
+  right: 0;
+}
