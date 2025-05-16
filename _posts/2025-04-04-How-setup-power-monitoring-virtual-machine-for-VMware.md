@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How setup power monitoring virtual machine"
+title: "How to setup power monitoring virtual machine for VMware"
 date: 2025-04-04
 categories: 
 author: Norris

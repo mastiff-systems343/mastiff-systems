@@ -5,8 +5,8 @@
         <description>Mastiff Systems is a small IT services company in Lincoln, Nebraska.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Thu, 15 May 2025 12:56:36 -0500</pubDate>
-        <lastBuildDate>Thu, 15 May 2025 12:56:36 -0500</lastBuildDate>
+        <pubDate>Fri, 16 May 2025 12:30:19 -0500</pubDate>
+        <lastBuildDate>Fri, 16 May 2025 12:30:19 -0500</lastBuildDate>
         <generator>Jekyll v4.2.2</generator>
         
             <item>
@@ -38,7 +38,7 @@
             </item>
         
             <item>
-                <title>How setup power monitoring virtual machine</title>
+                <title>How to setup power monitoring virtual machine for VMware</title>
                 <description>&lt;p&gt;Monitoring power consumption is essential for making smarter decisions, reducing costs, and promoting sustainability—whether you’re managing a data center, a smart home, or a renewable energy project. A power monitoring virtual machine (VM) simplifies this process by offering a centralized platform to collect, analyze, and visualize energy data.&lt;/p&gt;
 
 &lt;p&gt;In this blog, we’ll walk you through setting up a power monitoring VM, covering essential tools, software, and configurations to streamline your energy management. Let’s get started and optimize your setup!&lt;/p&gt;
@@ -234,8 +234,8 @@
 &lt;/ol&gt;
 </description>
                 <pubDate>Fri, 04 Apr 2025 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/blog/How-setup-power-monitoring-virtual-machine/</link>
-                <guid isPermaLink="true">http://localhost:4000/blog/How-setup-power-monitoring-virtual-machine/</guid>
+                <link>http://localhost:4000/blog/How-setup-power-monitoring-virtual-machine-for-VMware/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/How-setup-power-monitoring-virtual-machine-for-VMware/</guid>
                 
             </item>
         
