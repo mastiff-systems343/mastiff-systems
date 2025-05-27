@@ -1,4 +1,4 @@
-I"1<h1>How to install dwservice in your computer.</h1>
+I"€<h1>How to install dwservice in your computer.</h1>
 
 <p>We use DWService as our remote access tool, which allows us to control and manage devices remotely. To get started, weâ€™ll guide you through the installation of the agent and help you accept the invitation we sent you.
 <br />
@@ -7,7 +7,7 @@
 <ul class="post-list1">
     <ol>
       <li>Visit <a href="https://www.dwservice.net/en/home.html" target="_blank" class="author-name">DWService.net.</a></li>
-      <li>Click on Sign Up to create a new account.</li>
+      <li>Click on <a href="/get-help/dwservice-sign-up/" target="_blank" class="author-name">Sign Up</a> to create a new account.</li>
       <li>Fill in the required information and verify your email address.</li>
     </ol>
 </ul>

@@ -13,7 +13,7 @@ We use DWService as our remote access tool, which allows us to control and manag
 <ul class="post-list1">
     <ol>
       <li>Visit <a href="https://www.dwservice.net/en/home.html" target="_blank" class="author-name">DWService.net.</a></li>
-      <li>Click on Sign Up to create a new account.</li>
+      <li>Click on <a href="{{ site.baseurl }}/get-help/dwservice-sign-up/" target="_blank" class="author-name">Sign Up</a> to create a new account.</li>
       <li>Fill in the required information and verify your email address.</li>
     </ol>
 </ul>
