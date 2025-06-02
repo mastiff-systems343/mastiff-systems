@@ -1073,8 +1073,8 @@ section#contact :-ms-input-placeholder {
 
 .tool-image {
   display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
+  justify-content: center; 
+  align-items: center; 
 }
 
 .tool-image img {
@@ -1089,18 +1089,28 @@ section#contact :-ms-input-placeholder {
 }
 
 .tool-title a {
-  color: #333;
+  color: #333 !important;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .tool-title a:hover {
   color: #bc7259;
+  text-decoration: none !important;
 }
 
 .tool-excerpt {
   color: #555;
   margin-bottom: 1rem;
+}
+
+.tool-preview-link {
+  text-decoration: none !important;
+  color: #333;
+}
+
+.tool-preview-link:hover {
+  text-decoration: none !important;
 }
 
 /* Responsive adjustments */
