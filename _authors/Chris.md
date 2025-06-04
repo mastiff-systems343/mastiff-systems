@@ -4,7 +4,7 @@ name: Chris
 fullname: Chris Scheidies
 image: /assets/img/team/about/Chris.png
 ---
-Before cloud computing had a name and virtualization was more than a whisper in the engine halls, Chris was already mapping the future. With a career spanning from the dial-up days of the ’90s to modern hyperscale systems, he’s served as a Level III Systems Administrator for one of America’s largest enterprises and later as a trusted Technology Advisor for a global leader in music technology. He’s seen tech’s golden age rise—and helped build it.
+Before cloud computing had a name and virtualization was more than a whisper in the engine halls, Chris was already tuning the gears of innovation. He began his professional journey advising one of the world’s largest music technology companies, bridging sound and circuitry with insight and ingenuity. Years later, he ascended to Level III Systems Administrator for one of the biggest enterprises in America—where his command of infrastructure and systems became legendary.
 
 Known across guilds for his strategic vision and mastery of virtualization, Chris balances intricate system design with a passion for long-term sustainability, both digital and earthly. Where others see wires and workloads, he sees ecosystems and possibilities.
 
@@ -26,6 +26,20 @@ Off the clock, Chris shifts seamlessly from system orchestration to real-world s
 **Favorite Music:**
 
 Pink Floyd—timeless, layered, and visionary. A perfect echo of the man himself.
+
+<br>
+
+**Connect with Chris Beyond the Console:**
+
+Step into his world of strategy, sound, and steam:
+
+ - Follow him on Mastodon: [@tdped](https://mastodon.social/@tdped)
+
+ - Challenge him to a match on [Lichess](https://lichess.org/@/thedreampolice) or [Chess.com](https://www.chess.com/member/thedreampolice)
+
+ - Find him on Steam and discover what he's been tinkering with: [thedreampolice](https://steamcommunity.com/id/thedreampolice)
+
+ - Listen to his music: [https://music.apple.com/profile/scheidies](https://music.apple.com/profile/scheidies)
 
 <!--split-->
 
