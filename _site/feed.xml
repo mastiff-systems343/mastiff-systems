@@ -5,9 +5,101 @@
         <description>Mastiff Systems is a small IT services company in Lincoln, Nebraska.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 04 Jun 2025 09:11:30 -0500</pubDate>
-        <lastBuildDate>Wed, 04 Jun 2025 09:11:30 -0500</lastBuildDate>
+        <pubDate>Wed, 04 Jun 2025 09:59:58 -0500</pubDate>
+        <lastBuildDate>Wed, 04 Jun 2025 09:59:58 -0500</lastBuildDate>
         <generator>Jekyll v4.2.2</generator>
+        
+            <item>
+                <title>Welcome to Our Cybersecurity Blog Series</title>
+                <description>&lt;p&gt;Welcome to Mastiff Systems’ new blog series on cybersecurity. We’re dedicated to helping our partners protect their businesses from digital threats. Whether you’re a solo practitioner or manage a team , this series is designed to provide non-technical business owners and managers with the tools and knowledge they need to navigate today’s complex security landscape.&lt;/p&gt;
+
+&lt;h4 id=&quot;why-cybersecurity-matters-for-small-businesses&quot;&gt;Why Cybersecurity Matters for Small Businesses&lt;/h4&gt;
+
+&lt;p&gt;In today’s interconnected world, no business is too small to be targeted by cybercriminals. While high-profile breaches at large corporations make headlines, small to medium-sized businesses including dental practices, law firms, and local service providers are increasingly in the crosshairs. If your office manages sensitive data like financial records, patient information, or confidential client communications, cybersecurity should be a top operational priority.&lt;/p&gt;
+
+&lt;p&gt;Here are some eye-opening statistics:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;61% of small businesses were targeted by a cyberattack in 2021 (Verizon, 2023)&lt;/li&gt;
+  &lt;li&gt;43% of all data breaches involve small and medium-sized businesses (IBM, 2022)&lt;/li&gt;
+  &lt;li&gt;The average cost of a breach for SMBs is $120,000 &lt;a href=&quot;https://www.hiscox.com&quot;&gt;(Hiscox, 2021)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;60% of affected small businesses shut down within six months &lt;a href=&quot;https://staysafeonline.org&quot;&gt;(U.S. National Cyber Security Alliance)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cybercriminals target smaller businesses because they often lack in-house security teams or dedicated IT personnel. For dental offices, this means patient records are attractive targets. For legal and financial firms, it’s confidential documents and data.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-cybersecurity&quot;&gt;What Is Cybersecurity?&lt;/h4&gt;
+
+&lt;p&gt;Cybersecurity is the practice of protecting your data, systems, and devices from unauthorized access, theft, or damage. For a small or medium-sized office, this includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Safeguarding client and patient information&lt;/li&gt;
+  &lt;li&gt;Preventing malware, ransomware, and phishing attacks&lt;/li&gt;
+  &lt;li&gt;Backing up essential files&lt;/li&gt;
+  &lt;li&gt;Training staff to recognize cyber threats&lt;/li&gt;
+  &lt;li&gt;Complying with regulations like HIPAA, PCI-DSS, or FTC Safeguards&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cybersecurity isn’t just a technical issue—it’s essential for business continuity.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-consequences-of-a-cyberattack-can-include&quot;&gt;The Consequences of a Cyberattack Can Include:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Financial loss from fraud or ransom payments&lt;/li&gt;
+  &lt;li&gt;Downtime and productivity loss&lt;/li&gt;
+  &lt;li&gt;Damage to your business’s reputation&lt;/li&gt;
+  &lt;li&gt;Legal penalties and regulatory fines (e.g., HIPAA, GDPR, CCPA)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is especially important if you handle sensitive data . If your business deals with personal or financial data, you may be subject to regulations such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HIPAA for healthcare and dental offices&lt;/li&gt;
+  &lt;li&gt;PCI-DSS for processing credit card payments&lt;/li&gt;
+  &lt;li&gt;FTC Safeguards Rule for financial services&lt;/li&gt;
+  &lt;li&gt;State-level privacy laws, such as California’s CCPA&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Noncompliance can result in fines, legal action, and loss of client trust. Implementing cybersecurity best practices helps you meet these standards and build credibility.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-to-expect-from-this-blog-series&quot;&gt;What to Expect from This Blog Series&lt;/h4&gt;
+
+&lt;p&gt;Our goal is to break down key cybersecurity concepts into actionable insights that any business owner can understand. Each post will feature real-world examples and step-by-step guidance to help protect your office.&lt;/p&gt;
+
+&lt;p&gt;Upcoming Articles Include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Phishing &amp;amp; Email Security&lt;/strong&gt; - Learn how scammers use fake emails and how to identify and stop them.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ransomware &amp;amp; Backup&lt;/strong&gt; - Understand how ransomware works and how strong backups can be your lifesaver.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Passwords, MFA &amp;amp; Account Security&lt;/strong&gt; - Develop better password practices and use multi-factor authentication effectively.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Software Updates &amp;amp; Malware Protection&lt;/strong&gt; - Discover why regular updates and antivirus software are vital to your defense.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Network Security Basics&lt;/strong&gt; - Tips for securing your Wi-Fi, router, and remote access tools.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Social Engineering &amp;amp; AI Threats&lt;/strong&gt; - Learn how to recognize deepfakes, voice cloning, and modern manipulation tactics.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Staff Awareness &amp;amp; Training&lt;/strong&gt; - Build a cybersecurity-aware culture without overwhelming your team.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Final Thoughts&lt;/p&gt;
+
+&lt;p&gt;Cybersecurity is not just an IT responsibility—it’s a business-wide commitment. Small practices that prioritize digital security not only avoid regulatory penalties but also gain a competitive advantage by building trust with their clients.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for our next post: &lt;strong&gt;Phishing and Email Security&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sources:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.verizon.com/business/resources/reports/dbir/&quot;&gt;Verizon 2023 Data Breach Investigations Report&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ibm.com/reports/data-breach&quot;&gt;IBM Cost of a Data Breach Report 2022&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.hiscoxgroup.com/cyber-readiness-2021&quot;&gt;Hiscox Cyber Readiness Report 2021&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://staysafeonline.org&quot;&gt;National Cyber Security Alliance&lt;/a&gt;&lt;/p&gt;
+
+</description>
+                <pubDate>Wed, 04 Jun 2025 00:00:00 -0500</pubDate>
+                <link>http://localhost:4000/blog/Welcome-to-Our-Cybersecurity-Blog-Series/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/Welcome-to-Our-Cybersecurity-Blog-Series/</guid>
+                
+            </item>
         
             <item>
                 <title>Experimenting with all paid internet services and enshittification </title>
@@ -517,36 +609,6 @@ I haven’t forgotten to ask them since.&lt;/p&gt;
                 <pubDate>Tue, 21 May 2024 00:00:00 -0500</pubDate>
                 <link>http://localhost:4000/blog/Data-Insurance-Why-Do-Companies-Need-It-Or-Not/</link>
                 <guid isPermaLink="true">http://localhost:4000/blog/Data-Insurance-Why-Do-Companies-Need-It-Or-Not/</guid>
-                
-            </item>
-        
-            <item>
-                <title>On Linux, VMware and Broadcom.</title>
-                <description>&lt;p&gt;I fell in love with the idea of Linux when I was 15 or 16 years old. I would read magazines about the Linux operating system and the power of open source, which fascinated me. The idea of a free (free as in freedom and free as in free lunch) operating system that anyone could modify for their own specific needs seemed like a gift from the community to the world. Simply incredible. I wanted to run Linux as my primary operating system, but I was also an aspiring musician and had gone on my first real tour when I was 16. I was working as an assistant engineer in a few recording studios, learning the science of audio engineering in the evenings when I wasn’t in class or on the road playing shows, and I had music software I needed to run, none of which worked on Linux.&lt;/p&gt;
-
-&lt;p&gt;Around this time, I also discovered emulators. My mom is handicapped (she would kill me if I said she was disabled) from juvenile rheumatoid arthritis, and my dad was a counselor for the state. With my mom’s medical bills and her not being able to generate much income, we didn’t have much money growing up. We were certainly rich in everything that really mattered, but we watched our pennies. I still find myself being pretty thrifty these days as a result of that experience. I watched all my friends getting game consoles like Nintendos and Sega Genesis, but that was just more money than my parents could spare. It was a bit frustrating, but then I discovered emulators and I was hooked. An emulator is a piece of software that tricks your computer into thinking it was a game console, so I could play a lot of those games my friends were playing, right on my computer. I became obsessed with making technology do things it wasn’t necessarily supposed to do.&lt;/p&gt;
-
-&lt;p&gt;Then, in the late 90’s heard about an UC Berkley startup called VMware that would allow you to run multiple operating systems on one physical host or computer. The person who started the project saw that, in general, servers weren’t fully utilizing all the CPU, RAM, and hard drive space that they had available. They speculated that they could turn one physical server into multiple virtual servers somehow, and that turned into the concept for a hypervisor.&lt;/p&gt;
-
-&lt;p&gt;A hypervisor is an operating system (Windows is the most used operating system for desktop computers and Android on smartphones now is the most popular operating system) that lives on a piece of hardware, like a server, in which you can create virtual computers or machines. Virtual machines are very powerful technology. Essentially, you’ve wrapped a whole computer in one or two files, so you can copy those files all over the place, keep them safe, and move them between multiple hosts in real time without any downtime. It’s rather amazing technology that still feels like magic to me even after all these years, and I thoroughly enjoyed being able to work on that technology in my adult career full-time.&lt;/p&gt;
-
-&lt;p&gt;In one edition of some Linux magazine, there was an ad for VMware and a phone number, so I just called them on the phone and someone actually answered. They were a tiny startup. We discussed Linux and music software and how I could find a way to run both. I was just a dumb kid who didn’t know what he was doing, but it was still amazing that they would just talk to me. At the time, I didn’t get to dig into VMware as much as I would have liked; that would come later. I had no idea when I was 16 that I would be able to have a career in both music technology and corporate IT and how well they actually worked together.&lt;/p&gt;
-
-&lt;p&gt;I simply fell in love with VMware and the concepts, and as my IT knowledge grew, so did VMware as a company. They certainly had their share of changes in their business as Dell bought them, and they were bought and sold to other companies, but they always managed to navigate the technology landscape in a way that was very good for their users. Most of their users were people like me, server administrators who wanted to squeeze the most performance out of the servers they were working on for their clients. VMware is the backend that powers the world, and almost no one outside of tech circles has heard of them. They make billions of dollars a year now, not bad from a little startup that would answer some 16-year-old kid’s silly questions on the phone for free.&lt;/p&gt;
-
-&lt;p&gt;Sadly, a huge conglomerate called Broadcom purchased VMware outright, and it seems their intentions are to raise prices to a ridiculous level, remove any perpetual licensing, and just focus on the absolute largest companies in the world. They’ve made decisions that leave small businesses out of the discussion entirely. Personally, I am increasingly frustrated with this subscription-based world we find ourselves in. I think you should be able to buy software once and use it on your server or computers forever. I hate that you have to pay a monthly fee to use software that you have paid for in the past. VMware’s new licensing model makes it so you will have to pay a subscription on your server forever, or your virtual servers stop working. I didn’t think that was an ethical decision, and VMware’s response to the industry criticisms has been that “Subscription pricing is the industry standard.” I don’t think that’s an acceptable answer, and I don’t care what everyone else does. You need to make the right decision for yourself, and aren’t technology leaders supposed to lead regardless of industry? That’s something I appreciated about Steve Jobs and Apple at the time that he ran it. He didn’t care what the industry was doing; he was going to do what he thought was right and what he thought would make the most sense for his end-users.&lt;/p&gt;
-
-&lt;p&gt;I fear that there’s a larger trend in the tech industry that I’m increasingly unhappy with. I describe it as the tail wagging the dog. All of these tools - servers, hypervisors, printers - are tools to do something in a business, to run the business, to make the business more profitable, to make it work in some way. It seems very backward to me for a tool to dictate the business, rather than the business dictate the use of the tool that it has chosen. It seems that the tech industry has gotten a little too big for its britches, in my opinion, and has decided that they are so vital and important to business as a whole. In some cases, it’s hard to argue. Microsoft Outlook has been the email platform for business for years, despite it not necessarily being the greatest product, but certainly, we can’t be held hostage by these tech companies. We can’t fall into the subscription trap of forever payments for not that much value back other than things keep working.&lt;/p&gt;
-
-&lt;p&gt;That’s why, after 20 years of being a VMware administrator, we have decided at Mastiff to not do any new VMware projects. We will certainly maintain, upgrade, and take care of our existing VMware install’s, but we will migrate away from VMware in the future. We are moving to a hypervisor product called Proxmox that does a fantastic job for most of what we need and is fully open source, so they won’t ever really have that problem where a big company buys them out. I have personally played with Proxmox off and on for a few years now, and its latest version is quite mature. We also do a lot with Hyper-V, the Microsoft product, and of course, Microsoft Azure and Amazon AWS platforms.&lt;/p&gt;
-
-&lt;p&gt;We also refuse to install or move to Nutanix, the possible up-and-comer to replace VMware in the corporate world, as they too don’t have perpetual licensing and cost roughly the same as VMware is raising its prices to. Nutanix will trick you with amazing first-year pricing, but then you are trapped, and it’s no better than VMware, and VMware is the more mature product. I hear Nutanix reps give the same line “subscription pricing is industry standard” and it turns my stomach to hear. What a cop out. I thought tech companies didn’t follow the pack? We will work on Nutanix but we wont do a new install with it.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, our days with VMware are numbered due to them clearly not wanting to take care of small business users’ needs. It’s quite heartbreaking for me, as I’ve loved this technology since I was a teenager, but it seems like there are, at least from a business standpoint, greener pastures elsewhere. We always want to be at the forefront of new technology that can be disruptive to the industry, so it’ll be an interesting few years. Hopefully, this will go down in history as a big giant business mistake for Broadcom and VMware, and companies will learn not to be so disruptive to their users’ everyday lives. Once again, open source saves the day!&lt;/p&gt;
-</description>
-                <pubDate>Wed, 10 Apr 2024 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/blog/On-Linux-VMware-and-Broadcom/</link>
-                <guid isPermaLink="true">http://localhost:4000/blog/On-Linux-VMware-and-Broadcom/</guid>
                 
             </item>
         
