@@ -5,8 +5,8 @@
         <description>Mastiff Systems is a small IT services company in Lincoln, Nebraska.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 04 Jun 2025 09:59:58 -0500</pubDate>
-        <lastBuildDate>Wed, 04 Jun 2025 09:59:58 -0500</lastBuildDate>
+        <pubDate>Fri, 06 Jun 2025 12:21:29 -0500</pubDate>
+        <lastBuildDate>Fri, 06 Jun 2025 12:21:29 -0500</lastBuildDate>
         <generator>Jekyll v4.2.2</generator>
         
             <item>
@@ -130,10 +130,10 @@
             </item>
         
             <item>
-                <title>How to setup power monitoring virtual machine for VMware</title>
-                <description>&lt;p&gt;Monitoring power consumption is essential for making smarter decisions, reducing costs, and promoting sustainability—whether you’re managing a data center, a smart home, or a renewable energy project. A power monitoring virtual machine (VM) simplifies this process by offering a centralized platform to collect, analyze, and visualize energy data.&lt;/p&gt;
+                <title>How to setup power monitoring virtual machine</title>
+                <description>&lt;p&gt;Monitoring power consumption is crucial for making smarter decisions, reducing costs, and promoting sustainability—whether in a data center, smart home, or renewable energy project. A power monitoring virtual machine (VM) simplifies this process by providing a centralized platform to collect, analyze, and visualize energy data.&lt;/p&gt;
 
-&lt;p&gt;In this blog, we’ll walk you through setting up a power monitoring VM, covering essential tools, software, and configurations to streamline your energy management. Let’s get started and optimize your setup!&lt;/p&gt;
+&lt;p&gt;In this blog, we’ll walk you through setting up a power monitoring VM, covering essential tools, software, and configurations to streamline your energy management. Let’s get started and optimize your power monitoring setup!&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -178,10 +178,10 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Step-by-Step Setup Guide&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;procedures-for-vmware&quot;&gt;Procedures for VMWare&lt;/h4&gt;
 
 &lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/assets/img/blog/monitoring-vm/3-esxi.png&quot; alt=&quot;ESXI&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+  &lt;img src=&quot;/assets/img/blog/monitoring-vm/3-esxi.png&quot; alt=&quot;ESXI&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
 &lt;/div&gt;
 
 &lt;ol&gt;
@@ -189,14 +189,14 @@
     &lt;strong&gt;Verify UPS Detection via SSH&lt;/strong&gt;&lt;br /&gt;
     - Login to your VMware host through SSH.&lt;br /&gt;
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/4-ssh.png&quot; alt=&quot;We logged in as root&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/4-ssh.png&quot; alt=&quot;We logged in as root&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
   &lt;li&gt;
     &lt;strong&gt;At the prompt, type &lt;code&gt;lsusb&lt;/code&gt;&lt;/strong&gt;. This command will list all USB devices connected to your physical server.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/5-lsusb.png&quot; alt=&quot;Success, VMware is able to detect the UPS&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/5-lsusb.png&quot; alt=&quot;Success, VMware is able to detect the UPS&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -206,7 +206,7 @@
     - If your UPS is connected via USB, download the first option.&lt;br /&gt;
     - If your UPS is connected via the network, download the second (remote) option.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/6-power-panel.png&quot; alt=&quot;Power Panel&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/6-power-panel.png&quot; alt=&quot;Power Panel&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -216,7 +216,7 @@
     Login to the VMware web GUI and create a virtual machine.&lt;br /&gt;
     Select &lt;em&gt;Deploy a virtual machine from an OVF or OVA file&lt;/em&gt;, then click &lt;strong&gt;Next&lt;/strong&gt;.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/7-Virtual-machine.png&quot; alt=&quot;Select Creation Type&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/7-Virtual-machine.png&quot; alt=&quot;Select Creation Type&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -225,8 +225,8 @@
     - Drag and drop the &lt;code&gt;.ovf&lt;/code&gt; and &lt;code&gt;.vmdk&lt;/code&gt; files into the box.&lt;br /&gt;
     - Click &lt;strong&gt;Next&lt;/strong&gt; once they are loaded.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-2.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-2.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -234,7 +234,7 @@
     Choose the storage location.&lt;br /&gt;
     For this example, we only have one option. Click &lt;strong&gt;Next&lt;/strong&gt;.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-3.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-3.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -243,21 +243,21 @@
     - Untick &lt;strong&gt;Power on automatically&lt;/strong&gt;.&lt;br /&gt;
     - Click &lt;strong&gt;Next&lt;/strong&gt;.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-4.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-4.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
   &lt;li&gt;
     Review the configuration and click &lt;strong&gt;Finish&lt;/strong&gt;.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-5.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-5.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
   &lt;li&gt;
     Wait for the virtual machine to finish creating.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/9-creation.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/9-creation.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -267,9 +267,9 @@
     - Choose your UPS from the list.&lt;br /&gt;
     - Click &lt;strong&gt;Save&lt;/strong&gt;.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/10-configure.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/11-usb.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/12-save.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/10-configure.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/11-usb.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/12-save.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -277,7 +277,7 @@
     Turn on the virtual machine.&lt;br /&gt;
     Take note of the IP address automatically assigned by ESXi.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/13-IP.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/13-IP.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -286,8 +286,8 @@
     Open a browser and enter the IP address with the correct port (e.g., &lt;code&gt;http://10.11.0.124:3052&lt;/code&gt;).&lt;br /&gt;
     Refer to the manufacturer’s manual to determine the correct port.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/14-web-gui.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/14-web-gui-2.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/14-web-gui.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/14-web-gui-2.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -295,15 +295,15 @@
     Change the default password (mandatory).&lt;br /&gt;
     After clicking &lt;strong&gt;Save&lt;/strong&gt;, you will be logged out and must log in again with your new password.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/15-save.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/16-complete-info.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/15-save.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/16-complete-info.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
   &lt;li&gt;
     After logging in, you&apos;ll see complete UPS information on the left-hand side.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/16-complete-info.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/16-complete-info.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -313,21 +313,169 @@
     - Verify connectivity to your ESXi server.&lt;br /&gt;
     - Set your preferred shutdown duration and delay.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/18-shutdown-delays.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/18-shutdown-delays.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
   &lt;li&gt;
     Click &lt;strong&gt;Apply&lt;/strong&gt; to save your shutdown configurations.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/assets/img/blog/monitoring-vm/19-apply.png&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/19-apply.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;procedures-for-proxmox&quot;&gt;Procedures for Proxmox&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    In Proxmox, select your &lt;strong&gt;PVE node → Shell.&lt;/strong&gt;
+     Or use your favorite remote connection tool to connect to your proxmox server. List all USB ports by typing &lt;code&gt;lsusb&lt;/code&gt;
+    &lt;br /&gt;
+      Note the &lt;strong&gt;Bus&lt;/strong&gt; and &lt;strong&gt;Device&lt;/strong&gt; of your UPS device. 
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/20-proxmox-shell.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+
+  List the USB port details:&lt;br /&gt;
+   &lt;code&gt;lsusb -v -s [bus]:[device]&lt;/code&gt;&lt;br /&gt;
+   in my case&lt;br /&gt;
+   &lt;code&gt;lsusb -v -s 1:16&lt;/code&gt;&lt;br /&gt;
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/21-lsusb.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    We have to download &lt;a href=&quot;https://www.cyberpowersystems.com/products/software/power-panel-business/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;PowerPanel Business&lt;/a&gt;
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/22-powerpanel-business.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+    We are going to download PowerPanel Business – Virtual Machine (Local) since the UPS is connected directly to our bare-metal server.   
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/23-download.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+    Extract the zipped file to reveal its contents.&lt;br /&gt;
+    We will need the .OVF and .VMDK files later.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/24-extracted-files.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+    We are going to upload the .OVF and .VMDK files to our Proxmox server using SFTP or FTP software such as FileZilla, WinSCP, etc. In our case, we will use &lt;a href=&quot;https://winscp.net/eng/index.php&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;WinSCP.&lt;/a&gt; Once downloaded, install it to your device.
+  &lt;/li&gt;
+
+  &lt;li&gt;
+Upload the .OVF and .VMDK files to the Proxmox server.&lt;br /&gt;
+Using WinSCP, log in to your Proxmox server and proceed with the upload.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/26-login.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+        &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/27-logged-in.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+Create the virtual machine for CyberPower PowerPanel.&lt;br /&gt;
+In the Proxmox shell, navigate to the directory where you uploaded the .OVF and .VMDK files.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/29-proxmox-console.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+We are now ready to create the virtual machine using the following command format:
+
+&lt;code&gt;qm importovf &amp;lt;proxmox ID&amp;gt; &amp;lt;ovf source&amp;gt; &amp;lt;storage&amp;gt; --format &amp;lt;format&amp;gt;&lt;/code&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;qm&lt;/strong&gt; – Command that creates/restores a VM&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;importovf&lt;/strong&gt; – Imports virtual machines from an OVF (Open Virtualization Format) or OVA (Open Virtual Appliance) package into a hypervisor or virtualization platform&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;proxmox ID&lt;/strong&gt; – Assigns a unique Proxmox ID for the virtual machine&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ovf source&lt;/strong&gt; – The path to the OVF source file&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;storage&lt;/strong&gt; – Specifies the storage where the virtual machine will reside&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;--format&lt;/strong&gt; – Sets the disk format (e.g., raw, qcow2, vmdk)&lt;/li&gt;
+&lt;/ul&gt;
+
+For our case, &lt;code&gt;qm importovf 106 ppb4113-local.ovf local-lvm --format raw&lt;/code&gt;
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/30-proxmox-console.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+Upon entering the command, the system will display the progress of the VM creation. Wait until it reaches 100%.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/31-progress.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+Add a virtual network card and connect the UPS to the VM&lt;br /&gt;
+The virtual machine is not complete yet—we need to add a virtual network card so we can assign it an IP address later.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/32-add.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/33-network-device.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/34-usb-device.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+Check the Manufacturer and Product ID, then select Add.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/35-product-id.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/36-memory.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+Assign an IP address to PowerPanel&lt;br /&gt;
+Turn on the newly created virtual machine.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/37-ubuntu.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+Since we don&apos;t have a working IP address yet, we will assign one using DHCP.&lt;br /&gt;
+First, type ip add to identify the label of the attached network card.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/38-ip-add.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+Next, we will activate &lt;code&gt;ens18&lt;/code&gt; by typing the following command:&lt;br /&gt;
+&lt;code&gt;sudo ip link set dev ens18 up&lt;/code&gt;
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/39-admin.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+We will assign an IP address automatically using the following command:&lt;br /&gt;
+&lt;code&gt;sudo dhclient -v ens18&lt;/code&gt;&lt;br /&gt;
+Upon entering this command, the system will display the assigned IP address.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/40-ip.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+&lt;/li&gt;
+
+  &lt;li&gt;
+ Access PowerPanel using the assigned IP address and port &lt;strong&gt;3052&lt;/strong&gt;&lt;br /&gt;
+Using a browser, we can now access PowerPanel by entering the assigned IP address followed by the port number.&lt;br /&gt;
+In our case, it should be:
+&lt;code&gt;192.168.5.102:3052&lt;/code&gt;
+        &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/41-powerpanel.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+
+  &lt;li&gt;
+Upon logging in, the system will prompt you to change the password.
+Changing the password is mandatory.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/42-login.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/43-done.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 </description>
                 <pubDate>Fri, 04 Apr 2025 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/blog/How-setup-power-monitoring-virtual-machine-for-VMware/</link>
-                <guid isPermaLink="true">http://localhost:4000/blog/How-setup-power-monitoring-virtual-machine-for-VMware/</guid>
+                <link>http://localhost:4000/blog/How-setup-power-monitoring-virtual-machine/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/How-setup-power-monitoring-virtual-machine/</guid>
                 
             </item>
         

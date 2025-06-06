@@ -25,7 +25,7 @@ Off the clock, Chris shifts seamlessly from system orchestration to real-world s
 
 **Favorite Music:**
 
-Pink Floyd—timeless, layered, and visionary. A perfect echo of the man himself.
+Pink Floyd – classic, thoughtful, and endlessly replayable.
 
 <br>
 
@@ -37,7 +37,7 @@ Step into his world of strategy, sound, and steam:
 
  - Challenge him to a match on [Lichess](https://lichess.org/@/thedreampolice) or [Chess.com](https://www.chess.com/member/thedreampolice)
 
- - Find him on Steam and discover what he's been tinkering with: [thedreampolice](https://steamcommunity.com/id/thedreampolice)
+ - Find him on Steam and discover what games he is playing: [thedreampolice](https://steamcommunity.com/id/thedreampolice)
 
  - Listen to his music: [https://music.apple.com/profile/scheidies](https://music.apple.com/profile/scheidies)
 
