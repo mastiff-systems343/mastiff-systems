@@ -5,9 +5,152 @@
         <description>Mastiff Systems is a small IT services company in Lincoln, Nebraska.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 06 Jun 2025 12:21:29 -0500</pubDate>
-        <lastBuildDate>Fri, 06 Jun 2025 12:21:29 -0500</lastBuildDate>
+        <pubDate>Mon, 09 Jun 2025 12:23:22 -0500</pubDate>
+        <lastBuildDate>Mon, 09 Jun 2025 12:23:22 -0500</lastBuildDate>
         <generator>Jekyll v4.2.2</generator>
+        
+            <item>
+                <title>Phishing &amp; Email Security: How to Spot and Stop Digital Scams</title>
+                <description>&lt;p&gt;Welcome back!
+This post is part of our ongoing Cybersecurity Essentials series for small and medium-sized business (SMB) owners and non-technical teams. If you’ve ever felt overwhelmed by IT security jargon, you’re in the right place. We’re here to make these important topics simple and actionable—so you can protect your business without needing a degree in computer science.&lt;/p&gt;
+
+&lt;p&gt;Today, we’re diving into one of the most common cyber threats facing SMBs: phishing and email-based attacks.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-phishing-and-why-should-you-care&quot;&gt;What Is Phishing and Why Should You Care?&lt;/h4&gt;
+
+&lt;p&gt;Phishing is a type of cyber attack where criminals pose as someone you trust—like a customer, supplier, or bank—in an attempt to trick you into revealing sensitive information or clicking a malicious link. These scams often arrive via email, but they can also show up through text messages, social media, or messaging apps.&lt;/p&gt;
+
+&lt;p&gt;Think: fake invoices, urgent requests from “the boss,” or phony password reset emails.&lt;/p&gt;
+
+&lt;p&gt;According to Verizon’s 2023 Data Breach Investigations Report, about 75% of breaches involve the human element, including phishing, social engineering, and human error. And while large companies make headlines, SMBs are especially vulnerable—they often lack formal training and protections, lack dedicated IT team, and their teams are more likely to click something suspicious.&lt;/p&gt;
+
+&lt;p&gt;Real life examples of Phishing attacks&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Facebook &amp;amp; Google (2013–2015). A phishing campaign tricked employees at both companies into paying over $100 million in fake invoices. The attacker impersonated a real supplier, Quanta Computer, and sent convincing-looking payment requests. Link&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Elara Caring (2020). This U.S. healthcare provider fell victim when attackers accessed employee email accounts through phishing. The breach exposed personal data of over 100,000 elderly patients, including names, Social Security numbers, insurance, and financial information. Link&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Levitas Capital (2020). A hedge fund company fell victim to a whaling attack (a phishing attack specifically targeting high-level executives like CEOs and CFOs) via a fake Zoom link sent to its co-founder. The malware led to fraudulent invoices totaling $8.7 million. Though only $800,000 was lost, the reputational damage caused Levitas to lose its biggest client and ultimately shut down. Link&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;how-phishing-works&quot;&gt;How Phishing Works&lt;/h4&gt;
+&lt;p&gt;Phishing relies on social engineering—manipulating people into doing something risky, like clicking a link, entering credentials or paying invoices. It usually starts with a message that appears to be from someone you trust, such as your bank, a vendor, or a colleague.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Bait&lt;/strong&gt;
+Phishing can take many forms, not just email:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Email phishing: The classic scam “Click to reset your password” or “Your invoice is attached.”&lt;/li&gt;
+  &lt;li&gt;Spear phishing: A more targeted version, customized to you or your role.&lt;/li&gt;
+  &lt;li&gt;Smishing: Fake texts (“Your package is delayed. Track here: ”)&lt;/li&gt;
+  &lt;li&gt;Vishing: Scam phone calls impersonating tech support or financial institutions, becoming more common with the rise of AI-generated voice technology.&lt;/li&gt;
+  &lt;li&gt;Social media phishing: DMs with fake job offers or alerts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;The Hook&lt;/strong&gt;
+Once the bait lands, the attacker pushes you to act quickly like clicking a link, opening an attachment, or logging in to a fake website. These actions are designed to feel routine and urgent, lowering your defenses.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Catch&lt;/strong&gt;
+When you follow through, that’s when the real damage happens. Depending on what you clicked or entered, attackers might:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;teal your passwords or credentials&lt;/li&gt;
+  &lt;li&gt;Install malware or ransomware&lt;/li&gt;
+  &lt;li&gt;Access your company’s files, emails, or financial systems&lt;/li&gt;
+  &lt;li&gt;Impersonate you to scam others in your organization&lt;/li&gt;
+  &lt;li&gt;Redirect payments or steal funds directly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Often, the person who was phished doesn’t even realize it immediately. That’s why prevention and early detection are critical.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-to-spot-a-phishing-email&quot;&gt;How to Spot a Phishing Email&lt;/h4&gt;
+&lt;p&gt;Phishing can be delivered by email, text, phone, or even chat platforms but the red flags are often the same:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Urgency: language to pressure you to act fast like “reset now,” “account suspended,” “your boss needs this ASAP”&lt;/li&gt;
+  &lt;li&gt;Spelling and grammar mistakes: Many phishing emails are poorly written&lt;/li&gt;
+  &lt;li&gt;Suspicious links: Hover over links (but don’t click) to check their true destination.&lt;/li&gt;
+  &lt;li&gt;Unexpected attachments. Be wary of strange or unsolicited files&lt;/li&gt;
+  &lt;li&gt;Lookalike email addresses: Slight changes, like support@micros0ft.com instead of microsoft.com&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;how-you-can-protect-yourself&quot;&gt;How You Can Protect Yourself&lt;/h4&gt;
+&lt;p&gt;Phishing targets people not systems so a few smart habits go a long way. Here’s what we recommend:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Train Your Team
+Educate employees about phishing. Share examples like this article, and include cybersecurity in onboarding and ongoing training.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use Multi-Factor Authentication (MFA)
+MFA adds an extra layer of protection. Even if a password is stolen, the attacker won’t get in without the second step.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enable Email Filtering Tools
+Most platforms (like Google Workspace or Microsoft 365) offer built-in filters to detect spam, suspicious links, and spoofed senders. Use them, and mark suspicious messages accordingly.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Run a Phishing Drill
+Send your team a simulated phishing email once or twice a year. It’s a safe way to measure awareness and reinforce training.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Adopt a “Pause and Verify” Culture
+Encourage employees to double-check unusual requests especially for money or login credentials by contacting the person directly using known contact info.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;dont-let-hackers-impersonate-you&quot;&gt;Don’t Let Hackers Impersonate You&lt;/h4&gt;
+&lt;p&gt;The tips above protect you from phishing but what if someone tries to phish as you? Hackers can spoof your company’s email address and trick your clients into paying fake invoices. Even if you’re not breached, it can still harm your brand and customer trust.&lt;/p&gt;
+
+&lt;p&gt;To stop this, set up three simple email protections:&lt;/p&gt;
+
+&lt;p&gt;SPF, DKIM &amp;amp; DMARC are the tools that tell email providers which servers are allowed to send mail from your domain—and what to do if someone else tries to fake it.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SPF: Lists allowed email servers (your company) &amp;amp; blocks unauthorized senders (hackers)&lt;/li&gt;
+  &lt;li&gt;DKIM: 	Adds a digital signature to emails to prove the message wasn’t altered&lt;/li&gt;
+  &lt;li&gt;DMARC: Tells mail servers how to handle failed SPF/DKIM checks. Stops spoofed messages &amp;amp; provides reports&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once set up (usually by your IT provider or domain host), these tools run automatically to help protect your clients and your reputation.&lt;/p&gt;
+
+&lt;h5 id=&quot;quick-checklist-for-email-safety&quot;&gt;Quick Checklist for Email Safety&lt;/h5&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Enable MFA on all email accounts&quot; /&gt;
+&lt;label for=&quot;checklist1&quot;&gt; Enable MFA on all email accounts&lt;/label&gt;&lt;br /&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Never click links in unexpected emails—verify first&quot; /&gt;
+&lt;label for=&quot;checklist1&quot;&gt; Never click links in unexpected emails—verify first&lt;/label&gt;&lt;br /&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Train staff annually&quot; /&gt;
+&lt;label for=&quot;checklist1&quot;&gt; Train staff annually&lt;/label&gt;&lt;br /&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Use strong passwords and don’t reuse them&quot; /&gt;
+&lt;label for=&quot;checklist1&quot;&gt; Use strong passwords and don’t reuse them&lt;/label&gt;&lt;br /&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Use email filters and flag external messages&quot; /&gt;
+&lt;label for=&quot;checklist1&quot;&gt; Use email filters and flag external messages&lt;/label&gt;&lt;br /&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Enable SPF, DKIM and DMARC&quot; /&gt;
+&lt;label for=&quot;checklist1&quot;&gt; Enable SPF, DKIM and DMARC&lt;/label&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Final Thoughts&lt;/p&gt;
+
+&lt;p&gt;Phishing is one of the easiest ways for attackers to break into your business—but it’s also one of the easiest to prevent with the right habits and tools in place. A little awareness can go a long way in protecting your team, your data, and your reputation.
+Stay tuned for our next post: Ransomware and Data Backup !&lt;/p&gt;
+
+&lt;p&gt;Sources:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.verizon.com/business/resources/reports/dbir/&quot;&gt;Verizon Data Breach Investigations Report (DBIR)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf&quot;&gt;U.S. Department of Health and Human Services, Elara Caring Breach Report (2020)&lt;/a&gt;&lt;/p&gt;
+
+</description>
+                <pubDate>Mon, 09 Jun 2025 00:00:00 -0500</pubDate>
+                <link>http://localhost:4000/blog/Phishing-and-Email-Security-How-to-Spot-and-Stop-Digital-Scams/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/Phishing-and-Email-Security-How-to-Spot-and-Stop-Digital-Scams/</guid>
+                
+            </item>
         
             <item>
                 <title>Welcome to Our Cybersecurity Blog Series</title>
@@ -713,50 +856,6 @@ I haven’t forgotten to ask them since.&lt;/p&gt;
                 <pubDate>Wed, 11 Sep 2024 00:00:00 -0500</pubDate>
                 <link>http://localhost:4000/blog/Tips-for-Notion-Newcomers/</link>
                 <guid isPermaLink="true">http://localhost:4000/blog/Tips-for-Notion-Newcomers/</guid>
-                
-            </item>
-        
-            <item>
-                <title>Data Insurance: Why Do Companies Need It (Or Not)?</title>
-                <description>&lt;p&gt;For starters, What is Data Insurance?&lt;/p&gt;
-
-&lt;p&gt;We define data insurance for a non-techy person as a safety net for businesses and people worried about cyber threats. It covers costs if sensitive data gets stolen or if there’s a cyberattack. It’s especially crucial today when businesses use a lot of digital tools and face more online risks. With data insurance, they can feel more secure knowing they’re protected financially if something goes wrong.&lt;/p&gt;
-
-&lt;p&gt;Data Insurance vs. Life Insurance&lt;/p&gt;
-
-&lt;p&gt;Let’s break it down:&lt;/p&gt;
-
-&lt;p&gt;Life Insurance: This is a safety net for your family. If something happens to you and you can’t provide for them anymore, life insurance steps in to ensure they’re financially okay. It’s like giving them a big hug of support when you can’t be there.&lt;/p&gt;
-
-&lt;p&gt;Data Insurance: This acts as a shield. If hackers steal your sensitive information or mess with your online operations, data insurance comes to the rescue. It helps cover the costs of fixing the mess, like hiring experts or paying fines. It’s like having a superhero for your computer files, keeping them safe and sound.&lt;/p&gt;
-
-&lt;p&gt;Now, Should You Get Data Insurance?&lt;/p&gt;
-
-&lt;p&gt;Let’s consider the advantages and disadvantages.&lt;/p&gt;
-
-&lt;p&gt;Advantages:&lt;/p&gt;
-
-&lt;p&gt;Peace of Mind: It’s like having a safety net. If something bad happens to your digital assets, you know you won’t be left hanging financially.&lt;/p&gt;
-
-&lt;p&gt;Helps Cover Costs: If hackers strike or you accidentally lose important data, the insurance helps pay for fixing the mess, such as hiring experts or dealing with legal issues.&lt;/p&gt;
-
-&lt;p&gt;Protects Your Business: For companies, it’s like having a guardian for your digital side. If there’s a cyberattack, you can keep running smoothly without worrying about significant financial hits.&lt;/p&gt;
-
-&lt;p&gt;Disadvantages:&lt;/p&gt;
-
-&lt;p&gt;Costs Money: Like any insurance, you have to pay for it. Depending on the level of coverage you want, it can add up over time.&lt;/p&gt;
-
-&lt;p&gt;Not Foolproof: It won’t stop cyberattacks or data breaches from happening. It just helps you recover financially after the damage is done.&lt;/p&gt;
-
-&lt;p&gt;Policy Limits: Sometimes, there are limits on what the insurance will cover. You need to read the fine print to make sure you’re protected where you need it most.&lt;/p&gt;
-
-&lt;p&gt;It’s important to research thoroughly before deciding whether to get data insurance. Assess your specific needs, the risks you face, and the coverage options available.&lt;/p&gt;
-
-&lt;p&gt;Data insurance can provide significant benefits, especially in an age where cyber threats are ever-present. However, it’s essential to weigh the costs and limitations to determine if it’s the right choice for you or your business.&lt;/p&gt;
-</description>
-                <pubDate>Tue, 21 May 2024 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/blog/Data-Insurance-Why-Do-Companies-Need-It-Or-Not/</link>
-                <guid isPermaLink="true">http://localhost:4000/blog/Data-Insurance-Why-Do-Companies-Need-It-Or-Not/</guid>
                 
             </item>
         
