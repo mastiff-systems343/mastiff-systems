@@ -19,21 +19,18 @@ baseurl: "" # the subpath of your site, e.g. /blog
 destination: _site
 
 title      : Mastiff Systems
-email      : support@mastiffsystems.com #this is also the email contact forms will go to
+email      : support@mastiffsystems.com 
 description: "Mastiff Systems is a small IT services company in Lincoln, Nebraska."
 author     : Mastiff Systems
 logo:
   path: assets/img/clients/favicon.ico
-  height: 60px #height in px, defaults to 52px
+  height: 60px 
   width: 120px
 
 
-locale: "en-US" # See available languages in _data/sitetext.yml
+locale: "en-US" 
 
-version: v1.0.0
-
-analytics:
-  google: #Google Analytics tracking code here
+version: v1.1.0
 
 assets:
   css:
@@ -45,8 +42,8 @@ markdown: kramdown
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
 formspree_form_path: "f/mlderqre"
 
-paginate: 6 # Number of posts per page
-paginate_path: "/blog/page:num/" # URL structure for paginated pages
+paginate: 6 
+paginate_path: "/blog/page:num/" 
 
 permalink: /:categories/:title/
 permalink: /blog/:title/
@@ -81,6 +78,9 @@ defaults:
       type: category
     values:
       layout: "category"
+
+include:
+  - commit-history.txt
 
 
 

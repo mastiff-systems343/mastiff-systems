@@ -1,3 +1,17 @@
+639fbfc 2025-06-10 Updated Tim's bio
+0d099dd 2025-06-10 Updated John's bio
+6bebd6f 2025-06-09 Update Tim's bio
+3343102 2025-06-09 Posted 2nd Cybersecurity blog
+1c21b56 2025-06-06 Edited power monitoring blog post
+cbbf8dc 2025-06-04 Added blog post
+f9225dc 2025-06-04 Updated Chris' bio
+2bc08c5 2025-06-03 Updated website portfolio
+49cdc82 2025-06-02 Updated Chris's bio
+83a6177 2025-06-02 Added design language link and IT tools
+d022003 2025-05-27 Added dwservice-sign-up page
+b3971e1 2025-05-16 Separated from from service description
+6a72d6b 2025-05-15 Added blog post
+2cf23a5 2025-05-14 Updated version page
 6a32bdc 2025-05-14 Added Team Bios and web portfolio
 17cdda7 2025-05-12 Added webdev questionnaire
 2e5008b 2025-05-12 Updated blog
