@@ -3,7 +3,7 @@ layout: author
 name: Tim
 fullname: Tim Konecky
 ---
-For over 23 years, Tim “Cogscript” Konecky has shaped the silent engines of the digital world: data. From early schematics to modern warehousing, he’s mapped the flow of information like a cartographer of code—refining, tuning, and optimizing until every query sings. Specializing in reporting, ETL, and data warehouse architecture, Tim is a Microsoft-certified professional in Transact-SQL and Power BI, with Python and PowerShell always within reach of his toolkit.
+For over 23 years, Tim has shaped the silent engines of the digital world: data. From early schematics to modern warehousing, he’s mapped the flow of information like a cartographer of code—refining, tuning, and optimizing until every query sings. Specializing in reporting, ETL, and data warehouse architecture, Tim is a Microsoft-certified professional in Transact-SQL and Power BI, with Python and PowerShell always within reach of his toolkit.
 
 He’s not just a database admin—he’s a craftsman of clarity, turning rows into revelations and systems into symphonies of structure.
 
