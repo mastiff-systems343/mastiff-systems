@@ -5,9 +5,146 @@
         <description>Mastiff Systems is a small IT services company in Lincoln, Nebraska.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 10 Jun 2025 08:26:58 -0500</pubDate>
-        <lastBuildDate>Tue, 10 Jun 2025 08:26:58 -0500</lastBuildDate>
+        <pubDate>Tue, 17 Jun 2025 13:23:43 -0500</pubDate>
+        <lastBuildDate>Tue, 17 Jun 2025 13:23:43 -0500</lastBuildDate>
         <generator>Jekyll v4.2.2</generator>
+        
+            <item>
+                <title>Ransomware &amp; Data Backup: How to Protect Your Business from Digital Extortion</title>
+                <description>&lt;p&gt;Welcome back!
+This article is part of Mastiff Systems’ ongoing Cybersecurity Essentials series, written specifically for small to medium-sized business owners and non-technical teams. Last week’s topic covered phishing and email security, one of the most common entry points for cyberattacks.&lt;/p&gt;
+
+&lt;p&gt;Today, we’re focusing on ransomware, a fast-growing threat that can lock your files, freeze your operations, and demand a hefty payment to get access back.&lt;/p&gt;
+
+&lt;h4 id=&quot;why-you-should-care&quot;&gt;Why You Should Care&lt;/h4&gt;
+
+&lt;p&gt;Ransomware doesn’t just affect large corporations. It’s increasingly hitting smaller organizations like dental clinics, law firms, and local service providers. These businesses are often more vulnerable because they don’t have advanced IT defenses, yet they store valuable data like patient records, legal documents, or financial files that attackers know you’ll pay to get back.&lt;/p&gt;
+
+&lt;p&gt;A ransomware attack can:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lock you out of your own systems and files&lt;/li&gt;
+  &lt;li&gt;Force you to halt operations&lt;/li&gt;
+  &lt;li&gt;Damage client trust and your reputation&lt;/li&gt;
+  &lt;li&gt;Cost millions in ransom and even more in recovery&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you’re curious about the scale of these threats, here are links to public databases that track real-world breach incidents in the USA. There are around five new breaches reported every day, affecting businesses of all sizes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Medical Data Breaches (U.S.): &lt;a href=&quot;https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf&quot;&gt;HHS OCR Breach Portal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;General Data Breaches (All Industries): &lt;a href=&quot;https://privacyrights.org/data-breaches&quot;&gt;Privacy Rights Clearinghouse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;California-Specific Breach Notices: &lt;a href=&quot;https://oag.ca.gov/privacy/databreach/list&quot;&gt;California Attorney General Breach List&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Real-World Examples&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.techtarget.com/healthtechsecurity/news/366594571/Dental-Care-Alliance-Reaches-3M-Proposed-Settlement-Over-Healthcare-Cyberattack&quot;&gt;Dental Care Alliance (2020)&lt;/a&gt;&lt;/strong&gt;
+A ransomware attack on DSO Dental Care Alliance affected over 1 million patients. Hackers stole and encrypted sensitive patient data, leading to compliance issues and patient notifications under HIPAA, and agreed to a &lt;strong&gt;$3million&lt;/strong&gt; settlement.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.cybersecurity-insiders.com/ransomware-attack-on-law-firm-leads-to-data-breach/&quot;&gt;Campbell Conroy &amp;amp; O’Neil (2021)&lt;/a&gt;&lt;/strong&gt;
+A high-profile law firm was targeted. Ransomware locked up systems and compromised data from major corporate clients including Boeing, Pfizer, and ExxonMobil.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.nytimes.com/2019/05/22/us/baltimore-ransomware.html&quot;&gt;City of Baltimore (2019)&lt;/a&gt;&lt;/strong&gt;
+A ransomware attack shut down most city systems including payments and email for weeks. The city refused to pay the &lt;strong&gt;$76,000&lt;/strong&gt; ransom but ended up spending over $18 million in recovery.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-ransomware-works&quot;&gt;How Ransomware Works&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Infection 
+    A ransomware attack often starts when someone clicks a malicious link or downloads an infected attachment usually from a phishing email, compromised website or unpatched software with vulnerabilities.&lt;/li&gt;
+  &lt;li&gt;Encryption
+    Once inside your system, the malware locks (encrypts) files so you can’t access them. You’ll often see a pop-up message demanding a ransom, usually in cryptocurrency, in exchange for the decryption key.&lt;/li&gt;
+  &lt;li&gt;Extortion
+    Some ransomware groups now steal your data before encrypting it. If you don’t pay, they threaten to leak it online putting client confidentiality and regulatory compliance at risk.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;what-you-can-do-to-prevent-it&quot;&gt;What You Can Do to Prevent It&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Keep Backups And Test Them
+    - Make regular, automatic backups of your critical data.
+    - Use the 3-2-1 rule: 3 copies of your data, on 2 different types of media, with 1 stored off-site or in the cloud.
+    - Test your backups regularly. If you can’t restore, it’s not a real backup.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Train Staff on Phishing Awareness
+    Most ransomware infections come from email. Training your team to recognize phishing attempts is your first line of defense (see our second article for tips).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Patch Your Systems
+    Ransomware often exploits known software vulnerabilities. Always keep your operating systems, browsers, and applications up to date.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Limit User Permissions
+    Give employees access only to the files and systems they need. If ransomware infects a low-permission account, the damage is more contained.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use Antivirus and Endpoint Protection
+    Modern antivirus software can block ransomware before it executes. Many systems now use AI to detect suspicious behavior.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Segment Your Network
+    Don’t let one infected machine bring down your whole office. Separating devices and networks (e.g., admin vs. guest Wi-Fi) helps contain threats.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;what-to-do-after-a-ransomware-attack&quot;&gt;What to Do After a Ransomware Attack&lt;/h4&gt;
+
+&lt;p&gt;Even with precautions in place, no system is 100% immune. If you’re hit by ransomware, follow these steps immediately:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Disconnect Affected Systems
+    Unplug or disconnect infected computers from the network to prevent the ransomware from spreading.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Contact Your IT Provider or Incident Response Team
+    If you have an IT team or have another IT partner, notify them right away. Don’t try to handle it alone unless you have in-house expertise.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Don’t Pay the Ransom…Yet
+    Paying the ransom doesn’t guarantee your data will be restored and may encourage future attacks. Exhaust all recovery options first. Consult legal and cybersecurity professionals before deciding.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Check Backups
+    Verify the integrity of your most recent backup and restore from a clean point before the infection. This is often the quickest and safest way to recover.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Report the Attack
+    - Notify the appropriate authorities:
+Report incidents to the FBI’s Internet Crime Complaint Center (IC3) at ic3.gov or the Cybersecurity and Infrastructure Security Agency (CISA) at myservices.cisa.gov/irf
+    - Healthcare providers: If Protected Health Information (PHI) is involved, report the breach to the U.S. Department of Health &amp;amp; Human Services (HHS) – Office for Civil Rights (OCR) at hhs.gov/hipaa.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You may also need to notify clients or regulators, especially if sensitive data was exposed (HIPAA, GDPR, etc.).&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Change All Passwords
+    Assume passwords were compromised. Reset all system and email credentials, and enable MFA wherever possible.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Conduct a Postmortem
+    Understand how the attack happened and fix the gaps. Update security tools, conduct new training, and review your recovery plan.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Final Thoughts&lt;/p&gt;
+
+&lt;p&gt;Ransomware is one of the most damaging cyber threats today. It encrypts your data, making it completely inaccessible until a ransom is paid (and even then, recovery isn’t guaranteed). But with strong backups, updated systems, and a well-prepared team, you can dramatically reduce your risk. And if the worst happens, knowing how to respond can make all the difference.&lt;/p&gt;
+
+&lt;p&gt;In our next article, Malware &amp;amp; Software Updates we’ll cover a closely related topic: how outdated software and poor patching habits leave your business wide open to malware attacks and what you can do to prevent them.&lt;/p&gt;
+
+&lt;p&gt;More Resources:
+&lt;a href=&quot;https://www.cisa.gov/stopransomware&quot;&gt;StopRansomware&lt;/a&gt;&lt;/p&gt;
+</description>
+                <pubDate>Tue, 17 Jun 2025 00:00:00 -0500</pubDate>
+                <link>http://localhost:4000/blog/Ransomware-and-Data-Backup-How-to-Protect-Your-Business-from-Digital-Extortion/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/Ransomware-and-Data-Backup-How-to-Protect-Your-Business-from-Digital-Extortion/</guid>
+                
+            </item>
         
             <item>
                 <title>Phishing &amp; Email Security: How to Spot and Stop Digital Scams</title>
@@ -796,66 +933,6 @@ I haven’t forgotten to ask them since.&lt;/p&gt;
                 <pubDate>Fri, 04 Oct 2024 00:00:00 -0500</pubDate>
                 <link>http://localhost:4000/blog/5-Cool-Tips-to-Upgrade-Your-Notion-Dashboard/</link>
                 <guid isPermaLink="true">http://localhost:4000/blog/5-Cool-Tips-to-Upgrade-Your-Notion-Dashboard/</guid>
-                
-            </item>
-        
-            <item>
-                <title>Tips for Notion Newcomers</title>
-                <description>&lt;p&gt;Notion is one of the tools that Mastiff uses to organize our documents and information. It serves as our centralized hub for information, collaboration, and knowledge-sharing. We’ve built our wiki, library, and various work dashboards in Notion. It’s incredibly flexible—think of it like a blank canvas where you can create whatever you need. But I know all that freedom can feel a bit overwhelming at first. So, let me walk you through some basics to help you get started!&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Customize Your Page&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;You can create pages for almost anything and personalize them with various types of content, such as text, images, databases, and more. You can choose from a range of pre-made emojis and icons as visual cues for your pages, or upload your own photos from your computer. You also have the option to select images from Unsplash, which offers a wide range of high-quality stock photos. Although the font color and text background options are somewhat limited, they still provide effective color-coding features for organizing sections and highlighting important information.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Organize Your Pages&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I LOVE databases! If you have a lot of pages, a full-page database can become your best friend. Think of it as a super-organized filing cabinet for all your content. Databases are one of the more complex blocks in Notion, but that’s because they offer so much functionality. You can set up automation, apply filters, and sort data efficiently. If you’re just getting started, begin by adding properties tailored to your needs. They’re fantastic for organizing and quickly searching through a pool of pages.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Same Data, Multiple Views&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Once you’ve got your database set up, you can view your data in all sorts of ways:&lt;/p&gt;
-
-&lt;p&gt;Table View: A spreadsheet-like layout to view and manage a large amount of data at once. It’s ideal for sorting, filtering, and viewing multiple properties of your data side by side.&lt;/p&gt;
-
-&lt;p&gt;Board View: A Kanban-style board, perfect for tracking tasks through different stages or categories. Organize tasks by status, priority, or any categorical property.&lt;/p&gt;
-
-&lt;p&gt;List View: A simple linear view of data. It provides a minimalist approach to view records one by one with key properties visible.&lt;/p&gt;
-
-&lt;p&gt;Timeline View: A chronological timeline for your data, great for project planning, tracking deadlines, and scheduling. It provides a visual representation of your tasks or events over time, making it easier to see overlaps and gaps.&lt;/p&gt;
-
-&lt;p&gt;Calendar View: For scheduling and managing time-based data like appointments, meetings, or deadlines, Notion’s calendar view is ideal. It allows you to see your tasks and events in a monthly, weekly, or daily format, making it easy to keep track of what’s coming up. A great feature of Notion’s calendar is that it can send you notifications, ensuring you never forget important events. Plus, you can connect it with Google Calendar or Outlook to sync all your schedules in one place.&lt;/p&gt;
-
-&lt;p&gt;Gallery View: Provides a visual representation of your data, showcasing items as cards with an emphasis on images. It’s ideal for portfolios, mood boards, or any data where visual elements are important, such as team directories or project showcases.&lt;/p&gt;
-
-&lt;p&gt;Chart View: Useful for tracking progress on projects, analyzing performance metrics, or visualizing complex datasets in a more digestible way.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Collaborate with Your Team&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Once you’ve created a simple dashboard in Notion, you can easily share it with your team to facilitate collaboration. Notion serves as a central hub for storing team documents, notes, tasks, and databases, all in one accessible location, which helps keep everyone aligned and on the same page. Notion’s permission management features allow you to control access levels, ensuring that sensitive information remains protected while still encouraging effective collaboration. You can assign different permission levels based on each role, providing just the right amount of access each member needs.&lt;/p&gt;
-
-&lt;p&gt;When adding a team member to Notion, you can select their level of access—Full Access, Can Edit, Can Comment, or View Only—depending on their role and responsibilities. For finalized documents or templates, you can use Notion’s “Lock Page” feature to prevent accidental changes. If you’re managing a larger team or organization, creating groups and assigning permissions at the group level is more efficient than setting permissions for each user individually, helping streamline access management and maintain consistent permissions across the team.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Add Widgets&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;To further enhance your Notion workspace, consider adding widgets. These can include productivity tools and real-time data displays. Platforms like Apption.co offer a variety of options to augment your Notion setup.&lt;/p&gt;
-
-&lt;p&gt;Notion is incredibly flexible, which is both its strength and the source of initial overwhelm. Take it one step at a time, and don’t be afraid to experiment. As you grow more comfortable with the basics, you’ll discover countless ways to tailor Notion to your specific needs.&lt;/p&gt;
-
-&lt;p&gt;Happy organizing!&lt;/p&gt;
-</description>
-                <pubDate>Wed, 11 Sep 2024 00:00:00 -0500</pubDate>
-                <link>http://localhost:4000/blog/Tips-for-Notion-Newcomers/</link>
-                <guid isPermaLink="true">http://localhost:4000/blog/Tips-for-Notion-Newcomers/</guid>
                 
             </item>
         
