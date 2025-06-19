@@ -5,7 +5,7 @@ date: 2024-04-10
 categories: [vmware, linux, proxmox, opensource]
 author: Chris
 author_avatar: assets/img/team/Chris-avatar.png
-image: /assets/img/blog/4-on-linux.png
+image: /assets/img/blog/4-On-Linux.svg
 excerpt: I’ve loved VMware since my teenage years, but with its recent shift to subscription-based pricing, Mastiff is moving away from it. We're embracing open-source solutions, as they better serve small businesses and avoid the growing subscription trap. 
 ---
 

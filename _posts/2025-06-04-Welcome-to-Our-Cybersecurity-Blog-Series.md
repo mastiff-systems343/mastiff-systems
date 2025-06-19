@@ -5,7 +5,7 @@ date: 2025-06-04
 categories: 
 author: Fitz
 author_avatar: /assets/img/team/Fitz-avatar.png
-image: /assets/img/blog/13-cybersecurity.png
+image: /assets/img/blog/14-Cybersecurity.svg
 excerpt: 
 ---
 Welcome to Mastiff Systems' new blog series on cybersecurity. We're dedicated to helping our partners protect their businesses from digital threats. Whether you're a solo practitioner or manage a team , this series is designed to provide non-technical business owners and managers with the tools and knowledge they need to navigate today’s complex security landscape.

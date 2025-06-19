@@ -5,7 +5,7 @@ date: 2025-06-09
 categories: 
 author: Fitz
 author_avatar: /assets/img/team/Fitz-avatar.png
-image: /assets/img/blog/13-cybersecurity.png
+image: /assets/img/blog/14-Cybersecurity.svg
 excerpt: 
 ---
 Welcome back!

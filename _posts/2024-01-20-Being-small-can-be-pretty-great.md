@@ -5,7 +5,7 @@ date: 2024-01-20
 categories: [organization]
 author: Chris
 author_avatar: assets/img/team/Chris-Avatar.png
-image: /assets/img/blog/2-being-small.png
+image: /assets/img/blog/2-Being-Small.svg
 excerpt: At Mastiff, we believe growth shouldn't come at the cost of integrity or human value. While the business world chases endless expansion and quarterly gains, we focus on meaningful, lasting impact—custom solutions, real relationships, and technology shaped to serve people, not the other way around. 
 ---
 

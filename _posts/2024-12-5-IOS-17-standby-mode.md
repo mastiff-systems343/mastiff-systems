@@ -5,7 +5,7 @@ date: 2024-12-05
 categories: [apple, IOS]
 author: Chris
 author_avatar: /assets/img/team/Chris-avatar.png
-image: /assets/img/blog/8-ios.png
+image: /assets/img/blog/10-IOS-17.svg
 excerpt: Replaced my noise machine and nightstand clock with my iPhone using StandBy mode, a MagSafe stand, and HomeKit and use built-in background sounds and automations for a seamless sleep setup at home and while traveling.
 ---
 

@@ -5,7 +5,7 @@ date: 2024-11-01
 categories: [apple, shortcuts, apple shortcuts]
 author: Chris
 author_avatar: /assets/img/team/Chris-avatar.png
-image: /assets/img/blog/7-shortcuts.png
+image: /assets/img/blog/8-Using-Apple-Shortcuts.svg
 excerpt: Using applshortcut to automatically request payments via Apple Pay and set a recurring reminder. 
 ---
 

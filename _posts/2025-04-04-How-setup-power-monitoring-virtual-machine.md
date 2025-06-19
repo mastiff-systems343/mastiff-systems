@@ -5,7 +5,7 @@ date: 2025-04-04
 categories: 
 author: Norris
 author_avatar: /assets/img/team/Norris-avatar.png
-image: /assets/img/blog/11-monitoring-VM.png
+image: /assets/img/blog/12-Power-Monitoring.svg
 excerpt: 
 ---
 Monitoring power consumption is crucial for making smarter decisions, reducing costs, and promoting sustainability—whether in a data center, smart home, or renewable energy project. A power monitoring virtual machine (VM) simplifies this process by providing a centralized platform to collect, analyze, and visualize energy data.

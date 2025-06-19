@@ -6,7 +6,7 @@ date: 2025-01-07
 categories: [apple, IOS]
 author: Chris
 author_avatar: /assets/img/team/Chris-avatar.png
-image: /assets/img/blog/9-cables.png
+image: /assets/img/blog/9-Cables.svg
 excerpt: Apple's cables are pricey, but their quality, speed, and reliability make them worth it. As Steve Jobs said, "Apple doesn’t know how to make junk."
 ---
 

@@ -974,8 +974,8 @@ section#contact :-ms-input-placeholder {
 }
 
 .post-image img {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   border-radius: 5px;
 }
 

@@ -5,7 +5,7 @@ date: 2024-02-19
 categories: [organization]
 author: Lai
 author_avatar: assets/img/team/Lai-avatar.png
-image: /assets/img/blog/3-remote-toolkit.png
+image: /assets/img/blog/3-Remote-Toolkit.svg
 excerpt: Tools Mastiff use to stay organized, manage projects, and ensure secure client interactions, enabling seamless service and strong client relationships.
 ---
 
