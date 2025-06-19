@@ -601,6 +601,15 @@ max-width: 767px;
 margin: auto;
 }
 
+.portfolio-item img {
+  width: 300px;        
+  height: 150px;        
+  object-fit: fill;    
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
 @media (max-width: 586px) {
 .portfolio-modal .modal-content h2 {
   font-size: 2em;

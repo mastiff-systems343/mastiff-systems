@@ -5,7 +5,7 @@ date: 2025-06-17
 categories: 
 author: Fitz
 author_avatar: /assets/img/team/Fitz-avatar.png
-image: /assets/img/blog/14-Cybersecurity.svg
+image: /assets/img/blog/16-Ransomware.svg
 excerpt: 
 ---
 Welcome back!
