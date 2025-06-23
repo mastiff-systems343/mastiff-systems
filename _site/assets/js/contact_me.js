@@ -10,6 +10,7 @@ $(function() {
       // get values from FORM
 	  var url = "https://formspree.io/" + "f/mlderqre";
       var name = $("input#name").val();
+      var username = $("input#username").val();
       var email = $("input#email").val();
       var phone = $("input#phone").val();
       var message = $("textarea#message").val();
@@ -20,6 +21,7 @@ $(function() {
       }
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
+      if(username === ''){ // Disable's form submit if hidden input(username) has been filled
       $.ajax({
         url: url,
         type: "POST",
@@ -62,6 +64,7 @@ $(function() {
           }, 1000);
         }
       });
+    }
     },
     filter: function() {
       return $(this).is(":visible");

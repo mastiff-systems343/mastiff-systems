@@ -73,13 +73,10 @@ Cybersecurity is not just an IT responsibility—it’s a business-wide commitme
 
 Stay tuned for our next post: **Phishing and Email Security**
 
-Sources:
+**Sources:**
 
-[Verizon 2023 Data Breach Investigations Report](https://www.verizon.com/business/resources/reports/dbir/)
-
-[IBM Cost of a Data Breach Report 2022](https://www.ibm.com/reports/data-breach)
-
-[Hiscox Cyber Readiness Report 2021](https://www.hiscoxgroup.com/cyber-readiness-2021)
-
-[National Cyber Security Alliance](https://staysafeonline.org)
+- [Verizon 2023 Data Breach Investigations Report](https://www.verizon.com/business/resources/reports/dbir/)
+- [IBM Cost of a Data Breach Report 2022](https://www.ibm.com/reports/data-breach)
+- [Hiscox Cyber Readiness Report 2021](https://www.hiscoxgroup.com/cyber-readiness-2021)
+- [National Cyber Security Alliance](https://staysafeonline.org)
 
