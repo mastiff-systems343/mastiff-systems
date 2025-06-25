@@ -6,7 +6,7 @@ categories:
 author: Fitz
 author_avatar: /assets/img/team/Fitz-avatar.png
 image: /assets/img/blog/14-Cybersecurity.svg
-excerpt: 
+excerpt: Cybersecurity isn’t just for big corporations. Small businesses like dental offices, law firms, and local services are prime targets—and the cost of a breach can be devastating. In this new series from Mastiff Systems, we’ll break down essential cybersecurity concepts into practical, non-technical guidance to help protect your business and your clients.
 ---
 Welcome to Mastiff Systems' new blog series on cybersecurity. We're dedicated to helping our partners protect their businesses from digital threats. Whether you're a solo practitioner or manage a team , this series is designed to provide non-technical business owners and managers with the tools and knowledge they need to navigate today’s complex security landscape.
 

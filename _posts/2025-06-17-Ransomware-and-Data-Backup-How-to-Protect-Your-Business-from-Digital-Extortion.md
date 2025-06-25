@@ -6,9 +6,10 @@ categories:
 author: Fitz
 author_avatar: /assets/img/team/Fitz-avatar.png
 image: /assets/img/blog/16-Ransomware.svg
-excerpt: 
+excerpt: Ransomware is one of the fastest-growing threats to small businesses—locking your data, halting operations, and demanding payment. In this article, we break down how ransomware works, how to prevent it with backups and security best practices, and what to do if your business is attacked.
 ---
 Welcome back!  
+
 This article is part of Mastiff Systems' ongoing Cybersecurity Essentials series, written specifically for small to medium-sized business owners and non-technical teams. Last week's topic covered phishing and email security — one of the most common entry points for cyberattacks.
 
 Today, we’re focusing on ransomware, a fast-growing threat that can lock your files, freeze your operations, and demand a hefty payment to get access back.

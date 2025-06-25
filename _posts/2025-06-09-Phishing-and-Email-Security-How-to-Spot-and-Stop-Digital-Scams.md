@@ -6,7 +6,7 @@ categories:
 author: Fitz
 author_avatar: /assets/img/team/Fitz-avatar.png
 image: /assets/img/blog/15-Phishing.svg
-excerpt: 
+excerpt: Phishing is one of the most common and dangerous cyber threats facing small businesses today—but it’s also one of the easiest to prevent. In this post, we break down what phishing is, how it works, real-world examples, and simple steps you can take to protect your business, your team, and your reputation.
 ---
 Welcome Back!
 

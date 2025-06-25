@@ -5,13 +5,13 @@
         <description>Mastiff Systems is a small IT services company in Lincoln, Nebraska.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 23 Jun 2025 14:52:16 -0500</pubDate>
-        <lastBuildDate>Mon, 23 Jun 2025 14:52:16 -0500</lastBuildDate>
+        <pubDate>Tue, 24 Jun 2025 19:20:33 -0500</pubDate>
+        <lastBuildDate>Tue, 24 Jun 2025 19:20:33 -0500</lastBuildDate>
         <generator>Jekyll v4.2.2</generator>
         
             <item>
                 <title>Malware &amp; Software Updates: Why Ignoring That Update Button Can Cost You </title>
-                <description>&lt;p&gt;Welcome back to Mastiff Systems’ &lt;strong&gt;Cybersecurity Essentials&lt;/strong&gt; series. In our last article, we talked about ransomware and how backups can be a lifesaver. Today, we’re focusing on something even more basic but just as critical — keeping your software updated and understanding how malware actually works.&lt;/p&gt;
+                <description>&lt;p&gt;Welcome back to Mastiff Systems’ Cybersecurity Essentials series. In our last article, we talked about ransomware and how backups can be a lifesaver. Today, we’re focusing on something even more basic but just as critical — keeping your software updated and understanding how malware actually works.&lt;/p&gt;
 
 &lt;h4 id=&quot;why-you-should-care&quot;&gt;Why You Should Care&lt;/h4&gt;
 
@@ -124,9 +124,9 @@ Be cautious with email links and attachments from unknown senders. Avoid downloa
 
 &lt;p&gt;Malware infections don’t always start with a dramatic hack — sometimes, all it takes is a missed update or an old app you forgot to uninstall.&lt;/p&gt;
 
-&lt;p&gt;Keeping your software and systems up to date is one of the &lt;strong&gt;simplest&lt;/strong&gt;, most &lt;strong&gt;effective&lt;/strong&gt; ways to protect your business from cyber threats. It reduces your risk of ransomware, data breaches, and compliance violations without requiring expensive tools or advanced IT skills.&lt;/p&gt;
+&lt;p&gt;Keeping your software and systems up to date is one of the simplest, most effective ways to protect your business from cyber threats. It reduces your risk of ransomware, data breaches, and compliance violations without requiring expensive tools or advanced IT skills.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Next week&lt;/strong&gt;, we’ll dive into &lt;strong&gt;Network Security&lt;/strong&gt; — how to secure your Wi-Fi, routers, and internal systems from common attack methods.&lt;/p&gt;
+&lt;p&gt;Next week, we’ll dive into Network Security — how to secure your Wi-Fi, routers, and internal systems from common attack methods.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 23 Jun 2025 00:00:00 -0500</pubDate>
                 <link>http://localhost:4000/blog/Malware-and-Software-Updates-Why-Ignoring-That-Update-Button-Can-Cost-You/</link>
@@ -136,8 +136,9 @@ Be cautious with email links and attachments from unknown senders. Avoid downloa
         
             <item>
                 <title>Ransomware &amp; Data Backup: How to Protect Your Business from Digital Extortion</title>
-                <description>&lt;p&gt;Welcome back!&lt;br /&gt;
-This article is part of Mastiff Systems’ ongoing Cybersecurity Essentials series, written specifically for small to medium-sized business owners and non-technical teams. Last week’s topic covered phishing and email security — one of the most common entry points for cyberattacks.&lt;/p&gt;
+                <description>&lt;p&gt;Welcome back!&lt;/p&gt;
+
+&lt;p&gt;This article is part of Mastiff Systems’ ongoing Cybersecurity Essentials series, written specifically for small to medium-sized business owners and non-technical teams. Last week’s topic covered phishing and email security — one of the most common entry points for cyberattacks.&lt;/p&gt;
 
 &lt;p&gt;Today, we’re focusing on ransomware, a fast-growing threat that can lock your files, freeze your operations, and demand a hefty payment to get access back.&lt;/p&gt;
 
