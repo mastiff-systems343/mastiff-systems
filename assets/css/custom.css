@@ -921,6 +921,7 @@ section#contact :-ms-input-placeholder {
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .post-preview:hover {
@@ -1098,11 +1099,12 @@ section#contact :-ms-input-placeholder {
 }
 
 .tool-preview {
-  min-width: 300px;
-  max-width: 300px;
-  flex-shrink: 0;
-  padding: 15px;
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -1380,15 +1382,6 @@ section#contact :-ms-input-placeholder {
 
 .post-carousel::-webkit-scrollbar {
   display: none;
-}
-
-.post-preview {
-  min-width: 300px;
-  max-width: 300px;
-  flex-shrink: 0;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .scroll-btn {
