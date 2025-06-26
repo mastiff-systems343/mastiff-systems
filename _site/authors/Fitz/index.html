@@ -664,11 +664,12 @@
   <div class="container">
     <main class="page-section">
       <br>
+<br>
 <h2 class="page-heading">Fitzken Mendoza</h2>
 
-<div style="display: flex; align-items: flex-start; gap: 35px;">
+<div class="author-flex-wrapper">
   <!-- Left: main content -->
-  <div style="flex: 1;">
+  <div class="author-bio-text">
     <p>Not all heroes wield swords—some carry SSH keys and boot into the unknown. Fitzken’s journey began in the humming halls of virtual machines and firewalls, where he forged a Proxmox hypervisor cluster spanning five mighty nodes. From configuring backups through NFS channels to migrating entire fleets of servers, he’s earned a reputation for keeping systems running when others falter. He’s worked with hosting giants like Bluehost and OVH, steering infrastructure through outages and upgrades with calm, clockwork precision.</p>
 
 <p><strong>Skills:</strong></p>
@@ -697,25 +698,12 @@
   </div>
 
   <!-- Right: image + additional content -->
-  <div style="flex-shrink: 0; max-width: 300px;">
-    <img src="/assets/img/team/about/Fitz.png" alt="Fitzken Mendoza" style="width: 100%; height: auto; margin-bottom: 10px;">
+  <div class="author-bio-image">
+    <img src="/assets/img/team/about/Fitz.png" alt="Fitzken Mendoza" class="author-image" />
+    
     <!-- Character ID Card -->
-    <div style="
-      background: #f3c8a3;
-      color: #1a171e;
-      padding: 15px;
-      border: 1px solid #5d4f4f;
-      border-radius: 10px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.4);
-      font-size: 14px;
-      line-height: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    ">
-      <!-- Character Description -->
-      <div>
-        
+    <div class="author-id-card">
+      
 
 <p><strong>Title:</strong> Technical Server Administrator</p>
 
@@ -723,7 +711,6 @@
 
 <p><strong>Guild Role:</strong> Keeper of Uptime, Mender of Machines</p>
 
-      </div>
     </div>
   </div>
 </div>
@@ -734,11 +721,11 @@
 
 
 <div class="post-carousel-container">
-  
-    <button id="prevBtn" class="scroll-btn prev-btn">
-      <img src="/assets/img/icons/prev.png" alt="Previous" height="16" />
-    </button>
-  
+
+  <button id="prevBtn" class="scroll-btn prev-btn" data-show-if="mobile-gt1 desktop-gt3">
+    <img src="/assets/img/icons/prev.png" alt="Previous" height="16" />
+  </button>
+
 
   <div class="post-carousel" id="postCarousel">
     
@@ -828,35 +815,50 @@
     
   </div>
 
-  
-    <button id="nextBtn" class="scroll-btn next-btn">
-      <img src="/assets/img/icons/next.png" alt="Next" height="16" />
-    </button>
-  
+
+  <button id="nextBtn" class="scroll-btn next-btn" data-show-if="mobile-gt1 desktop-gt3">
+    <img src="/assets/img/icons/next.png" alt="Next" height="16" />
+  </button>
+
 </div>
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const carousel = document.getElementById("postCarousel");
   const prevBtn = document.getElementById("prevBtn");
   const nextBtn = document.getElementById("nextBtn");
 
   if (!carousel || !prevBtn || !nextBtn) return;
 
-  const postWidth = document.querySelector(".post-preview").offsetWidth;
-  const gap = 20; // Space between posts
-  let scrollAmount = postWidth * 3 + gap * 3; // Scroll three posts at a time
+  const posts = carousel.querySelectorAll(".post-preview");
+  const postCount = posts.length;
+  const isMobile = window.innerWidth <= 768;
 
-  nextBtn.addEventListener("click", function() {
+  const shouldShow = (isMobile && postCount > 1) || (!isMobile && postCount > 3);
+
+  if (!shouldShow) {
+    prevBtn.style.display = "none";
+    nextBtn.style.display = "none";
+    return;
+  }
+
+  const postWidth = posts[0]?.offsetWidth || 300;
+  const gap = 20;
+  const scrollAmount = postWidth + gap;
+
+  nextBtn.addEventListener("click", function () {
     carousel.scrollBy({ left: scrollAmount, behavior: "smooth" });
   });
 
-  prevBtn.addEventListener("click", function() {
+  prevBtn.addEventListener("click", function () {
     carousel.scrollBy({ left: -scrollAmount, behavior: "smooth" });
   });
 });
 </script>
+
+
+
 
     </main>
   </div>

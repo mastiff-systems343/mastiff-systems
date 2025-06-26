@@ -664,11 +664,12 @@
   <div class="container">
     <main class="page-section">
       <br>
+<br>
 <h2 class="page-heading">Chris Scheidies</h2>
 
-<div style="display: flex; align-items: flex-start; gap: 35px;">
+<div class="author-flex-wrapper">
   <!-- Left: main content -->
-  <div style="flex: 1;">
+  <div class="author-bio-text">
     <p>Before cloud computing had a name and virtualization was more than a whisper in the engine halls, Chris was already tuning the gears of innovation. He began his professional journey advising one of the world’s largest music technology companies, bridging sound and circuitry with insight and ingenuity. Years later, he ascended to Level III Systems Administrator for one of the biggest enterprises in America—where his command of infrastructure and systems became legendary.</p>
 
 <p>Known across guilds for his strategic vision and mastery of virtualization, Chris balances intricate system design with a passion for long-term sustainability, both digital and earthly. Where others see wires and workloads, he sees ecosystems and possibilities.</p>
@@ -720,25 +721,12 @@
   </div>
 
   <!-- Right: image + additional content -->
-  <div style="flex-shrink: 0; max-width: 300px;">
-    <img src="/assets/img/team/about/Chris.png" alt="Chris Scheidies" style="width: 100%; height: auto; margin-bottom: 10px;">
+  <div class="author-bio-image">
+    <img src="/assets/img/team/about/Chris.png" alt="Chris Scheidies" class="author-image" />
+    
     <!-- Character ID Card -->
-    <div style="
-      background: #f3c8a3;
-      color: #1a171e;
-      padding: 15px;
-      border: 1px solid #5d4f4f;
-      border-radius: 10px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.4);
-      font-size: 14px;
-      line-height: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    ">
-      <!-- Character Description -->
-      <div>
-        
+    <div class="author-id-card">
+      
 
 <p><strong>Title:</strong> IT Expert &amp; Founder</p>
 
@@ -746,7 +734,6 @@
 
 <p><strong>Guild Role:</strong> Visionsmith, Architect of the Machine Horizon</p>
 
-      </div>
     </div>
   </div>
 </div>
@@ -757,11 +744,11 @@
 
 
 <div class="post-carousel-container">
-  
-    <button id="prevBtn" class="scroll-btn prev-btn">
-      <img src="/assets/img/icons/prev.png" alt="Previous" height="16" />
-    </button>
-  
+
+  <button id="prevBtn" class="scroll-btn prev-btn" data-show-if="mobile-gt1 desktop-gt3">
+    <img src="/assets/img/icons/prev.png" alt="Previous" height="16" />
+  </button>
+
 
   <div class="post-carousel" id="postCarousel">
     
@@ -914,35 +901,50 @@
     
   </div>
 
-  
-    <button id="nextBtn" class="scroll-btn next-btn">
-      <img src="/assets/img/icons/next.png" alt="Next" height="16" />
-    </button>
-  
+
+  <button id="nextBtn" class="scroll-btn next-btn" data-show-if="mobile-gt1 desktop-gt3">
+    <img src="/assets/img/icons/next.png" alt="Next" height="16" />
+  </button>
+
 </div>
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const carousel = document.getElementById("postCarousel");
   const prevBtn = document.getElementById("prevBtn");
   const nextBtn = document.getElementById("nextBtn");
 
   if (!carousel || !prevBtn || !nextBtn) return;
 
-  const postWidth = document.querySelector(".post-preview").offsetWidth;
-  const gap = 20; // Space between posts
-  let scrollAmount = postWidth * 3 + gap * 3; // Scroll three posts at a time
+  const posts = carousel.querySelectorAll(".post-preview");
+  const postCount = posts.length;
+  const isMobile = window.innerWidth <= 768;
 
-  nextBtn.addEventListener("click", function() {
+  const shouldShow = (isMobile && postCount > 1) || (!isMobile && postCount > 3);
+
+  if (!shouldShow) {
+    prevBtn.style.display = "none";
+    nextBtn.style.display = "none";
+    return;
+  }
+
+  const postWidth = posts[0]?.offsetWidth || 300;
+  const gap = 20;
+  const scrollAmount = postWidth + gap;
+
+  nextBtn.addEventListener("click", function () {
     carousel.scrollBy({ left: scrollAmount, behavior: "smooth" });
   });
 
-  prevBtn.addEventListener("click", function() {
+  prevBtn.addEventListener("click", function () {
     carousel.scrollBy({ left: -scrollAmount, behavior: "smooth" });
   });
 });
 </script>
+
+
+
 
     </main>
   </div>

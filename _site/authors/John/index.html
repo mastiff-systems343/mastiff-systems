@@ -664,11 +664,12 @@
   <div class="container">
     <main class="page-section">
       <br>
+<br>
 <h2 class="page-heading">John David Lao</h2>
 
-<div style="display: flex; align-items: flex-start; gap: 35px;">
+<div class="author-flex-wrapper">
   <!-- Left: main content -->
-  <div style="flex: 1;">
+  <div class="author-bio-text">
     <p>In the ever-shifting realm where pixels pulse and stories breathe, walks a quiet creator known as John. Forged in late nights and fueled by relentless curiosity, he builds not just games—but doorways. Whether solo or among his guild, he crafts experiences meant to spark wonder, challenge thought, and invite joy.</p>
 
 <p>A fluent speaker of GDScript and a master navigator of the Godot Engine, John sculpts systems that move with intention and design that hums with balance. Every game is a living structure, and John is the hand behind the framework, the mind behind the magic.</p>
@@ -705,25 +706,12 @@
   </div>
 
   <!-- Right: image + additional content -->
-  <div style="flex-shrink: 0; max-width: 300px;">
-    <img src="/assets/img/team/about/John.png" alt="John David Lao" style="width: 100%; height: auto; margin-bottom: 10px;">
+  <div class="author-bio-image">
+    <img src="/assets/img/team/about/John.png" alt="John David Lao" class="author-image" />
+    
     <!-- Character ID Card -->
-    <div style="
-      background: #f3c8a3;
-      color: #1a171e;
-      padding: 15px;
-      border: 1px solid #5d4f4f;
-      border-radius: 10px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.4);
-      font-size: 14px;
-      line-height: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    ">
-      <!-- Character Description -->
-      <div>
-        
+    <div class="author-id-card">
+      
 
 <p><strong>Title:</strong> Developer</p>
 
@@ -732,7 +720,6 @@
 <p><strong>Guild Role:</strong> Architect of Play, Codewright of Godot</p>
 
 
-      </div>
     </div>
   </div>
 </div>
@@ -743,37 +730,52 @@
 
 
 <div class="post-carousel-container">
-  
+
 
   <div class="post-carousel" id="postCarousel">
     
   </div>
 
-  
+
 </div>
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const carousel = document.getElementById("postCarousel");
   const prevBtn = document.getElementById("prevBtn");
   const nextBtn = document.getElementById("nextBtn");
 
   if (!carousel || !prevBtn || !nextBtn) return;
 
-  const postWidth = document.querySelector(".post-preview").offsetWidth;
-  const gap = 20; // Space between posts
-  let scrollAmount = postWidth * 3 + gap * 3; // Scroll three posts at a time
+  const posts = carousel.querySelectorAll(".post-preview");
+  const postCount = posts.length;
+  const isMobile = window.innerWidth <= 768;
 
-  nextBtn.addEventListener("click", function() {
+  const shouldShow = (isMobile && postCount > 1) || (!isMobile && postCount > 3);
+
+  if (!shouldShow) {
+    prevBtn.style.display = "none";
+    nextBtn.style.display = "none";
+    return;
+  }
+
+  const postWidth = posts[0]?.offsetWidth || 300;
+  const gap = 20;
+  const scrollAmount = postWidth + gap;
+
+  nextBtn.addEventListener("click", function () {
     carousel.scrollBy({ left: scrollAmount, behavior: "smooth" });
   });
 
-  prevBtn.addEventListener("click", function() {
+  prevBtn.addEventListener("click", function () {
     carousel.scrollBy({ left: -scrollAmount, behavior: "smooth" });
   });
 });
 </script>
+
+
+
 
     </main>
   </div>

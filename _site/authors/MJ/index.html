@@ -664,11 +664,12 @@
   <div class="container">
     <main class="page-section">
       <br>
+<br>
 <h2 class="page-heading">MJ Torres</h2>
 
-<div style="display: flex; align-items: flex-start; gap: 35px;">
+<div class="author-flex-wrapper">
   <!-- Left: main content -->
-  <div style="flex: 1;">
+  <div class="author-bio-text">
     <p>Before the airships, before the game engines—there was a pancake parlor. It began with Papa’s Pancakeria, where a young dreamer tapped through levels and whispered: “I want to build this.” What followed was less destiny and more stubborn invention. By August 2020, MJ was crafting games solo, turning coffee-fueled nights into pixel-perfect realities. By mid-2021, their art was on commission, their sprites dancing in indie realms across the net.</p>
 
 <p>Whether conjuring cozy corners or animating chaotic battles, MJ designs with intention—every tile placed with an unseen logic born of sharp detail, organized chaos, and an uncanny ability to map out the big picture before a single pixel hits the page.</p>
@@ -699,25 +700,12 @@
   </div>
 
   <!-- Right: image + additional content -->
-  <div style="flex-shrink: 0; max-width: 300px;">
-    <img src="/assets/img/team/about/MJ.png" alt="MJ Torres" style="width: 100%; height: auto; margin-bottom: 10px;">
+  <div class="author-bio-image">
+    <img src="/assets/img/team/about/MJ.png" alt="MJ Torres" class="author-image" />
+    
     <!-- Character ID Card -->
-    <div style="
-      background: #f3c8a3;
-      color: #1a171e;
-      padding: 15px;
-      border: 1px solid #5d4f4f;
-      border-radius: 10px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.4);
-      font-size: 14px;
-      line-height: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    ">
-      <!-- Character Description -->
-      <div>
-        
+    <div class="author-id-card">
+      
 
 <p><strong>Title:</strong> Designer</p>
 
@@ -725,7 +713,6 @@
 
 <p><strong>Guild Role:</strong> Architect of Aesthetics, Keeper of Rhythm and Render</p>
 
-      </div>
     </div>
   </div>
 </div>
@@ -736,37 +723,52 @@
 
 
 <div class="post-carousel-container">
-  
+
 
   <div class="post-carousel" id="postCarousel">
     
   </div>
 
-  
+
 </div>
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const carousel = document.getElementById("postCarousel");
   const prevBtn = document.getElementById("prevBtn");
   const nextBtn = document.getElementById("nextBtn");
 
   if (!carousel || !prevBtn || !nextBtn) return;
 
-  const postWidth = document.querySelector(".post-preview").offsetWidth;
-  const gap = 20; // Space between posts
-  let scrollAmount = postWidth * 3 + gap * 3; // Scroll three posts at a time
+  const posts = carousel.querySelectorAll(".post-preview");
+  const postCount = posts.length;
+  const isMobile = window.innerWidth <= 768;
 
-  nextBtn.addEventListener("click", function() {
+  const shouldShow = (isMobile && postCount > 1) || (!isMobile && postCount > 3);
+
+  if (!shouldShow) {
+    prevBtn.style.display = "none";
+    nextBtn.style.display = "none";
+    return;
+  }
+
+  const postWidth = posts[0]?.offsetWidth || 300;
+  const gap = 20;
+  const scrollAmount = postWidth + gap;
+
+  nextBtn.addEventListener("click", function () {
     carousel.scrollBy({ left: scrollAmount, behavior: "smooth" });
   });
 
-  prevBtn.addEventListener("click", function() {
+  prevBtn.addEventListener("click", function () {
     carousel.scrollBy({ left: -scrollAmount, behavior: "smooth" });
   });
 });
 </script>
+
+
+
 
     </main>
   </div>
