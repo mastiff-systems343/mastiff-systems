@@ -10,7 +10,7 @@ excerpt: Ransomware is one of the fastest-growing threats to small businesses—
 ---
 Welcome back!  
 
-This article is part of Mastiff Systems' ongoing Cybersecurity Essentials series, written specifically for small to medium-sized business owners and non-technical teams. Last week's topic covered phishing and email security — one of the most common entry points for cyberattacks.
+This article is part of Mastiff Systems' ongoing Cybersecurity Essentials series, written specifically for small to medium-sized business owners and non-technical teams. Last week's topic covered phishing and email security, one of the most common entry points for cyberattacks.
 
 Today, we’re focusing on ransomware, a fast-growing threat that can lock your files, freeze your operations, and demand a hefty payment to get access back.
 
@@ -45,13 +45,13 @@ If you're curious about the scale of these threats, here are links to public dat
 ## How Ransomware Works
 
 1. **Infection**  
-   A ransomware attack often starts when someone clicks a malicious link or downloads an infected attachment — usually from a phishing email, compromised website, or unpatched software with vulnerabilities.
+   A ransomware attack often starts when someone clicks a malicious link or downloads an infected attachment, usually from a phishing email, compromised website, or unpatched software with vulnerabilities.
 
 2. **Encryption**  
    Once inside your system, the malware locks (encrypts) files so you can’t access them. You’ll often see a pop-up message demanding a ransom, usually in cryptocurrency, in exchange for the decryption key.
 
 3. **Extortion**  
-   Some ransomware groups now steal your data before encrypting it. If you don’t pay, they threaten to leak it online — putting client confidentiality and regulatory compliance at risk.
+   Some ransomware groups now steal your data before encrypting it. If you don’t pay, they threaten to leak it online, putting client confidentiality and regulatory compliance at risk.
 
 #### What You Can Do to Prevent It
 
@@ -108,7 +108,7 @@ Even with precautions in place, no system is 100% immune. If you’re hit by ran
 
 Ransomware is one of the most damaging cyber threats today. It encrypts your data, making it completely inaccessible until a ransom is paid (and even then, recovery isn't guaranteed). But with strong backups, updated systems, and a well-prepared team, you can dramatically reduce your risk. And if the worst happens, knowing how to respond can make all the difference.
 
-**In our next article**, *Malware & Software Updates*, we’ll cover a closely related topic: how outdated software and poor patching habits leave your business wide open to malware attacks — and what you can do to prevent them.
+**In our next article**, *Malware & Software Updates*, we’ll cover a closely related topic: how outdated software and poor patching habits leave your business wide open to malware attacks and what you can do to prevent them.
 
 **More Resources:**  
 [StopRansomware](https://www.cisa.gov/stopransomware)

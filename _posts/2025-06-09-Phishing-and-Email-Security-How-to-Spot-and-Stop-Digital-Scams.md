@@ -35,19 +35,19 @@ According to **Verizon’s 2023 Data Breach Investigations Report**, about **75%
 
 #### How Phishing Works
 
-Phishing relies on **social engineering**—manipulating people into doing something risky, like clicking a link, entering credentials, or paying invoices. It usually starts with a message that appears to be from someone you trust, such as your bank, a vendor, or a colleague.
+Phishing relies on **social engineering**, manipulating people into doing something risky, like clicking a link, entering credentials, or paying invoices. It usually starts with a message that appears to be from someone you trust, such as your bank, a vendor, or a colleague.
 
 **The Bait**  
 Phishing can take many forms, not just email:
 
-- **Email phishing**: The classic scam — “Click to reset your password” or “Your invoice is attached.”  
+- **Email phishing**: The classic scam, “Click to reset your password” or “Your invoice is attached.”  
 - **Spear phishing**: A more targeted version, customized to you or your role.  
 - **Smishing**: Fake texts (“Your package is delayed. Track here: …”)  
-- **Vishing**: Scam phone calls impersonating tech support or financial institutions — increasingly using AI-generated voices.  
+- **Vishing**: Scam phone calls impersonating tech support or financial institutions, increasingly using AI-generated voices.  
 - **Social media phishing**: DMs with fake job offers or account alerts.
 
 **The Hook**  
-Once the bait lands, the attacker pushes you to act quickly—like clicking a link, opening an attachment, or logging in to a fake website. These actions are designed to feel routine and urgent, lowering your defenses.
+Once the bait lands, the attacker pushes you to act quickly, like clicking a link, opening an attachment, or logging in to a fake website. These actions are designed to feel routine and urgent, lowering your defenses.
 
 **The Catch**  
 When you follow through, that’s when the real damage happens. Depending on what you clicked or entered, attackers might:
@@ -64,7 +64,7 @@ Often, the person who was phished doesn’t even realize it immediately. That’
 
 Phishing can be delivered by email, text, phone, or even chat platforms, but the red flags are often the same:
 
-- **Urgency**: Pressure to act fast — “reset now,” “account suspended,” or “boss needs this ASAP”  
+- **Urgency**: Pressure to act fast, “reset now,” “account suspended,” or “boss needs this ASAP”  
 - **Spelling and grammar mistakes**: Many phishing emails are poorly written  
 - **Suspicious links**: Hover over links (don’t click) to check where they actually go  
 - **Unexpected attachments**: Be wary of strange or unsolicited files  
@@ -72,7 +72,7 @@ Phishing can be delivered by email, text, phone, or even chat platforms, but the
 
 #### How You Can Protect Yourself
 
-Phishing targets **people**, not just systems—so a few smart habits go a long way. Here’s what we recommend:
+Phishing targets **people**, not just systems, so a few smart habits go a long way. Here’s what we recommend:
 
 1. **Train Your Team**  
    Educate employees about phishing. Share examples like this article, and include cybersecurity in onboarding and ongoing training.
@@ -87,11 +87,11 @@ Phishing targets **people**, not just systems—so a few smart habits go a long 
    Send your team a simulated phishing email once or twice a year. It’s a safe way to measure awareness and reinforce training.
 
 5. **Adopt a “Pause and Verify” Culture**  
-   Encourage employees to double-check unusual requests—especially those involving money or login credentials—by contacting the person directly using known contact info.
+   Encourage employees to double-check unusual requests especially those involving money or login credentials by contacting the person directly using known contact info.
 
 #### Don't Let Hackers Impersonate You
 
-The tips above protect you **from** phishing—but what if someone tries to phish **as you**?
+The tips above protect you **from** phishing but what if someone tries to phish **as you**?
 
 Hackers can spoof your company’s email address and trick your clients into paying fake invoices. Even if you’re not breached, it can still harm your brand and customer trust.
 
@@ -108,7 +108,7 @@ Once set up (usually by your IT provider or domain host), these tools run automa
   <input type="checkbox" id="checklist1" name="checklist1" value="Enable MFA on all email accounts">
 <label for="checklist1"> Enable MFA on all email accounts</label><br>
   <input type="checkbox" id="checklist1" name="checklist1" value="Never click links in unexpected emails—verify first">
-<label for="checklist1"> Never click links in unexpected emails—verify first</label><br>
+<label for="checklist1"> Never click links in unexpected emails, verify first</label><br>
   <input type="checkbox" id="checklist1" name="checklist1" value="Train staff annually">
 <label for="checklist1"> Train staff annually</label><br>
   <input type="checkbox" id="checklist1" name="checklist1" value="Use strong passwords and don’t reuse them">
@@ -120,7 +120,7 @@ Once set up (usually by your IT provider or domain host), these tools run automa
 
 #### Final Thoughts
 
-Phishing is one of the easiest ways for attackers to break into your business — but it’s also one of the easiest to prevent with the right habits and tools in place. A little awareness can go a long way in protecting your team, your data, and your reputation.
+Phishing is one of the easiest ways for attackers to break into your business but it’s also one of the easiest to prevent with the right habits and tools in place. A little awareness can go a long way in protecting your team, your data, and your reputation.
 
 **Stay tuned for our next post: Ransomware and Data Backup!**
 

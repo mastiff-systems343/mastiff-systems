@@ -35,7 +35,7 @@ Cybersecurity is the practice of protecting your data, systems, and devices from
  - Training staff to recognize cyber threats
  - Complying with regulations like HIPAA, PCI-DSS, or FTC Safeguards
 
-Cybersecurity isn’t just a technical issue—it’s essential for business continuity.
+Cybersecurity isn’t just a technical issue, it’s essential for business continuity.
 
 #### The Consequences of a Cyberattack Can Include:
 
@@ -69,7 +69,7 @@ Upcoming Articles Include:
 
 Final Thoughts
 
-Cybersecurity is not just an IT responsibility—it’s a business-wide commitment. Small practices that prioritize digital security not only avoid regulatory penalties but also gain a competitive advantage by building trust with their clients.
+Cybersecurity is not just an IT responsibility, it’s a business-wide commitment. Small practices that prioritize digital security not only avoid regulatory penalties but also gain a competitive advantage by building trust with their clients.
 
 Stay tuned for our next post: **Phishing and Email Security**
 
