@@ -10,7 +10,7 @@ excerpt: Phishing is one of the most common and dangerous cyber threats facing s
 ---
 Welcome Back!
 
-This post is part of our ongoing Cybersecurity Essentials series for small and medium-sized business (SMB) owners and non-technical teams. If you've ever felt overwhelmed by IT security jargon, you're in the right place. We're here to make these important topics simple and actionable—so you can protect your business without needing a degree in computer science.
+This post is part of our ongoing Cybersecurity Essentials series for small and medium-sized business (SMB) owners and non-technical teams. If you've ever felt overwhelmed by IT security jargon, you're in the right place. We're here to make these important topics simple and actionable so you can protect your business without needing a degree in computer science.
 
 Today, we're diving into one of the most common cyber threats facing SMBs: phishing and email-based attacks.
 
@@ -20,7 +20,7 @@ Phishing is a type of cyber attack where criminals pose as someone you trust—l
 
 Think: fake invoices, urgent requests from “the boss,” or phony password reset emails.
 
-According to **Verizon’s 2023 Data Breach Investigations Report**, about **75% of breaches involve the human element**, including phishing, social engineering, and human error. And while large companies make headlines, SMBs are especially vulnerable—they often lack formal training and protections, lack dedicated IT teams, and their teams are more likely to click something suspicious.
+According to **Verizon’s 2023 Data Breach Investigations Report**, about **75% of breaches involve the human element**, including phishing, social engineering, and human error. And while large companies make headlines, SMBs are especially vulnerable, they often lack formal training and protections, lack dedicated IT teams, and their teams are more likely to click something suspicious.
 
 #### Real-Life Examples of Phishing Attacks
 
@@ -107,7 +107,7 @@ Once set up (usually by your IT provider or domain host), these tools run automa
 
   <input type="checkbox" id="checklist1" name="checklist1" value="Enable MFA on all email accounts">
 <label for="checklist1"> Enable MFA on all email accounts</label><br>
-  <input type="checkbox" id="checklist1" name="checklist1" value="Never click links in unexpected emails—verify first">
+  <input type="checkbox" id="checklist1" name="checklist1" value="Never click links in unexpected emails, verify first">
 <label for="checklist1"> Never click links in unexpected emails, verify first</label><br>
   <input type="checkbox" id="checklist1" name="checklist1" value="Train staff annually">
 <label for="checklist1"> Train staff annually</label><br>
