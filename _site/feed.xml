@@ -5,13 +5,13 @@
         <description>Mastiff Systems is a small IT services company in Lincoln, Nebraska.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Thu, 26 Jun 2025 12:20:57 -0500</pubDate>
-        <lastBuildDate>Thu, 26 Jun 2025 12:20:57 -0500</lastBuildDate>
+        <pubDate>Thu, 10 Jul 2025 08:34:50 -0500</pubDate>
+        <lastBuildDate>Thu, 10 Jul 2025 08:34:50 -0500</lastBuildDate>
         <generator>Jekyll v4.2.2</generator>
         
             <item>
                 <title>Malware &amp; Software Updates: Why Ignoring That Update Button Can Cost You </title>
-                <description>&lt;p&gt;Welcome back to Mastiff Systems’ Cybersecurity Essentials series. In our last article, we talked about ransomware and how backups can be a lifesaver. Today, we’re focusing on something even more basic but just as critical — keeping your software updated and understanding how malware actually works.&lt;/p&gt;
+                <description>&lt;p&gt;Welcome back to Mastiff Systems’ Cybersecurity Essentials series. In our last article, we talked about ransomware and how backups can be a lifesaver. Today, we’re focusing on something even more basic but just as critical, keeping your software updated and understanding how malware actually works.&lt;/p&gt;
 
 &lt;h4 id=&quot;why-you-should-care&quot;&gt;Why You Should Care&lt;/h4&gt;
 
@@ -53,7 +53,7 @@
 
 &lt;h4 id=&quot;how-malware-works&quot;&gt;How Malware Works&lt;/h4&gt;
 
-&lt;p&gt;“Malware” stands for &lt;em&gt;malicious software&lt;/em&gt; — it’s a general term for any program designed to harm or exploit your devices and data. Last week, we covered one specific type of malware called ransomware.&lt;/p&gt;
+&lt;p&gt;“Malware” stands for &lt;em&gt;malicious software&lt;/em&gt;, it’s a general term for any program designed to harm or exploit your devices and data. Last week, we covered one specific type of malware called ransomware.&lt;/p&gt;
 
 &lt;p&gt;Here are common types of malware:&lt;/p&gt;
 
@@ -122,11 +122,11 @@ Be cautious with email links and attachments from unknown senders. Avoid downloa
 
 &lt;h4 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h4&gt;
 
-&lt;p&gt;Malware infections don’t always start with a dramatic hack — sometimes, all it takes is a missed update or an old app you forgot to uninstall.&lt;/p&gt;
+&lt;p&gt;Malware infections don’t always start with a dramatic hack. Sometimes, all it takes is a missed update or an old app you forgot to uninstall.&lt;/p&gt;
 
 &lt;p&gt;Keeping your software and systems up to date is one of the simplest, most effective ways to protect your business from cyber threats. It reduces your risk of ransomware, data breaches, and compliance violations without requiring expensive tools or advanced IT skills.&lt;/p&gt;
 
-&lt;p&gt;Next week, we’ll dive into Network Security — how to secure your Wi-Fi, routers, and internal systems from common attack methods.&lt;/p&gt;
+&lt;p&gt;Next week, we’ll dive into Network Security, how to secure your Wi-Fi, routers, and internal systems from common attack methods.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 23 Jun 2025 00:00:00 -0500</pubDate>
                 <link>http://localhost:4000/blog/Malware-and-Software-Updates-Why-Ignoring-That-Update-Button-Can-Cost-You/</link>
@@ -138,7 +138,7 @@ Be cautious with email links and attachments from unknown senders. Avoid downloa
                 <title>Ransomware &amp; Data Backup: How to Protect Your Business from Digital Extortion</title>
                 <description>&lt;p&gt;Welcome back!&lt;/p&gt;
 
-&lt;p&gt;This article is part of Mastiff Systems’ ongoing Cybersecurity Essentials series, written specifically for small to medium-sized business owners and non-technical teams. Last week’s topic covered phishing and email security — one of the most common entry points for cyberattacks.&lt;/p&gt;
+&lt;p&gt;This article is part of Mastiff Systems’ ongoing Cybersecurity Essentials series, written specifically for small to medium-sized business owners and non-technical teams. Last week’s topic covered phishing and email security, one of the most common entry points for cyberattacks.&lt;/p&gt;
 
 &lt;p&gt;Today, we’re focusing on ransomware, a fast-growing threat that can lock your files, freeze your operations, and demand a hefty payment to get access back.&lt;/p&gt;
 
@@ -185,7 +185,7 @@ A ransomware attack shut down most city systems including payments and email for
 &lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Infection&lt;/strong&gt;&lt;br /&gt;
-A ransomware attack often starts when someone clicks a malicious link or downloads an infected attachment — usually from a phishing email, compromised website, or unpatched software with vulnerabilities.&lt;/p&gt;
+A ransomware attack often starts when someone clicks a malicious link or downloads an infected attachment, usually from a phishing email, compromised website, or unpatched software with vulnerabilities.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Encryption&lt;/strong&gt;&lt;br /&gt;
@@ -193,7 +193,7 @@ Once inside your system, the malware locks (encrypts) files so you can’t acces
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Extortion&lt;/strong&gt;&lt;br /&gt;
-Some ransomware groups now steal your data before encrypting it. If you don’t pay, they threaten to leak it online — putting client confidentiality and regulatory compliance at risk.&lt;/p&gt;
+Some ransomware groups now steal your data before encrypting it. If you don’t pay, they threaten to leak it online, putting client confidentiality and regulatory compliance at risk.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -269,7 +269,7 @@ Understand how the attack happened and fix the gaps. Update security tools, cond
 
 &lt;p&gt;Ransomware is one of the most damaging cyber threats today. It encrypts your data, making it completely inaccessible until a ransom is paid (and even then, recovery isn’t guaranteed). But with strong backups, updated systems, and a well-prepared team, you can dramatically reduce your risk. And if the worst happens, knowing how to respond can make all the difference.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;In our next article&lt;/strong&gt;, &lt;em&gt;Malware &amp;amp; Software Updates&lt;/em&gt;, we’ll cover a closely related topic: how outdated software and poor patching habits leave your business wide open to malware attacks — and what you can do to prevent them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In our next article&lt;/strong&gt;, &lt;em&gt;Malware &amp;amp; Software Updates&lt;/em&gt;, we’ll cover a closely related topic: how outdated software and poor patching habits leave your business wide open to malware attacks and what you can do to prevent them.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;More Resources:&lt;/strong&gt;&lt;br /&gt;
 &lt;a href=&quot;https://www.cisa.gov/stopransomware&quot;&gt;StopRansomware&lt;/a&gt;&lt;/p&gt;
@@ -284,7 +284,7 @@ Understand how the attack happened and fix the gaps. Update security tools, cond
                 <title>Phishing &amp; Email Security: How to Spot and Stop Digital Scams</title>
                 <description>&lt;p&gt;Welcome Back!&lt;/p&gt;
 
-&lt;p&gt;This post is part of our ongoing Cybersecurity Essentials series for small and medium-sized business (SMB) owners and non-technical teams. If you’ve ever felt overwhelmed by IT security jargon, you’re in the right place. We’re here to make these important topics simple and actionable—so you can protect your business without needing a degree in computer science.&lt;/p&gt;
+&lt;p&gt;This post is part of our ongoing Cybersecurity Essentials series for small and medium-sized business (SMB) owners and non-technical teams. If you’ve ever felt overwhelmed by IT security jargon, you’re in the right place. We’re here to make these important topics simple and actionable so you can protect your business without needing a degree in computer science.&lt;/p&gt;
 
 &lt;p&gt;Today, we’re diving into one of the most common cyber threats facing SMBs: phishing and email-based attacks.&lt;/p&gt;
 
@@ -294,7 +294,7 @@ Understand how the attack happened and fix the gaps. Update security tools, cond
 
 &lt;p&gt;Think: fake invoices, urgent requests from “the boss,” or phony password reset emails.&lt;/p&gt;
 
-&lt;p&gt;According to &lt;strong&gt;Verizon’s 2023 Data Breach Investigations Report&lt;/strong&gt;, about &lt;strong&gt;75% of breaches involve the human element&lt;/strong&gt;, including phishing, social engineering, and human error. And while large companies make headlines, SMBs are especially vulnerable—they often lack formal training and protections, lack dedicated IT teams, and their teams are more likely to click something suspicious.&lt;/p&gt;
+&lt;p&gt;According to &lt;strong&gt;Verizon’s 2023 Data Breach Investigations Report&lt;/strong&gt;, about &lt;strong&gt;75% of breaches involve the human element&lt;/strong&gt;, including phishing, social engineering, and human error. And while large companies make headlines, SMBs are especially vulnerable, they often lack formal training and protections, lack dedicated IT teams, and their teams are more likely to click something suspicious.&lt;/p&gt;
 
 &lt;h4 id=&quot;real-life-examples-of-phishing-attacks&quot;&gt;Real-Life Examples of Phishing Attacks&lt;/h4&gt;
 
@@ -315,21 +315,21 @@ A hedge fund company fell victim to a whaling attack (a phishing attack specific
 
 &lt;h4 id=&quot;how-phishing-works&quot;&gt;How Phishing Works&lt;/h4&gt;
 
-&lt;p&gt;Phishing relies on &lt;strong&gt;social engineering&lt;/strong&gt;—manipulating people into doing something risky, like clicking a link, entering credentials, or paying invoices. It usually starts with a message that appears to be from someone you trust, such as your bank, a vendor, or a colleague.&lt;/p&gt;
+&lt;p&gt;Phishing relies on &lt;strong&gt;social engineering&lt;/strong&gt;, manipulating people into doing something risky, like clicking a link, entering credentials, or paying invoices. It usually starts with a message that appears to be from someone you trust, such as your bank, a vendor, or a colleague.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The Bait&lt;/strong&gt;&lt;br /&gt;
 Phishing can take many forms, not just email:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Email phishing&lt;/strong&gt;: The classic scam — “Click to reset your password” or “Your invoice is attached.”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Email phishing&lt;/strong&gt;: The classic scam, “Click to reset your password” or “Your invoice is attached.”&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Spear phishing&lt;/strong&gt;: A more targeted version, customized to you or your role.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Smishing&lt;/strong&gt;: Fake texts (“Your package is delayed. Track here: …”)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Vishing&lt;/strong&gt;: Scam phone calls impersonating tech support or financial institutions — increasingly using AI-generated voices.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Vishing&lt;/strong&gt;: Scam phone calls impersonating tech support or financial institutions, increasingly using AI-generated voices.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Social media phishing&lt;/strong&gt;: DMs with fake job offers or account alerts.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;The Hook&lt;/strong&gt;&lt;br /&gt;
-Once the bait lands, the attacker pushes you to act quickly—like clicking a link, opening an attachment, or logging in to a fake website. These actions are designed to feel routine and urgent, lowering your defenses.&lt;/p&gt;
+Once the bait lands, the attacker pushes you to act quickly, like clicking a link, opening an attachment, or logging in to a fake website. These actions are designed to feel routine and urgent, lowering your defenses.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The Catch&lt;/strong&gt;&lt;br /&gt;
 When you follow through, that’s when the real damage happens. Depending on what you clicked or entered, attackers might:&lt;/p&gt;
@@ -349,7 +349,7 @@ When you follow through, that’s when the real damage happens. Depending on wha
 &lt;p&gt;Phishing can be delivered by email, text, phone, or even chat platforms, but the red flags are often the same:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Urgency&lt;/strong&gt;: Pressure to act fast — “reset now,” “account suspended,” or “boss needs this ASAP”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Urgency&lt;/strong&gt;: Pressure to act fast, “reset now,” “account suspended,” or “boss needs this ASAP”&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Spelling and grammar mistakes&lt;/strong&gt;: Many phishing emails are poorly written&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Suspicious links&lt;/strong&gt;: Hover over links (don’t click) to check where they actually go&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Unexpected attachments&lt;/strong&gt;: Be wary of strange or unsolicited files&lt;/li&gt;
@@ -358,7 +358,7 @@ When you follow through, that’s when the real damage happens. Depending on wha
 
 &lt;h4 id=&quot;how-you-can-protect-yourself&quot;&gt;How You Can Protect Yourself&lt;/h4&gt;
 
-&lt;p&gt;Phishing targets &lt;strong&gt;people&lt;/strong&gt;, not just systems—so a few smart habits go a long way. Here’s what we recommend:&lt;/p&gt;
+&lt;p&gt;Phishing targets &lt;strong&gt;people&lt;/strong&gt;, not just systems, so a few smart habits go a long way. Here’s what we recommend:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -379,13 +379,13 @@ Send your team a simulated phishing email once or twice a year. It’s a safe wa
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Adopt a “Pause and Verify” Culture&lt;/strong&gt;&lt;br /&gt;
-Encourage employees to double-check unusual requests—especially those involving money or login credentials—by contacting the person directly using known contact info.&lt;/p&gt;
+Encourage employees to double-check unusual requests especially those involving money or login credentials by contacting the person directly using known contact info.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h4 id=&quot;dont-let-hackers-impersonate-you&quot;&gt;Don’t Let Hackers Impersonate You&lt;/h4&gt;
 
-&lt;p&gt;The tips above protect you &lt;strong&gt;from&lt;/strong&gt; phishing—but what if someone tries to phish &lt;strong&gt;as you&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;The tips above protect you &lt;strong&gt;from&lt;/strong&gt; phishing but what if someone tries to phish &lt;strong&gt;as you&lt;/strong&gt;?&lt;/p&gt;
 
 &lt;p&gt;Hackers can spoof your company’s email address and trick your clients into paying fake invoices. Even if you’re not breached, it can still harm your brand and customer trust.&lt;/p&gt;
 
@@ -403,8 +403,8 @@ Encourage employees to double-check unusual requests—especially those involvin
 
 &lt;p&gt;&lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Enable MFA on all email accounts&quot; /&gt;
 &lt;label for=&quot;checklist1&quot;&gt; Enable MFA on all email accounts&lt;/label&gt;&lt;br /&gt;
-  &lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Never click links in unexpected emails—verify first&quot; /&gt;
-&lt;label for=&quot;checklist1&quot;&gt; Never click links in unexpected emails—verify first&lt;/label&gt;&lt;br /&gt;
+  &lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Never click links in unexpected emails, verify first&quot; /&gt;
+&lt;label for=&quot;checklist1&quot;&gt; Never click links in unexpected emails, verify first&lt;/label&gt;&lt;br /&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Train staff annually&quot; /&gt;
 &lt;label for=&quot;checklist1&quot;&gt; Train staff annually&lt;/label&gt;&lt;br /&gt;
   &lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Use strong passwords and don’t reuse them&quot; /&gt;
@@ -416,7 +416,7 @@ Encourage employees to double-check unusual requests—especially those involvin
 
 &lt;h4 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h4&gt;
 
-&lt;p&gt;Phishing is one of the easiest ways for attackers to break into your business — but it’s also one of the easiest to prevent with the right habits and tools in place. A little awareness can go a long way in protecting your team, your data, and your reputation.&lt;/p&gt;
+&lt;p&gt;Phishing is one of the easiest ways for attackers to break into your business but it’s also one of the easiest to prevent with the right habits and tools in place. A little awareness can go a long way in protecting your team, your data, and your reputation.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Stay tuned for our next post: Ransomware and Data Backup!&lt;/strong&gt;&lt;/p&gt;
 
@@ -465,7 +465,7 @@ Encourage employees to double-check unusual requests—especially those involvin
   &lt;li&gt;Complying with regulations like HIPAA, PCI-DSS, or FTC Safeguards&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Cybersecurity isn’t just a technical issue—it’s essential for business continuity.&lt;/p&gt;
+&lt;p&gt;Cybersecurity isn’t just a technical issue, it’s essential for business continuity.&lt;/p&gt;
 
 &lt;h4 id=&quot;the-consequences-of-a-cyberattack-can-include&quot;&gt;The Consequences of a Cyberattack Can Include:&lt;/h4&gt;
 
@@ -505,7 +505,7 @@ Encourage employees to double-check unusual requests—especially those involvin
 
 &lt;p&gt;Final Thoughts&lt;/p&gt;
 
-&lt;p&gt;Cybersecurity is not just an IT responsibility—it’s a business-wide commitment. Small practices that prioritize digital security not only avoid regulatory penalties but also gain a competitive advantage by building trust with their clients.&lt;/p&gt;
+&lt;p&gt;Cybersecurity is not just an IT responsibility, it’s a business-wide commitment. Small practices that prioritize digital security not only avoid regulatory penalties but also gain a competitive advantage by building trust with their clients.&lt;/p&gt;
 
 &lt;p&gt;Stay tuned for our next post: &lt;strong&gt;Phishing and Email Security&lt;/strong&gt;&lt;/p&gt;
 
