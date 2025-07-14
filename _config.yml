@@ -32,6 +32,9 @@ locale: "en-US"
 
 version: v1.1.0
 
+future: true
+timezone: America/Chicago 
+
 assets:
   css:
     - custom.css

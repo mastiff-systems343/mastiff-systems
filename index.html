@@ -27,7 +27,9 @@ layout: default
   <div class="container">
   <h2 class="section-heading text-uppercase">Latest Blog Posts</h2>
   <div class="container post-list">
-    {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+    {% assign current_date = site.time | date: "%Y-%m-%d" %}
+    {% assign current_posts = site.posts | where_exp: "post", "post.date <= site.time" %}
+    {% assign sorted_posts = current_posts | sort: 'date' | reverse %}
     {% for post in sorted_posts limit:3 %}
       <article class="post-preview">
         <div class="post-image-1">
@@ -53,7 +55,7 @@ layout: default
   </div>
   <br>
   <br>
-  <!-- End Latest Blog-->
+<!-- End Latest Blog-->
 
 <!-- Featured -->
 
