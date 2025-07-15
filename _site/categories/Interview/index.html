@@ -7,7 +7,7 @@
   <meta name="author" content="Mastiff Systems">
   <link rel="canonical" href="http://localhost:4000/mastiff-systems/">
 
-  <title>Tim - Mastiff Systems</title>
+  <title>Interview - Mastiff Systems</title>
 
   <!-- Bootstrap core CSS (Load Before JS) -->
   <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -679,113 +679,36 @@
 
   <div class="container">
     <main class="page-section">
-      <br>
-<br>
-<h2 class="page-heading">Tim Konecky</h2>
+      <div class="blog-index">
+  <h1 class="page-heading">Interview</h1>
 
-<div class="author-flex-wrapper">
-  <!-- Left: main content -->
-  <div class="author-bio-text">
-    <p>For over 23 years, Tim has shaped the silent engines of the digital world: data. From early schematics to modern warehousing, he’s mapped the flow of information like a cartographer of code—refining, tuning, and optimizing until every query sings. Specializing in reporting, ETL, and data warehouse architecture, Tim is a Microsoft-certified professional in Transact-SQL and Power BI, with Python and PowerShell always within reach of his toolkit.</p>
-
-<p>He’s not just a database admin—he’s a craftsman of clarity, turning rows into revelations and systems into symphonies of structure.</p>
-
-<p><strong>Skills:</strong></p>
-
-<ul>
-  <li>
-    <p>Expert in data modeling, performance tuning, and database management</p>
-  </li>
-  <li>
-    <p>Fluent in Python, PowerShell, and all things SQL</p>
-  </li>
-  <li>
-    <p>Designs scalable architectures that turn data into decisions</p>
-  </li>
-</ul>
-
-<p><strong>Hobbies:</strong></p>
-
-<p>When the terminals dim, Tim picks up an instrument, heads to the water to fish, or retreats to his workshop to shape wood and invent the next little marvel. A lifelong tinkerer, he finds joy in building—whether it’s queries, tables, tunes, or tools.</p>
-
-<p><strong>Favorite Music:</strong></p>
-
-<p>The Midnight – smooth, nostalgic, and synth-filled. Perfect background for both late-night coding and deep thinking.</p>
-
-
-  </div>
-
-  <!-- Right: image + additional content -->
-  <div class="author-bio-image">
-    <img src="" alt="Tim Konecky" class="author-image" />
+  <div class="post-list">
     
-    <!-- Character ID Card -->
-    <div class="author-id-card">
-      
-
-<p><strong>Title:</strong> Database Administrator</p>
-
-<p><strong>Class:</strong> Data Mechanist</p>
-
-<p><strong>Guild Role:</strong> Keeper of the Queryforge, Architect of Insight</p>
-
-    </div>
-  </div>
-</div>
-<h3>Posts by Tim</h3>
-
-
-
-
-
-<div class="post-carousel-container">
-
-
-  <div class="post-carousel" id="postCarousel">
+    <article class="post-preview">
+      <div class="post-image">
+        
+          <img src="/assets/img/blog/17-Felix.png" alt="UX Designer Felix on User-Hostile Tech">
+        
+      </div>
+      <h2 class="post-title">
+        <a href="/blog/UX-Designer-Felix-on-User-Hostile-Tech/">UX Designer Felix on User-Hostile Tech</a>
+      </h2>
+      <div class="post-meta">
+        
+          <span class="post-author">by Chris</span>
+        
+        <span class="post-date">21 Jul 2025</span>
+      </div>
+      <div class="post-excerpt">
+        Felix's influential essays "The Small Web" and "Against a User-Hostile Web" have inspired a growing movement of developers and designers seeking alternatives to big tech's surveillance capitalism. In this interview, he discusses how the original spirit of sharing and connection has been corrupted by engagement-driven algorithms that profit from division...
+      </div>
+      <a href="/blog/UX-Designer-Felix-on-User-Hostile-Tech/" class="read-more">Read More</a>
+    </article>
     
   </div>
 
-
+  
 </div>
-</div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const carousel = document.getElementById("postCarousel");
-  const prevBtn = document.getElementById("prevBtn");
-  const nextBtn = document.getElementById("nextBtn");
-
-  if (!carousel || !prevBtn || !nextBtn) return;
-
-  const posts = carousel.querySelectorAll(".post-preview");
-  const postCount = posts.length;
-  const isMobile = window.innerWidth <= 768;
-
-  const shouldShow = (isMobile && postCount > 1) || (!isMobile && postCount > 3);
-
-  if (!shouldShow) {
-    prevBtn.style.display = "none";
-    nextBtn.style.display = "none";
-    return;
-  }
-
-  const postWidth = posts[0]?.offsetWidth || 300;
-  const gap = 20;
-  const scrollAmount = postWidth + gap;
-
-  nextBtn.addEventListener("click", function () {
-    carousel.scrollBy({ left: scrollAmount, behavior: "smooth" });
-  });
-
-  prevBtn.addEventListener("click", function () {
-    carousel.scrollBy({ left: -scrollAmount, behavior: "smooth" });
-  });
-});
-</script>
-
-
-
-
     </main>
   </div>
 

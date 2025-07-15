@@ -1,4 +1,8 @@
-I""3<h4 id="get-to-know-felix">GET TO KNOW FELIX</h4>
+I"]2<p>Felix is a UX designer at OpenProject, an open-source project management tool, and the person who wrote about “user-hostile” design and small web essays that inspired Mastiff to craft its own website from hand. In this conversation, we explore his perspective on surveillance capitalism and platform manipulation, how open-source companies balance profitability with ethics, and why he believes we need better tech literacy to hold big platforms accountable. Felix also shares practical advice for anyone wanting to create their own corner of the web, free from algorithms and SEO optimization.</p>
+
+<p>From digital sovereignty in Europe to the joy of building websites that break all the UX rules, Felix offers a thoughtful take on technology that puts people before metrics.</p>
+
+<h4 id="get-to-know-felix">GET TO KNOW FELIX</h4>
 
 <p><strong>So obviously you’re a musician, a designer, and a programmer. To kick things off, can you give us the 10,000-foot view — who are you, and what do you do?</strong></p>
 
@@ -60,7 +64,7 @@
 
 <p>But now, you could argue the responsibility also lies with those who hold that power. We’re not quite there yet. We’ve given them the power, but we haven’t held them accountable at the same level. We’re trying, but it’s hard. Tech moves fast, and legislation moves very slowly.</p>
 
-<p><strong>Yeah, I totally get that. I believe in capitalism too especially when it comes to small business. But big tech? They’re not customer centric at all. Like <a href="https://example.com/vmware-article">VMware</a> they make moves that benefit shareholders, not customers. Honestly, modern big tech often feels anti good customer experience.</strong></p>
+<p><strong>Yeah, I totally get that. I believe in capitalism too especially when it comes to small business. But big tech? They’re not customer centric at all. Like <a href="/index.html?modal=p4">VMWare</a> they make moves that benefit shareholders, not customers. Honestly, modern big tech often feels anti good customer experience.</strong></p>
 
 <p>We all sort of believed that Google, their slogan, right? “Do no evil.” In hindsight, it’s funny how it was phrased as a double negative. That is also very interesting.</p>
 
@@ -77,14 +81,4 @@
 <p>We’ve known for a long time, even before the 1960s, that news media carries bias and can shape agendas. Now it’s become more insidious because these platforms have incentives tied directly to engagement. And “engagement” is a euphemism for people getting angry at each other.</p>
 
 <p>It’s not positive for society, but it’s very effective at generating ad revenue. That incentive has taken us down a very unfortunate path.</p>
-
-<h4 id="tech-literacy">TECH LITERACY</h4>
-
-<p><strong>What do you think we should do to hold these companies accountable?</strong></p>
-
-<p>I actually don’t know. Part of it is education, but that’s a big question. Tech literacy is important, especially when combined with critical thinking skills. There’s a lot of focus on how to code, and that’s good, but understanding how things work and what the dependencies are is also important.</p>
-
-<p>These ideas are difficult to put into practice. I like the European approach sometimes, although we may go too far with some legislation. Because we have to find agreement between 27 countries, it’s not always easy. It takes time. The European model tends to be: you have quite a bit of freedom in the market, but also a lot of responsibility.</p>
-
-<p>In theory, that’s good, but legislation moves slowly, and some laws can discourage innovation. There is a risk. So I don’t know the solution, to be honest.</p>
 :ET

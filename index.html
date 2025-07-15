@@ -14,7 +14,7 @@ layout: default
           <p>Technology should work for you and not get in your way. Therefore we work with whatever technology is right for your business, that may be a server onsite, managed support, or cloud services. It's what's best for you and there is no one size fits all solution.</p>
           <p>We will be your partner and not force you in to a particular technology. We will cheer you on as you grow while removing technology as an obstacle or frustration. We won't make you feel stupid if you have questions. Give us a call or contact us if you would like us to be part of your team.</p>
         </div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Let's work together!</a>
+        <a class="btn btn-primary btn-xl text-uppercase" href="#contact">Let's work together!</a>
       </div>
     </div>
   </header>
@@ -66,7 +66,11 @@ layout: default
         <div class="featured-title">
         <h4 class="featured-title">Featured</h4>
         <h3>Break Free from VMware: Seamless Migration to Proxmox</h3> <p class="featured-text">Are you tired of escalating costs and restrictive licensing with VMware? Ready to break free from the insanity of Broadcom? We love VMware but their owners have ruined our trust in the product. So It's time to take back control of your virtualization environment. Our expert VMware to Proxmox migration service offers a path to freedom, flexibility, and significant cost savings.</p>
-        <div><a class="btn btn-primary btn-xl js-scroll-trigger" data-toggle="modal" data-target="#p4">Explore Migration Services</a></div></div></div></div>
+        <div>
+  <a class="btn btn-primary btn-xl js-scroll-trigger" data-toggle="modal" data-target="#p4">
+    Explore Migration Services
+  </a>
+</div>
     </div></div>
       </div>
     </div>
@@ -104,57 +108,66 @@ layout: default
       {% endfor %}
     </div>
 
-    <!-- Modals -->
-    {% for item in site.portfolio %}
-    <div
-      class="portfolio-modal modal fade"
-      id="p{{ forloop.index }}"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-      style="z-index: 1050;"  
-    >
-      <div class="modal-dialog" style="z-index: 1060;">
-        <div class="modal-content" style="z-index: 1070;">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12 mx-auto">
-                <div class="modal-body">
-                  <h2 class="text-uppercase">{{ item.title }}</h2>
-                  <p class="item-intro text-muted">{{ item.subtitle }}</p>
-                  <img
-                    class="img-fluid d-block mx-auto"
-                    src="{{ item.image | relative_url }}"
-                    alt="{{ item.alt }}"
-                  >
-                  <p>{{ item.content | markdownify }}</p>
-                </div>
-              </div>
+<!-- Modals -->
+{% for item in site.portfolio %}
+<div
+  class="portfolio-modal modal fade"
+  id="p{{ forloop.index }}"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+  style="z-index: 1050;"
+>
+  <div class="modal-dialog" style="z-index: 1060;">
+    <div class="modal-content" style="z-index: 1070;">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase">{{ item.title }}</h2>
+              <p class="item-intro text-muted">{{ item.subtitle }}</p>
+              <img
+                class="img-fluid d-block mx-auto"
+                src="{{ item.image | relative_url }}"
+                alt="{{ item.alt }}"
+              >
+              <p>{{ item.content | markdownify }}</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    {% endfor %}
+  </div>
+</div>
+{% endfor %}
 
-    <script>
-      $(document).ready(function(){
-        $('.modal').modal({
-          backdrop: true,
-          keyboard: true
-        });
-      });
-      </script>      
-    
-  </div> <!-- end container -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const params = new URLSearchParams(window.location.search);
+    const modalId = params.get("modal");
+    if (modalId) {
+      const modal = document.getElementById(modalId);
+      if (modal) {
+        $(modal).modal("show");
+      }
+    }
+  });
+
+  $(document).ready(function(){
+    $('.modal').modal({
+      backdrop: true,
+      keyboard: true
+    });
+  });
+</script>
+
+</div> <!-- end container -->
 </section>
-
-
 
 <!-- End Portfolio Modals -->
 
@@ -327,6 +340,19 @@ layout: default
 	  <script src="assets/js/agency.min.js"></script>
 
     <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const params = new URLSearchParams(window.location.search);
+    const modalId = params.get("modal");
+
+    if (modalId) {
+      const modalElement = document.getElementById(modalId);
+      if (modalElement) {
+        const modal = new bootstrap.Modal(modalElement);
+        modal.show();
+      }
+    }
+  });
+
       document.addEventListener("DOMContentLoaded", function () {
         // Record the start time when the DOM content is loaded
         var startTime = performance.now(); 
@@ -354,6 +380,28 @@ layout: default
           document.getElementById("footer-render-time").innerText = "Render Time: " + renderTimeText;
         };
       });
+
+        (function () {
+    if (!('scrollRestoration' in history)) return;
+    history.scrollRestoration = 'manual';
+
+    const navType = performance.getEntriesByType("navigation")[0]?.type || "navigate";
+
+    // Save current scroll on page unload
+    window.addEventListener('pagehide', () => {
+      sessionStorage.setItem('scrollPos', window.scrollY);
+    });
+
+    window.addEventListener('pageshow', (event) => {
+      const savedPos = sessionStorage.getItem('scrollPos');
+      const isBack = event.persisted || navType === "back_forward";
+
+      // Restore scroll if back nav
+      if (isBack && savedPos !== null) {
+        setTimeout(() => {
+          window.scrollTo({ top: parseInt(savedPos), behavior: 'instant' });
+        }, 50);
+      } else {
     </script>
   </body>
 </html>

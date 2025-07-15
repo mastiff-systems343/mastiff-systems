@@ -1042,8 +1042,12 @@ section#contact :-ms-input-placeholder {
 }
 
 .post-categories a {
-  color: #bc7259;
+  color: #f3c8a3;
   text-decoration: none;
+  background-color: rgba(66, 57, 65,0.5);
+  border-radius: 4px;
+  padding: 0.2rem;
+  font-size: 12px;
 }
 
 .post-categories a:hover {

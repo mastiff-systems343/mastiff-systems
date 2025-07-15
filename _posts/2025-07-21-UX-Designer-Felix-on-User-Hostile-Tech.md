@@ -2,12 +2,16 @@
 layout: post
 title: "UX Designer Felix on User-Hostile Tech"
 date: 2025-07-21
-categories: 
+categories: [Interview]
 author: Chris
 author_avatar: /assets/img/team/Chris-avatar.png
 image: /assets/img/blog/17-Felix.png
-excerpt: Felix works as a UX designer but describes himself as someone interested in technology, engineering, and creating things. In this interview, he discusses his concept of the "user-hostile web" - when systems' goals go against users' interests. He explains how the original spirit of sharing and connection has been corrupted by surveillance capitalism and engagement-driven algorithms. Felix also shares his work with OpenProject, his advocacy for the Small Web, and why he believes digital sovereignty is crucial for Europe's future.
+excerpt: Felix's influential essays "The Small Web" and "Against a User-Hostile Web" have inspired a growing movement of developers and designers seeking alternatives to big tech's surveillance capitalism. In this interview, he discusses how the original spirit of sharing and connection has been corrupted by engagement-driven algorithms that profit from division and manipulation. Felix also shares his work with OpenProject, his vision for an artisanal web made by people for people, and why he believes digital sovereignty is crucial for Europe's future.
 ---
+Felix is a UX designer at OpenProject, an open-source project management tool, and the person who wrote about "user-hostile" design and small web essays that inspired Mastiff to craft its own website from hand. In this conversation, we explore his perspective on surveillance capitalism and platform manipulation, how open-source companies balance profitability with ethics, and why he believes we need better tech literacy to hold big platforms accountable. Felix also shares practical advice for anyone wanting to create their own corner of the web, free from algorithms and SEO optimization.
+
+From digital sovereignty in Europe to the joy of building websites that break all the UX rules, Felix offers a thoughtful take on technology that puts people before metrics.
+
 #### GET TO KNOW FELIX
 
 **So obviously you're a musician, a designer, and a programmer. To kick things off, can you give us the 10,000-foot view — who are you, and what do you do?**
@@ -70,7 +74,7 @@ And you're right. We've allowed the gatekeepers to be there, and it was almost i
 
 But now, you could argue the responsibility also lies with those who hold that power. We're not quite there yet. We've given them the power, but we haven't held them accountable at the same level. We're trying, but it's hard. Tech moves fast, and legislation moves very slowly.
 
-**Yeah, I totally get that. I believe in capitalism too especially when it comes to small business. But big tech? They're not customer centric at all. Like [VMware](https://example.com/vmware-article) they make moves that benefit shareholders, not customers. Honestly, modern big tech often feels anti good customer experience.**
+**Yeah, I totally get that. I believe in capitalism too especially when it comes to small business. But big tech? They're not customer centric at all. Like [VMWare](/index.html?modal=p4) they make moves that benefit shareholders, not customers. Honestly, modern big tech often feels anti good customer experience.**
 
 We all sort of believed that Google, their slogan, right? "Do no evil." In hindsight, it's funny how it was phrased as a double negative. That is also very interesting.
 
@@ -87,13 +91,3 @@ And there's a lot of power in that. For me, the biggest challenge is the amount 
 We've known for a long time, even before the 1960s, that news media carries bias and can shape agendas. Now it's become more insidious because these platforms have incentives tied directly to engagement. And "engagement" is a euphemism for people getting angry at each other.
 
 It's not positive for society, but it's very effective at generating ad revenue. That incentive has taken us down a very unfortunate path.
-
-#### TECH LITERACY
-
-**What do you think we should do to hold these companies accountable?**
-
-I actually don't know. Part of it is education, but that's a big question. Tech literacy is important, especially when combined with critical thinking skills. There's a lot of focus on how to code, and that's good, but understanding how things work and what the dependencies are is also important.
-
-These ideas are difficult to put into practice. I like the European approach sometimes, although we may go too far with some legislation. Because we have to find agreement between 27 countries, it's not always easy. It takes time. The European model tends to be: you have quite a bit of freedom in the market, but also a lot of responsibility.
-
-In theory, that's good, but legislation moves slowly, and some laws can discourage innovation. There is a risk. So I don't know the solution, to be honest.
