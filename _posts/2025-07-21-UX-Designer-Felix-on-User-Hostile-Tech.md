@@ -74,7 +74,7 @@ And you're right. We've allowed the gatekeepers to be there, and it was almost i
 
 But now, you could argue the responsibility also lies with those who hold that power. We're not quite there yet. We've given them the power, but we haven't held them accountable at the same level. We're trying, but it's hard. Tech moves fast, and legislation moves very slowly.
 
-**Yeah, I totally get that. I believe in capitalism too especially when it comes to small business. But big tech? They're not customer centric at all. Like [VMWare](/index.html?modal=p4) they make moves that benefit shareholders, not customers. Honestly, modern big tech often feels anti good customer experience.**
+**Yeah, I totally get that. I believe in capitalism too especially when it comes to small business. But big tech? They're not customer centric at all. Like [VMWare](https://mastiffsystems.com/blog/On-Linux-VMware-and-Broadcom/) they make moves that benefit shareholders, not customers. Honestly, modern big tech often feels anti good customer experience.**
 
 We all sort of believed that Google, their slogan, right? "Do no evil." In hindsight, it's funny how it was phrased as a double negative. That is also very interesting.
 
