@@ -1534,3 +1534,40 @@ section#contact :-ms-input-placeholder {
 .lightbox-next {
   right: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .websites-index {
+    grid-template-columns: 1fr; /* Single column */
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .image-grid {
+    height: 200px; /* Slightly smaller for mobile */
+  }
+
+  .image-grid .card:nth-child(2) {
+    transform: rotate(3deg);
+    top: -4px;
+    left: -4px;
+  }
+
+  .image-grid .card:nth-child(3) {
+    transform: rotate(-3deg);
+    top: -8px;
+    left: -8px;
+  }
+
+  .stack-container {
+    padding: 1rem;
+  }
+
+  .stack-title {
+    font-size: 1rem;
+  }
+
+  .stack-description {
+    font-size: 0.9rem;
+  }
+}
+
