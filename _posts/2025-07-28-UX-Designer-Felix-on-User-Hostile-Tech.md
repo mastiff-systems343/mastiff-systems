@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "UX Designer Felix Neusadt on User-Hostile Tech"
-date: 2025-07-21
+title: "UX Designer Felix Satyal on User-Hostile Tech"
+date: 2025-07-28
 categories: [Interview]
 author: Chris
 author_avatar: /assets/img/team/Chris-avatar.png
 image: /assets/img/blog/17-Felix.png
 excerpt: Felix's influential essays "The Small Web" and "Against a User-Hostile Web" have inspired a growing movement of developers and designers seeking alternatives to big tech's surveillance capitalism. In this interview, he discusses how the original spirit of sharing and connection has been corrupted by engagement-driven algorithms that profit from division and manipulation. Felix also shares his work with OpenProject, his vision for an artisanal web made by people for people, and why he believes digital sovereignty is crucial for Europe's future.
 ---
-Felix Neusadt is a UX designer at OpenProject, an open-source project management tool, and the person who wrote about ["user-hostile"](https://neustadt.fr/essays/against-a-user-hostile-web/) and [small web](https://neustadt.fr/essays/the-small-web/) essays that inspired Mastiff to craft its own website from hand. In this conversation, we explore his perspective on surveillance capitalism and platform manipulation, how open-source companies balance profitability with ethics, and why he believes we need better tech literacy to hold big platforms accountable. Felix also shares practical advice for anyone wanting to create their own corner of the web, free from algorithms and SEO optimization.
+Felix Satyal is a UX designer at OpenProject, an open-source project management tool, and the person who wrote about ["user-hostile"](https://neustadt.fr/essays/against-a-user-hostile-web/) and [small web](https://neustadt.fr/essays/the-small-web/) essays that inspired Mastiff to craft its own website from hand. In this conversation, we explore his perspective on surveillance capitalism and platform manipulation, how open-source companies balance profitability with ethics, and why he believes we need better tech literacy to hold big platforms accountable. Felix also shares practical advice for anyone wanting to create their own corner of the web, free from algorithms and SEO optimization.
 
 From digital sovereignty in Europe to the joy of building websites that break all the UX rules, Felix offers a thoughtful take on technology that puts people before metrics.
 

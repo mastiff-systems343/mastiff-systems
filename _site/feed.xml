@@ -5,13 +5,13 @@
         <description>Mastiff Systems is a small IT services company in Lincoln, Nebraska.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 18 Jul 2025 14:33:32 +0000</pubDate>
-        <lastBuildDate>Fri, 18 Jul 2025 14:33:32 +0000</lastBuildDate>
+        <pubDate>Sat, 19 Jul 2025 18:16:54 +0000</pubDate>
+        <lastBuildDate>Sat, 19 Jul 2025 18:16:54 +0000</lastBuildDate>
         <generator>Jekyll v4.2.2</generator>
         
             <item>
-                <title>UX Designer Felix Neusadt on User-Hostile Tech</title>
-                <description>&lt;p&gt;Felix Neusadt is a UX designer at OpenProject, an open-source project management tool, and the person who wrote about &lt;a href=&quot;https://neustadt.fr/essays/against-a-user-hostile-web/&quot;&gt;“user-hostile”&lt;/a&gt; and &lt;a href=&quot;https://neustadt.fr/essays/the-small-web/&quot;&gt;small web&lt;/a&gt; essays that inspired Mastiff to craft its own website from hand. In this conversation, we explore his perspective on surveillance capitalism and platform manipulation, how open-source companies balance profitability with ethics, and why he believes we need better tech literacy to hold big platforms accountable. Felix also shares practical advice for anyone wanting to create their own corner of the web, free from algorithms and SEO optimization.&lt;/p&gt;
+                <title>UX Designer Felix Satyal on User-Hostile Tech</title>
+                <description>&lt;p&gt;Felix Satyal is a UX designer at OpenProject, an open-source project management tool, and the person who wrote about &lt;a href=&quot;https://neustadt.fr/essays/against-a-user-hostile-web/&quot;&gt;“user-hostile”&lt;/a&gt; and &lt;a href=&quot;https://neustadt.fr/essays/the-small-web/&quot;&gt;small web&lt;/a&gt; essays that inspired Mastiff to craft its own website from hand. In this conversation, we explore his perspective on surveillance capitalism and platform manipulation, how open-source companies balance profitability with ethics, and why he believes we need better tech literacy to hold big platforms accountable. Felix also shares practical advice for anyone wanting to create their own corner of the web, free from algorithms and SEO optimization.&lt;/p&gt;
 
 &lt;p&gt;From digital sovereignty in Europe to the joy of building websites that break all the UX rules, Felix offers a thoughtful take on technology that puts people before metrics.&lt;/p&gt;
 
@@ -95,7 +95,7 @@
 
 &lt;p&gt;It’s not positive for society, but it’s very effective at generating ad revenue. That incentive has taken us down a very unfortunate path.&lt;/p&gt;
 </description>
-                <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+                <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
                 <link>http://localhost:4000/blog/UX-Designer-Felix-on-User-Hostile-Tech/</link>
                 <guid isPermaLink="true">http://localhost:4000/blog/UX-Designer-Felix-on-User-Hostile-Tech/</guid>
                 

@@ -32,7 +32,7 @@ locale: "en-US"
 
 version: v1.1.0
 
-future: true
+future: false
 timezone: America/Chicago 
 
 assets:
