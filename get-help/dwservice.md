@@ -1,42 +1,51 @@
 ---
 layout: page
-title: How to install dwservice in your computer.
+title: DWService Remote Access Setup Guide
 excerpt: To install DWService, follow these steps to set up the agent and accept our invitation for remote access.
 ---
+# DWService Remote Access Setup Guide
 
-<h1>How to install dwservice in your computer.</h1>
+**Create Your Account**
+- Visit [DWService.net](https://www.dwservice.net/) and click Sign Up.
+- Complete the registration form with required information
+- Verify your email address when prompted
 
-We use DWService as our remote access tool, which allows us to control and manage devices remotely. To get started, we’ll guide you through the installation of the agent and help you accept the invitation we sent you.
-<br>
-<br>
-<p>Step 1: Create an Account</p>
-<ul class="post-list1">
-    <ol>
-      <li>Visit <a href="https://www.dwservice.net/en/home.html" target="_blank" class="author-name">DWService.net.</a></li>
-      <li>Click on <a href="{{ site.baseurl }}/get-help/dwservice-sign-up/" target="_blank" class="author-name">Sign Up</a> to create a new account.</li>
-      <li>Fill in the required information and verify your email address.</li>
-    </ol>
-</ul>
-<p>Step 2: Install the DWService Agent</p>
-<ul class="post-list1">
-    <ol>
-      <li>Go to the <a href="https://www.dwservice.net/en/download.html" target="_blank" class="author-name">Downloads</a> section on the DWService website.</li>
-      <li>Download the appropriate agent for your operating system (Windows, macOS, or Linux).</li>
-      <li>Run the installer and follow the on-screen instructions.</li>
-    </ol>
-</ul>
-<p>Step 3: Configure the Agent</p>
-<ul class="post-list1">
-    <ol>
-      <li>After installation, open the DWService agent.</li>
-      <li>You’ll be prompted to enter an installation code we'll provide.</li>
-      <li>Enter the code and complete the setup.</li>
-    </ol>
-</ul>
-<p>Step 4: Accept the Invite</p>
-<ul class="post-list1">
-    <ol>
-      <li>Once the agent is installed, we'll send you an invite.</li>
-      <li>Accept the invite through the notification bell in your DWService account.</li>
-    </ol>
-</ul>
+**Install the Agent**
+- Navigate to the **Downloads** section for first-time users
+- Download and run the DWService installer on your target computer
+- Follow the on-screen setup instructions
+- Enter the installation code we provide
+
+**Accept the Connection Invite**
+- Wait for us to send you a connection invite after installation
+- Go to your DWService account dashboard
+- Click the notification bell icon
+- Accept the invitation to connect
+
+---
+
+### How to remote to another computer
+
+**Select Your Computer**
+- Access your DWService dashboard
+- Navigate to the **Agents** section
+- Locate and click on the computer name you want to access
+
+**Choose Connection Type**
+- **Screen** - Full desktop control and viewing
+- **Files** - File transfer and management only  
+- **Terminal** - Command-line access
+
+**Connect and Control**
+- Click your selected option
+- Wait for the connection to establish
+- The remote desktop will open in your browser
+- Use your mouse and keyboard to control the remote computer normally
+
+---
+
+**Ending Your Session**
+- Use the connection toolbar to disconnect properly when finished
+- Close the browser tab to end the remote session completely
+
+> **⚠️ Important Note:** The target computer must remain powered on and connected to the internet for remote access to function.

@@ -1,4 +1,5 @@
-I"C<p><br /></p>
+I"ø
+<p><br /></p>
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
@@ -16,9 +17,9 @@
       <br />
       <br />
       <br />
-<p><strong><em>How-to</em></strong></p>
-<a href="/get-help/how-to/" class="dark-links">How to find your computer name</a><br />
-<a href="/get-help/dwservice/" class="dark-links">How to setup dwservice</a>
+<p><strong>How-to</strong></p>
+[How to find your computer name](/get-help/how-to/)  
+[How to use DWService](/get-help/dwservice/)
 </div>
     <div class="col-lg-6">
     <br />

@@ -1,0 +1,63 @@
+I"�<h1 id="dwservice-remote-access-setup-guide">DWService Remote Access Setup Guide</h1>
+
+<p><strong>Create Your Account</strong></p>
+<ul>
+  <li>Visit <a href="https://www.dwservice.net/">DWService.net</a> and click Sign Up.</li>
+  <li>Complete the registration form with required information</li>
+  <li>Verify your email address when prompted</li>
+</ul>
+
+<p><strong>Install the Agent</strong></p>
+<ul>
+  <li>Navigate to the <strong>Downloads</strong> section for first-time users</li>
+  <li>Download and run the DWService installer on your target computer</li>
+  <li>Follow the on-screen setup instructions</li>
+  <li>Enter the installation code we provide</li>
+</ul>
+
+<p><strong>Accept the Connection Invite</strong></p>
+<ul>
+  <li>Wait for us to send you a connection invite after installation</li>
+  <li>Go to your DWService account dashboard</li>
+  <li>Click the notification bell icon</li>
+  <li>Accept the invitation to connect</li>
+</ul>
+
+<hr />
+
+<h3 id="how-to-remote-to-another-computer">How to remote to another computer</h3>
+
+<p><strong>Select Your Computer</strong></p>
+<ul>
+  <li>Access your DWService dashboard</li>
+  <li>Navigate to the <strong>Agents</strong> section</li>
+  <li>Locate and click on the computer name you want to access</li>
+</ul>
+
+<p><strong>Choose Connection Type</strong></p>
+<ul>
+  <li><strong>Screen</strong> - Full desktop control and viewing</li>
+  <li><strong>Files</strong> - File transfer and management only</li>
+  <li><strong>Terminal</strong> - Command-line access</li>
+</ul>
+
+<p><strong>Connect and Control</strong></p>
+<ul>
+  <li>Click your selected option</li>
+  <li>Wait for the connection to establish</li>
+  <li>The remote desktop will open in your browser</li>
+  <li>Use your mouse and keyboard to control the remote computer normally</li>
+</ul>
+
+<hr />
+
+<p><strong>Ending Your Session</strong></p>
+<ul>
+  <li>Use the connection toolbar to disconnect properly when finished</li>
+  <li>Close the browser tab to end the remote session completely</li>
+</ul>
+
+<blockquote>
+  <p><strong>⚠️ Important Note:</strong> The target computer must remain powered on and connected to the internet for remote access to function.</p>
+</blockquote>
+:ET
