@@ -20,7 +20,7 @@ excerpt: This guide is for anyone who needs to remotely access a shared computer
 - The first time you log in, look for a bell notification in the upper-right corner.
 - Click the bell, then click Accept on the invite.
 
-> **Important:** If you don’t accept the invite, the shared computer **won’t appear** under your account. This only needs to be done once.
+> **Important:** If you don’t accept the invite, the shared computer won’t appear under your account. This only needs to be done once.
 
 **Access the Shared Computer**
 
