@@ -1,51 +1,30 @@
 ---
 layout: page
-title: DWService Remote Access Setup Guide
-excerpt: To install DWService, follow these steps to set up the agent and accept our invitation for remote access.
+title: How to Use DWService to Remote to a Shared Computer
+excerpt: This guide is for anyone who needs to remotely access a shared computer using DWService.
 ---
-# DWService Remote Access Setup Guide
+# How to Use DWService to Remote to a Shared Computer
 
-**Create Your Account**
-- Visit [DWService.net](https://www.dwservice.net/) and click Sign Up.
-- Complete the registration form with required information
-- Verify your email address when prompted
+**Create a DWService Account**
 
-**Install the Agent**
-- Navigate to the **Downloads** section for first-time users
-- Download and run the DWService installer on your target computer
-- Follow the on-screen setup instructions
-- Enter the installation code we provide
+- Go to [https://www.dwservice.net](https://www.dwservice.net)
+- Click Register.
+- Fill out your email, username, and password.
+- Check your email for a confirmation link and click it to activate your account.
 
-**Accept the Connection Invite**
-- Wait for us to send you a connection invite after installation
-- Go to your DWService account dashboard
-- Click the notification bell icon
-- Accept the invitation to connect
+> *Already have an account? Skip to Step 2.*
 
----
+**Log In and Accept the Invite**
 
-### How to remote to another computer
+- Go back to [https://www.dwservice.net](https://www.dwservice.net) and log in.
+- The first time you log in, look for a bell notification in the upper-right corner.
+- Click the bell, then click Accept on the invite.
 
-**Select Your Computer**
-- Access your DWService dashboard
-- Navigate to the **Agents** section
-- Locate and click on the computer name you want to access
+> **Important:** If you don’t accept the invite, the shared computer **won’t appear** under your account. This only needs to be done once.
 
-**Choose Connection Type**
-- **Screen** - Full desktop control and viewing
-- **Files** - File transfer and management only  
-- **Terminal** - Command-line access
+**Access the Shared Computer**
 
-**Connect and Control**
-- Click your selected option
-- Wait for the connection to establish
-- The remote desktop will open in your browser
-- Use your mouse and keyboard to control the remote computer normally
-
----
-
-**Ending Your Session**
-- Use the connection toolbar to disconnect properly when finished
-- Close the browser tab to end the remote session completely
-
-> **⚠️ Important Note:** The target computer must remain powered on and connected to the internet for remote access to function.
+- After accepting the invite, click the Shares tab.
+- You’ll see the computer that was shared with you.
+- Click the computer name, then click Screen to start the remote session.
+- You can go full screen, making it feel like you’re sitting right in front of the computer.

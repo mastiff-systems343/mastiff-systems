@@ -22,7 +22,7 @@ title: Get Help
       <br>
 <p><strong>How-to</strong></p>
 <a href="{{ site.baseurl }}/get-help/how-to/">How to find your computer name</a><br>
-<a href="{{ site.baseurl }}/get-help/dwservice/">How to use dwservice</a>
+<a href="{{ site.baseurl }}/get-help/dwservice/">How to use DWService to remote to a shared computer</a>
 </div>
     <div class="col-lg-6">
     <br>
