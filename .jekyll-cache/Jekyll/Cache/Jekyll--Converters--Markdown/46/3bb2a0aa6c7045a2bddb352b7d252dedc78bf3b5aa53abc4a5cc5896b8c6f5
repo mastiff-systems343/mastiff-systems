@@ -1,0 +1,115 @@
+I"�<p>Welcome back to Mastiff Systems’ Cybersecurity Essentials series. Last week, we demystified what a network is and how to protect the network and devices where your data flows. This week, we’re diving into password best practices, multi-factor authentication (MFA), and account hygiene — your core defenses that help safeguard your systems against unauthorized access.</p>
+
+<h4 id="why-you-should-care">Why You Should Care</h4>
+
+<p>A breach in account security can mean unauthorized access to sensitive client data, medical records, or confidential legal documents. Beyond data loss, it can lead to <strong>reputational damage</strong>, <strong>regulatory fines</strong>, and even <strong>lawsuits</strong>.</p>
+
+<p>Passwords are the first line of defense for nearly every system your business relies on — email, applications, file servers, Wi-Fi, and more. Yet, they remain one of the weakest links in cybersecurity. Combine that with poor account hygiene — like failing to revoke access for former employees or sharing credentials — and you’re just one exposed password away from a serious breach.</p>
+
+<p>According to 2019 research, weak or compromised passwords were the third leading cause of ransomware attacks, following lack of employee training and phishing.</p>
+
+<p>If you’re curious about the scale of these threats, here are links to public databases that track real-world breach incidents in the USA:</p>
+
+<ul>
+  <li><a href="https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf">Medical Data Breaches (U.S.): HHS OCR Breach Portal</a></li>
+  <li><a href="https://privacyrights.org/data-breaches">General Data Breaches (All Industries): Privacy Rights Clearinghouse</a></li>
+  <li><a href="https://oag.ca.gov/privacy/databreach/list">California-Specific Breach Notices: California Attorney General Breach List</a></li>
+</ul>
+
+<h4 id="real-world-examples">Real-World Examples</h4>
+
+<ul>
+  <li>
+    <p><strong>McDonald’s McHire Chatbot (2025)</strong><br />
+Researchers discovered the admin account used the default password “123456,” exposing data of <strong>64 million job applicants</strong>.</p>
+  </li>
+  <li>
+    <p><strong>SolarWinds Breach (2020)</strong><br />
+Attackers accessed systems using a weak, publicly exposed password: “solarwinds123.” This led to a <strong>global supply-chain attack</strong> affecting thousands of organizations.</p>
+  </li>
+  <li>
+    <p><strong>Medibank (2022)</strong><br />
+An infected personal device synced with saved corporate credentials gave attackers access to Medibank’s email and VPN. <strong>520 GB of sensitive data</strong> was stolen due to lack of MFA.</p>
+  </li>
+</ul>
+
+<h4 id="how-attackers-steal-passwords">How Attackers Steal Passwords</h4>
+
+<p>Before we talk defense, here’s how attackers gain access:</p>
+
+<ul>
+  <li><strong>Brute-force attacks</strong>: Rapidly guessing combinations until one works</li>
+  <li><strong>Credential stuffing</strong>: Reusing stolen credentials from other breaches</li>
+  <li><strong>Phishing</strong>: Tricking users into entering passwords on fake websites</li>
+  <li><strong>Social engineering</strong>: Impersonating trusted people to extract credentials</li>
+  <li><strong>Password spraying</strong>: Trying common passwords across many accounts</li>
+</ul>
+
+<p>Once in, attackers may install malware, steal client data, or escalate their privileges — especially dangerous if MFA is not enabled.</p>
+
+<h4 id="best-practices-for-passwords-mfa--account-security">Best Practices for Passwords, MFA &amp; Account Security</h4>
+
+<p>Here’s how to build strong defenses around your accounts:</p>
+
+<p><strong>Use Strong, Unique Passwords</strong></p>
+<ul>
+  <li>At least 12–16 characters</li>
+  <li>Mix of letters, numbers, symbols</li>
+  <li>Avoid names, dates, or reused passwords</li>
+  <li>Use passphrases for memorability (e.g., <em>Correct-Battery-Staple</em>)</li>
+</ul>
+
+<p><strong>Enable Multi-Factor Authentication (MFA)</strong></p>
+<ul>
+  <li>Adds a second layer beyond your password</li>
+  <li>Use authenticator apps (Microsoft, Google) or hardware keys (YubiKey)</li>
+  <li>Avoid relying only on SMS or email for MFA</li>
+</ul>
+
+<p><strong>Practice Good Account Hygiene</strong></p>
+<ul>
+  <li>Audit access regularly — remove old or unused accounts</li>
+  <li>Apply least privilege — give only what’s necessary</li>
+  <li>Avoid shared accounts — each user should have their own</li>
+  <li>Monitor for suspicious login activity</li>
+</ul>
+
+<p><strong>Use a Password Manager</strong></p>
+<ul>
+  <li>Generates and stores strong passwords</li>
+  <li>Avoid storing passwords in spreadsheets or sticky notes</li>
+</ul>
+
+<h4 id="passwordless-login-a-safer-future">Passwordless Login: A Safer Future</h4>
+
+<p>Modern platforms (Google, Apple, Microsoft) are moving toward passwordless login. Instead of typing a password, you authenticate with:</p>
+
+<ul>
+  <li><strong>Passkeys</strong> (Face ID, fingerprint, or device PIN)</li>
+  <li><strong>Magic Links</strong> (email or SMS links for one-click login)</li>
+  <li><strong>Biometric logins</strong></li>
+</ul>
+
+<p>This approach is phishing-resistant, harder to steal, and improves user experience. Adoption is growing rapidly.</p>
+
+<h4 id="a-deeper-dive-the-cia-triad">A Deeper Dive: The CIA Triad</h4>
+
+<p>The foundation of cybersecurity is built on the <strong>CIA Triad</strong> — not the agency, but the principles:</p>
+
+<ul>
+  <li><strong>Confidentiality</strong>: Keep data private and protected</li>
+  <li><strong>Integrity</strong>: Prevent unauthorized changes</li>
+  <li><strong>Availability</strong>: Ensure data and systems are accessible when needed</li>
+</ul>
+
+<p>Passwords, MFA, and account hygiene are all about confidentiality — preventing unauthorized access to your business’s sensitive information.</p>
+
+<h4 id="final-thoughts">Final Thoughts</h4>
+
+<p>Passwords may feel basic, but they’re central to protecting your business. Combined with MFA and good account hygiene, they form a critical first line of defense.</p>
+
+<p>But even the strongest passwords won’t help if someone is tricked into giving them away.<br />
+Next week, we’ll tackle Social Engineering &amp; AI Threats — how attackers use <em>deception</em>, not just <em>technology</em>, to breach your systems.</p>
+
+<p>Stay tuned!</p>
+:ET
