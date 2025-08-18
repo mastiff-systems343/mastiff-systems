@@ -29,8 +29,6 @@ Depending on the vibe, it’s either afrobeats and dancehall from artists like W
 
 <!--split-->
 
-**Title:** Designer
-
-**Class:** Pixel Engineer
+**Title:** Visual Alchemist
 
 **Guild Role:** Architect of Aesthetics, Keeper of Rhythm and Render

@@ -25,8 +25,6 @@ With her headphones on, she finds rhythm in the words of Taylor Swift, the soul 
 
 <!--split-->
 
-**Title:** Administrative Assistant
-
-**Class:** Clockwork Coordinator
+**Title:** Systems Conductor
 
 **Guild Role:** Keeper of the Ledgerwinds, Voice of the Frontline

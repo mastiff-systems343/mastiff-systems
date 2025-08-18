@@ -43,8 +43,6 @@ Step into his world of strategy, sound, and steam:
 
 <!--split-->
 
-**Title:** IT Expert & Founder
-
-**Class:** Grand Engineer
+**Title:** Owner & Proprietor
 
 **Guild Role:** Visionsmith, Architect of the Machine Horizon

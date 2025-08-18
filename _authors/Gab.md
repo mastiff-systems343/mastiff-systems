@@ -23,9 +23,7 @@ Gabriel winds down with the worlds he doesn't have to build—diving into video 
 
 <!--split-->
 
-**Title:** Designer
-
-**Class:** Visual Artisan
+**Title:** Design Polymath
 
 **Guild Role:** Illustrator of Realms, Forger of Form and Flow
 

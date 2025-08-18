@@ -33,9 +33,7 @@ John codes to soundtracks that match his creative tempo: John Mayer for introspe
 
 <!--split-->
 
-**Title:** Developer
-
-**Class:** System Weaver
+**Title:** Code Craftsman
 
 **Guild Role:** Architect of Play, Codewright of Godot
 

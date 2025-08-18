@@ -32,8 +32,6 @@ A fan of easy listening and smooth background harmonies, Norris prefers his soun
 
 <!--split-->
 
-**Title:** Technical Server Administrator
-
-**Class:** Network Sentinel
+**Title:** Server Whisperer
 
 **Guild Role:** Guardian of the Core, Warden of the Wires

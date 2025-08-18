@@ -27,8 +27,6 @@ Whether deep in the command line or waiting for a kernel patch to land, Fitzken 
 
 <!--split-->
 
-**Title:** Technical Server Administrator
-
-**Class:** Cloud Mechanist
+**Title:** Security Artificer
 
 **Guild Role:** Keeper of Uptime, Mender of Machines

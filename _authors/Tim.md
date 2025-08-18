@@ -28,8 +28,6 @@ The Midnight – smooth, nostalgic, and synth-filled. Perfect background for bot
 
 <!--split-->
 
-**Title:** Database Administrator
-
-**Class:** Data Mechanist
+**Title:** Database Ninja
 
 **Guild Role:** Keeper of the Queryforge, Architect of Insight
