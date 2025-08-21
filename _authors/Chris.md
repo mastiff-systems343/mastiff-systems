@@ -33,6 +33,8 @@ Pink Floyd – classic, thoughtful, and endlessly replayable.
 
 Step into his world of strategy, sound, and steam:
 
+ - Book time with [Chris](https://cal.com/chris-scheidies-6ulzxv)
+
  - Follow him on Mastodon: [@tdped](https://mastodon.social/@tdped)
 
  - Challenge him to a match on [Lichess](https://lichess.org/@/thedreampolice) or [Chess.com](https://www.chess.com/member/thedreampolice)
@@ -46,3 +48,4 @@ Step into his world of strategy, sound, and steam:
 **Title:** Owner & Proprietor
 
 **Guild Role:** Visionsmith, Architect of the Machine Horizon
+
