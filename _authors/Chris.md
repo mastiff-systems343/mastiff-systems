@@ -29,7 +29,7 @@ Pink Floyd – classic, thoughtful, and endlessly replayable.
 
 <br>
 
-**Connect with Chris Beyond the Console:**
+**Connect with Chris**
 
 Step into his world of strategy, sound, and steam:
 
