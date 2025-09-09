@@ -3,7 +3,7 @@ layout: page
 title: How to Send Password Securely using Mastiff Password Pusher
 excerpt: Mastiff Password Pusher lets you share passwords with secure, one-time links that expire after use — keeping them out of inboxes and chats. Here’s how to send one safely.
 ---
-# How to Send Password Securely using [Mastiff Password Pusher](https://eu.pwpush.com/)
+# How to Send Password Securely using [Mastiff Password Pusher](https://pw.mastiffsystems.com/)
 
 Sending passwords over email or text may seem easy, but it leaves a permanent record that could be exposed if those messages are ever compromised. With Password Pusher, we avoid that risk by creating secure, one-time links that automatically expire after use. This way, sensitive information isn’t left sitting in inboxes or chat histories. To send your username and password securely, just follow these steps: 
 
