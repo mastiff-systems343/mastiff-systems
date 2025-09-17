@@ -30,7 +30,7 @@ logo:
 
 locale: "en-US" 
 
-version: v1.1.0
+version: v1.2.0
 
 future: true
 timezone: America/Chicago 
