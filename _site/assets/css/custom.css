@@ -740,6 +740,66 @@ section#contact :-ms-input-placeholder {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+/* Contact form checkbox styles */
+section#contact .checkbox {
+    margin-bottom: 0; 
+}
+
+section#contact .checkbox label {
+    font-weight: 500; 
+    color: #ced4da; 
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    cursor: pointer;
+    padding-left: 25px; /* Space for checkbox */
+    position: relative;
+    display: block;
+    line-height: 1.4;
+}
+
+section#contact .checkbox input[type="checkbox"] {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    margin: 0;
+    width: 18px;
+    height: 18px;
+    accent-color: #617a8c; 
+}
+
+section#contact .checkbox input[type="checkbox"]:focus {
+    outline: 2px solid #617a8c;
+    outline-offset: 2px;
+}
+
+section#contact .form-text.text-muted {
+    font-size: 0.875rem;
+    color: #ced4da; 
+    margin-top: 8px;
+    margin-left: 25px; 
+    display: block;
+    line-height: 1.4;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+section#contact .checkbox a {
+    color: #617a8c; /* Match accent color */
+    text-decoration: underline;
+}
+
+section#contact .checkbox a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Contact section form labels */
+section#contact .form-label {
+    font-weight: 700;
+    color: #ced4da;
+    margin-bottom: 5px;
+    display: block;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 /* Footer */
 .footer {
   padding: 25px 0;

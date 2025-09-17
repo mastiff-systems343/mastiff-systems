@@ -2,9 +2,7 @@
 layout: page
 title: Privacy Policy
 ---
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
-</div>
+## PRIVACY POLICY
 
 At Mastiff, we take your privacy extremely seriously. It's not just a policy—it's a core part of our business ethos and services. This privacy policy outlines our practices concerning the collection, use, and protection of your personal information.We avoid entire social media platforms as a company over privacy issues.
 

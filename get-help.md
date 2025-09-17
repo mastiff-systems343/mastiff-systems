@@ -56,6 +56,30 @@ title: Get Help
               <input name="attachment" class="form-control" id="file-upload" type="file">
               <p class="help-block text-danger"></p>
             </div>
+
+            <!-- Communication Consent Checkbox -->
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="communication-consent" name="communication-consent" value="yes" required>
+                        I consent to being contacted regarding my inquiry via phone, email, or text message*
+                    </label>
+                    <small class="form-text text-muted">
+                        We will only use your contact information to respond to your inquiry and provide related customer support. We do not send promotional or marketing messages.
+                    </small>
+                </div>
+            </div>
+            
+            <!-- Terms and Privacy Checkbox -->
+            <div class="form-group">
+                <div class="checkbox">
+<label>
+    <input type="checkbox" id="terms-accept" name="terms-accept" value="yes" required>
+    I accept the <a href="{{ site.baseurl }}/terms/" target="_blank">Terms of Service</a> & <a href="{{ site.baseurl }}/legal/" target="_blank">Privacy Policy</a>*
+</label>
+                </div>
+            </div>
+
             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
             <div id="success"></div>
             <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
