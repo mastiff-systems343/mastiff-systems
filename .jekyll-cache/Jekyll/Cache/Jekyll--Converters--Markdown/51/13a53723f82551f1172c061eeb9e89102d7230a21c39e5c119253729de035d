@@ -1,4 +1,4 @@
-I"<p><br /></p>
+I"P<p><br /></p>
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
@@ -50,28 +50,15 @@
               <p class="help-block text-danger"></p>
             </div>
 
-            <!-- Communication Consent Checkbox -->
-            <div class="form-group">
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" id="communication-consent" name="communication-consent" value="yes" required="" />
-                        I consent to being contacted regarding my inquiry via phone, email, or text message*
-                    </label>
-                    <small class="form-text text-muted">
-                        We will only use your contact information to respond to your inquiry and provide related customer support. We do not send promotional or marketing messages.
-                    </small>
-                </div>
-            </div>
-            
-            <!-- Terms and Privacy Checkbox -->
-            <div class="form-group">
-                <div class="checkbox">
-<label>
-    <input type="checkbox" id="terms-accept" name="terms-accept" value="yes" required="" />
-    I accept the <a href="/terms/" target="_blank">Terms of Service</a> &amp; <a href="/legal/" target="_blank">Privacy Policy</a>*
-</label>
-                </div>
-            </div>
+<!-- Communication Consent Checkbox -->
+<div class="form-group">
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" id="communication-consent" name="communication-consent" value="yes" required="" />
+            By submitting this form, you consent to receive replies and updates from Mastiff Systems at the number provided. Consent is not a condition of purchase. Message &amp; data rates may apply. Message frequency varies. Unsubscribe by replying STOP. Reply HELP for help. Phone numbers aren't shared with third parties. <a href="/terms/" target="_blank">Terms</a> &amp; <a href="/legal/" target="_blank">Privacy Policy</a>
+        </label>
+    </div>
+</div>
 
             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
             <div id="success"></div>

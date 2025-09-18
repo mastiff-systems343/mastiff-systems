@@ -2,53 +2,67 @@
 layout: page
 title: Privacy Policy
 ---
-## PRIVACY POLICY
+## Privacy Policy
 
-At Mastiff, we take your privacy extremely seriously. It's not just a policy—it's a core part of our business ethos and services. This privacy policy outlines our practices concerning the collection, use, and protection of your personal information.We avoid entire social media platforms as a company over privacy issues.
+**Effective Date:** September 18, 2025
 
-**Information Collection**
-<p>We collect only the minimum information necessary to provide our IT services:
+We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard the information you provide to us.
 
-<ul>
-<li>Contact information (name, email, phone number) for communication purposes</li>
-<li>Technical information related to your IT systems, solely for the purpose of providing our services</li>
-</ul>
+#### 1. Information We Collect
 
-We do not engage in mass marketing or data mining practices.</p>
+We may collect the following types of information when you interact with us:
 
-**Use of Information**
-<p>The information we collect is used exclusively for:
+* **Personal Information:** Name, phone number, email address, mailing address, or other contact details.
+* **Usage Data:** Information about how you use our website, services, or communications.
+* **Device Information:** IP address, browser type, operating system, and other technical details.
 
-<ul>
-<li>Providing and improving our IT services</li>
-<li>Communicating with you about your services</li>
-<li>Ensuring the security and functionality of your IT systems</li>
-</ul></p>
+#### 2. How We Use Your Information
 
-**Data Protection**
-<p>We implement stringent security measures to protect your data:
+We use your information for purposes such as:
 
-<ul>
-<li>End-to-end encryption for all data transmissions</li>
-<li>Regular security audits and updates</li>
-<li>Strict access controls for our staff</li>
-</ul></p>
+* Providing and improving our services.
+* Responding to your inquiries and requests.
+* Sending you updates, promotions, and relevant communications (with your consent).
+* Ensuring compliance with applicable laws and regulations.
 
-**Data Sharing**
-<p>We do not sell, trade, or otherwise transfer your personal information to outside parties. Your data is shared only with your explicit consent or when required by law.</p>
+#### 3. SMS and Email Communications
 
-**Your Rights**
-<p>You have the right to:
+* By providing your phone number and by opting in for SMS communication, you consent to receive SMS messages related to our services.
+* You may opt out of SMS or email communications at any time by following the unsubscribe instructions.
+* We do not sell SMS consent or share your mobile information with third parties for marketing purposes.
 
-<ul>
-<li>Access your personal data</li>
-<li>Request correction of your data</li>
-<li>Request deletion of your data</li>
-<li>Opt-out of any future contacts from us</li>
-</ul></p>
+#### 4. Sharing of Information
 
-**Changes to This Policy**
-<p>We may update this policy occasionally. We will notify you of any changes by posting the new policy on this page.</p>
+We do not sell or rent your personal information. We may share your data only in the following situations:
 
-**Contact Us**
-<p>If you have any questions about this privacy policy, please contact us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+* With trusted partners or service providers who help us deliver our services.
+* To comply with legal obligations or lawful requests from authorities.
+* To protect our rights, safety, or property.
+
+#### 5. Data Security
+
+We implement reasonable technical and organizational measures to protect your information from unauthorized access, use, or disclosure.
+
+#### 6. Data Retention
+
+We retain your personal information only as long as necessary for the purposes stated in this policy or as required by law.
+
+#### 7. Your Rights
+
+Depending on your location, you may have rights such as:
+
+* Accessing the personal information we hold about you.
+* Requesting corrections or deletion of your data.
+* Withdrawing your consent to receive communications.
+
+#### 8. Cookies & Tracking
+
+Our website may use cookies or similar technologies to enhance user experience. You can control cookies through your browser settings.
+
+#### 9. Changes to This Policy
+
+We may update this Privacy Policy from time to time. The updated version will be posted on this page with a revised effective date.
+
+#### 10. Contact Us
+
+If you have any questions about this Privacy Policy or how we handle your data, please contact us at: **402-803-1122**
