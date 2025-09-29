@@ -50,6 +50,7 @@ paginate_path: "/blog/page:num/"
 
 permalink: /:categories/:title/
 permalink: /blog/:title/
+permalink: /open-jobs/:title/
 
 
 
@@ -67,6 +68,8 @@ collections:
   authors:
     output: true
   category:
+    output: true
+  jobs:
     output: true
     
 
