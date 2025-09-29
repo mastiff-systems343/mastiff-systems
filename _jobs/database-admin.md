@@ -2,7 +2,7 @@
 layout: page
 title: "Database Administrator"
 type: "Full-time"
-excerpt: "We’re looking for a MySQL Database Administrator who can handle production database environments for healthcare practices. "
+excerpt: "We’re looking for a SQL Database Administrator who can handle production database environments for healthcare practices. "
 ---
 
 ## About Us
@@ -12,7 +12,7 @@ We're a lean, high-performance IT consultancy specializing in medical and dental
 
 ## The Role
 
-We need a MySQL Database Administrator who can handle production database environments for healthcare practices. This is real DBA work with real consequences - when systems go down, patient care is affected.
+We need a SQL Database Administrator who can handle production database environments for healthcare practices. This is real DBA work with real consequences - when systems go down, patient care is affected.
 
 ### Primary Responsibilities:
 
@@ -29,8 +29,7 @@ We need a MySQL Database Administrator who can handle production database enviro
 
 **Technical Requirements:**
 
-- 3+ years hands-on MySQL administration experience
-- MS SQL Server administration experience
+- 3+ years hands-on SQL administration experience
 - Strong understanding of storage engines (InnoDB vs MyISAM)
 - Query optimization and troubleshooting slow/problematic queries
 - Deadlock resolution and transaction management

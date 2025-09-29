@@ -1,10 +1,10 @@
-I"•<h2 id="about-us">About Us</h2>
+I"^<h2 id="about-us">About Us</h2>
 
 <p>Weâ€™re a lean, high-performance IT consultancy specializing in medical and dental practice technology. Our team values technical competence, professional integrity, and efficient service delivery. We work with premium clients who expect expert-level service.</p>
 
 <h2 id="the-role">The Role</h2>
 
-<p>We need a MySQL Database Administrator who can handle production database environments for healthcare practices. This is real DBA work with real consequences - when systems go down, patient care is affected.</p>
+<p>We need a SQL Database Administrator who can handle production database environments for healthcare practices. This is real DBA work with real consequences - when systems go down, patient care is affected.</p>
 
 <h3 id="primary-responsibilities">Primary Responsibilities:</h3>
 
@@ -23,8 +23,7 @@
 <p><strong>Technical Requirements:</strong></p>
 
 <ul>
-  <li>3+ years hands-on MySQL administration experience</li>
-  <li>MS SQL Server administration experience</li>
+  <li>3+ years hands-on SQL administration experience</li>
   <li>Strong understanding of storage engines (InnoDB vs MyISAM)</li>
   <li>Query optimization and troubleshooting slow/problematic queries</li>
   <li>Deadlock resolution and transaction management</li>
