@@ -1,0 +1,459 @@
+---
+layout: page
+title: Tell Us About Your Audience
+---
+### Tell Us About Your Audience
+
+<form action="https://formspree.io/f/xnngdedw" method="POST">
+  <div class="row">
+    <div class="col-lg-12">
+
+      <!-- Core Demographics -->
+      <h2>Core Demographics</h2>
+      
+      <!-- Age -->
+      <h3>Age</h3>
+      
+      <div class="form-group">
+        <label for="customer_age">1. Who is your typical customer by age?</label>
+        <select id="customer_age" name="customer_age" class="form-control" required>
+          <option value="">-- Select --</option>
+          <option value="18-35">Mostly younger adults (18-35)</option>
+          <option value="35-55">Middle-aged adults (35-55)</option>
+          <option value="55+">Older adults/seniors (55+)</option>
+          <option value="families">Families with kids</option>
+          <option value="mix">Mix of all ages</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="age_importance">2. Does age matter for your business?</label>
+        <select id="age_importance" name="age_importance" class="form-control" required>
+          <option value="">-- Select --</option>
+          <option value="very_specific">Yes, very specific age group</option>
+          <option value="somewhat">Somewhat - I notice patterns</option>
+          <option value="not_really">Not really - I serve all ages</option>
+        </select>
+        <small class="form-text text-muted"><em>Pro tip: Think about who walks through your door or calls you most often.</em></small>
+      </div>
+
+      <!-- Location -->
+      <h3>Location</h3>
+      
+      <div class="form-group">
+        <label>3. Where are your customers located?</label>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_location[]" value="neighborhood" id="loc_neighborhood">
+          <label class="form-check-label" for="loc_neighborhood">Same neighborhood (within 2-3 miles)</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_location[]" value="city" id="loc_city">
+          <label class="form-check-label" for="loc_city">Same city/town</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_location[]" value="suburbs" id="loc_suburbs">
+          <label class="form-check-label" for="loc_suburbs">Surrounding suburbs (within 10-15 miles)</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_location[]" value="county" id="loc_county">
+          <label class="form-check-label" for="loc_county">County-wide</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_location[]" value="regional" id="loc_regional">
+          <label class="form-check-label" for="loc_regional">Regional (30+ miles)</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_location[]" value="tourists" id="loc_tourists">
+          <label class="form-check-label" for="loc_tourists">Tourists/visitors</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_location[]" value="online" id="loc_online">
+          <label class="form-check-label" for="loc_online">Online customers (can be anywhere)</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="specific_areas">4. What specific areas do you want to reach? List neighborhoods, zip codes, or towns:</label>
+        <textarea id="specific_areas" name="specific_areas" class="form-control" rows="3"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="customer_transport">5. Do your customers:</label>
+        <select id="customer_transport" name="customer_transport" class="form-control" required>
+          <option value="">-- Select --</option>
+          <option value="walk_bike">Walk/bike to you</option>
+          <option value="drive">Drive to your location</option>
+          <option value="expect_visit">Expect you to come to them</option>
+          <option value="online_only">Shop online only</option>
+        </select>
+      </div>
+
+      <!-- Income Level -->
+      <h3>Income Level</h3>
+      
+      <div class="form-group">
+        <label for="budget_level">6. What's your customers' typical budget/spending level?</label>
+        <select id="budget_level" name="budget_level" class="form-control" required>
+          <option value="">-- Select --</option>
+          <option value="budget_conscious">Budget-conscious (looking for deals, price matters most)</option>
+          <option value="middle_income">Middle income (balance quality and price)</option>
+          <option value="upper_middle">Upper-middle income (willing to pay for quality)</option>
+          <option value="luxury">Luxury/high-end (price less important than quality)</option>
+          <option value="wide_range">Wide range of budgets</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="avg_transaction">7. What's your average transaction or service cost?</label>
+        <select id="avg_transaction" name="avg_transaction" class="form-control" required>
+          <option value="">-- Select --</option>
+          <option value="under_50">Under $50</option>
+          <option value="50_200">$50-$200</option>
+          <option value="200_500">$200-$500</option>
+          <option value="500_1000">$500-$1,000</option>
+          <option value="over_1000">Over $1,000</option>
+        </select>
+        <small class="form-text text-muted"><em>Pro tip: Are your customers stretching their budget or is this an easy purchase for them?</em></small>
+      </div>
+
+      <!-- Gender -->
+      <h3>Gender</h3>
+      
+      <div class="form-group">
+        <label for="buyer_gender">8. Who primarily makes the buying decision?</label>
+        <select id="buyer_gender" name="buyer_gender" class="form-control" required>
+          <option value="">-- Select --</option>
+          <option value="mostly_women">Mostly women</option>
+          <option value="mostly_men">Mostly men</option>
+          <option value="even_split">Pretty even split</option>
+          <option value="doesnt_matter">Doesn't matter for my business</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="user_vs_buyer">9. Who actually uses your product/service?</label>
+        <select id="user_vs_buyer" name="user_vs_buyer" class="form-control" required>
+          <option value="">-- Select --</option>
+          <option value="same">Same as who buys it</option>
+          <option value="different">Different (e.g., parent buys for child)</option>
+          <option value="whole_family">Whole family</option>
+        </select>
+      </div>
+
+      <!-- Lifestyle & Situation -->
+      <h2>Lifestyle & Situation</h2>
+      
+      <!-- Family Status -->
+      <h3>Family Status</h3>
+      
+      <div class="form-group">
+        <label>10. What's your typical customer's family situation?</label>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="family_status[]" value="young_singles" id="fam_singles">
+          <label class="form-check-label" for="fam_singles">Young singles/couples (no kids)</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="family_status[]" value="young_families" id="fam_young">
+          <label class="form-check-label" for="fam_young">Young families (kids under 10)</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="family_status[]" value="families_teens" id="fam_teens">
+          <label class="form-check-label" for="fam_teens">Families with teens</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="family_status[]" value="empty_nesters" id="fam_nesters">
+          <label class="form-check-label" for="fam_nesters">Empty nesters</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="family_status[]" value="retirees" id="fam_retirees">
+          <label class="form-check-label" for="fam_retirees">Retirees</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="family_status[]" value="mix" id="fam_mix">
+          <label class="form-check-label" for="fam_mix">Mix of situations</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="family_needs">11. How does family affect their needs?</label>
+        <textarea id="family_needs" name="family_needs" class="form-control" rows="3" placeholder='Example: "Parents need weekend appointments" or "Singles prefer evenings"'></textarea>
+      </div>
+
+      <!-- Work & Schedule -->
+      <h3>Work & Schedule</h3>
+      
+      <div class="form-group">
+        <label>12. What do most of your customers do for work?</label>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_work[]" value="office_professional" id="work_office">
+          <label class="form-check-label" for="work_office">Office/professional jobs</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_work[]" value="healthcare" id="work_healthcare">
+          <label class="form-check-label" for="work_healthcare">Healthcare workers</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_work[]" value="teachers" id="work_teachers">
+          <label class="form-check-label" for="work_teachers">Teachers</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_work[]" value="retail_service" id="work_retail">
+          <label class="form-check-label" for="work_retail">Retail/service workers</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_work[]" value="work_from_home" id="work_wfh">
+          <label class="form-check-label" for="work_wfh">Work from home</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_work[]" value="business_owners" id="work_owners">
+          <label class="form-check-label" for="work_owners">Business owners</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_work[]" value="retired" id="work_retired">
+          <label class="form-check-label" for="work_retired">Retired</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customer_work[]" value="mix" id="work_mix">
+          <label class="form-check-label" for="work_mix">Mix of everything</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>13. When are they available to shop/visit/contact you?</label>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="availability[]" value="weekday_mornings" id="avail_morning">
+          <label class="form-check-label" for="avail_morning">Weekday mornings</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="availability[]" value="weekday_afternoons" id="avail_afternoon">
+          <label class="form-check-label" for="avail_afternoon">Weekday afternoons</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="availability[]" value="evenings" id="avail_evening">
+          <label class="form-check-label" for="avail_evening">Evenings after work</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="availability[]" value="weekends" id="avail_weekend">
+          <label class="form-check-label" for="avail_weekend">Weekends only</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="availability[]" value="flexible" id="avail_flexible">
+          <label class="form-check-label" for="avail_flexible">Flexible/anytime</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="availability[]" value="varies" id="avail_varies">
+          <label class="form-check-label" for="avail_varies">Varies</label>
+        </div>
+      </div>
+
+      <!-- Tech Comfort Level -->
+      <h3>Tech Comfort Level</h3>
+      
+      <div class="form-group">
+        <label>15. How comfortable are your customers with technology?</label>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="tech_comfort" value="very_savvy" id="tech_savvy" required>
+          <label class="form-check-label" for="tech_savvy">Very tech-savvy (use apps for everything)</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="tech_comfort" value="moderately_comfortable" id="tech_moderate">
+          <label class="form-check-label" for="tech_moderate">Moderately comfortable (smartphone basics)</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="tech_comfort" value="prefer_phone" id="tech_phone">
+          <label class="form-check-label" for="tech_phone">Prefer phone calls over texts/emails</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="tech_comfort" value="need_simple" id="tech_simple">
+          <label class="form-check-label" for="tech_simple">Need simple, easy-to-use options</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" name="tech_comfort" value="mix" id="tech_mix">
+          <label class="form-check-label" for="tech_mix">Mix of tech levels</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>16. How do they currently find or contact you?</label>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="find_method[]" value="google" id="find_google">
+          <label class="form-check-label" for="find_google">Google search on phone</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="find_method[]" value="social_media" id="find_social">
+          <label class="form-check-label" for="find_social">Facebook/Instagram</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="find_method[]" value="drive_by" id="find_drive">
+          <label class="form-check-label" for="find_drive">Drive by and see your location</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="find_method[]" value="word_of_mouth" id="find_word">
+          <label class="form-check-label" for="find_word">Word-of-mouth referrals</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="find_method[]" value="yelp" id="find_yelp">
+          <label class="form-check-label" for="find_yelp">Yelp or review sites</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="find_method[]" value="directories" id="find_directories">
+          <label class="form-check-label" for="find_directories">Phone book/local directories</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="find_method[]" value="direct_mail" id="find_mail">
+          <label class="form-check-label" for="find_mail">Direct mail/flyers</label>
+        </div>
+      </div>
+
+      <!-- Local Market Insights -->
+      <h2>Local Market Insights</h2>
+      
+      <div class="form-group">
+        <label for="area_type">17. What's your local area like?</label>
+        <select id="area_type" name="area_type" class="form-control" required>
+          <option value="">-- Select --</option>
+          <option value="urban">Urban downtown</option>
+          <option value="suburban">Suburban neighborhood</option>
+          <option value="small_town">Small town</option>
+          <option value="rural">Rural area</option>
+          <option value="tourist">Tourist destination</option>
+          <option value="college">College town</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="community_vibe">18. What's the vibe of your community?</label>
+        <select id="community_vibe" name="community_vibe" class="form-control" required>
+          <option value="">-- Select --</option>
+          <option value="young_trendy">Young and trendy</option>
+          <option value="family_focused">Family-focused</option>
+          <option value="established">Established/traditional</option>
+          <option value="retirement">Retirement community</option>
+          <option value="diverse">Diverse mix</option>
+          <option value="blue_collar">Blue-collar working class</option>
+          <option value="affluent">Affluent/upscale</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="seasonal">19. Are there seasonal changes in your customers?</label>
+        <select id="seasonal" name="seasonal" class="form-control" required>
+          <option value="">-- Select --</option>
+          <option value="yes">Yes (summer/winter, tourists, students, holidays)</option>
+          <option value="no">Not really - steady year-round</option>
+        </select>
+      </div>
+
+      <!-- Competition Check -->
+      <h2>Competition Check</h2>
+      
+      <div class="form-group">
+        <label for="competition">20. Who else do your customers consider?</label>
+        <select id="competition" name="competition" class="form-control" required>
+          <option value="">-- Select --</option>
+          <option value="local">Other local businesses like yours</option>
+          <option value="chains">National chains</option>
+          <option value="online">Online options (Amazon, etc.)</option>
+          <option value="diy">DIY/doing it themselves</option>
+          <option value="going_without">Going without (not a necessity)</option>
+          <option value="multiple">Multiple options</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>21. Why do customers choose you instead?</label>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="why_choose[]" value="location" id="why_location">
+          <label class="form-check-label" for="why_location">Local/convenient location</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="why_choose[]" value="service" id="why_service">
+          <label class="form-check-label" for="why_service">Personal service</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="why_choose[]" value="quality" id="why_quality">
+          <label class="form-check-label" for="why_quality">Better quality</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="why_choose[]" value="price" id="why_price">
+          <label class="form-check-label" for="why_price">Better prices</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="why_choose[]" value="unique" id="why_unique">
+          <label class="form-check-label" for="why_unique">Unique offerings</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="why_choose[]" value="trust" id="why_trust">
+          <label class="form-check-label" for="why_trust">Trust/relationship</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="why_choose[]" value="other" id="why_other">
+          <label class="form-check-label" for="why_other">Other</label>
+        </div>
+        <input type="text" name="why_choose_other" class="form-control mt-2" placeholder="Please specify if other">
+      </div>
+
+      <!-- Website Goals -->
+      <h2>Website Goals Based on Your Customers</h2>
+      
+      <div class="form-group">
+        <label>22. What do you want your typical customer to do on your website?</label>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="website_goals[]" value="hours_location" id="goal_hours">
+          <label class="form-check-label" for="goal_hours">Find your hours and location</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="website_goals[]" value="call_text" id="goal_call">
+          <label class="form-check-label" for="goal_call">Call or text you</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="website_goals[]" value="book" id="goal_book">
+          <label class="form-check-label" for="goal_book">Book an appointment</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="website_goals[]" value="see_work" id="goal_see">
+          <label class="form-check-label" for="goal_see">See your work/menu/products</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="website_goals[]" value="directions" id="goal_directions">
+          <label class="form-check-label" for="goal_directions">Get directions</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="website_goals[]" value="prices" id="goal_prices">
+          <label class="form-check-label" for="goal_prices">Check prices</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="website_goals[]" value="reviews" id="goal_reviews">
+          <label class="form-check-label" for="goal_reviews">Read reviews</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="website_goals[]" value="learn" id="goal_learn">
+          <label class="form-check-label" for="goal_learn">Learn about you</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="website_goals[]" value="buy_online" id="goal_buy">
+          <label class="form-check-label" for="goal_buy">Buy online</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="website_goals[]" value="quote" id="goal_quote">
+          <label class="form-check-label" for="goal_quote">Request a quote</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="common_questions">23. What questions do customers always ask you? (These should be easy to find on your website!)</label>
+        <textarea id="common_questions" name="common_questions" class="form-control" rows="4" placeholder="List the most common questions..."></textarea>
+      </div>
+
+      <!-- Submit -->
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary btn-xl text-uppercase">Submit</button>
+      </div>
+
+      <!-- Hidden Fields -->
+      <input type="hidden" name="_subject" value="Audience Questionnaire Submission">
+      <input type="text" name="_gotcha" style="display:none">
+
+    </div>
+  </div>
+</form>
