@@ -48,10 +48,7 @@ formspree_form_path: "f/mlderqre"
 paginate: 6 
 paginate_path: "/blog/page:num/" 
 
-permalink: /:categories/:title/
 permalink: /blog/:title/
-permalink: /open-jobs/:title/
-
 
 
 navigation:
@@ -73,7 +70,18 @@ collections:
     output: true
     
 
+permalink: /blog/:title/
+
+# OR if you want different permalinks for different collections, use defaults:
+permalink: pretty  # or leave this out entirely
+
 defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /blog/:title/
   - scope:
       path: ""
       type: authors
@@ -84,7 +92,13 @@ defaults:
       type: category
     values:
       layout: "category"
-
+  - scope:
+      path: ""
+      type: jobs
+    values:
+      layout: job
+      permalink: /open-jobs/:title/
+      
 include:
   - commit-history.txt
 
