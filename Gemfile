@@ -2,6 +2,9 @@ source "https://rubygems.org"
 
 ruby '3.2.9'
 
+# Ensure compatible Bundler
+gem "bundler", "~> 2.5"
+
 # Jekyll gems
 gem 'jekyll', '~> 4.2.0'
 gem 'jekyll-admin'
