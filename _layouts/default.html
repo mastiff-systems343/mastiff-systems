@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
+
 <body id="page-top">
   {% include nav.html %}
+
   <div class="container">
     <main class="page-section">
       {{ content }}
     </main>
   </div>
+
   <footer>
     {% include footer.html %}
   </footer>
+
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       var t = performance.timing;
       var loadTime = (t.loadEventEnd - t.responseEnd) / 1000;
+      // Ensure the element exists before setting text
       var renderTimeElem = document.getElementById('render-time');
       if (renderTimeElem) {
         renderTimeElem.innerText = loadTime.toFixed(2) + ' seconds';
       }
     });
   </script>
-  <!-- jQuery and Bootstrap from CDN -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

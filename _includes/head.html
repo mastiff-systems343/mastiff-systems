@@ -1,20 +1,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="{{ site.description }}">
-  <meta name="author" content="{{ site.author }}">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta name="description" content="Mastiff Systems is a small IT services company in Lincoln, Nebraska.">
+  <meta name="author" content="Mastiff Systems">
+  <link rel="canonical" href="http://localhost:4000/mastiff-systems/">
 
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
-  <!-- Bootstrap CSS from CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  
-  <!-- Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-  
-  <!-- Your custom CSS -->
-  <link href="{{ '/assets/css/custom.css' | relative_url }}" rel="stylesheet">
+  <!-- Bootstrap core CSS (Load Before JS) -->
+  <link href="{{ site.baseurl }}/assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="{{ site.baseurl }}/assets/css/agency.css" rel="stylesheet" />
+  <link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet" />
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,20 +19,24 @@
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&display=swap" rel="stylesheet">
 
-  <link rel="shortcut icon" href="{{ '/assets/img/themes/halloween/favicon.png' | relative_url }}">
+<link rel="shortcut icon" href="assets/img/themes/halloween/favicon.png">
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ 'feed.xml' | relative_url }}">
+  <!-- RSS feed -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  <script>
-    var _paq = window._paq = window._paq || [];
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-      var u="//webanalytics.mastiffsystems.com/";
-      _paq.push(['setTrackerUrl', u+'matomo.php']);
-      _paq.push(['setSiteId', '1']);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-    })();
-  </script>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//webanalytics.mastiffsystems.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
 </head>
