@@ -228,8 +228,7 @@ ul.navbar-nav {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/Main-Photo.jpg");
-  background-color: rgba(66, 57, 65, 0.7);
+  background-image: url("../img/themes/halloween/Main.gif");
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -242,6 +241,10 @@ header.masthead {
   height: 75vh;
   min-height: 550px;
 }
+
+/* bg color for masthead */
+  background-color: rgba(66, 57, 65, 0.7);
+/* hide for now */ 
 
 header.masthead .container {
   max-width: 1140px;
