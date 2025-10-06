@@ -1,0 +1,24 @@
+name: mastiff-systems
+region: sgp
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+ingress:
+  rules:
+  - component:
+      name: mastiff-systems2
+    match:
+      path:
+        prefix: /
+services:
+- build_command: bundle install && bundle exec jekyll build
+  environment_slug: ruby
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: mastiff-systems343/mastiff-systems
+  instance_count: 2
+  instance_size_slug: apps-s-1vcpu-1gb
+  name: mastiff-systems2
+  run_command: ""
+  source_dir: /
