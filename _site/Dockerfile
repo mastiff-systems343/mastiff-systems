@@ -2,18 +2,23 @@ FROM ruby:3.2.9-slim
 
 WORKDIR /app
 
+# Install build tools and dependencies
 RUN apt-get update && apt-get install -y build-essential libvips curl && rm -rf /var/lib/apt/lists/*
 
 COPY Gemfile Gemfile.lock ./
 
-# Install the correct bundler version
-RUN gem install bundler:2.7.2
+# Install the exact Bundler version from Gemfile.lock
+RUN gem install bundler:2.5.21
 
-RUN bundle install
+# Debug: confirm Ruby + Bundler version at build time
+RUN ruby -v && bundler -v
+
+# Install gems with pinned bundler
+RUN bundle _2.5.21_ install
 
 COPY . .
 
 EXPOSE 4000
 
-# Use verbose output to see what's happening
-CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--port", "4000", "--verbose"]
+# Run Jekyll with the pinned Bundler
+CMD ["bundle", "_2.5.21_", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--port", "4000", "--verbose"]
