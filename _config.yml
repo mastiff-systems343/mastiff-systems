@@ -21,7 +21,6 @@ remote_theme: raviriley/agency-jekyll-theme
 
 url: "https://mastiff-systems343.github.io"
 baseurl: "/mastiff-systems"
-destination: _site
 
 title      : Mastiff Systems
 email      : support@mastiffsystems.com 
