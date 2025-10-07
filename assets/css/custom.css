@@ -358,7 +358,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (max-width: 586px) {
   header.masthead {
-    background-image: url("../img/Main-Photo.jpg"); 
+  background-image: url("../img/themes/halloween/Main.gif");
     background-position: center;
     background-size: cover;
     height: 50vh; 
