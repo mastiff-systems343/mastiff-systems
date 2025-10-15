@@ -15,12 +15,12 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 
-# url    : "https://mastiffsystems.com" # the base hostname & protocol for your site, e.g. http://example.com
-# baseurl: "" # the subpath of your site, e.g. /blog
-# destination: _site
+url    : "https://mastiffsystems.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+destination: _site
 
-url: "https://mastiff-systems343.github.io"
-baseurl: "/mastiff-systems"
+# url: "https://mastiff-systems343.github.io"
+# baseurl: "/mastiff-systems"
 
 title      : Mastiff Systems
 email      : support@mastiffsystems.com 
