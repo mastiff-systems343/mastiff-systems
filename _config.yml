@@ -19,7 +19,7 @@ url    : "https://mastiffsystems.com" # the base hostname & protocol for your si
 baseurl: "" # the subpath of your site, e.g. /blog
 destination: _site
 
-# url: "https://mastiff-systems343.github.io"
+# url: "https://mastiff-systems343.github.io" # for staging
 # baseurl: "/mastiff-systems"
 
 title      : Mastiff Systems

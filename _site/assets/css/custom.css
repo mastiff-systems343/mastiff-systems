@@ -238,7 +238,7 @@ ul.navbar-nav {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/themes/halloween/main.gif");
+  background-image: url("../img/themes/halloween/main-web.gif");
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -444,6 +444,10 @@ body {
 
 
 /* Featured Post */
+.featured-post {
+  display: none !important;
+}
+
 .featured-post {
   display: flex;
   align-items: center;

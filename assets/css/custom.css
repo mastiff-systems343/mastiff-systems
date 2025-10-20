@@ -445,6 +445,10 @@ body {
 
 /* Featured Post */
 .featured-post {
+  display: none !important;
+}
+
+.featured-post {
   display: flex;
   align-items: center;
   gap: 20px;

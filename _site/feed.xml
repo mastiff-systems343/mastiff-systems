@@ -3,685 +3,11 @@
     <channel>
         <title>Mastiff Systems</title>
         <description>Mastiff Systems is a small IT services company in Lincoln, Nebraska.</description>
-        <link>http://localhost:4000/mastiff-systems/</link>
-        <atom:link href="http://localhost:4000/mastiff-systems/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 08 Oct 2025 14:19:15 +0000</pubDate>
-        <lastBuildDate>Wed, 08 Oct 2025 14:19:15 +0000</lastBuildDate>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+        <pubDate>Mon, 20 Oct 2025 14:09:20 +0000</pubDate>
+        <lastBuildDate>Mon, 20 Oct 2025 14:09:20 +0000</lastBuildDate>
         <generator>Jekyll v4.2.2</generator>
-        
-            <item>
-                <title>Passwords &amp; Account Security: Why Your Password Isn’t Enough Anymore</title>
-                <description>&lt;p&gt;Welcome back to Mastiff Systems’ Cybersecurity Essentials series. Last week, we demystified what a network is and how to protect the network and devices where your data flows. This week, we’re diving into password best practices, multi-factor authentication (MFA), and account hygiene — your core defenses that help safeguard your systems against unauthorized access.&lt;/p&gt;
-
-&lt;h4 id=&quot;why-you-should-care&quot;&gt;Why You Should Care&lt;/h4&gt;
-
-&lt;p&gt;A breach in account security can mean unauthorized access to sensitive client data, medical records, or confidential legal documents. Beyond data loss, it can lead to &lt;strong&gt;reputational damage&lt;/strong&gt;, &lt;strong&gt;regulatory fines&lt;/strong&gt;, and even &lt;strong&gt;lawsuits&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Passwords are the first line of defense for nearly every system your business relies on — email, applications, file servers, Wi-Fi, and more. Yet, they remain one of the weakest links in cybersecurity. Combine that with poor account hygiene — like failing to revoke access for former employees or sharing credentials — and you’re just one exposed password away from a serious breach.&lt;/p&gt;
-
-&lt;p&gt;According to 2019 research, weak or compromised passwords were the third leading cause of ransomware attacks, following lack of employee training and phishing.&lt;/p&gt;
-
-&lt;p&gt;If you’re curious about the scale of these threats, here are links to public databases that track real-world breach incidents in the USA:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf&quot;&gt;Medical Data Breaches (U.S.): HHS OCR Breach Portal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://privacyrights.org/data-breaches&quot;&gt;General Data Breaches (All Industries): Privacy Rights Clearinghouse&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://oag.ca.gov/privacy/databreach/list&quot;&gt;California-Specific Breach Notices: California Attorney General Breach List&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;real-world-examples&quot;&gt;Real-World Examples&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;McDonald’s McHire Chatbot (2025)&lt;/strong&gt;&lt;br /&gt;
-Researchers discovered the admin account used the default password “123456,” exposing data of &lt;strong&gt;64 million job applicants&lt;/strong&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;SolarWinds Breach (2020)&lt;/strong&gt;&lt;br /&gt;
-Attackers accessed systems using a weak, publicly exposed password: “solarwinds123.” This led to a &lt;strong&gt;global supply-chain attack&lt;/strong&gt; affecting thousands of organizations.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Medibank (2022)&lt;/strong&gt;&lt;br /&gt;
-An infected personal device synced with saved corporate credentials gave attackers access to Medibank’s email and VPN. &lt;strong&gt;520 GB of sensitive data&lt;/strong&gt; was stolen due to lack of MFA.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;how-attackers-steal-passwords&quot;&gt;How Attackers Steal Passwords&lt;/h4&gt;
-
-&lt;p&gt;Before we talk defense, here’s how attackers gain access:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Brute-force attacks&lt;/strong&gt;: Rapidly guessing combinations until one works&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Credential stuffing&lt;/strong&gt;: Reusing stolen credentials from other breaches&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Phishing&lt;/strong&gt;: Tricking users into entering passwords on fake websites&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Social engineering&lt;/strong&gt;: Impersonating trusted people to extract credentials&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Password spraying&lt;/strong&gt;: Trying common passwords across many accounts&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Once in, attackers may install malware, steal client data, or escalate their privileges — especially dangerous if MFA is not enabled.&lt;/p&gt;
-
-&lt;h4 id=&quot;best-practices-for-passwords-mfa--account-security&quot;&gt;Best Practices for Passwords, MFA &amp;amp; Account Security&lt;/h4&gt;
-
-&lt;p&gt;Here’s how to build strong defenses around your accounts:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Use Strong, Unique Passwords&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;At least 12–16 characters&lt;/li&gt;
-  &lt;li&gt;Mix of letters, numbers, symbols&lt;/li&gt;
-  &lt;li&gt;Avoid names, dates, or reused passwords&lt;/li&gt;
-  &lt;li&gt;Use passphrases for memorability (e.g., &lt;em&gt;Correct-Battery-Staple&lt;/em&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Enable Multi-Factor Authentication (MFA)&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Adds a second layer beyond your password&lt;/li&gt;
-  &lt;li&gt;Use authenticator apps (Microsoft, Google) or hardware keys (YubiKey)&lt;/li&gt;
-  &lt;li&gt;Avoid relying only on SMS or email for MFA&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Practice Good Account Hygiene&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Audit access regularly — remove old or unused accounts&lt;/li&gt;
-  &lt;li&gt;Apply least privilege — give only what’s necessary&lt;/li&gt;
-  &lt;li&gt;Avoid shared accounts — each user should have their own&lt;/li&gt;
-  &lt;li&gt;Monitor for suspicious login activity&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Use a Password Manager&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Generates and stores strong passwords&lt;/li&gt;
-  &lt;li&gt;Avoid storing passwords in spreadsheets or sticky notes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;passwordless-login-a-safer-future&quot;&gt;Passwordless Login: A Safer Future&lt;/h4&gt;
-
-&lt;p&gt;Modern platforms (Google, Apple, Microsoft) are moving toward passwordless login. Instead of typing a password, you authenticate with:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Passkeys&lt;/strong&gt; (Face ID, fingerprint, or device PIN)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Magic Links&lt;/strong&gt; (email or SMS links for one-click login)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Biometric logins&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This approach is phishing-resistant, harder to steal, and improves user experience. Adoption is growing rapidly.&lt;/p&gt;
-
-&lt;h4 id=&quot;a-deeper-dive-the-cia-triad&quot;&gt;A Deeper Dive: The CIA Triad&lt;/h4&gt;
-
-&lt;p&gt;The foundation of cybersecurity is built on the &lt;strong&gt;CIA Triad&lt;/strong&gt; — not the agency, but the principles:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Confidentiality&lt;/strong&gt;: Keep data private and protected&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Integrity&lt;/strong&gt;: Prevent unauthorized changes&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Availability&lt;/strong&gt;: Ensure data and systems are accessible when needed&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Passwords, MFA, and account hygiene are all about confidentiality — preventing unauthorized access to your business’s sensitive information.&lt;/p&gt;
-
-&lt;h4 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h4&gt;
-
-&lt;p&gt;Passwords may feel basic, but they’re central to protecting your business. Combined with MFA and good account hygiene, they form a critical first line of defense.&lt;/p&gt;
-
-&lt;p&gt;But even the strongest passwords won’t help if someone is tricked into giving them away.&lt;br /&gt;
-Next week, we’ll tackle Social Engineering &amp;amp; AI Threats — how attackers use &lt;em&gt;deception&lt;/em&gt;, not just &lt;em&gt;technology&lt;/em&gt;, to breach your systems.&lt;/p&gt;
-
-&lt;p&gt;Stay tuned!&lt;/p&gt;
-</description>
-                <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
-                <link>http://localhost:4000/mastiff-systems/blog/Passwords-and-Account-Security-Why-Your-Password-Isnt-Enough-Anymore/</link>
-                <guid isPermaLink="true">http://localhost:4000/mastiff-systems/blog/Passwords-and-Account-Security-Why-Your-Password-Isnt-Enough-Anymore/</guid>
-                
-            </item>
-        
-            <item>
-                <title>Networking Basics: Understanding and Securing More Than Just Wi-Fi</title>
-                <description>&lt;p&gt;Welcome back to Mastiff Systems’ Cybersecurity Essentials series. Last week’s topic covered malware and security updates, highlighting some of the most common cyber threats and how regular security updates can help keep your systems safe from the latest threats.&lt;/p&gt;
-
-&lt;p&gt;This week, we will demystify “network” and explore network security — how to safeguard your office Wi-Fi, devices, and internet connections from attacks that target the systems where your data flows.&lt;/p&gt;
-
-&lt;h4 id=&quot;why-you-should-care&quot;&gt;Why You Should Care&lt;/h4&gt;
-
-&lt;p&gt;Cybercriminals target smaller businesses because they often lack in-house security teams or dedicated IT personnel.&lt;/p&gt;
-
-&lt;p&gt;Your network is the backbone of your digital operations — it’s how devices communicate and where data flows internally. Many small and medium-sized businesses (SMBs) rely on remote access tools, cloud services, email platforms, file storage solutions, and online third-party applications — all of which depend on the network to function.&lt;/p&gt;
-
-&lt;p&gt;Misconfigured or poorly secured networks create easy entry points for cybercriminals. If the network is compromised, the consequences can be severe: &lt;strong&gt;data theft, account breaches, loss of client trust, reputational damage, regulatory penalties&lt;/strong&gt;, or even a complete shutdown of operations.&lt;/p&gt;
-
-&lt;p&gt;If you’re curious about the scale of these threats, here are links to public databases that track real-world breach incidents in the USA. There are around five new breaches reported every day, affecting businesses of all sizes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf&quot;&gt;Medical Data Breaches (U.S.): HHS OCR Breach Portal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://privacyrights.org/data-breaches&quot;&gt;General Data Breaches (All Industries): Privacy Rights Clearinghouse&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://oag.ca.gov/privacy/databreach/list&quot;&gt;California-Specific Breach Notices: California Attorney General Breach List&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;real-world-examples&quot;&gt;Real-World Examples&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Target breach (2013)&lt;/strong&gt;&lt;br /&gt;
-Attackers got in through an HVAC contractor’s remote network access, compromising &lt;strong&gt;70 million credit and debit card accounts&lt;/strong&gt;. This highlights how even third-party connections can pose risk. SMBs are targeted not just for their own data, but as stepping stones to their larger clients.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Capital One Breach (2019)&lt;/strong&gt;&lt;br /&gt;
-Through a misconfigured web application firewall, a former Amazon employee was able to access private customer data stored in the cloud. About &lt;strong&gt;100 million records&lt;/strong&gt; were exposed, costing Capital One &lt;strong&gt;$80 million&lt;/strong&gt; in settlements to companies and individuals.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;how-network-works&quot;&gt;How Network Works&lt;/h4&gt;
-
-&lt;p&gt;In IT, a &lt;strong&gt;network&lt;/strong&gt; refers to a system of interconnected devices that communicate and share data with each other and to the internet. Your office network is made up of a few main components — here’s what each part does and why it matters:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Router – Gateway to the Internet&lt;/strong&gt;
-The router is the main device that connects your office to the internet. It also creates your Wi-Fi network, allowing wireless devices to go online.&lt;br /&gt;
-If the router is poorly secured (e.g. default passwords, outdated firmware), attackers can use it to monitor or hijack traffic to steal credentials or data.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Devices – Computers, Phones, Tablets, VOIP, Cameras&lt;/strong&gt;
-These are the machines your team uses daily to get work done. Each one connects to your network and accesses the internet, cloud apps, and shared files.&lt;br /&gt;
-If one device is infected or compromised, it can be used to attack others on the same network.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Firewall – Your Traffic Filter&lt;/strong&gt;
-The firewall controls what traffic is allowed in and out of your network. It blocks suspicious or unauthorized connections from reaching your devices.&lt;br /&gt;
-It can be built into your router or set up as separate devices. Proper firewall rules can help prevent &lt;strong&gt;malware, ransomware&lt;/strong&gt;, and &lt;strong&gt;data theft&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Local Server – Where Files and Software Are Hosted&lt;/strong&gt;
-Many dental and law offices use a local server to store files, manage business software, or run internal applications.&lt;br /&gt;
-This could be a file server, a practice management system (like Dentrix or Open Dental), or a legal case management server (like Clio or Time Matters). These often hold &lt;strong&gt;sensitive data&lt;/strong&gt; like client records, billing info, and confidential documents.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;VPN – Secure Remote Access&lt;/strong&gt; 
-A &lt;strong&gt;VPN (Virtual Private Network)&lt;/strong&gt; creates a secure tunnel for remote staff to access your network. It encrypts data so that outsiders (like hackers or ISPs) can’t see what’s being sent.&lt;br /&gt;
-Without a VPN, tools like Remote Desktop can be dangerous if exposed directly to the internet.&lt;/p&gt;
-
-&lt;h4 id=&quot;simple-ways-to-safeguard-your-network&quot;&gt;Simple Ways to Safeguard Your Network&lt;/h4&gt;
-
-&lt;p&gt;Here’s how to secure your business network without needing to be an IT expert:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Secure Your Router&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Change the default Wi-Fi name (SSID) and admin password&lt;/li&gt;
-  &lt;li&gt;Use WPA3 or at least WPA2 encryption&lt;/li&gt;
-  &lt;li&gt;Turn off remote management unless absolutely necessary&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Use a Strong Firewall&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Ensure your router’s built-in firewall is enabled&lt;/li&gt;
-  &lt;li&gt;Consider a dedicated hardware firewall for added protection&lt;/li&gt;
-  &lt;li&gt;Block suspicious websites and malicious ads&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Segment Your Network&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Create a guest Wi-Fi for visitors and non-critical devices&lt;/li&gt;
-  &lt;li&gt;Keep it separate from your office systems (computers, servers, printers)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Keep Everything Updated&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Routinely update your router, computers, and smart devices&lt;/li&gt;
-  &lt;li&gt;Patching vulnerabilities helps stop known exploits&lt;/li&gt;
-  &lt;li&gt;One outdated device can put the entire network at risk&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Safe Remote Access&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Use VPN for remote work&lt;/li&gt;
-  &lt;li&gt;Avoid exposing Remote Desktop without extra protections like 2FA&lt;/li&gt;
-  &lt;li&gt;Immediately revoke access for former employees&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Practice Safe Digital Habits&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Back up files regularly to an external drive or secure cloud&lt;/li&gt;
-  &lt;li&gt;Be cautious with email attachments and untrusted downloads&lt;/li&gt;
-  &lt;li&gt;Use antivirus or endpoint protection to catch threats early&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h4&gt;
-
-&lt;p&gt;Network security might feel technical, but it boils down to intentional care and consistent maintenance.&lt;/p&gt;
-
-&lt;p&gt;Most attacks aren’t sophisticated — they exploit unpatched systems, default settings, or forgotten devices. Even a single misconfigured router or compromised phone can create a backdoor into your business.&lt;/p&gt;
-
-&lt;p&gt;Take the time to implement these basic steps, and consider professional help to build a strong and resilient digital foundation for your company.&lt;/p&gt;
-
-&lt;p&gt;Next Week, we’ll dive into another critical layer of defense: Passwords, Multi-Factor Authentication (MFA), and Account Security.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://krebsonsecurity.com/2014/02/target-hackers-broke-in-via-hvac-company/&quot;&gt;Target Hackers Broke in Via HVAC Company&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.seattletimes.com/business/no-prison-for-seattle-hacker-behind-capital-one-250m-data-breach/&quot;&gt;No prison for Seattle hacker behind Capital One $250M data breach&lt;/a&gt;&lt;/p&gt;
-</description>
-                <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-                <link>http://localhost:4000/mastiff-systems/blog/Networking-Basics-Understanding-and-Securing-More-Than-Just-Wi-Fi/</link>
-                <guid isPermaLink="true">http://localhost:4000/mastiff-systems/blog/Networking-Basics-Understanding-and-Securing-More-Than-Just-Wi-Fi/</guid>
-                
-            </item>
-        
-            <item>
-                <title>Malware &amp; Software Updates: Why Ignoring That Update Button Can Cost You </title>
-                <description>&lt;p&gt;Welcome back to Mastiff Systems’ Cybersecurity Essentials series. In our last article, we talked about ransomware and how backups can be a lifesaver. Today, we’re focusing on something even more basic but just as critical, keeping your software updated and understanding how malware actually works.&lt;/p&gt;
-
-&lt;h4 id=&quot;why-you-should-care&quot;&gt;Why You Should Care&lt;/h4&gt;
-
-&lt;p&gt;Every piece of software from your clinic’s practice management system to your office printer firmware has potential security flaws. Cybercriminals look for these “holes” to sneak malware into your system.&lt;/p&gt;
-
-&lt;p&gt;When you ignore update prompts, you’re essentially leaving the digital doors to your business unlocked. The risks are serious:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Patient, client, or financial data could be stolen&lt;/li&gt;
-  &lt;li&gt;Malicious software could spy on your activity, corrupt critical files, or capture your passwords&lt;/li&gt;
-  &lt;li&gt;Outdated systems are one of the most common entry points for ransomware&lt;/li&gt;
-  &lt;li&gt;You may even unknowingly violate important compliance regulations such as &lt;strong&gt;HIPAA&lt;/strong&gt; or the &lt;strong&gt;FTC Safeguards Rule&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you’re curious about the scale of these threats, here are links to public databases that track real-world breach incidents in the USA. There are around five new breaches reported every day, affecting businesses of all sizes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf&quot;&gt;Medical Data Breaches (U.S.): HHS OCR Breach Portal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://privacyrights.org/data-breaches&quot;&gt;General Data Breaches (All Industries): Privacy Rights Clearinghouse&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://oag.ca.gov/privacy/databreach/list&quot;&gt;California-Specific Breach Notices: California Attorney General Breach List&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;real-world-examples&quot;&gt;Real-World Examples&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Equifax (2017)&lt;/strong&gt; - &lt;em&gt;Software Vulnerability&lt;/em&gt;: Hackers stole personal data of 147 million Americans because a known vulnerability in Apache Struts wasn’t patched even though a fix had been released 2 months earlier. Settlement of around $700 million in fines and damages.&lt;br /&gt;
-&lt;strong&gt;Source&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;WannaCry Outbreak (2017)&lt;/strong&gt; - &lt;em&gt;Ransomware&lt;/em&gt;: A global ransomware attack affected over 200,000 computers in 150+ countries including the UK’s National Health Service (NHS), disrupting surgeries and emergency services. The patch had already been available for an exploit in Windows XP, but many systems hadn’t installed it. Costed $13 million for cancelled appointments and operation and $100 million for IT and data recovery.&lt;br /&gt;
-&lt;strong&gt;Source&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;GameOver ZeuS (2012)&lt;/strong&gt; - &lt;em&gt;Trojan&lt;/em&gt;: A banking trojan that infected over 1 million computers, mostly through phishing emails. It stole online banking credentials by monitoring keystrokes and screen activity, allowing attackers to quietly drain victims’ accounts. The malware was designed to evade antivirus detection and spread across networks. By the time the FBI took it down in 2014, it had caused over $100 million in losses.&lt;br /&gt;
-&lt;strong&gt;Source&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;how-malware-works&quot;&gt;How Malware Works&lt;/h4&gt;
-
-&lt;p&gt;“Malware” stands for &lt;em&gt;malicious software&lt;/em&gt;, it’s a general term for any program designed to harm or exploit your devices and data. Last week, we covered one specific type of malware called ransomware.&lt;/p&gt;
-
-&lt;p&gt;Here are common types of malware:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Viruses&lt;/strong&gt;: Attach to files and spread between devices&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Trojans&lt;/strong&gt;: Disguised as legitimate software to trick you into installing them&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Spyware&lt;/strong&gt;: Secretly monitors what you do like a hidden camera on your system&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Keyloggers&lt;/strong&gt;: Record your keystrokes to steal passwords and sensitive info&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Adware&lt;/strong&gt;: Bombards you with ads (sometimes part of more dangerous malware)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ransomware&lt;/strong&gt;: Locks your files until you pay up (covered in Article 3)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Most malware enters your system because of:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Clicking malicious links or attachments&lt;/li&gt;
-  &lt;li&gt;Using outdated software or app&lt;/li&gt;
-  &lt;li&gt;Downloading from untrusted sources&lt;/li&gt;
-  &lt;li&gt;Poor firewall or antivirus protection&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Once malware has infected a system, it can do serious damage behind the scenes. It may steal sensitive files, passwords, and client data. Some malware can spy on your screen activity, hijack your webcam or microphone, or give attackers remote access to your entire network. Others may silently encrypt or corrupt data, disable security tools, or spread to other connected devices.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The worst part?&lt;/strong&gt; Many malware infections go unnoticed until real damage is done, making prevention and early detection absolutely critical.&lt;/p&gt;
-
-&lt;h4 id=&quot;why-software-updates-matter&quot;&gt;Why Software Updates Matter&lt;/h4&gt;
-
-&lt;p&gt;Vendors like Microsoft, Apple, and even printer manufacturers release updates to improve &lt;strong&gt;security&lt;/strong&gt;, &lt;strong&gt;stability&lt;/strong&gt;, and &lt;strong&gt;performance&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Security patches&lt;/strong&gt; fix known vulnerabilities before hackers can exploit them&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Bug fixes&lt;/strong&gt; prevent crashes and data loss&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Performance updates&lt;/strong&gt; help your systems run more efficiently&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Delaying updates leaves your systems exposed to known threats. Many ransomware and malware attacks succeed because businesses failed to apply available fixes. Updating regularly is one of the easiest and most effective ways to protect your business.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-you-can-do-to-prevent-malware&quot;&gt;What You Can Do To Prevent Malware&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Turn on automatic updates&lt;/strong&gt;&lt;br /&gt;
-Enable automatic updates for all your systems like Windows, macOS, web browsers, antivirus software, and mobile apps. This ensures you receive critical security patches as soon as they’re released, even if you forget.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Remove outdated or unused software&lt;/strong&gt;&lt;br /&gt;
-Applications you no longer use can still be exploited by attackers. Uninstall any unnecessary programs to reduce your attack surface.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Update office equipment, too&lt;/strong&gt;&lt;br /&gt;
-Devices like printers, routers, firewalls, and VoIP phones often run outdated firmware and can be overlooked. Check with your vendor or have your IT provider review and apply the latest firmware updates.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Use Antivirus&lt;/strong&gt;&lt;br /&gt;
-Antivirus software plays an important role, but it can’t protect you if malware enters through outdated or unpatched software. Staying current with updates is your first and best line of defense.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Monitor network using a firewall&lt;/strong&gt;&lt;br /&gt;
-Enable a firewall on your devices and network to monitor and control incoming and outgoing network traffic, preventing unauthorized access and malware spread.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Practice safe online behavior &amp;amp; Train employees&lt;/strong&gt;&lt;br /&gt;
-Be cautious with email links and attachments from unknown senders. Avoid downloading files from untrusted websites or peer-to-peer platforms. Stick to reputable websites when browsing online. Don’t click on pop-ups, especially those asking you to download something.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h4&gt;
-
-&lt;p&gt;Malware infections don’t always start with a dramatic hack. Sometimes, all it takes is a missed update or an old app you forgot to uninstall.&lt;/p&gt;
-
-&lt;p&gt;Keeping your software and systems up to date is one of the simplest, most effective ways to protect your business from cyber threats. It reduces your risk of ransomware, data breaches, and compliance violations without requiring expensive tools or advanced IT skills.&lt;/p&gt;
-
-&lt;p&gt;Next week, we’ll dive into Network Security, how to secure your Wi-Fi, routers, and internal systems from common attack methods.&lt;/p&gt;
-</description>
-                <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-                <link>http://localhost:4000/mastiff-systems/blog/Malware-and-Software-Updates-Why-Ignoring-That-Update-Button-Can-Cost-You/</link>
-                <guid isPermaLink="true">http://localhost:4000/mastiff-systems/blog/Malware-and-Software-Updates-Why-Ignoring-That-Update-Button-Can-Cost-You/</guid>
-                
-            </item>
-        
-            <item>
-                <title>Ransomware &amp; Data Backup: How to Protect Your Business from Digital Extortion</title>
-                <description>&lt;p&gt;Welcome back!&lt;/p&gt;
-
-&lt;p&gt;This article is part of Mastiff Systems’ ongoing Cybersecurity Essentials series, written specifically for small to medium-sized business owners and non-technical teams. Last week’s topic covered phishing and email security, one of the most common entry points for cyberattacks.&lt;/p&gt;
-
-&lt;p&gt;Today, we’re focusing on ransomware, a fast-growing threat that can lock your files, freeze your operations, and demand a hefty payment to get access back.&lt;/p&gt;
-
-&lt;h4 id=&quot;why-you-should-care&quot;&gt;Why You Should Care&lt;/h4&gt;
-
-&lt;p&gt;Ransomware doesn’t just affect large corporations. It’s increasingly hitting smaller organizations like dental clinics, law firms, and local service providers. These businesses are often more vulnerable because they don’t have advanced IT defenses, yet they store valuable data like patient records, legal documents, or financial files that attackers know you’ll pay to get back.&lt;/p&gt;
-
-&lt;p&gt;A ransomware attack can:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Lock you out of your own systems and files&lt;/li&gt;
-  &lt;li&gt;Force you to halt operations&lt;/li&gt;
-  &lt;li&gt;Damage client trust and your reputation&lt;/li&gt;
-  &lt;li&gt;Cost millions in ransom and even more in recovery&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you’re curious about the scale of these threats, here are links to public databases that track real-world breach incidents in the USA. There are around five new breaches reported every day, affecting businesses of all sizes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf&quot;&gt;Medical Data Breaches (U.S.): HHS OCR Breach Portal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://privacyrights.org/data-breaches&quot;&gt;General Data Breaches (All Industries): Privacy Rights Clearinghouse&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://oag.ca.gov/privacy/databreach/list&quot;&gt;California-Specific Breach Notices: California Attorney General Breach List&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;real-world-examples&quot;&gt;Real-World Examples&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.techtarget.com/healthtechsecurity/news/366594571/Dental-Care-Alliance-Reaches-3M-Proposed-Settlement-Over-Healthcare-Cyberattack&quot;&gt;Dental Care Alliance (2020)&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
-A ransomware attack on DSO Dental Care Alliance affected over 1 million patients. Hackers stole and encrypted sensitive patient data, leading to compliance issues and patient notifications under HIPAA, and agreed to a &lt;strong&gt;$3 million&lt;/strong&gt; settlement.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.cybersecurity-insiders.com/ransomware-attack-on-law-firm-leads-to-data-breach/&quot;&gt;Campbell Conroy &amp;amp; O’Neil (2021)&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
-A high-profile law firm was targeted. Ransomware locked up systems and compromised data from major corporate clients including Boeing, Pfizer, and ExxonMobil.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.nytimes.com/2019/05/22/us/baltimore-ransomware.html&quot;&gt;City of Baltimore (2019)&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
-A ransomware attack shut down most city systems including payments and email for weeks. The city refused to pay the &lt;strong&gt;$76,000&lt;/strong&gt; ransom but ended up spending over &lt;strong&gt;$18 million&lt;/strong&gt; in recovery.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;how-ransomware-works&quot;&gt;How Ransomware Works&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Infection&lt;/strong&gt;&lt;br /&gt;
-A ransomware attack often starts when someone clicks a malicious link or downloads an infected attachment, usually from a phishing email, compromised website, or unpatched software with vulnerabilities.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Encryption&lt;/strong&gt;&lt;br /&gt;
-Once inside your system, the malware locks (encrypts) files so you can’t access them. You’ll often see a pop-up message demanding a ransom, usually in cryptocurrency, in exchange for the decryption key.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Extortion&lt;/strong&gt;&lt;br /&gt;
-Some ransomware groups now steal your data before encrypting it. If you don’t pay, they threaten to leak it online, putting client confidentiality and regulatory compliance at risk.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;what-you-can-do-to-prevent-it&quot;&gt;What You Can Do to Prevent It&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Keep Backups And Test Them&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Make regular, automatic backups of your critical data.&lt;/li&gt;
-      &lt;li&gt;Use the 3-2-1 rule: 3 copies of your data, on 2 different types of media, with 1 stored off-site or in the cloud.&lt;/li&gt;
-      &lt;li&gt;Test your backups regularly. If you can’t restore, it’s not a real backup.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Train Staff on Phishing Awareness&lt;/strong&gt;&lt;br /&gt;
-Most ransomware infections come from email. Training your team to recognize phishing attempts is your first line of defense (see our second article for tips).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Patch Your Systems&lt;/strong&gt;&lt;br /&gt;
-Ransomware often exploits known software vulnerabilities. Always keep your operating systems, browsers, and applications up to date.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Limit User Permissions&lt;/strong&gt;&lt;br /&gt;
-Give employees access only to the files and systems they need. If ransomware infects a low-permission account, the damage is more contained.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Use Antivirus and Endpoint Protection&lt;/strong&gt;&lt;br /&gt;
-Modern antivirus software can block ransomware before it executes. Many systems now use AI to detect suspicious behavior.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Segment Your Network&lt;/strong&gt;&lt;br /&gt;
-Don’t let one infected machine bring down your whole office. Separating devices and networks (e.g., admin vs. guest Wi-Fi) helps contain threats.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;what-to-do-after-a-ransomware-attack&quot;&gt;What to Do After a Ransomware Attack&lt;/h4&gt;
-
-&lt;p&gt;Even with precautions in place, no system is 100% immune. If you’re hit by ransomware, follow these steps immediately:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Disconnect Affected Systems&lt;/strong&gt;&lt;br /&gt;
-Unplug or disconnect infected computers from the network to prevent the ransomware from spreading.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Contact Your IT Provider or Incident Response Team&lt;/strong&gt;&lt;br /&gt;
-If you have an IT team or have another IT partner, notify them right away. Don’t try to handle it alone unless you have in-house expertise.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Don’t Pay the Ransom…Yet&lt;/strong&gt;&lt;br /&gt;
-Paying the ransom doesn’t guarantee your data will be restored and may encourage future attacks. Exhaust all recovery options first. Consult legal and cybersecurity professionals before deciding.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Check Backups&lt;/strong&gt;&lt;br /&gt;
-Verify the integrity of your most recent backup and restore from a clean point before the infection. This is often the quickest and safest way to recover.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Report the Attack&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Notify the appropriate authorities:&lt;br /&gt;
-Report incidents to the &lt;a href=&quot;https://www.ic3.gov&quot;&gt;FBI’s Internet Crime Complaint Center (IC3)&lt;/a&gt; or the &lt;a href=&quot;https://myservices.cisa.gov/irf&quot;&gt;Cybersecurity and Infrastructure Security Agency (CISA)&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Healthcare providers: If Protected Health Information (PHI) is involved, report the breach to the &lt;a href=&quot;https://www.hhs.gov/hipaa&quot;&gt;U.S. Department of Health &amp;amp; Human Services (HHS)&lt;/a&gt; – Office for Civil Rights (OCR)&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;You may also need to notify clients or regulators, especially if sensitive data was exposed (HIPAA, GDPR, etc.).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Change All Passwords&lt;/strong&gt;&lt;br /&gt;
-Assume passwords were compromised. Reset all system and email credentials, and enable MFA wherever possible.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Conduct a Postmortem&lt;/strong&gt;&lt;br /&gt;
-Understand how the attack happened and fix the gaps. Update security tools, conduct new training, and review your recovery plan.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h4&gt;
-
-&lt;p&gt;Ransomware is one of the most damaging cyber threats today. It encrypts your data, making it completely inaccessible until a ransom is paid (and even then, recovery isn’t guaranteed). But with strong backups, updated systems, and a well-prepared team, you can dramatically reduce your risk. And if the worst happens, knowing how to respond can make all the difference.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;In our next article&lt;/strong&gt;, &lt;em&gt;Malware &amp;amp; Software Updates&lt;/em&gt;, we’ll cover a closely related topic: how outdated software and poor patching habits leave your business wide open to malware attacks and what you can do to prevent them.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;More Resources:&lt;/strong&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.cisa.gov/stopransomware&quot;&gt;StopRansomware&lt;/a&gt;&lt;/p&gt;
-</description>
-                <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
-                <link>http://localhost:4000/mastiff-systems/blog/Ransomware-and-Data-Backup-How-to-Protect-Your-Business-from-Digital-Extortion/</link>
-                <guid isPermaLink="true">http://localhost:4000/mastiff-systems/blog/Ransomware-and-Data-Backup-How-to-Protect-Your-Business-from-Digital-Extortion/</guid>
-                
-            </item>
-        
-            <item>
-                <title>Phishing &amp; Email Security: How to Spot and Stop Digital Scams</title>
-                <description>&lt;p&gt;Welcome Back!&lt;/p&gt;
-
-&lt;p&gt;This post is part of our ongoing Cybersecurity Essentials series for small and medium-sized business (SMB) owners and non-technical teams. If you’ve ever felt overwhelmed by IT security jargon, you’re in the right place. We’re here to make these important topics simple and actionable so you can protect your business without needing a degree in computer science.&lt;/p&gt;
-
-&lt;p&gt;Today, we’re diving into one of the most common cyber threats facing SMBs: phishing and email-based attacks.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-is-phishing-and-why-should-you-care&quot;&gt;What Is Phishing and Why Should You Care?&lt;/h4&gt;
-
-&lt;p&gt;Phishing is a type of cyber attack where criminals pose as someone you trust—like a customer, supplier, or bank—in an attempt to trick you into revealing sensitive information or clicking a malicious link. These scams often arrive via email, but they can also show up through text messages, social media, or messaging apps.&lt;/p&gt;
-
-&lt;p&gt;Think: fake invoices, urgent requests from “the boss,” or phony password reset emails.&lt;/p&gt;
-
-&lt;p&gt;According to &lt;strong&gt;Verizon’s 2023 Data Breach Investigations Report&lt;/strong&gt;, about &lt;strong&gt;75% of breaches involve the human element&lt;/strong&gt;, including phishing, social engineering, and human error. And while large companies make headlines, SMBs are especially vulnerable, they often lack formal training and protections, lack dedicated IT teams, and their teams are more likely to click something suspicious.&lt;/p&gt;
-
-&lt;h4 id=&quot;real-life-examples-of-phishing-attacks&quot;&gt;Real-Life Examples of Phishing Attacks&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.justice.gov/usao-nyc/press-release/hungarian-man-pleads-guilty&quot;&gt;&lt;strong&gt;Facebook &amp;amp; Google (2013–2015)&lt;/strong&gt;&lt;/a&gt;
-A phishing campaign tricked employees at both companies into paying over &lt;strong&gt;$100 million&lt;/strong&gt; in fake invoices. The attacker impersonated a real supplier, Quanta Computer, and sent convincing-looking payment requests.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf&quot;&gt;&lt;strong&gt;Elara Caring (2020)&lt;/strong&gt;&lt;/a&gt;
-This U.S. healthcare provider fell victim when attackers accessed employee email accounts through phishing. The breach exposed personal data of over &lt;strong&gt;100,000 elderly patients&lt;/strong&gt;, including names, Social Security numbers, insurance, and financial information.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.zdnet.com/article/a-fake-zoom-invite-led-to-a-hedge-fund-being-wound-up/&quot;&gt;&lt;strong&gt;Levitas Capital (2020)&lt;/strong&gt;&lt;/a&gt;
-A hedge fund company fell victim to a whaling attack (a phishing attack specifically targeting high-level executives) via a fake Zoom link sent to its co-founder. The malware led to fraudulent invoices totaling &lt;strong&gt;$8.7 million&lt;/strong&gt;. Though only &lt;strong&gt;$800,000&lt;/strong&gt; was lost, the reputational damage caused Levitas to lose its biggest client and ultimately shut down.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;how-phishing-works&quot;&gt;How Phishing Works&lt;/h4&gt;
-
-&lt;p&gt;Phishing relies on &lt;strong&gt;social engineering&lt;/strong&gt;, manipulating people into doing something risky, like clicking a link, entering credentials, or paying invoices. It usually starts with a message that appears to be from someone you trust, such as your bank, a vendor, or a colleague.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The Bait&lt;/strong&gt;&lt;br /&gt;
-Phishing can take many forms, not just email:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Email phishing&lt;/strong&gt;: The classic scam, “Click to reset your password” or “Your invoice is attached.”&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Spear phishing&lt;/strong&gt;: A more targeted version, customized to you or your role.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Smishing&lt;/strong&gt;: Fake texts (“Your package is delayed. Track here: …”)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Vishing&lt;/strong&gt;: Scam phone calls impersonating tech support or financial institutions, increasingly using AI-generated voices.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Social media phishing&lt;/strong&gt;: DMs with fake job offers or account alerts.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;The Hook&lt;/strong&gt;&lt;br /&gt;
-Once the bait lands, the attacker pushes you to act quickly, like clicking a link, opening an attachment, or logging in to a fake website. These actions are designed to feel routine and urgent, lowering your defenses.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The Catch&lt;/strong&gt;&lt;br /&gt;
-When you follow through, that’s when the real damage happens. Depending on what you clicked or entered, attackers might:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Steal your passwords or credentials&lt;/li&gt;
-  &lt;li&gt;Install malware or ransomware&lt;/li&gt;
-  &lt;li&gt;Access your company’s files, emails, or financial systems&lt;/li&gt;
-  &lt;li&gt;Impersonate you to scam others in your organization&lt;/li&gt;
-  &lt;li&gt;Redirect payments or steal funds directly&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Often, the person who was phished doesn’t even realize it immediately. That’s why prevention and early detection are critical.&lt;/p&gt;
-
-&lt;h4 id=&quot;how-to-spot-a-phishing-email&quot;&gt;How to Spot a Phishing Email&lt;/h4&gt;
-
-&lt;p&gt;Phishing can be delivered by email, text, phone, or even chat platforms, but the red flags are often the same:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Urgency&lt;/strong&gt;: Pressure to act fast, “reset now,” “account suspended,” or “boss needs this ASAP”&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Spelling and grammar mistakes&lt;/strong&gt;: Many phishing emails are poorly written&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Suspicious links&lt;/strong&gt;: Hover over links (don’t click) to check where they actually go&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Unexpected attachments&lt;/strong&gt;: Be wary of strange or unsolicited files&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Lookalike email addresses&lt;/strong&gt;: Slight changes like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;support@micros0ft.com&lt;/code&gt; instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;microsoft.com&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;how-you-can-protect-yourself&quot;&gt;How You Can Protect Yourself&lt;/h4&gt;
-
-&lt;p&gt;Phishing targets &lt;strong&gt;people&lt;/strong&gt;, not just systems, so a few smart habits go a long way. Here’s what we recommend:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Train Your Team&lt;/strong&gt;&lt;br /&gt;
-Educate employees about phishing. Share examples like this article, and include cybersecurity in onboarding and ongoing training.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Use Multi-Factor Authentication (MFA)&lt;/strong&gt;&lt;br /&gt;
-MFA adds an extra layer of protection. Even if a password is stolen, the attacker won’t get in without the second step.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Enable Email Filtering Tools&lt;/strong&gt;&lt;br /&gt;
-Most platforms (like Google Workspace or Microsoft 365) offer built-in filters to detect spam, suspicious links, and spoofed senders. Use them, and mark suspicious messages accordingly.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Run a Phishing Drill&lt;/strong&gt;&lt;br /&gt;
-Send your team a simulated phishing email once or twice a year. It’s a safe way to measure awareness and reinforce training.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Adopt a “Pause and Verify” Culture&lt;/strong&gt;&lt;br /&gt;
-Encourage employees to double-check unusual requests especially those involving money or login credentials by contacting the person directly using known contact info.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;dont-let-hackers-impersonate-you&quot;&gt;Don’t Let Hackers Impersonate You&lt;/h4&gt;
-
-&lt;p&gt;The tips above protect you &lt;strong&gt;from&lt;/strong&gt; phishing but what if someone tries to phish &lt;strong&gt;as you&lt;/strong&gt;?&lt;/p&gt;
-
-&lt;p&gt;Hackers can spoof your company’s email address and trick your clients into paying fake invoices. Even if you’re not breached, it can still harm your brand and customer trust.&lt;/p&gt;
-
-&lt;p&gt;To stop this, set up three simple email protections:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;SPF&lt;/strong&gt;: Lists allowed email servers (your company) &amp;amp; blocks unauthorized senders&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;DKIM&lt;/strong&gt;: Adds a digital signature to emails to prove the message wasn’t altered&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;DMARC&lt;/strong&gt;: Tells mail servers how to handle failed SPF/DKIM checks. Stops spoofed messages &amp;amp; provides reports&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Once set up (usually by your IT provider or domain host), these tools run automatically to help protect your clients and your reputation.&lt;/p&gt;
-
-&lt;h4 id=&quot;quick-checklist-for-email-safety&quot;&gt;Quick Checklist for Email Safety&lt;/h4&gt;
-
-&lt;p&gt;&lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Enable MFA on all email accounts&quot; /&gt;
-&lt;label for=&quot;checklist1&quot;&gt; Enable MFA on all email accounts&lt;/label&gt;&lt;br /&gt;
-  &lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Never click links in unexpected emails, verify first&quot; /&gt;
-&lt;label for=&quot;checklist1&quot;&gt; Never click links in unexpected emails, verify first&lt;/label&gt;&lt;br /&gt;
-  &lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Train staff annually&quot; /&gt;
-&lt;label for=&quot;checklist1&quot;&gt; Train staff annually&lt;/label&gt;&lt;br /&gt;
-  &lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Use strong passwords and don’t reuse them&quot; /&gt;
-&lt;label for=&quot;checklist1&quot;&gt; Use strong passwords and don’t reuse them&lt;/label&gt;&lt;br /&gt;
-  &lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Use email filters and flag external messages&quot; /&gt;
-&lt;label for=&quot;checklist1&quot;&gt; Use email filters and flag external messages&lt;/label&gt;&lt;br /&gt;
-  &lt;input type=&quot;checkbox&quot; id=&quot;checklist1&quot; name=&quot;checklist1&quot; value=&quot;Enable SPF, DKIM and DMARC&quot; /&gt;
-&lt;label for=&quot;checklist1&quot;&gt; Enable SPF, DKIM and DMARC&lt;/label&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h4&gt;
-
-&lt;p&gt;Phishing is one of the easiest ways for attackers to break into your business but it’s also one of the easiest to prevent with the right habits and tools in place. A little awareness can go a long way in protecting your team, your data, and your reputation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Stay tuned for our next post: Ransomware and Data Backup!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.verizon.com/business/resources/reports/dbir/&quot;&gt;Verizon Data Breach Investigations Report (DBIR)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf&quot;&gt;U.S. Department of Health and Human Services, Elara Caring Breach Report (2020)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-                <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
-                <link>http://localhost:4000/mastiff-systems/blog/Phishing-and-Email-Security-How-to-Spot-and-Stop-Digital-Scams/</link>
-                <guid isPermaLink="true">http://localhost:4000/mastiff-systems/blog/Phishing-and-Email-Security-How-to-Spot-and-Stop-Digital-Scams/</guid>
-                
-            </item>
         
             <item>
                 <title>Experimenting with all paid internet services and enshittification </title>
@@ -706,8 +32,8 @@ Encourage employees to double-check unusual requests especially those involving 
 &lt;p&gt;The internet can still be a very human place, but it takes some work and apparently some extra money. My day-to-day use of the internet is calming rather than chaotic now that I have almost no ads in my day-to-day world. To keep the internet a free place, maybe we do need to fund these smaller companies that fight to stay independent in a world of “maximum monetization” and tech bros that view people as possible engagement resources to be bled dry. Don’t underestimate the value of your attention to these companies. Right now we are selling it quite cheap and it’s time for a change. For now I will use the paid independent internet.&lt;/p&gt;
 </description>
                 <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-                <link>http://localhost:4000/mastiff-systems/blog/Experimenting-with-all-paid-internet-services-and-enshittification/</link>
-                <guid isPermaLink="true">http://localhost:4000/mastiff-systems/blog/Experimenting-with-all-paid-internet-services-and-enshittification/</guid>
+                <link>http://localhost:4000/blog/Experimenting-with-all-paid-internet-services-and-enshittification/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/Experimenting-with-all-paid-internet-services-and-enshittification/</guid>
                 
             </item>
         
@@ -730,7 +56,7 @@ Encourage employees to double-check unusual requests especially those involving 
 &lt;/ul&gt;
 
 &lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/1-UPS.png&quot; alt=&quot;UPS&quot; width=&quot;100&quot; /&gt;
+  &lt;img src=&quot;/assets/img/blog/monitoring-vm/1-UPS.png&quot; alt=&quot;UPS&quot; width=&quot;100&quot; /&gt;
 &lt;/div&gt;
 
 &lt;ul&gt;
@@ -741,7 +67,7 @@ Encourage employees to double-check unusual requests especially those involving 
 &lt;p&gt;&lt;strong&gt;System Overview&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/2-overview.png&quot; alt=&quot;System Overview&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
+  &lt;img src=&quot;/assets/img/blog/monitoring-vm/2-overview.png&quot; alt=&quot;System Overview&quot; width=&quot;500&quot; style=&quot;padding: 10px;&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;In this example setup:&lt;/p&gt;
@@ -763,7 +89,7 @@ Encourage employees to double-check unusual requests especially those involving 
 &lt;h4 id=&quot;procedures-for-vmware&quot;&gt;Procedures for VMWare&lt;/h4&gt;
 
 &lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/3-esxi.png&quot; alt=&quot;ESXI&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+  &lt;img src=&quot;/assets/img/blog/monitoring-vm/3-esxi.png&quot; alt=&quot;ESXI&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
 &lt;/div&gt;
 
 &lt;ol&gt;
@@ -771,14 +97,14 @@ Encourage employees to double-check unusual requests especially those involving 
     &lt;strong&gt;Verify UPS Detection via SSH&lt;/strong&gt;&lt;br /&gt;
     - Login to your VMware host through SSH.&lt;br /&gt;
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/4-ssh.png&quot; alt=&quot;We logged in as root&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/4-ssh.png&quot; alt=&quot;We logged in as root&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
   &lt;li&gt;
     &lt;strong&gt;At the prompt, type &lt;code&gt;lsusb&lt;/code&gt;&lt;/strong&gt;. This command will list all USB devices connected to your physical server.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/5-lsusb.png&quot; alt=&quot;Success, VMware is able to detect the UPS&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/5-lsusb.png&quot; alt=&quot;Success, VMware is able to detect the UPS&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -788,7 +114,7 @@ Encourage employees to double-check unusual requests especially those involving 
     - If your UPS is connected via USB, download the first option.&lt;br /&gt;
     - If your UPS is connected via the network, download the second (remote) option.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/6-power-panel.png&quot; alt=&quot;Power Panel&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/6-power-panel.png&quot; alt=&quot;Power Panel&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -798,7 +124,7 @@ Encourage employees to double-check unusual requests especially those involving 
     Login to the VMware web GUI and create a virtual machine.&lt;br /&gt;
     Select &lt;em&gt;Deploy a virtual machine from an OVF or OVA file&lt;/em&gt;, then click &lt;strong&gt;Next&lt;/strong&gt;.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/7-Virtual-machine.png&quot; alt=&quot;Select Creation Type&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/7-Virtual-machine.png&quot; alt=&quot;Select Creation Type&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -807,8 +133,8 @@ Encourage employees to double-check unusual requests especially those involving 
     - Drag and drop the &lt;code&gt;.ovf&lt;/code&gt; and &lt;code&gt;.vmdk&lt;/code&gt; files into the box.&lt;br /&gt;
     - Click &lt;strong&gt;Next&lt;/strong&gt; once they are loaded.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/8-monitor-vm.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/8-monitor-vm-2.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-2.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -816,7 +142,7 @@ Encourage employees to double-check unusual requests especially those involving 
     Choose the storage location.&lt;br /&gt;
     For this example, we only have one option. Click &lt;strong&gt;Next&lt;/strong&gt;.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/8-monitor-vm-3.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-3.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -825,21 +151,21 @@ Encourage employees to double-check unusual requests especially those involving 
     - Untick &lt;strong&gt;Power on automatically&lt;/strong&gt;.&lt;br /&gt;
     - Click &lt;strong&gt;Next&lt;/strong&gt;.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/8-monitor-vm-4.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-4.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
   &lt;li&gt;
     Review the configuration and click &lt;strong&gt;Finish&lt;/strong&gt;.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/8-monitor-vm-5.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/8-monitor-vm-5.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
   &lt;li&gt;
     Wait for the virtual machine to finish creating.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/9-creation.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/9-creation.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -849,9 +175,9 @@ Encourage employees to double-check unusual requests especially those involving 
     - Choose your UPS from the list.&lt;br /&gt;
     - Click &lt;strong&gt;Save&lt;/strong&gt;.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/10-configure.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/11-usb.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/12-save.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/10-configure.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/11-usb.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/12-save.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -859,7 +185,7 @@ Encourage employees to double-check unusual requests especially those involving 
     Turn on the virtual machine.&lt;br /&gt;
     Take note of the IP address automatically assigned by ESXi.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/13-IP.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/13-IP.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -868,8 +194,8 @@ Encourage employees to double-check unusual requests especially those involving 
     Open a browser and enter the IP address with the correct port (e.g., &lt;code&gt;http://10.11.0.124:3052&lt;/code&gt;).&lt;br /&gt;
     Refer to the manufacturer’s manual to determine the correct port.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/14-web-gui.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/14-web-gui-2.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/14-web-gui.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/14-web-gui-2.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -877,15 +203,15 @@ Encourage employees to double-check unusual requests especially those involving 
     Change the default password (mandatory).&lt;br /&gt;
     After clicking &lt;strong&gt;Save&lt;/strong&gt;, you will be logged out and must log in again with your new password.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/15-save.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/16-complete-info.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/15-save.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/16-complete-info.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
   &lt;li&gt;
     After logging in, you&apos;ll see complete UPS information on the left-hand side.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/16-complete-info.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/16-complete-info.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -895,14 +221,14 @@ Encourage employees to double-check unusual requests especially those involving 
     - Verify connectivity to your ESXi server.&lt;br /&gt;
     - Set your preferred shutdown duration and delay.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/18-shutdown-delays.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/18-shutdown-delays.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
   &lt;li&gt;
     Click &lt;strong&gt;Apply&lt;/strong&gt; to save your shutdown configurations.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/19-apply.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/19-apply.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
@@ -916,7 +242,7 @@ Encourage employees to double-check unusual requests especially those involving 
     &lt;br /&gt;
       Note the &lt;strong&gt;Bus&lt;/strong&gt; and &lt;strong&gt;Device&lt;/strong&gt; of your UPS device. 
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/20-proxmox-shell.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/20-proxmox-shell.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
 
   List the USB port details:&lt;br /&gt;
@@ -924,23 +250,23 @@ Encourage employees to double-check unusual requests especially those involving 
    in my case&lt;br /&gt;
    &lt;code&gt;lsusb -v -s 1:16&lt;/code&gt;&lt;br /&gt;
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/21-lsusb.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/21-lsusb.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
   &lt;li&gt;
     We have to download &lt;a href=&quot;https://www.cyberpowersystems.com/products/software/power-panel-business/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;PowerPanel Business&lt;/a&gt;
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/22-powerpanel-business.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/22-powerpanel-business.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
     We are going to download PowerPanel Business – Virtual Machine (Local) since the UPS is connected directly to our bare-metal server.   
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/23-download.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/23-download.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
     Extract the zipped file to reveal its contents.&lt;br /&gt;
     We will need the .OVF and .VMDK files later.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/24-extracted-files.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/24-extracted-files.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -952,10 +278,10 @@ Encourage employees to double-check unusual requests especially those involving 
 Upload the .OVF and .VMDK files to the Proxmox server.&lt;br /&gt;
 Using WinSCP, log in to your Proxmox server and proceed with the upload.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/26-login.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/26-login.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
         &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/27-logged-in.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/27-logged-in.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -963,7 +289,7 @@ Using WinSCP, log in to your Proxmox server and proceed with the upload.
 Create the virtual machine for CyberPower PowerPanel.&lt;br /&gt;
 In the Proxmox shell, navigate to the directory where you uploaded the .OVF and .VMDK files.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/29-proxmox-console.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/29-proxmox-console.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
 We are now ready to create the virtual machine using the following command format:
 
@@ -980,11 +306,11 @@ We are now ready to create the virtual machine using the following command forma
 
 For our case, &lt;code&gt;qm importovf 106 ppb4113-local.ovf local-lvm --format raw&lt;/code&gt;
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/30-proxmox-console.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/30-proxmox-console.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
 Upon entering the command, the system will display the progress of the VM creation. Wait until it reaches 100%.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/31-progress.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/31-progress.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -992,20 +318,20 @@ Upon entering the command, the system will display the progress of the VM creati
 Add a virtual network card and connect the UPS to the VM&lt;br /&gt;
 The virtual machine is not complete yet—we need to add a virtual network card so we can assign it an IP address later.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/32-add.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/32-add.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/33-network-device.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/33-network-device.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/34-usb-device.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/34-usb-device.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
 Check the Manufacturer and Product ID, then select Add.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/35-product-id.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/35-product-id.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/36-memory.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/36-memory.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -1013,23 +339,23 @@ Check the Manufacturer and Product ID, then select Add.
 Assign an IP address to PowerPanel&lt;br /&gt;
 Turn on the newly created virtual machine.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/37-ubuntu.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/37-ubuntu.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
 Since we don&apos;t have a working IP address yet, we will assign one using DHCP.&lt;br /&gt;
 First, type ip add to identify the label of the attached network card.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/38-ip-add.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/38-ip-add.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
 Next, we will activate &lt;code&gt;ens18&lt;/code&gt; by typing the following command:&lt;br /&gt;
 &lt;code&gt;sudo ip link set dev ens18 up&lt;/code&gt;
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/39-admin.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/39-admin.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
 We will assign an IP address automatically using the following command:&lt;br /&gt;
 &lt;code&gt;sudo dhclient -v ens18&lt;/code&gt;&lt;br /&gt;
 Upon entering this command, the system will display the assigned IP address.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/40-ip.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/40-ip.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
 &lt;/li&gt;
 
@@ -1039,7 +365,7 @@ Using a browser, we can now access PowerPanel by entering the assigned IP addres
 In our case, it should be:
 &lt;code&gt;192.168.5.102:3052&lt;/code&gt;
         &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/41-powerpanel.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/41-powerpanel.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 
@@ -1047,17 +373,17 @@ In our case, it should be:
 Upon logging in, the system will prompt you to change the password.
 Changing the password is mandatory.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/42-login.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/42-login.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
     &lt;div style=&quot;text-align: center;&quot;&gt;
-      &lt;img src=&quot;/mastiff-systems/assets/img/blog/monitoring-vm/43-done.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
+      &lt;img src=&quot;/assets/img/blog/monitoring-vm/43-done.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 </description>
                 <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
-                <link>http://localhost:4000/mastiff-systems/blog/How-setup-power-monitoring-virtual-machine/</link>
-                <guid isPermaLink="true">http://localhost:4000/mastiff-systems/blog/How-setup-power-monitoring-virtual-machine/</guid>
+                <link>http://localhost:4000/blog/How-setup-power-monitoring-virtual-machine/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/How-setup-power-monitoring-virtual-machine/</guid>
                 
             </item>
         
@@ -1078,8 +404,8 @@ Changing the password is mandatory.
 &lt;p&gt;Commodore…….ahh the memories.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-                <link>http://localhost:4000/mastiff-systems/blog/Why-Commodore-should-have-ruled-the-world/</link>
-                <guid isPermaLink="true">http://localhost:4000/mastiff-systems/blog/Why-Commodore-should-have-ruled-the-world/</guid>
+                <link>http://localhost:4000/blog/Why-Commodore-should-have-ruled-the-world/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/Why-Commodore-should-have-ruled-the-world/</guid>
                 
             </item>
         
@@ -1089,7 +415,7 @@ Changing the password is mandatory.
 
 &lt;p&gt;But just look at the photos&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mastiff-systems/assets/img/blog/cable/cables.jpg&quot; alt=&quot;Mag safe stand&quot; title=&quot;Optional Title&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/cable/cables.jpg&quot; alt=&quot;Mag safe stand&quot; title=&quot;Optional Title&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is one reason Apple gets a reputation for being more “expensive” but you
 can’t tell me those are the same cables. You really do get what you pay for here in
@@ -1101,8 +427,8 @@ I’m sure they have good margin on these, of course. But it’s not the highway
 robbery people think it is.&lt;/p&gt;
 </description>
                 <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-                <link>http://localhost:4000/mastiff-systems/blog/A-company-scanned-Apple-cables-compared-to-cheaper-knock-offs/</link>
-                <guid isPermaLink="true">http://localhost:4000/mastiff-systems/blog/A-company-scanned-Apple-cables-compared-to-cheaper-knock-offs/</guid>
+                <link>http://localhost:4000/blog/A-company-scanned-Apple-cables-compared-to-cheaper-knock-offs/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/A-company-scanned-Apple-cables-compared-to-cheaper-knock-offs/</guid>
                 
             </item>
         
@@ -1114,7 +440,7 @@ robbery people think it is.&lt;/p&gt;
 
 &lt;p&gt;With the new standby mode I can replace my bed side clock. I have also been playing with using my iPhone to replace my noise machine that I did have setup with HomeKit to turn on at 9pm and off at 11pm. Using my phone is a bit more manual but i like that it’s very intentional. It is nice when I travel that I have the same noise machine on the road as I do at home. So I got a mag safe stand and have that and one HomeKit light by my bed. It looks a lot cleaner and it’s simpler.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mastiff-systems/assets/img/blog/ios/Mag safe stand.jpg&quot; alt=&quot;Mag safe stand&quot; title=&quot;Optional Title&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/ios/Mag safe stand.jpg&quot; alt=&quot;Mag safe stand&quot; title=&quot;Optional Title&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I bought a Maxonar stand for $26 and it works great.&lt;/p&gt;
 
@@ -1122,17 +448,17 @@ robbery people think it is.&lt;/p&gt;
 
 &lt;p&gt;After doing some playing with it, I can see that if you swipe over you can change what is displayed. I was able to get a tiny clock in the corner and that works well. Is there a way to customize the color? we will see. See what I have so far…&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mastiff-systems/assets/img/blog/ios/display-1.jpg&quot; alt=&quot;Display option 1&quot; title=&quot;Display option 1&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/ios/display-1.jpg&quot; alt=&quot;Display option 1&quot; title=&quot;Display option 1&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mastiff-systems/assets/img/blog/ios/display-2.jpg&quot; alt=&quot;Display option 2&quot; title=&quot;Display option 2&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/ios/display-2.jpg&quot; alt=&quot;Display option 2&quot; title=&quot;Display option 2&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mastiff-systems/assets/img/blog/ios/display-3.jpg&quot; alt=&quot;Display option 3&quot; title=&quot;Display option 3&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/ios/display-3.jpg&quot; alt=&quot;Display option 3&quot; title=&quot;Display option 3&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mastiff-systems/assets/img/blog/ios/display-4.jpg&quot; alt=&quot;Display option 4&quot; title=&quot;Display option 4&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/ios/display-4.jpg&quot; alt=&quot;Display option 4&quot; title=&quot;Display option 4&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can also swipe up and down for different clock faces. This is the one I like the best.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mastiff-systems/assets/img/blog/ios/display-5.jpg&quot; alt=&quot;Display option 5&quot; title=&quot;Display option 5&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/ios/display-5.jpg&quot; alt=&quot;Display option 5&quot; title=&quot;Display option 5&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is exactly the functionality I had hoped for with IOS 17. It seems like a tiny feature but it’s a game changer for me. I loved the giant alarm buttons. It will be interesting to see how I can continue to integrate this in to everyday life.&lt;/p&gt;
 
@@ -1140,26 +466,225 @@ robbery people think it is.&lt;/p&gt;
 
 &lt;p&gt;All you need to do is launch the settings app, the search background sounds and turn on the sound you like.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mastiff-systems/assets/img/blog/ios/audio visual settings.jpg&quot; alt=&quot;Audio and visual settings&quot; title=&quot;Audio and visual settings&quot; width=&quot;400&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/ios/audio visual settings.jpg&quot; alt=&quot;Audio and visual settings&quot; title=&quot;Audio and visual settings&quot; width=&quot;400&quot; /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/mastiff-systems/assets/img/blog/ios/background sounds settings.jpg&quot; alt=&quot;Background sounds settings&quot; title=&quot;Background sounds settings&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/img/blog/ios/background sounds settings.jpg&quot; alt=&quot;Background sounds settings&quot; title=&quot;Background sounds settings&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You could even get fancy and create an automation with shortcuts like I did below.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mastiff-systems/assets/img/blog/ios/background sounds settings-2.jpg&quot; alt=&quot;Background sounds settings 2&quot; title=&quot;Background sounds settings 2&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/ios/background sounds settings-2.jpg&quot; alt=&quot;Background sounds settings 2&quot; title=&quot;Background sounds settings 2&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In this automation, it turns on my noise machine. Turns on my goodnight home automation scene, which locks my doors and turns of all my nights and then plays some calm music in my bedroom.&lt;/p&gt;
 
 &lt;p&gt;Then you could even start a fitness plus meditation for sleep. Like this one&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mastiff-systems/assets/img/blog/ios/meditation app.jpg&quot; alt=&quot;Meditation app&quot; title=&quot;Meditation app&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/ios/meditation app.jpg&quot; alt=&quot;Meditation app&quot; title=&quot;Meditation app&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It is quite remarkable how well this all works. Steve Jobs was all in on the arts and especially music. Where Tim Cook is passionate about health and it shows with things like this. Now I can just bring my stand with me when I’m traveling and in one small package I have my exact setup for sleep that I do at home. Makes sleeping so much easier when I’m not in my own bed. Tying it all in to HomeKit makes it even more powerful.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
-                <link>http://localhost:4000/mastiff-systems/blog/IOS-17-standby-mode/</link>
-                <guid isPermaLink="true">http://localhost:4000/mastiff-systems/blog/IOS-17-standby-mode/</guid>
+                <link>http://localhost:4000/blog/IOS-17-standby-mode/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/IOS-17-standby-mode/</guid>
+                
+            </item>
+        
+            <item>
+                <title>Using Apple shortcuts to remember to request payment</title>
+                <description>&lt;p&gt;I have two of my kids on my car insurance since it’s cheaper for them, so they pay
+me directly for it every month rather than pay the bill themselves. I also had them
+on my phone plan up until recently. But it’s easy to forget to request that payment
+and the kids certainly aren’t motivated to remember. Certainly there was a way to
+automate this?&lt;/p&gt;
+
+&lt;p&gt;My solution after a lot of trial and error was to use the shortcuts app to create an
+automation to request the payment via Apple Pay.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/shortcuts/image.png&quot; alt=&quot;Sample Image&quot; title=&quot;Optional Title&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/shortcuts/image-1.png&quot; alt=&quot;Sample Image&quot; title=&quot;Optional Title&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see for my kids. One shortcut each. Then I created a recurring
+reminder with a link to the shortcut.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/shortcuts/image-2.png&quot; alt=&quot;Sample Image&quot; title=&quot;Optional Title&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I get a pop up reminder on the first of every month, and I just click on the reminder
+and it runs the shortcut and requests the money. The system works pretty well and
+I haven’t forgotten to ask them since.&lt;/p&gt;
+</description>
+                <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+                <link>http://localhost:4000/blog/Using-apple-shortcuts-to-remember-to-request-payment/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/Using-apple-shortcuts-to-remember-to-request-payment/</guid>
+                
+            </item>
+        
+            <item>
+                <title>5 Cool Tips to Upgrade Your Notion Dashboard</title>
+                <description>&lt;p&gt;You’ve made a simple Notion dashboard and are now looking to take it to the next level? Here are a few cool tips to make your dashboard work for you instead of you working on them.&lt;/p&gt;
+
+&lt;h5 id=&quot;relate-multiple-data-sets&quot;&gt;Relate Multiple Data Sets&lt;/h5&gt;
+
+&lt;p&gt;If you have two databases that are related, you can connect them using the relation property so you don’t have to manually update each database separately. This feature is particularly useful for linking projects with tasks, clients with projects, or employees with their assignments. This way, you can easily view and manage related information in one place without duplicating data.&lt;/p&gt;
+
+&lt;iframe title=&quot;Relation&quot; width=&quot;860&quot; height=&quot;515&quot; src=&quot;https://peertube-gftks-u25423.vm.elestio.app/videos/embed/7240c82e-41e5-4a11-9bcc-b04d3eb1dc90&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; sandbox=&quot;allow-same-origin allow-scripts allow-popups&quot;&gt;&lt;/iframe&gt;
+
+&lt;h5 id=&quot;routine-actions-in-one-click&quot;&gt;Routine Actions in One Click&lt;/h5&gt;
+
+&lt;p&gt;With the button feature, you can automate routine actions, such as creating a new page, inserting blocks, or editing pages, all with a single click. Buttons are highly customizable, allowing you to tailor their functionality to suit specific needs or workflows.&lt;/p&gt;
+
+&lt;p&gt;Let’s try creating a button to add a page to a database in one click.&lt;/p&gt;
+
+&lt;iframe title=&quot;Button&quot; width=&quot;860&quot; height=&quot;515&quot; src=&quot;https://peertube-gftks-u25423.vm.elestio.app/videos/embed/29808046-2283-49fe-8261-f1e1644a1c5a&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; sandbox=&quot;allow-same-origin allow-scripts allow-popups&quot;&gt;&lt;/iframe&gt;
+
+&lt;h5 id=&quot;automate-updates&quot;&gt;Automate Updates&lt;/h5&gt;
+
+&lt;p&gt;Here’s another automation trick for databases: Triggers. Triggers reduce the need for manual updates and help keep your data consistent and up to date. For example, if you update an entry, you can set up an automation to automatically notify a group of people, eliminating the need to manually inform them.&lt;/p&gt;
+
+&lt;iframe title=&quot;Trigger&quot; width=&quot;860&quot; height=&quot;515&quot; src=&quot;https://peertube-gftks-u25423.vm.elestio.app/videos/embed/9b65d5f6-8bf8-4da2-b06f-5ac10f09b09c&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; sandbox=&quot;allow-same-origin allow-scripts allow-popups&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Note:  I am doing this from my private space since this is just a demo but you have to do this in a teamspace in order for this to work.&lt;/p&gt;
+
+&lt;h5 id=&quot;create-templates&quot;&gt;Create Templates&lt;/h5&gt;
+
+&lt;p&gt;Take advantage of templates. If you have a database where you frequently add similar pages, like client profiles, duplicating a page can require extra effort to remove existing client information. Instead, you can create a template with the same format, allowing you to quickly generate new client profiles without the extra cleanup. This saves time and keeps your workflow efficient.&lt;/p&gt;
+
+&lt;iframe title=&quot;Template&quot; width=&quot;860&quot; height=&quot;515&quot; src=&quot;https://peertube-gftks-u25423.vm.elestio.app/videos/embed/d0da4a35-694d-47ec-a6b6-fb0e58a42b57&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; sandbox=&quot;allow-same-origin allow-scripts allow-popups&quot;&gt;&lt;/iframe&gt;
+
+&lt;h5 id=&quot;notion-formulas&quot;&gt;Notion Formulas&lt;/h5&gt;
+
+&lt;p&gt;Are you a fan of Excel? Then you might want to explore Notion’s formulas. Notion formulas allow you to create dynamic, calculated fields within databases, enabling powerful features like calculations, conditional formatting, and logical operations. For example, you can easily track your monthly expenses using a simple formula.&lt;/p&gt;
+
+&lt;iframe title=&quot;Formula&quot; width=&quot;860&quot; height=&quot;515&quot; src=&quot;https://peertube-gftks-u25423.vm.elestio.app/videos/embed/caa9f21a-e44c-4937-a55a-d1031f2db41d&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; sandbox=&quot;allow-same-origin allow-scripts allow-popups&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;These small changes will definitely transform your work dashboard. Give them a try and see how they can improve your Notion experience!&lt;/p&gt;
+</description>
+                <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+                <link>http://localhost:4000/blog/5-Cool-Tips-to-Upgrade-Your-Notion-Dashboard/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/5-Cool-Tips-to-Upgrade-Your-Notion-Dashboard/</guid>
+                
+            </item>
+        
+            <item>
+                <title>Tips for Notion Newcomers</title>
+                <description>&lt;p&gt;Notion is one of the tools that Mastiff uses to organize our documents and information. It serves as our centralized hub for information, collaboration, and knowledge-sharing. We’ve built our wiki, library, and various work dashboards in Notion. It’s incredibly flexible—think of it like a blank canvas where you can create whatever you need. But I know all that freedom can feel a bit overwhelming at first. So, let me walk you through some basics to help you get started!&lt;/p&gt;
+
+&lt;h5 id=&quot;1-customize-your-page&quot;&gt;1. Customize Your Page&lt;/h5&gt;
+
+&lt;p&gt;You can create pages for almost anything and personalize them with various types of content, such as text, images, databases, and more. You can choose from a range of pre-made emojis and icons as visual cues for your pages, or upload your own photos from your computer. You also have the option to select images from Unsplash, which offers a wide range of high-quality stock photos. Although the font color and text background options are somewhat limited, they still provide effective color-coding features for organizing sections and highlighting important information.&lt;/p&gt;
+
+&lt;h5 id=&quot;2-organize-your-pages&quot;&gt;2. Organize Your Pages&lt;/h5&gt;
+
+&lt;p&gt;I LOVE databases! If you have a lot of pages, a full-page database can become your best friend. Think of it as a super-organized filing cabinet for all your content. Databases are one of the more complex blocks in Notion, but that’s because they offer so much functionality. You can set up automation, apply filters, and sort data efficiently. If you’re just getting started, begin by adding properties tailored to your needs. They’re fantastic for organizing and quickly searching through a pool of pages.&lt;/p&gt;
+
+&lt;h5 id=&quot;3-same-data-multiple-views&quot;&gt;3. Same Data, Multiple Views&lt;/h5&gt;
+
+&lt;p&gt;Once you’ve got your database set up, you can view your data in all sorts of ways:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table View:&lt;/strong&gt; A spreadsheet-like layout to view and manage a large amount of data at once. It’s ideal for sorting, filtering, and viewing multiple properties of your data side by side.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Board View:&lt;/strong&gt; A Kanban-style board, perfect for tracking tasks through different stages or categories. Organize tasks by status, priority, or any categorical property.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;List View:&lt;/strong&gt; A simple linear view of data. It provides a minimalist approach to view records one by one with key properties visible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Timeline View:&lt;/strong&gt; A chronological timeline for your data, great for project planning, tracking deadlines, and scheduling. It provides a visual representation of your tasks or events over time, making it easier to see overlaps and gaps.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Calendar View:&lt;/strong&gt; For scheduling and managing time-based data like appointments, meetings, or deadlines, Notion’s calendar view is ideal. It allows you to see your tasks and events in a monthly, weekly, or daily format, making it easy to keep track of what’s coming up. A great feature of Notion’s calendar is that it can send you notifications, ensuring you never forget important events. Plus, you can connect it with Google Calendar or Outlook to sync all your schedules in one place.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gallery View:&lt;/strong&gt; Provides a visual representation of your data, showcasing items as cards with an emphasis on images. It’s ideal for portfolios, mood boards, or any data where visual elements are important, such as team directories or project showcases.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chart View:&lt;/strong&gt; Useful for tracking progress on projects, analyzing performance metrics, or visualizing complex datasets in a more digestible way.&lt;/p&gt;
+
+&lt;h5 id=&quot;4-collaborate-with-your-team&quot;&gt;4. Collaborate with Your Team&lt;/h5&gt;
+
+&lt;p&gt;Once you’ve created a simple dashboard in Notion, you can easily share it with your team to facilitate collaboration. Notion serves as a central hub for storing team documents, notes, tasks, and databases, all in one accessible location, which helps keep everyone aligned and on the same page. Notion’s permission management features allow you to control access levels, ensuring that sensitive information remains protected while still encouraging effective collaboration. You can assign different permission levels based on each role, providing just the right amount of access each member needs.&lt;/p&gt;
+
+&lt;p&gt;When adding a team member to Notion, you can select their level of access—Full Access, Can Edit, Can Comment, or View Only—depending on their role and responsibilities. For finalized documents or templates, you can use Notion’s “Lock Page” feature to prevent accidental changes. If you’re managing a larger team or organization, creating groups and assigning permissions at the group level is more efficient than setting permissions for each user individually, helping streamline access management and maintain consistent permissions across the team.&lt;/p&gt;
+
+&lt;h5 id=&quot;5-add-widgets&quot;&gt;5. Add Widgets&lt;/h5&gt;
+
+&lt;p&gt;To further enhance your Notion workspace, consider adding widgets. These can include productivity tools and real-time data displays. Platforms like Apption.co offer a variety of options to augment your Notion setup.&lt;/p&gt;
+
+&lt;p&gt;Notion is incredibly flexible, which is both its strength and the source of initial overwhelm. Take it one step at a time, and don’t be afraid to experiment. As you grow more comfortable with the basics, you’ll discover countless ways to tailor Notion to your specific needs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Happy organizing!&lt;/strong&gt;&lt;/p&gt;
+</description>
+                <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
+                <link>http://localhost:4000/blog/Tips-for-Notion-Newcomers/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/Tips-for-Notion-Newcomers/</guid>
+                
+            </item>
+        
+            <item>
+                <title>Data Insurance: Why Do Companies Need It (Or Not)?</title>
+                <description>&lt;p&gt;For starters, What is Data Insurance?&lt;/p&gt;
+
+&lt;p&gt;We define data insurance for a non-techy person as a safety net for businesses and people worried about cyber threats. It covers costs if sensitive data gets stolen or if there’s a cyberattack. It’s especially crucial today when businesses use a lot of digital tools and face more online risks. With data insurance, they can feel more secure knowing they’re protected financially if something goes wrong.&lt;/p&gt;
+
+&lt;p&gt;Data Insurance vs. Life Insurance&lt;/p&gt;
+
+&lt;p&gt;Let’s break it down:&lt;/p&gt;
+
+&lt;p&gt;Life Insurance: This is a safety net for your family. If something happens to you and you can’t provide for them anymore, life insurance steps in to ensure they’re financially okay. It’s like giving them a big hug of support when you can’t be there.&lt;/p&gt;
+
+&lt;p&gt;Data Insurance: This acts as a shield. If hackers steal your sensitive information or mess with your online operations, data insurance comes to the rescue. It helps cover the costs of fixing the mess, like hiring experts or paying fines. It’s like having a superhero for your computer files, keeping them safe and sound.&lt;/p&gt;
+
+&lt;p&gt;Now, Should You Get Data Insurance?&lt;/p&gt;
+
+&lt;p&gt;Let’s consider the advantages and disadvantages.&lt;/p&gt;
+
+&lt;p&gt;Advantages:&lt;/p&gt;
+
+&lt;p&gt;Peace of Mind: It’s like having a safety net. If something bad happens to your digital assets, you know you won’t be left hanging financially.&lt;/p&gt;
+
+&lt;p&gt;Helps Cover Costs: If hackers strike or you accidentally lose important data, the insurance helps pay for fixing the mess, such as hiring experts or dealing with legal issues.&lt;/p&gt;
+
+&lt;p&gt;Protects Your Business: For companies, it’s like having a guardian for your digital side. If there’s a cyberattack, you can keep running smoothly without worrying about significant financial hits.&lt;/p&gt;
+
+&lt;p&gt;Disadvantages:&lt;/p&gt;
+
+&lt;p&gt;Costs Money: Like any insurance, you have to pay for it. Depending on the level of coverage you want, it can add up over time.&lt;/p&gt;
+
+&lt;p&gt;Not Foolproof: It won’t stop cyberattacks or data breaches from happening. It just helps you recover financially after the damage is done.&lt;/p&gt;
+
+&lt;p&gt;Policy Limits: Sometimes, there are limits on what the insurance will cover. You need to read the fine print to make sure you’re protected where you need it most.&lt;/p&gt;
+
+&lt;p&gt;It’s important to research thoroughly before deciding whether to get data insurance. Assess your specific needs, the risks you face, and the coverage options available.&lt;/p&gt;
+
+&lt;p&gt;Data insurance can provide significant benefits, especially in an age where cyber threats are ever-present. However, it’s essential to weigh the costs and limitations to determine if it’s the right choice for you or your business.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+                <link>http://localhost:4000/blog/Data-Insurance-Why-Do-Companies-Need-It-Or-Not/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/Data-Insurance-Why-Do-Companies-Need-It-Or-Not/</guid>
+                
+            </item>
+        
+            <item>
+                <title>On Linux, VMware and Broadcom.</title>
+                <description>&lt;p&gt;I fell in love with the idea of Linux when I was 15 or 16 years old. I would read magazines about the Linux operating system and the power of open source, which fascinated me. The idea of a free (free as in freedom and free as in free lunch) operating system that anyone could modify for their own specific needs seemed like a gift from the community to the world. Simply incredible. I wanted to run Linux as my primary operating system, but I was also an aspiring musician and had gone on my first real tour when I was 16. I was working as an assistant engineer in a few recording studios, learning the science of audio engineering in the evenings when I wasn’t in class or on the road playing shows, and I had music software I needed to run, none of which worked on Linux.&lt;/p&gt;
+
+&lt;p&gt;Around this time, I also discovered emulators. My mom is handicapped (she would kill me if I said she was disabled) from juvenile rheumatoid arthritis, and my dad was a counselor for the state. With my mom’s medical bills and her not being able to generate much income, we didn’t have much money growing up. We were certainly rich in everything that really mattered, but we watched our pennies. I still find myself being pretty thrifty these days as a result of that experience. I watched all my friends getting game consoles like Nintendos and Sega Genesis, but that was just more money than my parents could spare. It was a bit frustrating, but then I discovered emulators and I was hooked. An emulator is a piece of software that tricks your computer into thinking it was a game console, so I could play a lot of those games my friends were playing, right on my computer. I became obsessed with making technology do things it wasn’t necessarily supposed to do.&lt;/p&gt;
+
+&lt;p&gt;Then, in the late 90’s heard about an UC Berkley startup called VMware that would allow you to run multiple operating systems on one physical host or computer. The person who started the project saw that, in general, servers weren’t fully utilizing all the CPU, RAM, and hard drive space that they had available. They speculated that they could turn one physical server into multiple virtual servers somehow, and that turned into the concept for a hypervisor.&lt;/p&gt;
+
+&lt;p&gt;A hypervisor is an operating system (Windows is the most used operating system for desktop computers and Android on smartphones now is the most popular operating system) that lives on a piece of hardware, like a server, in which you can create virtual computers or machines. Virtual machines are very powerful technology. Essentially, you’ve wrapped a whole computer in one or two files, so you can copy those files all over the place, keep them safe, and move them between multiple hosts in real time without any downtime. It’s rather amazing technology that still feels like magic to me even after all these years, and I thoroughly enjoyed being able to work on that technology in my adult career full-time.&lt;/p&gt;
+
+&lt;p&gt;In one edition of some Linux magazine, there was an ad for VMware and a phone number, so I just called them on the phone and someone actually answered. They were a tiny startup. We discussed Linux and music software and how I could find a way to run both. I was just a dumb kid who didn’t know what he was doing, but it was still amazing that they would just talk to me. At the time, I didn’t get to dig into VMware as much as I would have liked; that would come later. I had no idea when I was 16 that I would be able to have a career in both music technology and corporate IT and how well they actually worked together.&lt;/p&gt;
+
+&lt;p&gt;I simply fell in love with VMware and the concepts, and as my IT knowledge grew, so did VMware as a company. They certainly had their share of changes in their business as Dell bought them, and they were bought and sold to other companies, but they always managed to navigate the technology landscape in a way that was very good for their users. Most of their users were people like me, server administrators who wanted to squeeze the most performance out of the servers they were working on for their clients. VMware is the backend that powers the world, and almost no one outside of tech circles has heard of them. They make billions of dollars a year now, not bad from a little startup that would answer some 16-year-old kid’s silly questions on the phone for free.&lt;/p&gt;
+
+&lt;p&gt;Sadly, a huge conglomerate called Broadcom purchased VMware outright, and it seems their intentions are to raise prices to a ridiculous level, remove any perpetual licensing, and just focus on the absolute largest companies in the world. They’ve made decisions that leave small businesses out of the discussion entirely. Personally, I am increasingly frustrated with this subscription-based world we find ourselves in. I think you should be able to buy software once and use it on your server or computers forever. I hate that you have to pay a monthly fee to use software that you have paid for in the past. VMware’s new licensing model makes it so you will have to pay a subscription on your server forever, or your virtual servers stop working. I didn’t think that was an ethical decision, and VMware’s response to the industry criticisms has been that “Subscription pricing is the industry standard.” I don’t think that’s an acceptable answer, and I don’t care what everyone else does. You need to make the right decision for yourself, and aren’t technology leaders supposed to lead regardless of industry? That’s something I appreciated about Steve Jobs and Apple at the time that he ran it. He didn’t care what the industry was doing; he was going to do what he thought was right and what he thought would make the most sense for his end-users.&lt;/p&gt;
+
+&lt;p&gt;I fear that there’s a larger trend in the tech industry that I’m increasingly unhappy with. I describe it as the tail wagging the dog. All of these tools - servers, hypervisors, printers - are tools to do something in a business, to run the business, to make the business more profitable, to make it work in some way. It seems very backward to me for a tool to dictate the business, rather than the business dictate the use of the tool that it has chosen. It seems that the tech industry has gotten a little too big for its britches, in my opinion, and has decided that they are so vital and important to business as a whole. In some cases, it’s hard to argue. Microsoft Outlook has been the email platform for business for years, despite it not necessarily being the greatest product, but certainly, we can’t be held hostage by these tech companies. We can’t fall into the subscription trap of forever payments for not that much value back other than things keep working.&lt;/p&gt;
+
+&lt;p&gt;That’s why, after 20 years of being a VMware administrator, we have decided at Mastiff to not do any new VMware projects. We will certainly maintain, upgrade, and take care of our existing VMware install’s, but we will migrate away from VMware in the future. We are moving to a hypervisor product called Proxmox that does a fantastic job for most of what we need and is fully open source, so they won’t ever really have that problem where a big company buys them out. I have personally played with Proxmox off and on for a few years now, and its latest version is quite mature. We also do a lot with Hyper-V, the Microsoft product, and of course, Microsoft Azure and Amazon AWS platforms.&lt;/p&gt;
+
+&lt;p&gt;We also refuse to install or move to Nutanix, the possible up-and-comer to replace VMware in the corporate world, as they too don’t have perpetual licensing and cost roughly the same as VMware is raising its prices to. Nutanix will trick you with amazing first-year pricing, but then you are trapped, and it’s no better than VMware, and VMware is the more mature product. I hear Nutanix reps give the same line “subscription pricing is industry standard” and it turns my stomach to hear. What a cop out. I thought tech companies didn’t follow the pack? We will work on Nutanix but we wont do a new install with it.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, our days with VMware are numbered due to them clearly not wanting to take care of small business users’ needs. It’s quite heartbreaking for me, as I’ve loved this technology since I was a teenager, but it seems like there are, at least from a business standpoint, greener pastures elsewhere. We always want to be at the forefront of new technology that can be disruptive to the industry, so it’ll be an interesting few years. Hopefully, this will go down in history as a big giant business mistake for Broadcom and VMware, and companies will learn not to be so disruptive to their users’ everyday lives. Once again, open source saves the day!&lt;/p&gt;
+</description>
+                <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+                <link>http://localhost:4000/blog/On-Linux-VMware-and-Broadcom/</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/On-Linux-VMware-and-Broadcom/</guid>
                 
             </item>
         
