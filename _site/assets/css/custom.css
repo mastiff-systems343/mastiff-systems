@@ -238,7 +238,8 @@ ul.navbar-nav {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/themes/halloween/main-web.gif");
+  background-image: url("../img/Main-Photo.jpg");
+  background-color: rgba(66, 57, 65, 0.7);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -369,13 +370,14 @@ header.masthead .intro-text .intro-heading {
 
 @media (max-width: 586px) {
   header.masthead {
-    background-image: url("../img/themes/halloween/main-mobile.gif");
+    background-image: url("../img/Main-Photo.jpg");
     background-position: center;
+    background-color: rgba(66, 57, 65, 0.7);
     background-size: cover;
     height: 40vh;
     min-height: 400px;
     padding-top: 100px;
-    margin-top: var(--navbar-height, 70px); /* adjust if needed */
+    margin-top: var(--navbar-height, 70px); 
   }
 
 header.masthead .intro-text {
