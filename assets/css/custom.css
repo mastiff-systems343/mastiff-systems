@@ -238,7 +238,7 @@ ul.navbar-nav {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/themes/halloween/main-web.gif");
+  background-image: url("../img/themes/thanksgiving/main-web.gif");
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -369,7 +369,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (max-width: 586px) {
   header.masthead {
-    background-image: url("../img/themes/halloween/main-mobile.gif");
+    background-image: url("../img/themes/thanksgiving/main-mobile.gif");
     background-position: center;
     background-size: cover;
     height: 40vh;
@@ -445,7 +445,7 @@ body {
 
 /* Featured Post */
 .featured-post {
-  display: flex;
+  display: none;
   align-items: center;
   gap: 20px;
   padding: 10px 10px;
