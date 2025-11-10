@@ -374,7 +374,7 @@ header.masthead .intro-text .intro-heading {
     background-position: center;
     background-color: rgba(66, 57, 65, 0.7);
     background-size: cover;
-    height: 40vh;
+    height: 70vh;
     min-height: 400px;
     padding-top: 100px;
     margin-top: var(--navbar-height, 70px); 
