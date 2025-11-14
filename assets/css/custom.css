@@ -238,8 +238,7 @@ ul.navbar-nav {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/Main-Photo.jpg");
-  background-color: rgba(66, 57, 65, 0.7);
+  background-image: url("../img/themes/thanksgiving/main-web.gif");
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -370,11 +369,10 @@ header.masthead .intro-text .intro-heading {
 
 @media (max-width: 586px) {
   header.masthead {
-    background-image: url("../img/Main-Photo.jpg");
+    background-image: url("../img/themes/thanksgiving/main-mobile.gif");
     background-position: center;
-    background-color: rgba(66, 57, 65, 0.7);
     background-size: cover;
-    height: 70vh;
+    height: 50vh;
     min-height: 400px;
     padding-top: 100px;
     margin-top: var(--navbar-height, 70px); 
