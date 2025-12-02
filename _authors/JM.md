@@ -4,9 +4,9 @@ name: John Michael
 fullname: John Michael Malbas
 image: /assets/img/team/about/JM.png
 ---
-Long before the playbook was written on modern IT operations, John Michael was already running the plays—moving seamlessly between support, systems, and databases with the kind of adaptability that separates good technicians from great operators. From troubleshooting critical incidents in the engine room of IT Support to architecting database solutions and managing the clockwork precision of complex system environments, John Michael has built a career on being ready for anything, seeing the details others miss, and finding solutions where others see dead ends.
+Long before the playbook was written on modern IT operations, John Michael was already running the plays, moving seamlessly between support, systems, and databases with the kind of adaptability that separates good technicians from great operators. From troubleshooting critical incidents in the engine room of IT Support to architecting database solutions and managing the clockwork precision of complex system environments, John Michael has built a career on being ready for anything, seeing the details others miss, and finding solutions where others see dead ends.
 
-Known for a sharp eye and an even sharper instinct for problem-solving, John Michael brings resourcefulness to every challenge—whether it's fine-tuning the gears of a database query, stabilizing a fragile system with the care of a master engineer, or pulling a team through a high-pressure incident like a captain navigating stormy skies. Where others see obstacles, John Michael sees opportunities to adapt, recalibrate, and deliver.
+Known for a sharp eye and an even sharper instinct for problem-solving, John Michael brings resourcefulness to every challenge, whether it's fine-tuning the gears of a database query, stabilizing a fragile system with the care of a master engineer, or pulling a team through a high-pressure incident like a captain navigating stormy skies. Where others see obstacles, John Michael sees opportunities to adapt, recalibrate, and deliver.
 
 
 **Skills:**
