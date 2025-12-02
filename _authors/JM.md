@@ -18,8 +18,7 @@ Known for a sharp eye and an even sharper instinct for problem-solving, John Mic
 
 **Hobbies:**
 
-When the tickets are closed and the servers are humming like well-oiled machinery, John Michael trades keyboard commands for court plays—staying sharp on the basketball court with the same competitive edge brought to production environments. Photography captures the world through a different aperture, while outdoor pursuits keep the balance between screen time and real time intact—proving that even the best technicians need to step outside the workshop.
-
+When the tickets are closed and the servers are humming like well-oiled machinery, John Michael trades keyboard commands for court plays—staying sharp on the basketball court with the same competitive edge brought to production environments. Photography captures the world through a different aperture, while outdoor pursuits keep the balance between screen time and real time intact.
 
 **Favorite Music:**
 

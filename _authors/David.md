@@ -19,7 +19,7 @@ Known for a methodical mind and unshakeable composure under pressure, David Webb
 
 **Hobbies:**
 
-When the servers are stable and the tickets have cooled, David Webb shifts from system optimization to speed optimization—tearing through virtual highways in Forza Horizon 5 with the same focus brought to production environments. Open-source contributions fuel a passion for creative problem-solving and community-driven innovation.
+When the servers are stable and the tickets have cooled, David Webb shifts from system optimization to speed optimization, tearing through virtual highways in Forza Horizon 5 with the same focus brought to production environments. Open-source contributions fuel a passion for creative problem-solving and community-driven innovation.
 
 **Favorite Music:**
 
