@@ -22,7 +22,7 @@ When the tickets are closed and the servers are humming like well-oiled machiner
 
 **Favorite Music:**
 
-Linkin Park, Bon Jovi, Bamboo Mañalac, Kamikazee – raw energy, honest lyrics, and anthems that fuel both focus and freedom.
+Linkin Park, Bon Jovi, Bamboo Mañalac, and Kamikazee bring raw energy, honest lyrics, and anthems that drive both focus and freedom.
 
 <br>
 

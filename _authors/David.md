@@ -23,7 +23,7 @@ When the servers are stable and the tickets have cooled, David Webb shifts from 
 
 **Favorite Music:**
 
-Creed, Bob Marley & The Wailers, Avicii. From raw emotion to island rhythm to electronic pulse, a soundtrack as eclectic as the systems David Webb builds.
+Creed, Bob Marley & The Wailers, and Avicii deliver everything from raw emotion to island rhythm to electronic pulse, forming a soundtrack as eclectic as the systems David Webb builds.
 
 <!--split-->
 

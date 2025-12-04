@@ -25,7 +25,7 @@ Off the clock, Chris shifts seamlessly from system orchestration to real-world s
 
 **Favorite Music:**
 
-Pink Floyd – classic, thoughtful, and endlessly replayable.
+Pink Floyd remains classic, thoughtful, and endlessly replayable.
 
 <br>
 
