@@ -8,7 +8,7 @@ author_avatar: /assets/img/team/Norris-avatar.png
 image: /assets/img/blog/12-Power-Monitoring.svg
 excerpt: 
 ---
-Monitoring power consumption is crucial for making smarter decisions, reducing costs, and promoting sustainability—whether in a data center, smart home, or renewable energy project. A power monitoring virtual machine (VM) simplifies this process by providing a centralized platform to collect, analyze, and visualize energy data.
+Monitoring power consumption is crucial for making smarter decisions, reducing costs, and promoting sustainability. Whether you are managing a data center, building a smart home system, or running a renewable energy project, understanding your energy usage matters. A power monitoring virtual machine (VM) makes this easier by giving you a centralized platform where you can collect, analyze, and visualize energy data.
 
 In this blog, we'll walk you through setting up a power monitoring VM, covering essential tools, software, and configurations to streamline your energy management. Let’s get started and optimize your power monitoring setup!
 
@@ -271,8 +271,8 @@ Upon entering the command, the system will display the progress of the VM creati
   </li>
 
   <li>
-Add a virtual network card and connect the UPS to the VM<br>
-The virtual machine is not complete yet—we need to add a virtual network card so we can assign it an IP address later.
+Add a virtual network card and connect the UPS to the VM
+The virtual machine is not complete yet because we still need to add a virtual network card. This will allow us to assign an IP address later and connect the UPS to the VM properly.
     <div style="text-align: center;">
       <img src="{{ site.baseurl }}/assets/img/blog/monitoring-vm/32-add.png" width="700" style="padding: 10px;">
     </div>

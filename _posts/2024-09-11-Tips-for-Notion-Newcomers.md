@@ -9,7 +9,7 @@ image: /assets/img/blog/6-Tips-for-Notion.svg
 excerpt: Start organizing with Notion!
 ---
 
-Notion is one of the tools that Mastiff uses to organize our documents and information. It serves as our centralized hub for information, collaboration, and knowledge-sharing. We’ve built our wiki, library, and various work dashboards in Notion. It’s incredibly flexible—think of it like a blank canvas where you can create whatever you need. But I know all that freedom can feel a bit overwhelming at first. So, let me walk you through some basics to help you get started!
+Notion is one of the tools that Mastiff uses to organize our documents and information. It serves as our centralized hub for information, collaboration, and knowledge-sharing. We’ve built our wiki, library, and various work dashboards in Notion. It’s incredibly flexible, almost like a blank canvas where you can create whatever you need. But I know all that freedom can feel a bit overwhelming at first. So, let me walk you through some basics to help you get started!
 
 ##### 1. Customize Your Page
 
@@ -41,7 +41,7 @@ Once you've got your database set up, you can view your data in all sorts of way
 
 Once you've created a simple dashboard in Notion, you can easily share it with your team to facilitate collaboration. Notion serves as a central hub for storing team documents, notes, tasks, and databases, all in one accessible location, which helps keep everyone aligned and on the same page. Notion’s permission management features allow you to control access levels, ensuring that sensitive information remains protected while still encouraging effective collaboration. You can assign different permission levels based on each role, providing just the right amount of access each member needs.
 
-When adding a team member to Notion, you can select their level of access—Full Access, Can Edit, Can Comment, or View Only—depending on their role and responsibilities. For finalized documents or templates, you can use Notion's "Lock Page" feature to prevent accidental changes. If you're managing a larger team or organization, creating groups and assigning permissions at the group level is more efficient than setting permissions for each user individually, helping streamline access management and maintain consistent permissions across the team.
+When adding a team member to Notion, you can select their access level such as Full Access, Can Edit, Can Comment, or View Only. For finalized documents or templates, you can use Notion's Lock Page feature to prevent accidental changes. If you're managing a larger team or organization, creating groups and assigning permissions at the group level is more efficient than setting permissions for each user individually. This helps streamline access management and keeps permissions consistent.
 
 ##### 5. Add Widgets
 
