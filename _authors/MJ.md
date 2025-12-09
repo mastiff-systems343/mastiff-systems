@@ -3,6 +3,7 @@ layout: author
 name: MJ
 fullname: MJ Torres
 image: /assets/img/team/about/MJ.png
+favicon: /assets/img/team/MJ-Avatar.png
 ---
 Before the airships, before the game engines—there was a pancake parlor. It began with Papa’s Pancakeria, where a young dreamer tapped through levels and whispered: “I want to build this.” What followed was less destiny and more stubborn invention. By August 2020, MJ was crafting games solo, turning coffee-fueled nights into pixel-perfect realities. By mid-2021, their art was on commission, their sprites dancing in indie realms across the net.
 

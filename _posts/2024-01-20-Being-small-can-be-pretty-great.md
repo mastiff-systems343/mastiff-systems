@@ -6,7 +6,7 @@ categories: [organization]
 author: Chris
 author_avatar: assets/img/team/Chris-Avatar.png
 image: /assets/img/blog/2-Being-Small.svg
-excerpt: At Mastiff, we believe growth shouldn't come at the cost of integrity or human value. While the business world chases endless expansion and quarterly gains, we focus on meaningful, lasting impact—custom solutions, real relationships, and technology shaped to serve people, not the other way around. 
+excerpt: At Mastiff, we believe growth shouldn't come at the cost of integrity or human value. While the business world chases endless expansion and quarterly gains, we focus on meaningful, lasting impact, custom solutions, real relationships, and technology shaped to serve people, not the other way around. 
 ---
 
 Maybe it's a human trait, but we are obsessed with growth. We always seem to want to be moving to the next thing. Is it just how we are wired? For the next dopamine fix? Now don’t get me wrong, growth certainly is positive but is it the end all be all? We go to endless lengths just to show growth in a single quarter. If there isn’t constant growth then shareholders get restless and CEOs lose their jobs. But sometimes the whole thing seems downright silly.

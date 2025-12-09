@@ -3,6 +3,7 @@ layout: author
 name: Gab
 fullname: Gabriel Vicente
 image: /assets/img/team/about/Gab.png
+favicon: /assets/img/team/Gab-Avatar.png
 ---
 In a world of brass and bloom, where sketches spark life and gears hum beneath brushstrokes, stands Gabriel “Inkgear” Vicente. Trained on both canvas and console, he’s lent his vision to brands like SunnyBee LLC, while shaping worlds independently through illustration, 3D rendering, animation, and interior design. With every stroke—digital or dimensional—Gabriel blurs the line between design and storytelling.
 

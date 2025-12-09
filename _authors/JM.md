@@ -3,6 +3,7 @@ layout: author
 name: John Michael
 fullname: John Michael Malbas
 image: /assets/img/team/about/JM.png
+favicon: /assets/img/team/JM-Avatar.png
 ---
 Long before the playbook was written on modern IT operations, John Michael was already running the plays, moving seamlessly between support, systems, and databases with the kind of adaptability that separates good technicians from great operators. From troubleshooting critical incidents in the engine room of IT Support to architecting database solutions and managing the clockwork precision of complex system environments, John Michael has built a career on being ready for anything, seeing the details others miss, and finding solutions where others see dead ends.
 

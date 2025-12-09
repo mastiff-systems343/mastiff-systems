@@ -5,8 +5,8 @@
         <description>Mastiff Systems is a small IT services company in Lincoln, Nebraska.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Thu, 04 Dec 2025 06:25:47 +0000</pubDate>
-        <lastBuildDate>Thu, 04 Dec 2025 06:25:47 +0000</lastBuildDate>
+        <pubDate>Tue, 09 Dec 2025 21:00:15 +0000</pubDate>
+        <lastBuildDate>Tue, 09 Dec 2025 21:00:15 +0000</lastBuildDate>
         <generator>Jekyll v4.2.2</generator>
         
             <item>
@@ -39,7 +39,7 @@
         
             <item>
                 <title>How to setup power monitoring virtual machine</title>
-                <description>&lt;p&gt;Monitoring power consumption is crucial for making smarter decisions, reducing costs, and promoting sustainability—whether in a data center, smart home, or renewable energy project. A power monitoring virtual machine (VM) simplifies this process by providing a centralized platform to collect, analyze, and visualize energy data.&lt;/p&gt;
+                <description>&lt;p&gt;Monitoring power consumption is crucial for making smarter decisions, reducing costs, and promoting sustainability. Whether you are managing a data center, building a smart home system, or running a renewable energy project, understanding your energy usage matters. A power monitoring virtual machine (VM) makes this easier by giving you a centralized platform where you can collect, analyze, and visualize energy data.&lt;/p&gt;
 
 &lt;p&gt;In this blog, we’ll walk you through setting up a power monitoring VM, covering essential tools, software, and configurations to streamline your energy management. Let’s get started and optimize your power monitoring setup!&lt;/p&gt;
 
@@ -315,8 +315,8 @@ Upon entering the command, the system will display the progress of the VM creati
   &lt;/li&gt;
 
   &lt;li&gt;
-Add a virtual network card and connect the UPS to the VM&lt;br /&gt;
-The virtual machine is not complete yet—we need to add a virtual network card so we can assign it an IP address later.
+Add a virtual network card and connect the UPS to the VM
+The virtual machine is not complete yet because we still need to add a virtual network card. This will allow us to assign an IP address later and connect the UPS to the VM properly.
     &lt;div style=&quot;text-align: center;&quot;&gt;
       &lt;img src=&quot;/assets/img/blog/monitoring-vm/32-add.png&quot; width=&quot;700&quot; style=&quot;padding: 10px;&quot; /&gt;
     &lt;/div&gt;
@@ -566,7 +566,7 @@ I haven’t forgotten to ask them since.&lt;/p&gt;
         
             <item>
                 <title>Tips for Notion Newcomers</title>
-                <description>&lt;p&gt;Notion is one of the tools that Mastiff uses to organize our documents and information. It serves as our centralized hub for information, collaboration, and knowledge-sharing. We’ve built our wiki, library, and various work dashboards in Notion. It’s incredibly flexible—think of it like a blank canvas where you can create whatever you need. But I know all that freedom can feel a bit overwhelming at first. So, let me walk you through some basics to help you get started!&lt;/p&gt;
+                <description>&lt;p&gt;Notion is one of the tools that Mastiff uses to organize our documents and information. It serves as our centralized hub for information, collaboration, and knowledge-sharing. We’ve built our wiki, library, and various work dashboards in Notion. It’s incredibly flexible, almost like a blank canvas where you can create whatever you need. But I know all that freedom can feel a bit overwhelming at first. So, let me walk you through some basics to help you get started!&lt;/p&gt;
 
 &lt;h5 id=&quot;1-customize-your-page&quot;&gt;1. Customize Your Page&lt;/h5&gt;
 
@@ -598,7 +598,7 @@ I haven’t forgotten to ask them since.&lt;/p&gt;
 
 &lt;p&gt;Once you’ve created a simple dashboard in Notion, you can easily share it with your team to facilitate collaboration. Notion serves as a central hub for storing team documents, notes, tasks, and databases, all in one accessible location, which helps keep everyone aligned and on the same page. Notion’s permission management features allow you to control access levels, ensuring that sensitive information remains protected while still encouraging effective collaboration. You can assign different permission levels based on each role, providing just the right amount of access each member needs.&lt;/p&gt;
 
-&lt;p&gt;When adding a team member to Notion, you can select their level of access—Full Access, Can Edit, Can Comment, or View Only—depending on their role and responsibilities. For finalized documents or templates, you can use Notion’s “Lock Page” feature to prevent accidental changes. If you’re managing a larger team or organization, creating groups and assigning permissions at the group level is more efficient than setting permissions for each user individually, helping streamline access management and maintain consistent permissions across the team.&lt;/p&gt;
+&lt;p&gt;When adding a team member to Notion, you can select their access level such as Full Access, Can Edit, Can Comment, or View Only. For finalized documents or templates, you can use Notion’s Lock Page feature to prevent accidental changes. If you’re managing a larger team or organization, creating groups and assigning permissions at the group level is more efficient than setting permissions for each user individually. This helps streamline access management and keeps permissions consistent.&lt;/p&gt;
 
 &lt;h5 id=&quot;5-add-widgets&quot;&gt;5. Add Widgets&lt;/h5&gt;
 

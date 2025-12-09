@@ -3,6 +3,7 @@ layout: author
 name: David 
 fullname: David Webb Espiritu
 image: /assets/img/team/about/David.png
+favicon: /assets/img/team/David-Avatar.png
 ---
 Before the digital forge was commonplace and enterprise systems were still being hammered into shape, David Webb was already wielding the tools and architecting ERPNext environments, commanding Linux infrastructure, and managing the intricate machinery of e-commerce operations with the precision of a master engineer. From consulting on Frappe frameworks to directing IT operations and designing web experiences that blend form and function, David Webb has built a reputation as both technician and strategist, equally comfortable in the boiler room and the blueprint hall.
 

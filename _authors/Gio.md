@@ -3,6 +3,7 @@ layout: author
 name: Gio
 fullname: Gio Noriel Mercado
 image: /assets/img/team/about/Gio.png
+favicon: /assets/img/team/Gio-Avatar.png
 ---
 Before cloud computing had its name and data engines hummed louder than factory wheels, Gio was already learning to listen to the quiet pulse of systems. What began as curiosity soon grew into craftsmanship, an ability to read servers the way early engineers interpreted pressure gauges. As technology evolved, he moved through its chambers with steady precision, becoming a trusted architect of the data-driven age.
 

@@ -3,6 +3,7 @@ layout: author
 name: John
 fullname: John David Lao
 image: /assets/img/team/about/John.png
+favicon: /assets/img/team/John-Avatar.png
 ---
 In the ever-shifting realm where pixels pulse and stories breathe, walks a quiet creator known as John. Forged in late nights and fueled by relentless curiosity, he builds not just games—but doorways. Whether solo or among his guild, he crafts experiences meant to spark wonder, challenge thought, and invite joy.
 

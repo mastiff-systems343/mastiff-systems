@@ -3,6 +3,7 @@ layout: author
 name: Lai
 fullname: Laisim Ollagangi
 image: /assets/img/team/about/Lai.png
+favicon: /assets/img/team/Lai-avatar.png
 ---
 In the bustling heart of the Bureaucratic Bastion, where paperwork drifts like snow and gears tick to the rhythm of responsibility, stands Laisim—graceful, unflinching, and precise. With years of frontline experience in both client relations and administrative support, she has become the silent engine behind every smooth operation. Whether navigating the maze of correspondence or aligning schedules with surgical accuracy, her work ensures the airship sails steady.
 

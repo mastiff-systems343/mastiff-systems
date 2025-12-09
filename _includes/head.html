@@ -21,6 +21,11 @@
 
 <link rel="shortcut icon" href="assets/img/clients/logo.png">
 
+{% if page.favicon %}
+  <link rel="icon" href="{{ page.favicon }}" type="image/png">
+  <link rel="shortcut icon" href="{{ page.favicon }}" type="image/png">
+{% endif %}
+
   <!-- RSS feed -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 

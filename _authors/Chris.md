@@ -3,6 +3,7 @@ layout: author
 name: Chris
 fullname: Chris Scheidies
 image: /assets/img/team/about/Chris.png
+favicon: /assets/img/team/Chris-avatar.png
 ---
 Before cloud computing had a name and virtualization was more than a whisper in the engine halls, Chris was already tuning the gears of innovation. He began his professional journey advising one of the world’s largest music technology companies, bridging sound and circuitry with insight and ingenuity. Years later, he ascended to Level III Systems Administrator for one of the biggest enterprises in America—where his command of infrastructure and systems became legendary.
 
@@ -33,8 +34,6 @@ Pink Floyd remains classic, thoughtful, and endlessly replayable.
 
 Step into his world of strategy, sound, and steam:
 
- - Book time with [Chris](https://cal.com/chris-scheidies-6ulzxv)
-
  - Follow him on Mastodon: [@tdped](https://mastodon.social/@tdped)
 
  - Challenge him to a match on [Lichess](https://lichess.org/@/thedreampolice) or [Chess.com](https://www.chess.com/member/thedreampolice)
@@ -48,4 +47,29 @@ Step into his world of strategy, sound, and steam:
 **Title:** Owner & Proprietor
 
 **Guild Role:** Visionsmith, Architect of the Machine Horizon
+
+<a href="https://cal.com/chris-scheidies-6ulzxv"
+   style="
+     background:#f3c8a3;
+     color:#1a171e;
+     padding:15px;
+     border:1px solid #5d4f4f;
+     border-radius:10px;
+     box-shadow:0 0 5px rgba(0,0,0,0.4);
+     font-size:14px;
+     line-height:1.4;
+     display:block;
+     width:100%;
+     text-decoration:none;
+     font-weight:bold;
+     text-align:center;
+   "
+   onmouseover="this.style.backgroundColor='#d1c8b9'; this.style.color='#617a8c';"
+   onmouseout="this.style.backgroundColor='#f3c8a3'; this.style.color='#1a171e';">
+  Book time with Chris
+</a>
+
+
+
+
 
