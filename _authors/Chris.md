@@ -50,18 +50,17 @@ Step into his world of strategy, sound, and steam:
 
 <a href="https://cal.com/chris-scheidies-6ulzxv"
    style="
-     background:#f3c8a3;
-     color:#1a171e;
+     background:#617a8c;
+     color:#F9F6EE;
      padding:15px;
-     border:1px solid #5d4f4f;
+     border:1px solid #000;
      border-radius:10px;
-     box-shadow:0 0 5px rgba(0,0,0,0.4);
+     box-shadow:0 0 5px rgba(0,0,0,0);
      font-size:14px;
      line-height:1.4;
      display:block;
      width:100%;
      text-decoration:none;
-     font-weight:bold;
      text-align:center;
    "
    onmouseover="this.style.backgroundColor='#d1c8b9'; this.style.color='#617a8c';"
