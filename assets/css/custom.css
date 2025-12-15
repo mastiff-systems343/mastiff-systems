@@ -238,16 +238,15 @@ ul.navbar-nav {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/Main-Photo.jpg");
-  background-color: rgba(66, 57, 65, 0.7);
+  background-image: url("../img/themes/festivus/main-web.gif");
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center;
+  background-position: center 45px;
   background-size: cover;
   position: relative;
   width: 100vw;
-  padding-top: 80px;
+  padding-top: 120px;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
   height: 100vh;
@@ -370,10 +369,10 @@ header.masthead .intro-text .intro-heading {
 
 @media (max-width: 586px) {
   header.masthead {
-    background-image: url("../img/Main-Photo.jpg");
+    background-image: url("../img/themes/festivus/main-mobile.gif");
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 65vh;
     min-height: 400px;
     padding-top: 100px;
     margin-top: var(--navbar-height, 70px); 

@@ -30,7 +30,7 @@ His playlist draws from raw energy and grit, echoing his own forward momentum. G
 
 <!--split-->
 
-**Title:** Keeper of the Clockwork Databases
+**Title:** Database Ninja
 
 **Guild Role:** Custodian of Data Engines, Architect of Structured Realms
 

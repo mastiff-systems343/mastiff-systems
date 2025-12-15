@@ -29,7 +29,7 @@ Linkin Park, Bon Jovi, Bamboo Mañalac, and Kamikazee bring raw energy, honest l
 
 <!--split-->
 
-**Title:** Keeper of the Steam Vaults
+**Title:** Server Whisperer
 
 **Guild Role:** Sentinel of the Iron Network, Architect of Digital Pressure
 
