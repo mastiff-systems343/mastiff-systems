@@ -238,7 +238,7 @@ ul.navbar-nav {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/themes/festivus/main-web.gif");
+  background-image: url("../img/themes/new-year/main-web.gif");
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -369,7 +369,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (max-width: 586px) {
   header.masthead {
-    background-image: url("../img/themes/festivus/main-mobile.gif");
+    background-image: url("../img/themes/new-year/main-mobile.gif");
     background-position: center;
     background-size: cover;
     height: 65vh;

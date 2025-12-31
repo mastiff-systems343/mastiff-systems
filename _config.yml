@@ -27,7 +27,7 @@ email      : support@mastiffsystems.com
 description: "Mastiff Systems is a small IT services company in Lincoln, Nebraska."
 author     : Mastiff Systems
 logo:
-  path: assets/img/clients/favicon.ico
+  path: assets/img/themes/new-year/favicon.png
   height: 60px 
   width: 120px
 
