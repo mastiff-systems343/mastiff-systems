@@ -28,7 +28,7 @@ Creed, Bob Marley & The Wailers, and Avicii deliver everything from raw emotion 
 
 <!--split-->
 
-**Title:** Security Artificer
+**Title:** Steamwright Engineer
 
 **Guild Role:** Forgemaster of Enterprise Systems, Navigator of the Linux Depths
 

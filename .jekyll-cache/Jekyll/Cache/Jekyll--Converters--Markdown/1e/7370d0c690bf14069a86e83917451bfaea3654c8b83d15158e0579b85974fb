@@ -1,0 +1,32 @@
+I"W<h1 id="how-to-find-your-computer-name">How to find your computer name</h1>
+
+<p>Your computer has a unique name that helps distinguish it on a network, making it easier to identify and manage. Whether you need this information for troubleshooting, connecting to shared resources, or just satisfying your curiosity, finding your computer’s name is a straightforward process. We’ll guide you through the steps to discover your computer’s name on various operating systems.</p>
+
+<p><strong>For Windows Users</strong></p>
+
+<p><strong>Using the Control Panel</strong></p>
+<ul>
+  <li>Click the Windows Start button</li>
+  <li>Type “Control Panel” and hit Enter</li>
+  <li>In the Control Panel, search for “System” or “System and Security”</li>
+  <li>Click on “System”</li>
+  <li>You’ll find your computer name under the “Computer name, domain, and workgroup settings”</li>
+</ul>
+
+<iframe title="Find computer name in control panel" width="860" height="515" src="https://peertube-gftks-u25423.vm.elestio.app/videos/embed/497003fb-de71-4210-810d-dcfc9d6c93fa" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+
+<p><strong>Using the Command Prompt</strong></p>
+<ul>
+  <li>Press the Windows key + R to open the Run dialog</li>
+  <li>Type “cmd” and press Enter to open the Command Prompt</li>
+  <li>In the Command Prompt, type the following command and press Enter: <code class="language-plaintext highlighter-rouge">hostname</code></li>
+  <li>Your computer name will be displayed</li>
+</ul>
+
+<iframe title="How to find computer name from command line" width="860" height="515" src="https://peertube-gftks-u25423.vm.elestio.app/videos/embed/acbf3cd5-7c63-4689-b791-4e74ce014709" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+
+<p><strong>Using Keyboard Shortcuts</strong></p>
+<ul>
+  <li>Push the Windows key (in the lower left of the keyboard) and the Pause/Break key (in the upper right of the keyboard) simultaneously. This is my favorite way - it’s quick and will show the name in a new window.</li>
+</ul>
+:ET
