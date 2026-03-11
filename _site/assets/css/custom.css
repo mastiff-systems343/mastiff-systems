@@ -176,6 +176,14 @@ ul.navbar-nav {
   color: #bc7259;
 }
 
+.nav-phone,
+.nav-phone:hover,
+.nav-phone:focus,
+.nav-phone:active {
+  color: whitesmoke !important;
+  cursor: default;
+}
+
 @media (max-width: 1024px) and (min-width: 600px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 85%;
