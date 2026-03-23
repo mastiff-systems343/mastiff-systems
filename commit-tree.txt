@@ -1,4 +1,10 @@
-* 5863db1 (HEAD -> master) Closed open jobs
+* 33230d2 (HEAD -> master) cleanup: remove jekyll cache and build files
+* 8f209db Updated version file
+* 979438f test hook
+* 15071be test hook
+* 0f5fddb test hook
+* d136348 test hook
+* 5863db1 Closed open jobs
 | * 80780ff (origin/master, origin/HEAD) Closed open jobs
 |/  
 * e90c2e9 Removed link on the phone number
