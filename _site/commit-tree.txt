@@ -1,4 +1,20 @@
-* 7c60fa6 (HEAD -> master, origin/master, origin/HEAD) Updated bios
+* 5863db1 (HEAD -> master) Closed open jobs
+| * 80780ff (origin/master, origin/HEAD) Closed open jobs
+|/  
+* e90c2e9 Removed link on the phone number
+* 09ea87a Added Chelli to the team
+* 7c221ec Changed Ali's photo
+* 9ef6d66 Added new teammates
+* 0a85cba Added XDR
+* d04a640 Added XDR
+* 1cd9190 Take down theme website
+* 9307328 Posted New Year's theme
+* 4ee78ff Post Festivus theme
+* c64b5e1 Highlighted the button for Chris' bio
+* f13a9b4 Added Booking time button for Chris
+* a1e5996 removed em dashes
+* 7df4ffb Added new employees
+* 7c60fa6 Updated bios
 * c98449b Updated profiles
 * 90edcc1 Added new employees' profiles
 * 84e0837 Added CRM Implementation service
@@ -8,6 +24,15 @@
 * 47b5ea8 End of halloween theme
 * f106d6d Removed Fitz and Norris
 * 1f81356 updated config
+| *   7303749 (refs/stash) On staging: !!GitHub_Desktop<staging>
+| |\  
+| | * 1c6b928 index on staging: ed238fc Testing Thanksgiving theme
+| |/  
+| * ed238fc (origin/staging, staging) Testing Thanksgiving theme
+| * fceb199 Test Thanksgiving theme
+| * bb833f2 Test Thanksgiving theme
+| * 25c8174 Test Thanksgiving theme
+|/  
 * 00d6e50 updated css
 * 0442a77 updated css
 * 47b3363 updated css
@@ -300,3 +325,20 @@
 * 48f0dec Create jekyll.yml
 * 5921f50 Customized theme
 * 2f9770f Initial commit
+* ebb4895 (origin/gh-pages) deploy: ed238fc8a4272ef793a6c10b40e41a2cde20727a
+* e90c606 deploy: fceb19901b9295481c4adac2cae4e8db1a06e66c
+* 7e35b3f deploy: bb833f29559b9b0c778040b7234936d54eda412f
+* 6418d55 deploy: 25c8174925de9a59077561b542e71aa0a7fe9cba
+* 9ae1bf0 deploy: 00d6e50e81357c94c8c13f050220ca34cb0322e6
+* 04d9505 deploy: 0442a77a01e845b27ab4e26e1a7734665bc24284
+* 4c5ccc1 deploy: 47b336349b7727dd43590352c5a45c3f89464623
+* 3d5593d deploy: df0c4b79877232560cf05c952b9d8db3f23847b2
+* 5c019e3 deploy: 217430523b50339d5e53a0b8b10cd073971f2cd3
+* a5cf236 deploy: 662c29143668f1b71502d2ee74c9ef6750be53dd
+* fe6264d deploy: 5ca659479b581c9787b6c70de6f412e5d243c340
+* 2dce40d deploy: 86bd29dd757c435bf7add5eed4ef85d5bb5af9b4
+* 5dc6df9 (origin/gh-pages-staging) deploy: 198d527aa6e7c8ad0b1e3cc0dd9788daa2b52680
+* afdabfc deploy: ab14ccbbb13f91a346c490669f99e56236d9703d
+* 2898b3c deploy: bd02a049cc76866ea4a62b46813f2a143115e3be
+* ed8f43c deploy: f8e48277904bad821a72e012312e2db35fabfcb8
+* edad851 deploy: 16a2e7b95d883b38c72deadbc5d3485f47a01ab5
