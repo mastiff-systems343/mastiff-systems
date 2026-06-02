@@ -1,7 +1,7 @@
 ---
 layout: author
-name: Eumoross
-fullname: Eumoross Dela Rosa
+name: Emuross
+fullname: Emuross Dela Rosa
 image: /assets/img/team/about/Ross.png
 favicon: /assets/img/team/Ross-Avatar.png
 ---
