@@ -16,7 +16,10 @@ Your computer has a unique name that helps distinguish it on a network, making i
 - Click on "System"
 - You'll find your computer name under the "Computer name, domain, and workgroup settings"
 
-<iframe title="Find computer name in control panel" width="860" height="515" src="https://peertube-gftks-u25423.vm.elestio.app/videos/embed/497003fb-de71-4210-810d-dcfc9d6c93fa" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+<video controls width="720">
+  <source src="{{ '/assets/vid/computer-name/Find-computer-name-in-control-panel.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 **Using the Command Prompt**
@@ -25,8 +28,10 @@ Your computer has a unique name that helps distinguish it on a network, making i
 - In the Command Prompt, type the following command and press Enter: `hostname`
 - Your computer name will be displayed
 
-<iframe title="How to find computer name from command line" width="860" height="515" src="https://peertube-gftks-u25423.vm.elestio.app/videos/embed/acbf3cd5-7c63-4689-b791-4e74ce014709" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
-
+<video controls width="720">
+  <source src="{{ '/assets/vid/computer-name/How-to-find-computer-name-from-command-line.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 **Using Keyboard Shortcuts**
 - Push the Windows key (in the lower left of the keyboard) and the Pause/Break key (in the upper right of the keyboard) simultaneously. This is my favorite way - it's quick and will show the name in a new window.

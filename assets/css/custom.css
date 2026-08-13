@@ -35,6 +35,16 @@ h6 {
   padding: 50px 5px;
 }
 
+.page-content {
+  padding-top: 70px;
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    padding-top: 60px;
+  }
+}
+
 .page-section h2.section-heading {
   font-size: 30px;
   margin-top: 0;
