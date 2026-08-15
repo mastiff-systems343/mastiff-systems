@@ -731,6 +731,43 @@
     </div>
   </div>
 </footer>
+
+<script>
+  (function () {
+    function updateRenderTime() {
+      var renderTimeEl = document.getElementById('footer-render-time');
+      if (!renderTimeEl) return;
+
+      var timeMs;
+      var navEntries = performance.getEntriesByType('navigation');
+
+      if (navEntries.length > 0) {
+        timeMs = navEntries[0].loadEventEnd;
+      } else if (performance.timing) {
+        var t = performance.timing;
+        timeMs = t.loadEventEnd - t.navigationStart;
+      }
+
+      if (timeMs && timeMs > 0) {
+        renderTimeEl.textContent = 'Render Time: ' + (timeMs / 1000).toFixed(2) + 's';
+      } else {
+        renderTimeEl.textContent = 'Render Time: N/A';
+      }
+    }
+
+    function handleLoad() {
+      // loadEventEnd isn't populated until after load listeners finish,
+      // so defer the read to the next tick
+      setTimeout(updateRenderTime, 0);
+    }
+
+    if (document.readyState === 'complete') {
+      setTimeout(updateRenderTime, 0);
+    } else {
+      window.addEventListener('load', handleLoad);
+    }
+  })();
+</script>
   </footer>
 
   <script>
