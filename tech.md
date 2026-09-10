@@ -27,10 +27,10 @@ title: Mastiff Technical Reference
         <br>
         <strong>SXI Free 6 key: 540A5-0UH92-18M80-0K1U6-8DEMJ</strong> 
       </div>
-      <a href="https://files.mastiffsystems.com/public/a39bed4a3134" target="_blank" class="read-more">Download 7.0U3n</a><br>
-      <a href="https://files.mastiffsystems.com/public/f1d102cc927f" target="_blank" class="read-more">Download 8.0</a><br>
+      <a href="\tech-tools\VMware\VMware-VMvisor-Installer-7.0U3n-21930508.x86_64.iso" target="_blank" class="read-more">Download 7.0U3n</a><br>
+      <a href="tech-tools\VMware\VMware-VMvisor-Installer-8.0.0.update02-22380479.x86_64-Dell_Customized-A03-1.iso" target="_blank" class="read-more">Download 8.0</a><br>
       <a href="https://files.mastiffsystems.com/public/bae695be2dca" target="_blank" class="read-more">Download 8.0.1</a><br>
-      <a href="https://files.mastiffsystems.com/public/3f5fef9d9ba9" target="_blank" class="read-more">Download 8.0u1 ISO</a>
+      <a href="tech-tools\VMware\VMware-VMvisor-Installer-8.0.0.update02-22380479.x86_64-Dell_Customized-A03-1.iso" target="_blank" class="read-more">Download 8.0u1 ISO</a>
     </article>  
 
   <article>
@@ -56,7 +56,7 @@ title: Mastiff Technical Reference
       <div class="post-excerpt">
         Time synchronization on computer networks
       </div>
-      <a href="https://files.mastiffsystems.com/public/3015389cb2ca" target="_blank" class="read-more">Download</a>
+      <a href="\tech-tools\NetTimeSetup-314.exe" target="_blank" class="read-more">Download</a>
     </article>
 
   <article>
@@ -67,7 +67,7 @@ title: Mastiff Technical Reference
       <div class="post-excerpt">
       Reliable and free network scanner to analyze LAN
       </div>
-      <a href="https://files.mastiffsystems.com/public/37a47b823587" target="_blank" class="read-more">Download</a>
+      <a href="\tech-tools\Advanced_IP_Scanner_2.5.4594.1 (1).exe" target="_blank" class="read-more">Download</a>
     </article>
 
   <article>
@@ -78,7 +78,7 @@ title: Mastiff Technical Reference
       <div class="post-excerpt">
         Cloning and transforming VMs from one format to another
       </div>
-      <a href="https://files.mastiffsystems.com/public/3b0a561a34c7" target="_blank" class="read-more">Download</a>
+      <a href="\tech-tools\starwindconverter-2 (1).exe" target="_blank" class="read-more">Download</a>
     </article>
 
   <article>
@@ -89,7 +89,7 @@ title: Mastiff Technical Reference
       <div class="post-excerpt">
         Backup and recovery software for home PCs.
       </div>
-      <a href="https://files.mastiffsystems.com/public/e3a525ef721f" target="_blank" class="read-more">Download</a>
+      <a href="\tech-tools\ReflectDLBT.exe" target="_blank" class="read-more">Download</a>
     </article>
 
   <article>
@@ -100,7 +100,7 @@ title: Mastiff Technical Reference
       <div class="post-excerpt">
         Format and create bootable USB flash drives or Live USBs
       </div>
-      <a href="https://files.mastiffsystems.com/public/613acc80cc6c" target="_blank" class="read-more">Download</a>
+      <a href="\tech-tools\rufus-4.4.exe" target="_blank" class="read-more">Download</a>
     </article>
 
   <article>
@@ -111,7 +111,7 @@ title: Mastiff Technical Reference
       <div class="post-excerpt">
         Workstation domain migration tool to transfer current user profile to a new domain, Azure AD, or local user account, preserving all your data and settings
       </div>
-      <a href="https://files.mastiffsystems.com/public/2bc32642b05d" target="_blank" class="read-more">Download</a>
+      <a href="\tech-tools\Profwiz.msi" target="_blank" class="read-more">Download</a>
     </article>
 
   <article>
@@ -122,7 +122,7 @@ title: Mastiff Technical Reference
       <div class="post-excerpt">
         A flexible backup platform, giving you total control over your backup environment and storage destinations
       </div>
-      <a href="https://files.mastiffsystems.com/public/5b61b46efc94" target="_blank" class="read-more">Download</a>
+      <a href="\tech-tools\Mastiff Backup 24.2.3 (x86_64)-2.zip" target="_blank" class="read-more">Download</a>
     </article>
 
   <article>
@@ -133,6 +133,6 @@ title: Mastiff Technical Reference
       <div class="post-excerpt">
         KEY: us_e6921abb637d97d95f9a4f7c09b8a15f
       </div>
-      <a href="https://files.mastiffsystems.com/public/b2aa8fe0a625" target="_blank" class="read-more">Download</a>
+      <a href="\tech-tools\Site24x7WindowsAgent.msi" target="_blank" class="read-more">Download</a>
     </article>
 </div>
