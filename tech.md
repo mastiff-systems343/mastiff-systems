@@ -28,9 +28,10 @@ title: Mastiff Technical Reference
         <strong>SXI Free 6 key: 540A5-0UH92-18M80-0K1U6-8DEMJ</strong> 
       </div>
       <a href="\tech-tools\VMware\VMware-VMvisor-Installer-7.0U3n-21930508.x86_64.iso" target="_blank" class="read-more">Download 7.0U3n</a><br>
-      <a href="tech-tools\VMware\VMware-VMvisor-Installer-8.0.0.update02-22380479.x86_64-Dell_Customized-A03-1.iso" target="_blank" class="read-more">Download 8.0</a><br>
-      <a href="https://files.mastiffsystems.com/public/bae695be2dca" target="_blank" class="read-more">Download 8.0.1</a><br>
-      <a href="tech-tools\VMware\VMware-VMvisor-Installer-8.0.0.update02-22380479.x86_64-Dell_Customized-A03-1.iso" target="_blank" class="read-more">Download 8.0u1 ISO</a>
+      <a href="\tech-tools\VMware\VMware-VMvisor-Installer-8.0.0.update02-22380479.x86_64-Dell_Customized-A03-1.iso" target="_blank" class="read-more">Download 8.0</a><br>
+      <a href="
+    \tech-tools\VMware\VMware-VCSA-all-8.0.1-21860503.iso" target="_blank" class="read-more">Download 8.0.1</a><br>
+      <a href="\tech-tools\VMware\VMware-VMvisor-Installer-8.0.0.update02-22380479.x86_64-Dell_Customized-A03-1.iso" target="_blank" class="read-more">Download 8.0u1 ISO</a>
     </article>  
 
   <article>
@@ -41,11 +42,11 @@ title: Mastiff Technical Reference
       <div class="post-excerpt">
         Running server applications and managing network infrastructure
       </div>
-      <a href="https://files.mastiffsystems.com/public/34c818f73146" target="_blank" class="read-more">Download Windows Server 2012 ISO</a>
-      <a href="https://files.mastiffsystems.com/public/8915dbe1c95c" target="_blank" class="read-more">Download Windows Server 2019 ISO</a>
-      <a href="https://files.mastiffsystems.com/public/976e2ed1a6b0" target="_blank" class="read-more">Download Windows Server 2022 ISO</a>
-      <a href="https://files.mastiffsystems.com/public/acd553cf7c9b" target="_blank" class="read-more">Download Windows Server 2025 ISO</a>
-      <a href="https://files.mastiffsystems.com/public/3268c826e189" target="_blank" class="read-more">Download Windows 7</a>
+      <a href="\tech-tools\Windows\SW_DVD5_Win_Svr_Std_and_DataCtr_2012_64Bit_English_Core_MLF_X18-27588 (1).ISO" target="_blank" class="read-more">Download Windows Server 2012 ISO</a>
+      <a href="\tech-tools\Windows\SW_DVD9_Win_Server_STD_CORE_2019_1809.7_64Bit_English_DC_STD_MLF_X22-38323.ISO" target="_blank" class="read-more">Download Windows Server 2019 ISO</a>
+      <a href="\tech-tools\Windows\Windows Server 2022 English 64-bit X22-74290.iso" target="_blank" class="read-more">Download Windows Server 2022 ISO</a>
+      <a href="\tech-tools\Windows\Server2025.iso" target="_blank" class="read-more">Download Windows Server 2025 ISO</a>
+      <a href="\tech-tools\Windows\en_windows_7_ultimate_with_sp1_x64_dvd_u_677332.iso" target="_blank" class="read-more">Download Windows 7</a>
     </article>
 
   <article>
