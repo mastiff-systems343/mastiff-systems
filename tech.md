@@ -31,7 +31,7 @@ title: Mastiff Technical Reference
       <a href="\tech-tools\VMware\VMware-VMvisor-Installer-8.0.0.update02-22380479.x86_64-Dell_Customized-A03-1.iso" target="_blank" class="read-more">Download 8.0</a><br>
       <a href="
     \tech-tools\VMware\VMware-VCSA-all-8.0.1-21860503.iso" target="_blank" class="read-more">Download 8.0.1</a><br>
-      <a href="\tech-tools\VMware\VMware-VMvisor-Installer-8.0.0.update02-22380479.x86_64-Dell_Customized-A03-1.iso" target="_blank" class="read-more">Download 8.0u1 ISO</a>
+      <a href="\tech-tools\VMware\VMware-VMvisor-Installer-8.0U1-21495797.x86_64.iso" target="_blank" class="read-more">Download 8.0u1 ISO</a>
     </article>  
 
   <article>
