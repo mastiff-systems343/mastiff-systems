@@ -42,6 +42,7 @@ title: Mastiff Technical Reference
       <div class="post-excerpt">
         Running server applications and managing network infrastructure
       </div>
+      <a href="https://mastiff-systems-installers.nyc3.cdn.digitaloceanspaces.com/Windows/Windows11_Client_x64_en-us_26300_9457.iso" target="_blank" class="read-more">Download Windows Server 11</a>
       <a href="https://mastiff-systems-installers.nyc3.cdn.digitaloceanspaces.com/Windows/SW_DVD5_Win_Svr_Std_and_DataCtr_2012_64Bit_English_Core_MLF_X18-27588%20(1).ISO" target="_blank" class="read-more">Download Windows Server 2012 ISO</a>
       <a href="https://mastiff-systems-installers.nyc3.cdn.digitaloceanspaces.com/Windows/SW_DVD9_Win_Server_STD_CORE_2019_1809.7_64Bit_English_DC_STD_MLF_X22-38323.ISO" target="_blank" class="read-more">Download Windows Server 2019 ISO</a>
       <a href="https://mastiff-systems-installers.nyc3.cdn.digitaloceanspaces.com/Windows/Windows%20Server%202022%20English%2064-bit%20X22-74290.iso" target="_blank" class="read-more">Download Windows Server 2022 ISO</a>
