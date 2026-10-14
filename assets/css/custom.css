@@ -1032,7 +1032,7 @@ section#contact .section-subheading {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-  align-items: center;
+  align-items: start;
 }
 
 .post-list1 ul {
