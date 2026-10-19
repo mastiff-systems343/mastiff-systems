@@ -24,9 +24,11 @@ title: Mastiff Technical Reference
        Virtualization and cloud computing technologies
         <br>
         <br>
-        <strong>ESXi Free Key: N560H-060E4-H88P9-0L08P-39UJ4</strong>
+        <strong>ESXI Free Key: N560H-060E4-H88P9-0L08P-39UJ4</strong>
         <br>
-        <strong>SXI Free 6 key: 540A5-0UH92-18M80-0K1U6-8DEMJ</strong> 
+        <strong>ESXI 6 Free Key: 540A5-0UH92-18M80-0K1U6-8DEMJ</strong> 
+        <br>
+        <strong>ESXI 7 Free Key: 1J29L-DC201-589G9-0L8RP-0RF4n</strong> 
       </div>
       <a href="https://mastiff-systems-installers.nyc3.cdn.digitaloceanspaces.com/VMware/VMware-VMvisor-Installer-7.0U3n-21930508.x86_64.iso" target="_blank" class="read-more">Download 7.0U3n</a><br>
       <a href="https://mastiff-systems-installers.nyc3.cdn.digitaloceanspaces.com/VMware/VMware-VMvisor-Installer-8.0.0.update02-22380479.x86_64-Dell_Customized-A03-1.iso" target="_blank" class="read-more">Download 8.0</a><br>
