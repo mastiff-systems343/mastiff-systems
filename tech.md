@@ -35,7 +35,18 @@ title: Mastiff Technical Reference
       <a href="
     https://mastiff-systems-installers.nyc3.cdn.digitaloceanspaces.com/VMware/VMware-VCSA-all-8.0.1-21860503.iso" target="_blank" class="read-more">Download 8.0.1</a><br>
       <a href="https://mastiff-systems-installers.nyc3.cdn.digitaloceanspaces.com/VMware/VMware-VMvisor-Installer-8.0U1-21495797.x86_64.iso" target="_blank" class="read-more">Download 8.0u1 ISO</a>
-    </article>  
+    </article> 
+
+    <article>
+      <div class="post-image">
+        <img src="{{ site.baseurl }}/assets\img\tech\vmware-vsphere.jpg" alt="Vmware Converter Logo">
+      </div>
+      <h2 class="post-title">Vmware Converter</h2>
+      <div class="post-excerpt">
+       Easy-to-use solution that automates the process of creating VMware virtual machines from physical machines (running Windows and Linux) and from other virtual machine formats. 
+      </div>
+      <a href="https://mastiff-systems-installers.nyc3.cdn.digitaloceanspaces.com/VMware-converter-en-6.2.0-8466193.exe" target="_blank" class="read-more">Download</a><br>
+    </article>   
 
   <article>
       <div class="post-image">
