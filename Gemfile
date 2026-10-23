@@ -16,3 +16,4 @@ gem "jekyll-sass-converter", "~> 2.2"
 
 # Windows compatibility
 gem 'tzinfo-data', platforms: [:windows]
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?

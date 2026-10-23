@@ -140,4 +140,15 @@ title: Mastiff Technical Reference
       </div>
       <a href="https://mastiff-systems-installers.nyc3.cdn.digitaloceanspaces.com/Site24x7WindowsAgent.msi" target="_blank" class="read-more">Download</a>
     </article>
+
+  <article>
+      <div class="post-image">
+        <img src="{{ site.baseurl }}/assets/img/tech/partition-resizer.jpg" alt="Partition Resizer Logo">
+      </div>
+      <h2 class="post-title">Partition Resizer</h2>
+      <div class="post-excerpt">
+        KEY: D94AC08896B183DA48
+      </div>
+      <a href="https://mastiff-systems-installers.nyc3.cdn.digitaloceanspaces.com/resizer-serv.zip" target="_blank" class="read-more">Download</a>
+    </article>
 </div>
